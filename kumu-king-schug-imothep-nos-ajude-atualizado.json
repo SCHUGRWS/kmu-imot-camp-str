@@ -10,7 +10,7 @@
       "Jogador",
       "Raça",
       "Notas",
-      "Descrição",
+      "Descricao",
       "Status",
       "degree"
     ],
@@ -18,13 +18,13 @@
       "Ocupação",
       "Raça",
       "Notas",
-      "Descrição",
+      "Descricao",
       "Status"
     ],
     "grupo": [
       "Lider",
       "Notas",
-      "Descrição",
+      "Descricao",
       "Ocupação",
       "Status",
       "Tipo de Grupo"
@@ -32,11 +32,11 @@
     "local": [
       "Status",
       "Notas",
-      "Descrição"
+      "Descricao"
     ],
     "monstro": [
       "Notas",
-      "Descrição",
+      "Descricao",
       "Ocupação",
       "Raça",
       "Status",
@@ -44,24 +44,24 @@
     ],
     "entidade": [
       "Notas",
-      "Descrição",
+      "Descricao",
       "Status"
     ],
     "item": [
       "Magico",
       "Notas",
-      "Descrição",
+      "Descricao",
       "Raridade",
       "Status",
       "Valor"
     ],
     "evento": [
       "Notas",
-      "Descrição"
+      "Descricao"
     ],
     "undefined": [
       "Notas",
-      "Descrição",
+      "Descricao",
       "Imagem"
     ],
     "undefined-connection": [],
@@ -78,7 +78,7 @@
     "condição": [
       "Magico",
       "Notas",
-      "Descrição"
+      "Descricao"
     ],
     "parente-connection": [],
     "undefined-loop": []
@@ -111,7 +111,7 @@
     },
     {
       "_id": "attr-bF95kocr",
-      "name": "Descrição",
+      "name": "Descricao",
       "format": "text",
       "private": false,
       "limit": 1,
@@ -378,8 +378,8 @@
         "raridade": "Epico",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Arma sagrada tomada após a queda do Abade, carregando o peso do confronto contra uma criatura celestial corrompida pelos horrores de Barovia.",
-        "notas": "Mace de um Deva, entregue a Gildin após o grupo derrotar o Abade na Abadia de St. Markovia."
+        "notas": "Mace de um Deva, entregue a Gildin após o grupo derrotar o Abade na Abadia de St. Markovia.",
+        "descricao": "Arma sagrada tomada após a queda do Abade, carregando o peso do confronto contra uma criatura celestial corrompida pelos horrores de Barovia."
       }
     },
     {
@@ -391,7 +391,7 @@
         "degree": 3,
         "metrics::last": 3,
         "image": "https://i.redd.it/1irtw6sjki721.jpg",
-        "descrição": "Vinhedo dos Martikov e principal fonte conhecida de vinho em Barovia, importante para comunidades que ainda se agarram a pequenos confortos em meio ao horror."
+        "descricao": "Vinhedo dos Martikov e principal fonte conhecida de vinho em Barovia, importante para comunidades que ainda se agarram a pequenos confortos em meio ao horror."
       }
     },
     {
@@ -401,8 +401,8 @@
         "element type": "Entidade",
         "degree": 1,
         "metrics::last": 1,
-        "descrição": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia.",
-        "notas": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia."
+        "notas": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia.",
+        "descricao": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia."
       }
     },
     {
@@ -413,7 +413,7 @@
         "degree": 2,
         "metrics::last": 2,
         "notas": "Procure o covil de lobos nas colinas com vista para um lago na na montanha. O tesouro pertence a mãe da noite.",
-        "descrição": "Carta da leitura que aponta para o covil de lobos nas colinas com vista para um lago na montanha."
+        "descricao": "Carta da leitura que aponta para o covil de lobos nas colinas com vista para um lago na montanha."
       }
     },
     {
@@ -426,8 +426,8 @@
         "metrics::last": 2,
         "raça": "Megera",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ff55fde5-0968-411b-93ef-caea1c7ca6b1.jpg",
-        "descrição": "Megera ligada à Irmandade de Morgantha e aos horrores do Velho Moinho de Ossos.",
-        "notas": "Megera ligada à Irmandade de Morgantha e aos horrores do Velho Moinho de Ossos."
+        "notas": "Megera ligada à Irmandade de Morgantha e aos horrores do Velho Moinho de Ossos.",
+        "descricao": "Megera ligada à Irmandade de Morgantha e aos horrores do Velho Moinho de Ossos."
       }
     },
     {
@@ -437,8 +437,8 @@
         "element type": "Evento",
         "degree": 3,
         "metrics::last": 3,
-        "descrição": "Ritual sombrio realizado em Yester Hill, ligado aos druidas, à grande árvore e às forças hostis aos vinhedos.",
-        "notas": "Ritual sombrio realizado em Yester Hill, ligado aos druidas, à grande árvore e às forças hostis aos vinhedos."
+        "notas": "Ritual sombrio realizado em Yester Hill, ligado aos druidas, à grande árvore e às forças hostis aos vinhedos.",
+        "descricao": "Ritual sombrio realizado em Yester Hill, ligado aos druidas, à grande árvore e às forças hostis aos vinhedos."
       }
     },
     {
@@ -451,7 +451,7 @@
         "raridade": "Muito Raro",
         "degree": 3,
         "metrics::last": 3,
-        "descrição": "Lança mágica carregada por Tharok, marcada por uma pedra escarlate e por uma maldição de fúria incontrolável."
+        "descricao": "Lança mágica carregada por Tharok, marcada por uma pedra escarlate e por uma maldição de fúria incontrolável."
       }
     },
     {
@@ -463,8 +463,8 @@
         "degree": 5,
         "metrics::last": 5,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/686afb4f-1a98-4904-b40b-18aac909977c.jpg",
-        "descrição": "Antiga abadia sagrada em Krezk, marcada pela presença do Abade, pela Família Belview e pelos horrores que se acumularam sob sua proteção distorcida.",
-        "notas": "A Abadia foi tomada pelos horrores do Abade e da Família Belview. Após os acontecimentos recentes, está destruída como antigo refúgio seguro."
+        "notas": "A Abadia foi tomada pelos horrores do Abade e da Família Belview. Após os acontecimentos recentes, está destruída como antigo refúgio seguro.",
+        "descricao": "Antiga abadia sagrada em Krezk, marcada pela presença do Abade, pela Família Belview e pelos horrores que se acumularam sob sua proteção distorcida."
       }
     },
     {
@@ -477,7 +477,7 @@
         "degree": 2,
         "metrics::last": 2,
         "notas": "Foi posicionada no altar de Krezk após os eventos recentes. Sua presença ajudou a fortalecer a esperança dos sobreviventes.",
-        "descrição": "Ídolo de St. Markovia associado à fé, esperança e resistência de Krezk após os eventos recentes."
+        "descricao": "Ídolo de St. Markovia associado à fé, esperança e resistência de Krezk após os eventos recentes."
       }
     },
     {
@@ -487,8 +487,8 @@
         "element type": "Condição",
         "degree": 5,
         "metrics::last": 5,
-        "descrição": "Condição sobrenatural ligada ao sangue, à fome e à influência vampírica de Barovia.",
-        "notas": "Afeta Valakut. A água sagrada de Krezk conseguiu fazê-lo voltar temporariamente ao normal, sem vampirismo, mas com efeitos variáveis."
+        "notas": "Afeta Valakut. A água sagrada de Krezk conseguiu fazê-lo voltar temporariamente ao normal, sem vampirismo, mas com efeitos variáveis.",
+        "descricao": "Condição sobrenatural ligada ao sangue, à fome e à influência vampírica de Barovia."
       }
     },
     {
@@ -499,8 +499,8 @@
         "degree": 4,
         "metrics::last": 4,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/f7b964a0-80cf-49a4-9d7b-16a364dd8e15.jpg",
-        "descrição": "Vila sombria e oprimida aos pés do Castelo Ravenloft, onde muitos dos primeiros horrores da jornada se revelaram.",
-        "notas": "Vila sombria e oprimida aos pés do Castelo Ravenloft, onde muitos dos primeiros horrores da jornada se revelaram."
+        "notas": "Vila sombria e oprimida aos pés do Castelo Ravenloft, onde muitos dos primeiros horrores da jornada se revelaram.",
+        "descricao": "Vila sombria e oprimida aos pés do Castelo Ravenloft, onde muitos dos primeiros horrores da jornada se revelaram."
       }
     },
     {
@@ -513,8 +513,8 @@
         "degree": 6,
         "metrics::last": 6,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/b5cd1510-a024-4839-bae8-e1d9bac30d5a.jpg",
-        "descrição": "Família ligada à produção e distribuição de vinho em Barovia, especialmente à Vinícola Mago dos Vinhos e à Estalagem Água Azul.",
-        "notas": "Família ligada à produção e distribuição de vinho em Barovia, especialmente à Vinícola Mago dos Vinhos e à Estalagem Água Azul."
+        "notas": "Família ligada à produção e distribuição de vinho em Barovia, especialmente à Vinícola Mago dos Vinhos e à Estalagem Água Azul.",
+        "descricao": "Família ligada à produção e distribuição de vinho em Barovia, especialmente à Vinícola Mago dos Vinhos e à Estalagem Água Azul."
       }
     },
     {
@@ -524,8 +524,8 @@
         "element type": "Condição",
         "degree": 1,
         "metrics::last": 1,
-        "descrição": "Maldição da Lança de Sangue que pode lançar Tharok em um frenesi violento, tornando difícil reconhecer aliados e inimigos.",
-        "notas": "Maldição da Lança de Sangue. Em frenesi, Tharok pode não reconhecer aliados. Após receber a Marca de Markovia, sente a sede de sangue um pouco mais controlada."
+        "notas": "Maldição da Lança de Sangue. Em frenesi, Tharok pode não reconhecer aliados. Após receber a Marca de Markovia, sente a sede de sangue um pouco mais controlada.",
+        "descricao": "Maldição da Lança de Sangue que pode lançar Tharok em um frenesi violento, tornando difícil reconhecer aliados e inimigos."
       }
     },
     {
@@ -536,8 +536,8 @@
         "status": "Desconhecido",
         "degree": 3,
         "metrics::last": 3,
-        "descrição": "Igreja de Valaki dedicada ao Senhor da Manhã, conhecida como possível refúgio espiritual dentro da cidade.",
-        "notas": "Igreja de Valaki dedicada ao Senhor da Manhã, conhecida como possível refúgio espiritual dentro da cidade."
+        "notas": "Igreja de Valaki dedicada ao Senhor da Manhã, conhecida como possível refúgio espiritual dentro da cidade.",
+        "descricao": "Igreja de Valaki dedicada ao Senhor da Manhã, conhecida como possível refúgio espiritual dentro da cidade."
       }
     },
     {
@@ -550,8 +550,8 @@
         "tipo de grupo": "Civil",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Mongrelfolks que viviam na Abadia de St. Markovia sob a autoridade do Abade.",
-        "notas": "Mongrelfolks que viviam na Abadia de St. Markovia sob a autoridade do Abade."
+        "notas": "Mongrelfolks que viviam na Abadia de St. Markovia sob a autoridade do Abade.",
+        "descricao": "Mongrelfolks que viviam na Abadia de St. Markovia sob a autoridade do Abade."
       }
     },
     {
@@ -562,7 +562,7 @@
         "notas": "Patrona de Everlong. Atualmente está aprisionada pela Dama do Medo em outro plano. Ainda é uma força importante na história do bruxo, mas sua influência foi prejudicada pelo aprisionamento.",
         "degree": 3,
         "metrics::last": 3,
-        "descrição": "Megera patrona de Everlong, ligada ao pacto do bruxo."
+        "descricao": "Megera patrona de Everlong, ligada ao pacto do bruxo."
       }
     },
     {
@@ -577,7 +577,7 @@
         "degree": 3,
         "metrics::last": 3,
         "notas": "Caçadora de vampiros.\nAtualmente acompanha o grupo depois dos eventos na passagem de St. Markovia.",
-        "descrição": "Caçadora de vampiros experiente, determinada e perigosa, atualmente aliada ao grupo."
+        "descricao": "Caçadora de vampiros experiente, determinada e perigosa, atualmente aliada ao grupo."
       }
     },
     {
@@ -590,8 +590,8 @@
         "metrics::last": 4,
         "raça": "Humano",
         "image": "https://ik.imagekit.io/criticalnotes/campaigns/1328/characters/8991/avatar/41127f47c2fa45da973eb7a37530cbc1.jpg?",
-        "descrição": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família.",
-        "notas": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família."
+        "notas": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família.",
+        "descricao": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família."
       }
     },
     {
@@ -604,8 +604,8 @@
         "degree": 7,
         "metrics::last": 7,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/2c9f775d-3130-42bb-afde-e7f6d9779e59.png",
-        "descrição": "Registro raro ligado à história de Strahd, revelando fragmentos de seu passado e servindo como peça importante na busca por respostas.",
-        "notas": "Registro raro ligado à história de Strahd, revelando fragmentos de seu passado e servindo como peça importante na busca por respostas."
+        "notas": "Registro raro ligado à história de Strahd, revelando fragmentos de seu passado e servindo como peça importante na busca por respostas.",
+        "descricao": "Registro raro ligado à história de Strahd, revelando fragmentos de seu passado e servindo como peça importante na busca por respostas."
       }
     },
     {
@@ -618,8 +618,8 @@
         "tipo de grupo": "Clã",
         "degree": 4,
         "metrics::last": 4,
-        "descrição": "Vampiras ligadas a Strahd e ao Castelo Ravenloft, cada uma representando uma ameaça própria dentro da influência do senhor da Barovia.",
-        "notas": "Grupo de vampiras servas de Strahd. Volenta é uma das esposas conhecidas pelo grupo; outras ainda permanecem menos compreendidas pelos personagens."
+        "notas": "Grupo de vampiras servas de Strahd. Volenta é uma das esposas conhecidas pelo grupo; outras ainda permanecem menos compreendidas pelos personagens.",
+        "descricao": "Vampiras ligadas a Strahd e ao Castelo Ravenloft, cada uma representando uma ameaça própria dentro da influência do senhor da Barovia."
       }
     },
     {
@@ -632,8 +632,8 @@
         "metrics::last": 5,
         "raça": "Humano",
         "image": "https://ik.imagekit.io/criticalnotes/campaigns/1472/characters/10553/avatar-crop/bd43186ee676480d99c416b7d5f1db74.jpg?tr=w-400,h-400",
-        "descrição": "Jovem nobre da Vila da Barovia, perseguida por Strahd e profundamente ligada aos acontecimentos centrais da campanha.",
-        "notas": "Jovem nobre da Vila da Barovia, perseguida por Strahd e profundamente ligada aos acontecimentos centrais da campanha."
+        "notas": "Jovem nobre da Vila da Barovia, perseguida por Strahd e profundamente ligada aos acontecimentos centrais da campanha.",
+        "descricao": "Jovem nobre da Vila da Barovia, perseguida por Strahd e profundamente ligada aos acontecimentos centrais da campanha."
       }
     },
     {
@@ -646,8 +646,8 @@
         "metrics::last": 2,
         "raça": "Megera",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/902e8b01-2113-4e4e-9b39-bba4eb1db885.jpg",
-        "descrição": "Megera ligada ao Velho Moinho de Ossos e à Irmandade de Morgantha.",
-        "notas": "Megera ligada ao Velho Moinho de Ossos e à Irmandade de Morgantha."
+        "notas": "Megera ligada ao Velho Moinho de Ossos e à Irmandade de Morgantha.",
+        "descricao": "Megera ligada ao Velho Moinho de Ossos e à Irmandade de Morgantha."
       }
     },
     {
@@ -657,8 +657,8 @@
         "element type": "Entidade",
         "degree": 4,
         "metrics::last": 4,
-        "descrição": "Divindade associada à luz, esperança e renovação, venerada por vários habitantes de Barovia.",
-        "notas": "Divindade associada à luz, esperança e renovação, venerada por vários habitantes de Barovia."
+        "notas": "Divindade associada à luz, esperança e renovação, venerada por vários habitantes de Barovia.",
+        "descricao": "Divindade associada à luz, esperança e renovação, venerada por vários habitantes de Barovia."
       }
     },
     {
@@ -668,8 +668,8 @@
         "element type": "Entidade",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Divindade de inspiração egípcia seguida por Gildin, associada à vida, ao deserto, ao calor e à luz.",
-        "notas": "Deus de inspiração egípcia, semelhante a uma representação de Osíris. Divindade de vida, deserto, calor e luz. Gildin passou a segui-lo como deus patrono. A pequena múmia encontrada sob a Casa da Morte acabou se tornando um símbolo importante dessa fé."
+        "notas": "Deus de inspiração egípcia, semelhante a uma representação de Osíris. Divindade de vida, deserto, calor e luz. Gildin passou a segui-lo como deus patrono. A pequena múmia encontrada sob a Casa da Morte acabou se tornando um símbolo importante dessa fé.",
+        "descricao": "Divindade de inspiração egípcia seguida por Gildin, associada à vida, ao deserto, ao calor e à luz."
       }
     },
     {
@@ -679,8 +679,8 @@
         "element type": "Local",
         "degree": 3,
         "metrics::last": 3,
-        "descrição": "Colina ritualística ligada aos druidas, aos berserkers e a forças antigas que ameaçaram os vinhedos.",
-        "notas": "Colina ritualística ligada aos druidas, aos berserkers e a forças antigas que ameaçaram os vinhedos."
+        "notas": "Colina ritualística ligada aos druidas, aos berserkers e a forças antigas que ameaçaram os vinhedos.",
+        "descricao": "Colina ritualística ligada aos druidas, aos berserkers e a forças antigas que ameaçaram os vinhedos."
       }
     },
     {
@@ -690,8 +690,8 @@
         "element type": "Entidade",
         "degree": 5,
         "metrics::last": 5,
-        "descrição": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia.",
-        "notas": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia."
+        "notas": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia.",
+        "descricao": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia."
       }
     },
     {
@@ -704,8 +704,8 @@
         "metrics::last": 2,
         "raça": "Humano",
         "image": "https://5e.tools/img/bestiary/CoS/Donavich.webp",
-        "descrição": "Sacerdote da Igreja de Barovia, marcado pela tragédia envolvendo seu filho Doru.",
-        "notas": "Sacerdote da Igreja de Barovia, marcado pela tragédia envolvendo seu filho Doru."
+        "notas": "Sacerdote da Igreja de Barovia, marcado pela tragédia envolvendo seu filho Doru.",
+        "descricao": "Sacerdote da Igreja de Barovia, marcado pela tragédia envolvendo seu filho Doru."
       }
     },
     {
@@ -718,8 +718,8 @@
         "ocupação": "Mago",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Antigo mago associado a mistérios, construções e desafios arcanos espalhados por Barovia.",
-        "notas": "Antigo mago associado a mistérios, construções e desafios arcanos espalhados por Barovia."
+        "notas": "Antigo mago associado a mistérios, construções e desafios arcanos espalhados por Barovia.",
+        "descricao": "Antigo mago associado a mistérios, construções e desafios arcanos espalhados por Barovia."
       }
     },
     {
@@ -732,8 +732,8 @@
         "status": "Vivo",
         "degree": 1,
         "metrics::last": 1,
-        "descrição": "Uma das vampiras ligadas a Strahd, ainda pouco conhecida pelo grupo.",
-        "notas": "Uma das esposas de Strahd. Detalhes públicos ainda são limitados."
+        "notas": "Uma das esposas de Strahd. Detalhes públicos ainda são limitados.",
+        "descricao": "Uma das vampiras ligadas a Strahd, ainda pouco conhecida pelo grupo."
       }
     },
     {
@@ -745,8 +745,8 @@
         "magico": "Sim",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Item macabro ligado às megeras e às maldições encontradas pelo grupo.",
-        "notas": "Item macabro ligado às megeras e às maldições encontradas pelo grupo."
+        "notas": "Item macabro ligado às megeras e às maldições encontradas pelo grupo.",
+        "descricao": "Item macabro ligado às megeras e às maldições encontradas pelo grupo."
       }
     },
     {
@@ -761,7 +761,7 @@
         "metrics::last": 3,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/bb2c3b66-0332-4e6e-9e64-4dafb6f4d03b.png",
         "notas": "Burgomestre de Krezk. Ele e Anna Krezkov fizeram amizade com o grupo após os eventos recentes.",
-        "descrição": "Burgomestre de Krezk e uma das principais lideranças sobreviventes da vila."
+        "descricao": "Burgomestre de Krezk e uma das principais lideranças sobreviventes da vila."
       }
     },
     {
@@ -774,8 +774,8 @@
         "degree": 2,
         "metrics::last": 2,
         "image": "https://www.worldanvil.com/uploads/images/7d0f1be66de53b37ed2495ae28f5ecff.jpg",
-        "descrição": "Patriarca dos Martikov e figura importante na Vinícola Mago dos Vinhos.",
-        "notas": "Patriarca dos Martikov e figura importante na Vinícola Mago dos Vinhos."
+        "notas": "Patriarca dos Martikov e figura importante na Vinícola Mago dos Vinhos.",
+        "descricao": "Patriarca dos Martikov e figura importante na Vinícola Mago dos Vinhos."
       }
     },
     {
@@ -790,7 +790,7 @@
         "metrics::last": 5,
         "notas": "Vampirismo. A Maldição dos Corvos foi removida em Krezk. A água sagrada do lago de Krezk mostrou conseguir fazê-lo voltar temporariamente ao normal, sem vampirismo, mas com efeitos variáveis. Durante o ataque a Krezk, foi controlado por Strahd e ajudou o vampiro a entrar na cidade.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/87e1a247-f970-49a8-9cf9-df6f69693fc8.png",
-        "descrição": "Alto elfo ladino do grupo, marcado pelo vampirismo e por sua relação perigosa com as forças de Strahd."
+        "descricao": "Alto elfo ladino do grupo, marcado pelo vampirismo e por sua relação perigosa com as forças de Strahd."
       }
     },
     {
@@ -801,8 +801,8 @@
         "status": "Desconhecido",
         "degree": 4,
         "metrics::last": 4,
-        "descrição": "Casa assombrada da Vila da Barovia, onde o grupo enfrentou seus primeiros horrores na campanha.",
-        "notas": "Casa assombrada da Vila da Barovia, onde o grupo enfrentou seus primeiros horrores na campanha."
+        "notas": "Casa assombrada da Vila da Barovia, onde o grupo enfrentou seus primeiros horrores na campanha.",
+        "descricao": "Casa assombrada da Vila da Barovia, onde o grupo enfrentou seus primeiros horrores na campanha."
       }
     },
     {
@@ -815,8 +815,8 @@
         "metrics::last": 2,
         "raça": "Megera",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/226fa6c0-4771-4c10-ab14-fe3505e0793a.jpg",
-        "descrição": "Megera ligada à Irmandade de Morgantha e ao Velho Moinho de Ossos.",
-        "notas": "Megera ligada à Irmandade de Morgantha e ao Velho Moinho de Ossos."
+        "notas": "Megera ligada à Irmandade de Morgantha e ao Velho Moinho de Ossos.",
+        "descricao": "Megera ligada à Irmandade de Morgantha e ao Velho Moinho de Ossos."
       }
     },
     {
@@ -826,8 +826,8 @@
         "element type": "Item",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Grande carta da leitura, ligada ao destino de Strahd e ao caminho até o confronto final.",
-        "notas": "Grande carta da leitura, ligada ao destino de Strahd e ao caminho até o confronto final."
+        "notas": "Grande carta da leitura, ligada ao destino de Strahd e ao caminho até o confronto final.",
+        "descricao": "Grande carta da leitura, ligada ao destino de Strahd e ao caminho até o confronto final."
       }
     },
     {
@@ -841,8 +841,8 @@
         "degree": 3,
         "metrics::last": 3,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/d26b4a90-b897-4f34-9759-fbbb7fde8b0c.png",
-        "descrição": "Vampira serva de Strahd e uma de suas esposas conhecidas pelo grupo.",
-        "notas": "Uma das esposas de Strahd conhecidas pelo grupo. Vampira serva de Strahd, associada diretamente às ameaças recentes em Barovia."
+        "notas": "Uma das esposas de Strahd conhecidas pelo grupo. Vampira serva de Strahd, associada diretamente às ameaças recentes em Barovia.",
+        "descricao": "Vampira serva de Strahd e uma de suas esposas conhecidas pelo grupo."
       }
     },
     {
@@ -852,8 +852,8 @@
         "element type": "Condição",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Maldição bestial ligada aos lobisomens de Barovia.",
-        "notas": "Maldição bestial ligada aos lobisomens de Barovia."
+        "notas": "Maldição bestial ligada aos lobisomens de Barovia.",
+        "descricao": "Maldição bestial ligada aos lobisomens de Barovia."
       }
     },
     {
@@ -864,8 +864,8 @@
         "status": "Desconhecido",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Acampamento dos Vistani, povo nômade com ligações profundas com Barovia e com Madame Eva.",
-        "notas": "Acampamento dos Vistani, povo nômade com ligações profundas com Barovia e com Madame Eva."
+        "notas": "Acampamento dos Vistani, povo nômade com ligações profundas com Barovia e com Madame Eva.",
+        "descricao": "Acampamento dos Vistani, povo nômade com ligações profundas com Barovia e com Madame Eva."
       }
     },
     {
@@ -878,8 +878,8 @@
         "degree": 2,
         "metrics::last": 2,
         "image": "https://i0.wp.com/feyancestry.wordpress.com/wp-content/uploads/2016/07/07-doru.png?fit=709%2C1200&ssl=1&w=640",
-        "descrição": "Filho de Padre Donavich, transformado em vampiro e aprisionado na Igreja de Barovia.",
-        "notas": "Filho de Padre Donavich, transformado em vampiro e aprisionado na Igreja de Barovia."
+        "notas": "Filho de Padre Donavich, transformado em vampiro e aprisionado na Igreja de Barovia.",
+        "descricao": "Filho de Padre Donavich, transformado em vampiro e aprisionado na Igreja de Barovia."
       }
     },
     {
@@ -890,8 +890,8 @@
         "status": "Destruido",
         "degree": 1,
         "metrics::last": 1,
-        "descrição": "Moinho associado às megeras, aos doces amaldiçoados e aos horrores contra crianças em Barovia.",
-        "notas": "Moinho associado às megeras, aos doces amaldiçoados e aos horrores contra crianças em Barovia."
+        "notas": "Moinho associado às megeras, aos doces amaldiçoados e aos horrores contra crianças em Barovia.",
+        "descricao": "Moinho associado às megeras, aos doces amaldiçoados e aos horrores contra crianças em Barovia."
       }
     },
     {
@@ -906,7 +906,7 @@
         "metrics::last": 5,
         "notas": "Metamorfose involuntária. A Maldição dos Corvos foi removida em Krezk. Em momentos escolhidos pelo mestre, pode perder o controle e se transformar em uma megera poderosa que ataca tudo e todos.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4519763a-6b82-43bd-a4c3-ac6ac968bc6b.png",
-        "descrição": "Elfa negra guerreira do grupo, marcada por uma metamorfose involuntária perigosa."
+        "descricao": "Elfa negra guerreira do grupo, marcada por uma metamorfose involuntária perigosa."
       }
     },
     {
@@ -916,8 +916,8 @@
         "element type": "Condição",
         "degree": 5,
         "metrics::last": 5,
-        "descrição": "Maldição ligada às megeras, capaz de marcar vítimas com efeitos cruéis e persistentes.",
-        "notas": "Maldição ligada às megeras, capaz de marcar vítimas com efeitos cruéis e persistentes."
+        "notas": "Maldição ligada às megeras, capaz de marcar vítimas com efeitos cruéis e persistentes.",
+        "descricao": "Maldição ligada às megeras, capaz de marcar vítimas com efeitos cruéis e persistentes."
       }
     },
     {
@@ -928,8 +928,8 @@
         "status": "Desconhecido",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Loja de brinquedos de Valaki, conhecida por criações estranhas e macabras.",
-        "notas": "Loja de brinquedos de Valaki, conhecida por criações estranhas e macabras."
+        "notas": "Loja de brinquedos de Valaki, conhecida por criações estranhas e macabras.",
+        "descricao": "Loja de brinquedos de Valaki, conhecida por criações estranhas e macabras."
       }
     },
     {
@@ -940,7 +940,7 @@
         "degree": 1,
         "metrics::last": 1,
         "notas": "Condição que já afetou Valakut e Kaelara. Foi removida de ambos durante o experimento com a água sagrada de Krezk.",
-        "descrição": "Antiga maldição que afetou Valakut e Kaelara, removida durante o experimento com a água sagrada de Krezk."
+        "descricao": "Antiga maldição que afetou Valakut e Kaelara, removida durante o experimento com a água sagrada de Krezk."
       }
     },
     {
@@ -953,8 +953,8 @@
         "tipo de grupo": "Clã",
         "degree": 3,
         "metrics::last": 3,
-        "descrição": "Povo nômade com presença importante em Barovia, frequentemente ligado a viagens, presságios e à leitura das cartas.",
-        "notas": "Povo nômade com presença importante em Barovia, frequentemente ligado a viagens, presságios e à leitura das cartas."
+        "notas": "Povo nômade com presença importante em Barovia, frequentemente ligado a viagens, presságios e à leitura das cartas.",
+        "descricao": "Povo nômade com presença importante em Barovia, frequentemente ligado a viagens, presságios e à leitura das cartas."
       }
     },
     {
@@ -971,8 +971,8 @@
         ],
         "degree": 16,
         "metrics::last": 16,
-        "descrição": "Senhor vampiro de Barovia, mestre do Castelo Ravenloft e principal ameaça sobre o grupo e as terras amaldiçoadas.",
-        "notas": "Senhor vampiro de Barovia e inimigo central do grupo. Atacou Krezk pessoalmente, quase destruiu a vila e demonstrou domínio brutal sobre os personagens, especialmente Valakut e Gildin."
+        "notas": "Senhor vampiro de Barovia e inimigo central do grupo. Atacou Krezk pessoalmente, quase destruiu a vila e demonstrou domínio brutal sobre os personagens, especialmente Valakut e Gildin.",
+        "descricao": "Senhor vampiro de Barovia, mestre do Castelo Ravenloft e principal ameaça sobre o grupo e as terras amaldiçoadas."
       }
     },
     {
@@ -987,7 +987,7 @@
         "metrics::last": 3,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/009ad22c-c360-446a-a098-5786ef96099c.png",
         "notas": "Burgomestra de Krezk. Ela e Dmitri Krezkov fizeram amizade com o grupo após os eventos recentes.",
-        "descrição": "Burgomestra de Krezk e parceira de Dmitri Krezkov na liderança da vila."
+        "descricao": "Burgomestra de Krezk e parceira de Dmitri Krezkov na liderança da vila."
       }
     },
     {
@@ -998,8 +998,8 @@
         "status": "Desconhecido",
         "degree": 3,
         "metrics::last": 3,
-        "descrição": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
-        "notas": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas."
+        "notas": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
+        "descricao": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas."
       }
     },
     {
@@ -1010,7 +1010,7 @@
         "notas": "Vila Destruida",
         "degree": 4,
         "metrics::last": 4,
-        "descrição": "Evento em que Valaki foi atacada e ficou em estado de destruição e incerteza."
+        "descricao": "Evento em que Valaki foi atacada e ficou em estado de destruição e incerteza."
       }
     },
     {
@@ -1022,7 +1022,7 @@
         "degree": 1,
         "metrics::last": 1,
         "notas": "Eu vejo um irmão que empunhou a luz contra a escuridão. Um juramento quebrado pelo sangue e pela inveja. Procurem onde o herói permanece observado por todos, mas verdadeiramente visto por ninguém.",
-        "descrição": "Carta da leitura ligada a um irmão que empunhou a luz contra a escuridão e a um herói observado por todos."
+        "descricao": "Carta da leitura ligada a um irmão que empunhou a luz contra a escuridão e a um herói observado por todos."
       }
     },
     {
@@ -1033,8 +1033,8 @@
         "status": "Destruido",
         "degree": 3,
         "metrics::last": 3,
-        "descrição": "Igreja da Vila da Barovia, marcada pela tragédia de Donavich e Doru.",
-        "notas": "Igreja da Vila da Barovia, marcada pela tragédia de Donavich e Doru."
+        "notas": "Igreja da Vila da Barovia, marcada pela tragédia de Donavich e Doru.",
+        "descricao": "Igreja da Vila da Barovia, marcada pela tragédia de Donavich e Doru."
       }
     },
     {
@@ -1042,7 +1042,7 @@
       "attributes": {
         "label": "background",
         "image": "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2F51s3lxug73o71.png%3Fwidth%3D3375%26format%3Dpng%26auto%3Dwebp%26s%3D26641f1ed823b880958cae56005d3fcabc5d242c",
-        "descrição": "Imagem de fundo do mapa."
+        "descricao": "Imagem de fundo do mapa."
       }
     },
     {
@@ -1054,8 +1054,8 @@
         "degree": 13,
         "metrics::last": 13,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/fadb01a4-2ca7-454c-a009-5e329fc693a9.png",
-        "descrição": "Grupo de aventureiros que enfrenta os horrores de Barovia e se opõe às forças de Strahd.",
-        "notas": "Composto por Kaelara, Valakut, Gildin, Everlong e Tharok. Atualmente acompanha Ezmeralda e Zigfried após atravessar a passagem de St. Markovia e chegar à planície nevada além da montanha."
+        "notas": "Composto por Kaelara, Valakut, Gildin, Everlong e Tharok. Atualmente acompanha Ezmeralda e Zigfried após atravessar a passagem de St. Markovia e chegar à planície nevada além da montanha.",
+        "descricao": "Grupo de aventureiros que enfrenta os horrores de Barovia e se opõe às forças de Strahd."
       }
     },
     {
@@ -1070,7 +1070,7 @@
         "metrics::last": 5,
         "notas": "Fúria de Sangue. Portador da Lança de Sangue. Recebeu a Marca de Markovia após se sacrificar no teste final da passagem.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/efb81169-5315-4d08-a60b-a78ba52612d7.png",
-        "descrição": "Meio-orc druida do grupo, portador da Lança de Sangue e da Marca de Markovia."
+        "descricao": "Meio-orc druida do grupo, portador da Lança de Sangue e da Marca de Markovia."
       }
     },
     {
@@ -1080,8 +1080,8 @@
         "element type": "Entidade",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Figura sombria que aparece em sonhos e visões de Gildin, tentando afastá-lo do juramento de devoção.",
-        "notas": "Figura sombria e encapuzada, inspirada em um antigo paladino. Aparece em sonhos e visões de Gildin, tentando convencê-lo a abandonar seu juramento de devoção e se tornar um quebrador de voto. Imothep já ralhou com Gildin por ele se aproximar desse caminho, mas recentemente voltou a demonstrar apoio."
+        "notas": "Figura sombria e encapuzada, inspirada em um antigo paladino. Aparece em sonhos e visões de Gildin, tentando convencê-lo a abandonar seu juramento de devoção e se tornar um quebrador de voto. Imothep já ralhou com Gildin por ele se aproximar desse caminho, mas recentemente voltou a demonstrar apoio.",
+        "descricao": "Figura sombria que aparece em sonhos e visões de Gildin, tentando afastá-lo do juramento de devoção."
       }
     },
     {
@@ -1093,8 +1093,8 @@
         "magico": "Sim",
         "degree": 1,
         "metrics::last": 1,
-        "descrição": "Amuleto protetor ligado à resistência diante da morte e à vontade de continuar vivo mesmo quando tudo parece perdido.",
-        "notas": "Item de proteção menor. Sugestão adotada: quando o portador cair a 0 pontos de vida, o colar pode estabilizá-lo automaticamente uma vez antes de perder sua força até ser restaurado ou recarregado. Não deve ser tratado como item ofensivo ou muito poderoso."
+        "notas": "Item de proteção menor. Sugestão adotada: quando o portador cair a 0 pontos de vida, o colar pode estabilizá-lo automaticamente uma vez antes de perder sua força até ser restaurado ou recarregado. Não deve ser tratado como item ofensivo ou muito poderoso.",
+        "descricao": "Amuleto protetor ligado à resistência diante da morte e à vontade de continuar vivo mesmo quando tudo parece perdido."
       }
     },
     {
@@ -1106,8 +1106,8 @@
         "magico": "Sim",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Fragmento mágico de pedra escarlate, visualmente semelhante à pedra presente na Lança de Sangue.",
-        "notas": "Fragmento escarlate de origem desconhecida pelos jogadores. Há uma semelhança visual com a pedra da Lança de Sangue, mas o grupo ainda não fez essa ligação."
+        "notas": "Fragmento escarlate de origem desconhecida pelos jogadores. Há uma semelhança visual com a pedra da Lança de Sangue, mas o grupo ainda não fez essa ligação.",
+        "descricao": "Fragmento mágico de pedra escarlate, visualmente semelhante à pedra presente na Lança de Sangue."
       }
     },
     {
@@ -1119,8 +1119,8 @@
         "raridade": "Epico",
         "degree": 4,
         "metrics::last": 4,
-        "descrição": "Gema mágica associada aos vinhedos e à vitalidade da produção de vinho em Barovia.",
-        "notas": "Gema mágica associada aos vinhedos e à vitalidade da produção de vinho em Barovia."
+        "notas": "Gema mágica associada aos vinhedos e à vitalidade da produção de vinho em Barovia.",
+        "descricao": "Gema mágica associada aos vinhedos e à vitalidade da produção de vinho em Barovia."
       }
     },
     {
@@ -1130,8 +1130,8 @@
         "element type": "Condição",
         "degree": 1,
         "metrics::last": 1,
-        "descrição": "Maldição ligada a Everlong e à influência da Dama do Medo, especialmente durante o sono.",
-        "notas": "Maldição de Everlong. Com Filuriana presa pela Dama do Medo, a Dama consegue se materializar no mundo real, interagir com o ambiente, atacar e controlar o bruxo durante o sono. Por isso Everlong é amarrado todas as noites."
+        "notas": "Maldição de Everlong. Com Filuriana presa pela Dama do Medo, a Dama consegue se materializar no mundo real, interagir com o ambiente, atacar e controlar o bruxo durante o sono. Por isso Everlong é amarrado todas as noites.",
+        "descricao": "Maldição ligada a Everlong e à influência da Dama do Medo, especialmente durante o sono."
       }
     },
     {
@@ -1143,7 +1143,7 @@
         "degree": 3,
         "metrics::last": 3,
         "notas": "Eu vejo um ninho de corvos. Lá você encontrará seu prêmio.",
-        "descrição": "Carta da leitura que aponta para um ninho de corvos onde um prêmio pode ser encontrado."
+        "descricao": "Carta da leitura que aponta para um ninho de corvos onde um prêmio pode ser encontrado."
       }
     },
     {
@@ -1156,8 +1156,8 @@
         "degree": 3,
         "metrics::last": 3,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ee868dd0-fef2-4537-ab8d-45f43347e025.jpg",
-        "descrição": "Líder Vistani e vidente responsável pela leitura das cartas que guia parte do destino do grupo.",
-        "notas": "Líder Vistani e vidente responsável pela leitura das cartas que guia parte do destino do grupo."
+        "notas": "Líder Vistani e vidente responsável pela leitura das cartas que guia parte do destino do grupo.",
+        "descricao": "Líder Vistani e vidente responsável pela leitura das cartas que guia parte do destino do grupo."
       }
     },
     {
@@ -1172,7 +1172,7 @@
         "metrics::last": 7,
         "notas": "Licantropia. Paladino de devoção de Imothep. Está frequentemente à beira de quebrar seu voto, sendo tentado pelo Quebrador de Voto. Em Krezk, foi brutalmente humilhado por Strahd em combate, tendo parte do cabelo arrancada e seu sangue tomado.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4ad8e3fb-2ecf-4fbf-a3dd-927f593866b9.png",
-        "descrição": "Anão paladino do grupo, devoto de Imothep, dividido entre seu juramento e as tentações do Quebrador de Voto."
+        "descricao": "Anão paladino do grupo, devoto de Imothep, dividido entre seu juramento e as tentações do Quebrador de Voto."
       }
     },
     {
@@ -1182,8 +1182,8 @@
         "element type": "Item",
         "degree": 1,
         "metrics::last": 1,
-        "descrição": "Grande carta da leitura ligada diretamente a Strahd e ao destino do confronto contra ele.",
-        "notas": "Grande carta da leitura ligada diretamente a Strahd e ao destino do confronto contra ele."
+        "notas": "Grande carta da leitura ligada diretamente a Strahd e ao destino do confronto contra ele.",
+        "descricao": "Grande carta da leitura ligada diretamente a Strahd e ao destino do confronto contra ele."
       }
     },
     {
@@ -1197,8 +1197,8 @@
         "degree": 3,
         "metrics::last": 3,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/b2cb6723-1e5b-48d1-bf1a-266ae2f0e9e2.png",
-        "descrição": "Guardião arcano criado como desafio ligado a Khazan, usado para impulsionar a busca pelos artefatos da leitura.",
-        "notas": "Guardião/desafio arcano ligado a Khazan. Foi usada para colocar o grupo de volta na trilha dos três artefatos. A partir desse encontro, o grupo obteve o Diário de Strahd e pistas sobre possíveis localizações dos demais artefatos."
+        "notas": "Guardião/desafio arcano ligado a Khazan. Foi usada para colocar o grupo de volta na trilha dos três artefatos. A partir desse encontro, o grupo obteve o Diário de Strahd e pistas sobre possíveis localizações dos demais artefatos.",
+        "descricao": "Guardião arcano criado como desafio ligado a Khazan, usado para impulsionar a busca pelos artefatos da leitura."
       }
     },
     {
@@ -1210,8 +1210,8 @@
         "degree": 5,
         "metrics::last": 5,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/caf248a3-c9eb-411a-b898-002c1a8f1dc7.png",
-        "descrição": "Cidade murada de Barovia, marcada por tensão política, medo, fé e ataques recentes.",
-        "notas": "Cidade murada de Barovia, marcada por tensão política, medo, fé e ataques recentes."
+        "notas": "Cidade murada de Barovia, marcada por tensão política, medo, fé e ataques recentes.",
+        "descricao": "Cidade murada de Barovia, marcada por tensão política, medo, fé e ataques recentes."
       }
     },
     {
@@ -1223,8 +1223,8 @@
         "degree": 1,
         "metrics::last": 1,
         "raça": "Humano",
-        "descrição": "Sacerdote da Igreja de São Andral em Valaki.",
-        "notas": "Sacerdote da Igreja de São Andral em Valaki."
+        "notas": "Sacerdote da Igreja de São Andral em Valaki.",
+        "descricao": "Sacerdote da Igreja de São Andral em Valaki."
       }
     },
     {
@@ -1236,8 +1236,8 @@
         "raridade": "Desconheida",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Machado retirado da árvore ligada ao ritual druídico em Yester Hill.",
-        "notas": "Machado que estava preso na árvore durante o ritual druídico em Yester Hill."
+        "notas": "Machado que estava preso na árvore durante o ritual druídico em Yester Hill.",
+        "descricao": "Machado retirado da árvore ligada ao ritual druídico em Yester Hill."
       }
     },
     {
@@ -1248,8 +1248,8 @@
         "degree": 8,
         "metrics::last": 8,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/1d6e8c90-a807-480e-8f44-966352c61b69.jpg",
-        "descrição": "Evento em que Madame Eva revelou presságios sobre artefatos, aliados e o destino do confronto contra Strahd.",
-        "notas": "Evento em que Madame Eva revelou presságios sobre artefatos, aliados e o destino do confronto contra Strahd."
+        "notas": "Evento em que Madame Eva revelou presságios sobre artefatos, aliados e o destino do confronto contra Strahd.",
+        "descricao": "Evento em que Madame Eva revelou presságios sobre artefatos, aliados e o destino do confronto contra Strahd."
       }
     },
     {
@@ -1261,8 +1261,8 @@
         "magico": "Sim",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Boneca macabra ligada a Gildin, que não se separa dele apesar de suas tentativas de abandoná-la.",
-        "notas": "Boneca encontrada na Casa da Morte. Tornou-se uma maldição narrativa para Gildin: ela não desgruda dele, por mais que tente se livrar dela."
+        "notas": "Boneca encontrada na Casa da Morte. Tornou-se uma maldição narrativa para Gildin: ela não desgruda dele, por mais que tente se livrar dela.",
+        "descricao": "Boneca macabra ligada a Gildin, que não se separa dele apesar de suas tentativas de abandoná-la."
       }
     },
     {
@@ -1279,8 +1279,8 @@
           "Morto"
         ],
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/2d9b5913-c63b-4b85-b87f-809fa8a6a439.jpg",
-        "descrição": "Deva corrompido que governava a Abadia de St. Markovia e a Família Belview antes de ser derrotado pelo grupo.",
-        "notas": "Deva corrompido que governava a Abadia de St. Markovia e a Família Belview antes de ser derrotado pelo grupo."
+        "notas": "Deva corrompido que governava a Abadia de St. Markovia e a Família Belview antes de ser derrotado pelo grupo.",
+        "descricao": "Deva corrompido que governava a Abadia de St. Markovia e a Família Belview antes de ser derrotado pelo grupo."
       }
     },
     {
@@ -1293,9 +1293,9 @@
         "status": "Vivo",
         "degree": 6,
         "metrics::last": 6,
-        "notas": "Bruxo ligado a Filuriana. Como Filuriana está aprisionada pela Dama do Medo, Everlong passou a sofrer uma possessão perigosa: durante o sono, a Dama pode controlá-lo, se materializar no mundo físico e interagir com o ambiente. Por segurança, ele costuma ser amarrado à noite.",
+        "notas": "A condição antes chamada de “O Pesadelo” se refere à possessão e influência da Dama do Medo. Como Filuriana está aprisionada, a Dama do Medo consegue se manifestar, interagir com o ambiente e controlar Everlong durante o sono; por isso ele costuma ser amarrado à noite.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ed2cdd48-77f6-4c86-a247-e4e0473b4301.png",
-        "descrição": "Humano bruxo do grupo, ligado a Filuriana e perseguido pela influência da Dama do Medo."
+        "descricao": "Humano bruxo do grupo, ligado a forças sombrias que disputam influência sobre ele."
       }
     },
     {
@@ -1307,8 +1307,8 @@
         "raridade": "Muito Raro",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Anel mágico associado a Valakut e à furtividade.",
-        "notas": "Anel mágico associado a Valakut e à furtividade."
+        "notas": "Anel mágico associado a Valakut e à furtividade.",
+        "descricao": "Anel mágico associado a Valakut e à furtividade."
       }
     },
     {
@@ -1320,8 +1320,8 @@
         "magico": "Sim",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Tapa-olho antigo de origem misteriosa, carregado pelo grupo e ligado a segredos ainda não compreendidos.",
-        "notas": "Item antigo ligado ao passado da Vinícola Mago dos Vinhos. O grupo ainda não compreende totalmente sua origem ou função."
+        "notas": "Item antigo ligado ao passado da Vinícola Mago dos Vinhos. O grupo ainda não compreende totalmente sua origem ou função.",
+        "descricao": "Tapa-olho antigo de origem misteriosa, carregado pelo grupo e ligado a segredos ainda não compreendidos."
       }
     },
     {
@@ -1334,8 +1334,8 @@
         "status": "Vivo",
         "degree": 1,
         "metrics::last": 1,
-        "descrição": "Uma das vampiras ligadas a Strahd, ainda pouco conhecida pelo grupo.",
-        "notas": "Uma das esposas de Strahd. Detalhes públicos ainda são limitados."
+        "notas": "Uma das esposas de Strahd. Detalhes públicos ainda são limitados.",
+        "descricao": "Uma das vampiras ligadas a Strahd, ainda pouco conhecida pelo grupo."
       }
     },
     {
@@ -1346,8 +1346,8 @@
         "status": "Desconhecido",
         "degree": 6,
         "metrics::last": 6,
-        "descrição": "Grupo de megeras associado ao Velho Moinho de Ossos e às maldições enfrentadas pelo grupo.",
-        "notas": "Grupo de megeras associado ao Velho Moinho de Ossos e às maldições enfrentadas pelo grupo."
+        "notas": "Grupo de megeras associado ao Velho Moinho de Ossos e às maldições enfrentadas pelo grupo.",
+        "descricao": "Grupo de megeras associado ao Velho Moinho de Ossos e às maldições enfrentadas pelo grupo."
       }
     },
     {
@@ -1360,7 +1360,7 @@
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/40550c79-1864-4f3d-9c46-90034718cb04.jpg",
         "notas": "A vila sobreviveu ao ataque de Strahd, mas ficou gravemente marcada pela destruição. A estátua/ídolo de St. Markovia foi colocada no altar local. O lago perdeu sua sacralidade, embora a água continue potável.",
         "status": "Vivo",
-        "descrição": "Vila isolada aos pés da Abadia de St. Markovia, gravemente marcada pelo ataque de Strahd, mas ainda viva."
+        "descricao": "Vila isolada aos pés da Abadia de St. Markovia, gravemente marcada pelo ataque de Strahd, mas ainda viva."
       }
     },
     {
@@ -1373,8 +1373,8 @@
         "metrics::last": 3,
         "raça": "Humano",
         "image": "https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/43e9dd55-51b6-4358-9c39-53e593c8659e/uploads/images/51949a61b2a5707ecdf22bf9c81cb58f.png",
-        "descrição": "Antigo burgomestre da Vila da Barovia e pai de Ireena e Ismark.",
-        "notas": "Antigo burgomestre da Vila da Barovia e pai de Ireena e Ismark."
+        "notas": "Antigo burgomestre da Vila da Barovia e pai de Ireena e Ismark.",
+        "descricao": "Antigo burgomestre da Vila da Barovia e pai de Ireena e Ismark."
       }
     },
     {
@@ -1382,7 +1382,7 @@
       "attributes": {
         "label": "background1",
         "image": "https://preview.redd.it/51s3lxug73o71.png?width=3375&format=png&auto=webp&s=26641f1ed823b880958cae56005d3fcabc5d242c",
-        "descrição": "Imagem de fundo alternativa do mapa."
+        "descricao": "Imagem de fundo alternativa do mapa."
       }
     },
     {
@@ -1393,7 +1393,7 @@
         "notas": "Apresenta-se como uma mulher aracnídea, com muitos braços e pernas, personificando o próprio medo. Causa caos nos momentos mais inconvenientes e mantém Filuriana aprisionada em outro plano. Tanto ela quanto Filuriana têm interesse em descobrir a localização da irmã de Everlong, escondida longe de Barovia, para usar essa informação contra ele ou em troca de poder.",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Entidade demoníaca ligada ao medo, à manipulação e à história pessoal de Everlong."
+        "descricao": "Entidade demoníaca ligada ao medo, à manipulação e à história pessoal de Everlong."
       }
     },
     {
@@ -1405,7 +1405,7 @@
         "status": "Desconhecido",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Estalagem de Valaki administrada por Urwin Martikov, importante ponto de encontro e abrigo dentro da cidade."
+        "descricao": "Estalagem de Valaki administrada por Urwin Martikov, importante ponto de encontro e abrigo dentro da cidade."
       }
     },
     {
@@ -1419,8 +1419,8 @@
         "degree": 3,
         "metrics::last": 3,
         "image": "https://www.worldanvil.com/uploads/images/3487a8a29202ecb189ffd7532b4a81f4.jpg",
-        "descrição": "Estalageiro da Água Azul e membro da Família Martikov.",
-        "notas": "Estalageiro da Água Azul e membro da Família Martikov."
+        "notas": "Estalageiro da Água Azul e membro da Família Martikov.",
+        "descricao": "Estalageiro da Água Azul e membro da Família Martikov."
       }
     },
     {
@@ -1431,7 +1431,7 @@
         "notas": "Strahd atacou Krezk e a vila foi quase totalmente destruída. Com a ajuda do grupo, Krezk sobreviveu. Durante o ataque, Valakut foi controlado por Strahd e ajudou o vampiro a entrar na cidade. O grupo foi derrotado duramente; Gildin sofreu um ferimento humilhante quando Strahd arrancou parte de seu cabelo e tomou seu sangue em combate.",
         "degree": 6,
         "metrics::last": 6,
-        "descrição": "Ataque devastador de Strahd contra Krezk, sobrevivido pela vila com ajuda do grupo."
+        "descricao": "Ataque devastador de Strahd contra Krezk, sobrevivido pela vila com ajuda do grupo."
       }
     },
     {
@@ -1442,7 +1442,7 @@
         "notas": "Antes de o lago perder sua sacralidade, o grupo usou sua água em uma tentativa de remover maldições. A Maldição dos Corvos foi removida de Valakut e Kaelara. Valakut também descobriu que a água podia fazê-lo voltar temporariamente ao normal, sem vampirismo, embora os efeitos variassem.",
         "degree": 5,
         "metrics::last": 5,
-        "descrição": "Experimento realizado antes da perda da sacralidade do lago de Krezk, usado para tentar remover maldições."
+        "descricao": "Experimento realizado antes da perda da sacralidade do lago de Krezk, usado para tentar remover maldições."
       }
     },
     {
@@ -1455,7 +1455,7 @@
         "notas": "Restam apenas alguns poucos frascos enfraquecidos da antiga água sagrada de Krezk. Seus efeitos são variáveis.",
         "degree": 3,
         "metrics::last": 3,
-        "descrição": "Últimos frascos enfraquecidos da antiga água sagrada de Krezk, com efeitos ainda variáveis."
+        "descricao": "Últimos frascos enfraquecidos da antiga água sagrada de Krezk, com efeitos ainda variáveis."
       }
     },
     {
@@ -1467,7 +1467,7 @@
         "notas": "Passagem subterrânea ligada à Abadia de St. Markovia. O grupo atravessou seus testes e saiu do outro lado da montanha; a porta voltou a se fechar atrás deles.",
         "degree": 4,
         "metrics::last": 4,
-        "descrição": "Passagem subterrânea ligada à Abadia de St. Markovia, atravessada pelo grupo após uma série de testes."
+        "descricao": "Passagem subterrânea ligada à Abadia de St. Markovia, atravessada pelo grupo após uma série de testes."
       }
     },
     {
@@ -1479,7 +1479,7 @@
         "notas": "Pequena planície coberta de neve do outro lado da montanha, diante da porta fechada da passagem.",
         "degree": 3,
         "metrics::last": 3,
-        "descrição": "Pequena planície coberta de neve onde o grupo chegou após atravessar a passagem de St. Markovia."
+        "descricao": "Pequena planície coberta de neve onde o grupo chegou após atravessar a passagem de St. Markovia."
       }
     },
     {
@@ -1490,7 +1490,7 @@
         "notas": "O grupo atravessou a passagem de St. Markovia acompanhado por Ezmeralda e Zigfried. No teste final, Tharok se sacrificou e recebeu a Marca de Markovia. Depois disso, a passagem se abriu e o grupo chegou a uma planície nevada do outro lado da montanha.",
         "degree": 6,
         "metrics::last": 6,
-        "descrição": "Evento em que o grupo atravessou a passagem acompanhado por Ezmeralda e Zigfried."
+        "descricao": "Evento em que o grupo atravessou a passagem acompanhado por Ezmeralda e Zigfried."
       }
     },
     {
@@ -1502,7 +1502,7 @@
         "notas": "Marca recebida por Tharok após seu sacrifício no teste final da passagem de St. Markovia. Também parece ajudar a conter parcialmente sua Fúria de Sangue.",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Marca concedida a Tharok após seu sacrifício no teste final da passagem de St. Markovia."
+        "descricao": "Marca concedida a Tharok após seu sacrifício no teste final da passagem de St. Markovia."
       }
     },
     {
@@ -1515,7 +1515,7 @@
         "notas": "Membro dos mongrelfolks/Belviews que viviam na Abadia sob controle do Abade. Atualmente acompanha o grupo após a travessia da passagem de St. Markovia.",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Membro da Família Belview que vivia na Abadia de St. Markovia sob controle do Abade."
+        "descricao": "Membro da Família Belview que vivia na Abadia de St. Markovia sob controle do Abade."
       }
     },
     {
@@ -1526,7 +1526,7 @@
         "notas": "Após o ataque a Krezk, Valakut precisou ser levado escondido pelo grupo no retorno à Abadia, evitando a fúria dos aldeões.",
         "degree": 3,
         "metrics::last": 3,
-        "descrição": "Retorno em que Valakut precisou ser escondido para evitar a fúria dos aldeões de Krezk."
+        "descricao": "Retorno em que Valakut precisou ser escondido para evitar a fúria dos aldeões de Krezk."
       }
     }
   ],
