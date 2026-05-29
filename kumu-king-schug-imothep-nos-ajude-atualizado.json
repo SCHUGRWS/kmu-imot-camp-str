@@ -7,70 +7,61 @@
   "defaultPerspective": null,
   "attributeRelevance": {
     "pc": [
-      "Descrição",
       "Jogador",
       "Raça",
       "Notas",
-      "Description",
+      "Descrição",
       "Status",
       "degree"
     ],
     "npc": [
-      "Descrição",
       "Ocupação",
       "Raça",
       "Notas",
-      "Description",
+      "Descrição",
       "Status"
     ],
     "grupo": [
-      "Descrição",
       "Lider",
       "Notas",
-      "Description",
+      "Descrição",
       "Ocupação",
       "Status",
       "Tipo de Grupo"
     ],
     "local": [
-      "Descrição",
       "Status",
       "Notas",
-      "Description"
+      "Descrição"
     ],
     "monstro": [
-      "Descrição",
       "Notas",
-      "Description",
+      "Descrição",
       "Ocupação",
       "Raça",
       "Status",
       "degree"
     ],
     "entidade": [
-      "Descrição",
       "Notas",
-      "Description",
+      "Descrição",
       "Status"
     ],
     "item": [
-      "Descrição",
       "Magico",
       "Notas",
-      "Description",
+      "Descrição",
       "Raridade",
       "Status",
       "Valor"
     ],
     "evento": [
-      "Descrição",
       "Notas",
-      "Description"
+      "Descrição"
     ],
     "undefined": [
-      "Descrição",
       "Notas",
-      "Description",
+      "Descrição",
       "Imagem"
     ],
     "undefined-connection": [],
@@ -85,10 +76,9 @@
     "membro-connection": [],
     "pertence-connection": [],
     "condição": [
-      "Descrição",
       "Magico",
       "Notas",
-      "Description"
+      "Descrição"
     ],
     "parente-connection": [],
     "undefined-loop": []
@@ -569,10 +559,10 @@
       "attributes": {
         "label": "Filuriana",
         "element type": "Entidade",
-        "notas": "Megera patrona de Everlong. Atualmente está aprisionada pela Dama do Medo em outro plano.",
+        "notas": "Patrona de Everlong. Atualmente está aprisionada pela Dama do Medo em outro plano. Ainda é uma força importante na história do bruxo, mas sua influência foi prejudicada pelo aprisionamento.",
         "degree": 3,
         "metrics::last": 3,
-        "descrição": "Megera e patrona de Everlong, atualmente afastada do mundo conhecido por forças ligadas à Dama do Medo."
+        "descrição": "Megera patrona de Everlong, ligada ao pacto do bruxo."
       }
     },
     {
@@ -1303,7 +1293,7 @@
         "status": "Vivo",
         "degree": 6,
         "metrics::last": 6,
-        "notas": "Bruxo ligado a Filuriana. Também sofre a influência da Dama do Medo e da Possessão. A nota “O Pesadelo” ainda precisa ser definida melhor pelo mestre.",
+        "notas": "Bruxo ligado a Filuriana. Como Filuriana está aprisionada pela Dama do Medo, Everlong passou a sofrer uma possessão perigosa: durante o sono, a Dama pode controlá-lo, se materializar no mundo físico e interagir com o ambiente. Por segurança, ele costuma ser amarrado à noite.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ed2cdd48-77f6-4c86-a247-e4e0473b4301.png",
         "descrição": "Humano bruxo do grupo, ligado a Filuriana e perseguido pela influência da Dama do Medo."
       }
@@ -1400,10 +1390,10 @@
       "attributes": {
         "label": "Dama do Medo",
         "element type": "Entidade",
-        "notas": "Entidade demoníaca criada para evoluir a história de Everlong. Aparece como uma mulher aracnídea com vários braços e pernas, personificando o medo. Causa caos nos piores momentos e tenta usar os vínculos pessoais do bruxo contra ele.",
+        "notas": "Apresenta-se como uma mulher aracnídea, com muitos braços e pernas, personificando o próprio medo. Causa caos nos momentos mais inconvenientes e mantém Filuriana aprisionada em outro plano. Tanto ela quanto Filuriana têm interesse em descobrir a localização da irmã de Everlong, escondida longe de Barovia, para usar essa informação contra ele ou em troca de poder.",
         "degree": 2,
         "metrics::last": 2,
-        "descrição": "Entidade demoníaca de aparência aracnídea, personificação do medo e força hostil ligada à história de Everlong."
+        "descrição": "Entidade demoníaca ligada ao medo, à manipulação e à história pessoal de Everlong."
       }
     },
     {
