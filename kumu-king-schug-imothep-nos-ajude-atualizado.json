@@ -401,9 +401,9 @@
         "raridade": "Epico",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Mace de um Deva, entregue a Gildin após o grupo derrotar o Abade na Abadia de St. Markovia.",
-        "descricao": "Arma sagrada tomada após a queda do Abade, carregando o peso do confronto contra uma criatura celestial corrompida pelos horrores de Barovia.",
-        "description": "Arma sagrada tomada após a queda do Abade, carregando o peso do confronto contra uma criatura celestial corrompida pelos horrores de Barovia."
+        "notas": "Arma ligada ao Abade de St. Markovia, um deva corrompido. Após a derrota do Abade, a maça passou para as mãos de Gildin.",
+        "descricao": "Maça mágica tomada do Abade após sua derrota.",
+        "description": "Maça mágica tomada do Abade após sua derrota."
       }
     },
     {
@@ -476,12 +476,12 @@
         "label": "Lança de Sangue",
         "element type": "Item",
         "magico": "Sim",
-        "notas": "Possui uma pedra escarlate em seu centro. Sua maldição causa a Fúria de Sangue em Tharok.",
+        "notas": "Arma carregada por Tharok. A pedra escarlate no centro da lança parece alimentar uma sede de sangue que pode levá-lo a um frenesi perigoso.",
         "raridade": "Muito Raro",
         "degree": 3,
         "metrics::last": 3,
-        "descricao": "Lança mágica carregada por Tharok, marcada por uma pedra escarlate e por uma maldição de fúria incontrolável.",
-        "description": "Lança mágica carregada por Tharok, marcada por uma pedra escarlate e por uma maldição de fúria incontrolável."
+        "descricao": "Lança mágica com uma pedra escarlate em seu centro.",
+        "description": "Lança mágica com uma pedra escarlate em seu centro."
       }
     },
     {
@@ -597,7 +597,7 @@
       "attributes": {
         "label": "Filuriana",
         "element type": "Entidade",
-        "notas": "Patrona de Everlong. Atualmente está aprisionada pela Dama do Medo em outro plano. Ainda é uma força importante na história do bruxo, mas sua influência foi prejudicada pelo aprisionamento.",
+        "notas": "Patrona de Everlong. Atualmente está aprisionada pela Dama do Medo em outro plano, o que enfraqueceu sua influência direta sobre o bruxo.",
         "degree": 3,
         "metrics::last": 3,
         "descricao": "Megera patrona de Everlong, ligada ao pacto do bruxo.",
@@ -660,9 +660,9 @@
         "tipo de grupo": "Clã",
         "degree": 4,
         "metrics::last": 4,
-        "notas": "Grupo de vampiras servas de Strahd. Volenta é uma das esposas conhecidas pelo grupo; outras ainda permanecem menos compreendidas pelos personagens.",
-        "descricao": "Vampiras ligadas a Strahd e ao Castelo Ravenloft, cada uma representando uma ameaça própria dentro da influência do senhor da Barovia.",
-        "description": "Vampiras ligadas a Strahd e ao Castelo Ravenloft, cada uma representando uma ameaça própria dentro da influência do senhor da Barovia."
+        "notas": "Grupo de vampiras servas de Strahd. Volenta é uma das esposas conhecidas pelo grupo; as demais ainda são figuras de ameaça e mistério.",
+        "descricao": "Vampiras ligadas a Strahd e ao Castelo Ravenloft.",
+        "description": "Vampiras ligadas a Strahd e ao Castelo Ravenloft."
       }
     },
     {
@@ -675,9 +675,9 @@
         "metrics::last": 5,
         "raça": "Humano",
         "image": "https://ik.imagekit.io/criticalnotes/campaigns/1472/characters/10553/avatar-crop/bd43186ee676480d99c416b7d5f1db74.jpg?tr=w-400,h-400",
-        "notas": "Jovem nobre da Vila da Barovia, perseguida por Strahd e profundamente ligada aos acontecimentos centrais da campanha.",
-        "descricao": "Jovem nobre da Vila da Barovia, perseguida por Strahd e profundamente ligada aos acontecimentos centrais da campanha.",
-        "description": "Jovem nobre da Vila da Barovia, perseguida por Strahd e profundamente ligada aos acontecimentos centrais da campanha."
+        "notas": "Jovem nobre da Vila da Barovia, protegida por Ismark e perseguida por Strahd. Sua presença marcou alguns dos primeiros rumos da jornada do grupo.",
+        "descricao": "Jovem nobre da Vila da Barovia, perseguida por Strahd e ligada a acontecimentos centrais em Barovia.",
+        "description": "Jovem nobre da Vila da Barovia, perseguida por Strahd e ligada a acontecimentos centrais em Barovia."
       }
     },
     {
@@ -714,7 +714,7 @@
         "element type": "Entidade",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Deus de inspiração egípcia, semelhante a uma representação de Osíris. Divindade de vida, deserto, calor e luz. Gildin passou a segui-lo como deus patrono. A pequena múmia encontrada sob a Casa da Morte acabou se tornando um símbolo importante dessa fé.",
+        "notas": "Deus de vida, deserto, calor e luz, criado como uma figura próxima a Osíris. Gildin passou a segui-lo como divindade patrona. A pequena múmia encontrada sob a Casa da Morte acabou se tornando um símbolo importante dessa fé.",
         "descricao": "Divindade de inspiração egípcia seguida por Gildin, associada à vida, ao deserto, ao calor e à luz.",
         "description": "Divindade de inspiração egípcia seguida por Gildin, associada à vida, ao deserto, ao calor e à luz."
       }
@@ -783,7 +783,7 @@
         "status": "Vivo",
         "degree": 1,
         "metrics::last": 1,
-        "notas": "Uma das esposas de Strahd. Detalhes públicos ainda são limitados.",
+        "notas": "Uma das esposas de Strahd. Detalhes conhecidos ainda são limitados.",
         "descricao": "Uma das vampiras ligadas a Strahd, ainda pouco conhecida pelo grupo.",
         "description": "Uma das vampiras ligadas a Strahd, ainda pouco conhecida pelo grupo."
       }
@@ -857,9 +857,9 @@
         "status": "Desconhecido",
         "degree": 4,
         "metrics::last": 4,
-        "notas": "Casa assombrada da Vila da Barovia, onde o grupo enfrentou seus primeiros horrores na campanha.",
-        "descricao": "Casa assombrada da Vila da Barovia, onde o grupo enfrentou seus primeiros horrores na campanha.",
-        "description": "Casa assombrada da Vila da Barovia, onde o grupo enfrentou seus primeiros horrores na campanha."
+        "notas": "Um dos primeiros lugares explorados pelo grupo em Barovia. Sob a casa, havia vestígios de cultos, sacrifícios e horrores antigos.",
+        "descricao": "Casa assombrada da Vila da Barovia, marcada por cultos, mortes e horrores antigos.",
+        "description": "Casa assombrada da Vila da Barovia, marcada por cultos, mortes e horrores antigos."
       }
     },
     {
@@ -900,7 +900,7 @@
         "degree": 3,
         "metrics::last": 3,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/d26b4a90-b897-4f34-9759-fbbb7fde8b0c.png",
-        "notas": "Uma das esposas de Strahd conhecidas pelo grupo. Vampira serva de Strahd, associada diretamente às ameaças recentes em Barovia.",
+        "notas": "Uma das esposas de Strahd conhecidas pelo grupo. Vampira perigosa, associada ao círculo de poder do Castelo Ravenloft.",
         "descricao": "Vampira serva de Strahd e uma de suas esposas conhecidas pelo grupo.",
         "description": "Vampira serva de Strahd e uma de suas esposas conhecidas pelo grupo."
       }
@@ -968,7 +968,7 @@
         "status": "Vivo",
         "degree": 5,
         "metrics::last": 5,
-        "notas": "Metamorfose involuntária. A Maldição dos Corvos foi removida em Krezk. Em momentos escolhidos pelo mestre, pode perder o controle e se transformar em uma megera poderosa que ataca tudo e todos.",
+        "notas": "Metamorfose involuntária. A Maldição dos Corvos foi removida em Krezk. Em momentos de grande tensão, pode perder o controle e se transformar em uma criatura monstruosa e hostil.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4519763a-6b82-43bd-a4c3-ac6ac968bc6b.png",
         "descricao": "Elfa negra guerreira do grupo, marcada por uma metamorfose involuntária perigosa.",
         "description": "Elfa negra guerreira do grupo, marcada por uma metamorfose involuntária perigosa."
@@ -1041,8 +1041,8 @@
         "degree": 16,
         "metrics::last": 16,
         "notas": "Senhor vampiro de Barovia e inimigo central do grupo. Atacou Krezk pessoalmente, quase destruiu a vila e demonstrou domínio brutal sobre os personagens, especialmente Valakut e Gildin.",
-        "descricao": "Senhor vampiro de Barovia, mestre do Castelo Ravenloft e principal ameaça sobre o grupo e as terras amaldiçoadas.",
-        "description": "Senhor vampiro de Barovia, mestre do Castelo Ravenloft e principal ameaça sobre o grupo e as terras amaldiçoadas."
+        "descricao": "Senhor vampiro de Barovia, mestre do Castelo Ravenloft e principal ameaça sobre as terras amaldiçoadas.",
+        "description": "Senhor vampiro de Barovia, mestre do Castelo Ravenloft e principal ameaça sobre as terras amaldiçoadas."
       }
     },
     {
@@ -1159,9 +1159,9 @@
         "element type": "Entidade",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Figura sombria e encapuzada, inspirada em um antigo paladino. Aparece em sonhos e visões de Gildin, tentando convencê-lo a abandonar seu juramento de devoção e se tornar um quebrador de voto. Imothep já ralhou com Gildin por ele se aproximar desse caminho, mas recentemente voltou a demonstrar apoio.",
-        "descricao": "Figura sombria que aparece em sonhos e visões de Gildin, tentando afastá-lo do juramento de devoção.",
-        "description": "Figura sombria que aparece em sonhos e visões de Gildin, tentando afastá-lo do juramento de devoção."
+        "notas": "Figura encapuzada que surge em sonhos e visões de Gildin, associada à tensão entre seu juramento de devoção, suas escolhas e a fé em Imothep.",
+        "descricao": "Figura sombria que aparece em sonhos e visões de Gildin.",
+        "description": "Figura sombria que aparece em sonhos e visões de Gildin."
       }
     },
     {
@@ -1187,9 +1187,9 @@
         "magico": "Sim",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Fragmento escarlate de origem desconhecida pelos jogadores. Há uma semelhança visual com a pedra da Lança de Sangue, mas o grupo ainda não fez essa ligação.",
-        "descricao": "Fragmento mágico de pedra escarlate, visualmente semelhante à pedra presente na Lança de Sangue.",
-        "description": "Fragmento mágico de pedra escarlate, visualmente semelhante à pedra presente na Lança de Sangue."
+        "notas": "Fragmento escarlate de origem incerta. Sua aparência lembra outras pedras escarlates vistas pelo grupo, embora seu significado ainda não esteja claro.",
+        "descricao": "Fragmento mágico de pedra escarlate, de origem incerta.",
+        "description": "Fragmento mágico de pedra escarlate, de origem incerta."
       }
     },
     {
@@ -1285,9 +1285,9 @@
         "degree": 3,
         "metrics::last": 3,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/b2cb6723-1e5b-48d1-bf1a-266ae2f0e9e2.png",
-        "notas": "Guardião/desafio arcano ligado a Khazan. Foi usada para colocar o grupo de volta na trilha dos três artefatos. A partir desse encontro, o grupo obteve o Diário de Strahd e pistas sobre possíveis localizações dos demais artefatos.",
-        "descricao": "Guardião arcano criado como desafio ligado a Khazan, usado para impulsionar a busca pelos artefatos da leitura.",
-        "description": "Guardião arcano criado como desafio ligado a Khazan, usado para impulsionar a busca pelos artefatos da leitura."
+        "notas": "Criatura enigmática encontrada em um desafio arcano relacionado a Khazan. Após esse encontro, o grupo obteve o Diário de Strahd e novas pistas sobre a busca indicada pela leitura das cartas.",
+        "descricao": "Esfinge sombria ligada aos desafios e enigmas de Khazan.",
+        "description": "Esfinge sombria ligada aos desafios e enigmas de Khazan."
       }
     },
     {
@@ -1327,9 +1327,9 @@
         "raridade": "Desconheida",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Machado que estava preso na árvore durante o ritual druídico em Yester Hill.",
-        "descricao": "Machado retirado da árvore ligada ao ritual druídico em Yester Hill.",
-        "description": "Machado retirado da árvore ligada ao ritual druídico em Yester Hill."
+        "notas": "Machado retirado da árvore envolvida no ritual druídico da Colina Yester. Carrega marcas de violência, natureza corrompida e antigos ritos de Barovia.",
+        "descricao": "Machado encontrado preso à árvore ligada ao ritual druídico.",
+        "description": "Machado encontrado preso à árvore ligada ao ritual druídico."
       }
     },
     {
@@ -1354,9 +1354,9 @@
         "magico": "Sim",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Boneca encontrada na Casa da Morte. Tornou-se uma maldição narrativa para Gildin: ela não desgruda dele, por mais que tente se livrar dela.",
-        "descricao": "Boneca macabra ligada a Gildin, que não se separa dele apesar de suas tentativas de abandoná-la.",
-        "description": "Boneca macabra ligada a Gildin, que não se separa dele apesar de suas tentativas de abandoná-la."
+        "notas": "Boneca encontrada na Casa da Morte. Desde então, passou a retornar para Gildin sempre que ele tenta se livrar dela.",
+        "descricao": "Boneca macabra que se prende a Gildin de forma sobrenatural.",
+        "description": "Boneca macabra que se prende a Gildin de forma sobrenatural."
       }
     },
     {
@@ -1388,10 +1388,10 @@
         "status": "Vivo",
         "degree": 6,
         "metrics::last": 6,
-        "notas": "A condição antes chamada de “Possessão / influência da Dama do Medo durante o sono” se refere à possessão e influência da Dama do Medo. Como Filuriana está aprisionada, a Dama do Medo consegue se manifestar, interagir com o ambiente e controlar Everlong durante o sono; por isso ele costuma ser amarrado à noite.",
+        "notas": "A condição conhecida como “O Pesadelo” se refere à influência da Dama do Medo sobre Everlong. Como Filuriana está aprisionada, essa entidade consegue se manifestar, interagir com o ambiente e controlar Everlong durante o sono; por isso ele costuma ser amarrado à noite.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ed2cdd48-77f6-4c86-a247-e4e0473b4301.png",
-        "descricao": "Humano bruxo do grupo, ligado à patrona Filuriana e à ameaça da Dama do Medo.",
-        "description": "Humano bruxo do grupo, ligado à patrona Filuriana e à ameaça da Dama do Medo."
+        "descricao": "Humano bruxo do grupo, ligado à patrona Filuriana e à influência da Dama do Medo.",
+        "description": "Humano bruxo do grupo, ligado à patrona Filuriana e à influência da Dama do Medo."
       }
     },
     {
@@ -1417,9 +1417,9 @@
         "magico": "Sim",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Item antigo ligado ao passado da Vinícola Mago dos Vinhos. O grupo ainda não compreende totalmente sua origem ou função.",
-        "descricao": "Tapa-olho antigo de origem misteriosa, carregado pelo grupo e ligado a segredos ainda não compreendidos.",
-        "description": "Tapa-olho antigo de origem misteriosa, carregado pelo grupo e ligado a segredos ainda não compreendidos."
+        "notas": "Item antigo carregado pelo grupo. Sua origem e propriedades ainda não foram totalmente compreendidas.",
+        "descricao": "Tapa-olho antigo de origem misteriosa.",
+        "description": "Tapa-olho antigo de origem misteriosa."
       }
     },
     {
@@ -1432,7 +1432,7 @@
         "status": "Vivo",
         "degree": 1,
         "metrics::last": 1,
-        "notas": "Uma das esposas de Strahd. Detalhes públicos ainda são limitados.",
+        "notas": "Uma das esposas de Strahd. Detalhes conhecidos ainda são limitados.",
         "descricao": "Uma das vampiras ligadas a Strahd, ainda pouco conhecida pelo grupo.",
         "description": "Uma das vampiras ligadas a Strahd, ainda pouco conhecida pelo grupo."
       }
@@ -1494,11 +1494,11 @@
       "attributes": {
         "label": "Dama do Medo",
         "element type": "Entidade",
-        "notas": "Apresenta-se como uma mulher aracnídea, com muitos braços e pernas, personificando o próprio medo. Causa caos nos momentos mais inconvenientes e mantém Filuriana aprisionada em outro plano. Tanto ela quanto Filuriana têm interesse em descobrir a localização da irmã de Everlong, escondida longe de Barovia, para usar essa informação contra ele ou em troca de poder.",
+        "notas": "Apresenta-se como uma mulher aracnídea, com muitos braços e pernas, personificando o medo. Sua influência se manifesta nos momentos mais perigosos e está ligada à prisão de Filuriana e à condição que afeta Everlong.",
         "degree": 2,
         "metrics::last": 2,
-        "descricao": "Entidade demoníaca ligada ao medo, à manipulação e à história pessoal de Everlong.",
-        "description": "Entidade demoníaca ligada ao medo, à manipulação e à história pessoal de Everlong."
+        "descricao": "Entidade demoníaca ligada ao medo, à possessão e à história de Everlong.",
+        "description": "Entidade demoníaca ligada ao medo, à possessão e à história de Everlong."
       }
     },
     {
@@ -1626,11 +1626,11 @@
         "element type": "NPC",
         "raça": "Desconhecido",
         "status": "Vivo",
-        "notas": "Membro dos mongrelfolks/Belviews que viviam na Abadia sob controle do Abade. Atualmente acompanha o grupo após a travessia da passagem de St. Markovia.",
+        "notas": "Um dos mongrelfolks/Belviews que viviam na Abadia sob controle do Abade. Atualmente acompanha o grupo após a travessia da passagem de St. Markovia.",
         "degree": 2,
         "metrics::last": 2,
-        "descricao": "Membro da Família Belview que vivia na Abadia de St. Markovia sob controle do Abade.",
-        "description": "Membro da Família Belview que vivia na Abadia de St. Markovia sob controle do Abade."
+        "descricao": "Membro da Família Belview que vivia na Abadia de St. Markovia.",
+        "description": "Membro da Família Belview que vivia na Abadia de St. Markovia."
       }
     },
     {
