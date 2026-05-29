@@ -438,9 +438,9 @@
         "element type": "Item",
         "degree": 3,
         "metrics::last": 3,
-        "notas": "Carta oficial revelada na leitura. Presságio: um poder de proteção e esperança está ligado a um covil de lobos nas colinas com vista para um lago de montanha; o tesouro pertence à Mãe da Noite.",
-        "descricao": "Carta comum de Espadas da leitura de Tarokka. Seu presságio aponta para um covil de lobos nas colinas acima de um lago de montanha.",
-        "description": "Carta comum de Espadas da leitura de Tarokka. Seu presságio aponta para um covil de lobos nas colinas acima de um lago de montanha."
+        "notas": "Presságio: um poder de proteção e esperança está ligado a um covil de lobos nas colinas com vista para um lago de montanha; o tesouro pertence à Mãe da Noite.",
+        "descricao": "Carta da leitura de Tarokka cujo presságio aponta para um covil de lobos nas colinas acima de um lago de montanha.",
+        "description": "Carta da leitura de Tarokka cujo presságio aponta para um covil de lobos nas colinas acima de um lago de montanha."
       }
     },
     {
@@ -714,7 +714,7 @@
         "element type": "Entidade",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Deus de vida, deserto, calor e luz, criado como uma figura próxima a Osíris. Gildin passou a segui-lo como divindade patrona. A pequena múmia encontrada sob a Casa da Morte acabou se tornando um símbolo importante dessa fé.",
+        "notas": "Deus de vida, deserto, calor e luz, próximo aos antigos símbolos de morte e renascimento. Gildin passou a segui-lo como divindade patrona. A pequena múmia encontrada sob a Casa da Morte tornou-se um símbolo importante dessa fé.",
         "descricao": "Divindade de inspiração egípcia seguida por Gildin, associada à vida, ao deserto, ao calor e à luz.",
         "description": "Divindade de inspiração egípcia seguida por Gildin, associada à vida, ao deserto, ao calor e à luz."
       }
@@ -869,7 +869,7 @@
         "element type": "Item",
         "degree": 3,
         "metrics::last": 3,
-        "notas": "Carta oficial revelada na leitura. Presságio: um lugar secreto, um cofre de tentações oculto atrás de uma mulher de grande beleza; o mal aguarda no alto de sua torre de tesouros.",
+        "notas": "Presságio: há um lugar secreto, um cofre de tentações oculto atrás de uma mulher de grande beleza; o mal aguarda no alto de sua torre de tesouros.",
         "descricao": "Grande carta da leitura de Tarokka ligada ao caminho até Strahd. Seu presságio fala de tentação, beleza e uma torre de tesouros.",
         "description": "Grande carta da leitura de Tarokka ligada ao caminho até Strahd. Seu presságio fala de tentação, beleza e uma torre de tesouros."
       }
@@ -885,9 +885,9 @@
         "degree": 4,
         "metrics::last": 4,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/d26b4a90-b897-4f34-9759-fbbb7fde8b0c.png",
-        "notas": "A única esposa de Strahd que o grupo encontrou até agora. Vampira perigosa, cruel e associada ao círculo de poder de Strahd.",
-        "descricao": "Vampira serva de Strahd e única esposa conhecida diretamente pelo grupo até agora.",
-        "description": "Vampira serva de Strahd e única esposa conhecida diretamente pelo grupo até agora."
+        "notas": "Uma das esposas de Strahd conhecidas pelo grupo. Vampira serva de Strahd, associada diretamente às ameaças recentes em Barovia.",
+        "descricao": "Vampira serva de Strahd e uma de suas esposas conhecidas pelo grupo.",
+        "description": "Vampira serva de Strahd e uma de suas esposas conhecidas pelo grupo."
       }
     },
     {
@@ -1079,9 +1079,9 @@
         "raridade": "Desconheida",
         "degree": 1,
         "metrics::last": 1,
-        "notas": "Carta personalizada da campanha. Presságio: “Eu vejo um irmão que empunhou a luz contra a escuridão. Um juramento quebrado pelo sangue e pela inveja. Procurem onde o herói permanece observado por todos, mas verdadeiramente visto por ninguém.”",
-        "descricao": "Carta personalizada da leitura de Tarokka, ligada a um herói observado por todos e ao legado de luz contra a escuridão.",
-        "description": "Carta personalizada da leitura de Tarokka, ligada a um herói observado por todos e ao legado de luz contra a escuridão."
+        "notas": "Presságio: “Eu vejo um irmão que empunhou a luz contra a escuridão. Um juramento quebrado pelo sangue e pela inveja. Procurem onde o herói permanece observado por todos, mas verdadeiramente visto por ninguém.”",
+        "descricao": "Carta da leitura de Tarokka ligada a um herói observado por todos e ao legado de luz contra a escuridão.",
+        "description": "Carta da leitura de Tarokka ligada a um herói observado por todos e ao legado de luz contra a escuridão."
       }
     },
     {
@@ -1174,9 +1174,9 @@
         "magico": "Sim",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Fragmento mágico de origem incerta. Sua aparência lembra a pedra presente na Lança de Sangue, embora essa ligação ainda não tenha sido esclarecida.",
-        "descricao": "Fragmento escarlate mágico de origem desconhecida.",
-        "description": "Fragmento escarlate mágico de origem desconhecida."
+        "notas": "Fragmento escarlate de origem desconhecida. Sua aparência lembra a pedra presente na Lança de Sangue, embora a ligação entre os dois ainda não esteja clara.",
+        "descricao": "Fragmento mágico de pedra vermelha, semelhante à gema presente na Lança de Sangue.",
+        "description": "Fragmento mágico de pedra vermelha, semelhante à gema presente na Lança de Sangue."
       }
     },
     {
@@ -1213,9 +1213,9 @@
         "raridade": "Desconheida",
         "degree": 4,
         "metrics::last": 4,
-        "notas": "Carta oficial revelada na leitura. Presságio: “vejo um ninho de corvos; lá vocês encontrarão o prêmio”. A leitura associa este sinal aos corvos e aos lugares ligados a eles em Barovia.",
-        "descricao": "Carta Mestre de Ouros da leitura de Tarokka. Seu presságio fala de um ninho de corvos onde repousa um prêmio importante.",
-        "description": "Carta Mestre de Ouros da leitura de Tarokka. Seu presságio fala de um ninho de corvos onde repousa um prêmio importante."
+        "notas": "Presságio: “vejo um ninho de corvos; lá vocês encontrarão o prêmio”. A leitura associa este sinal aos corvos e aos lugares ligados a eles em Barovia.",
+        "descricao": "Carta de Ouros da leitura de Tarokka. Seu presságio fala de um ninho de corvos onde repousa um prêmio importante.",
+        "description": "Carta de Ouros da leitura de Tarokka. Seu presságio fala de um ninho de corvos onde repousa um prêmio importante."
       }
     },
     {
@@ -1256,7 +1256,7 @@
         "element type": "Item",
         "degree": 3,
         "metrics::last": 3,
-        "notas": "Carta oficial revelada na leitura. Presságio: Strahd espreita nas profundezas da escuridão, no lugar ao qual inevitavelmente deve retornar.",
+        "notas": "Presságio: Strahd espreita nas profundezas da escuridão, no lugar ao qual inevitavelmente deve retornar.",
         "descricao": "Grande carta da leitura de Tarokka ligada diretamente a Strahd e ao destino do confronto final.",
         "description": "Grande carta da leitura de Tarokka ligada diretamente a Strahd e ao destino do confronto final."
       }
@@ -1272,9 +1272,9 @@
         "degree": 3,
         "metrics::last": 3,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/b2cb6723-1e5b-48d1-bf1a-266ae2f0e9e2.png",
-        "notas": "Criatura enigmática encontrada em um desafio arcano relacionado a Khazan. Após o encontro, o grupo obteve o Diário de Strahd e novas pistas ligadas à leitura das cartas.",
-        "descricao": "Esfinge sombria ligada aos desafios e enigmas de Khazan.",
-        "description": "Esfinge sombria ligada aos desafios e enigmas de Khazan."
+        "notas": "A esfinge surgiu como uma presença sombria e imponente, impondo desafios e enigmas aos que buscavam respostas antigas. Sua presença está ligada a Khazan e aos mistérios que cercam os grandes poderes de Barovia.",
+        "descricao": "Guardião enigmático ligado aos desafios de Khazan e a antigos segredos de Barovia.",
+        "description": "Guardião enigmático ligado aos desafios de Khazan e a antigos segredos de Barovia."
       }
     },
     {
@@ -1327,9 +1327,9 @@
         "degree": 8,
         "metrics::last": 8,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/1d6e8c90-a807-480e-8f44-966352c61b69.jpg",
-        "notas": "Evento em que Madame Eva revelou presságios sobre artefatos, aliados e o destino do confronto contra Strahd.",
-        "descricao": "Evento em que Madame Eva revelou presságios sobre artefatos, aliados e o destino do confronto contra Strahd.",
-        "description": "Evento em que Madame Eva revelou presságios sobre artefatos, aliados e o destino do confronto contra Strahd."
+        "notas": "Madame Eva revelou presságios enigmáticos sobre lugares, aliados, tesouros e o caminho que pode levar ao confronto contra Strahd.",
+        "descricao": "Evento em que Madame Eva revelou presságios sobre caminhos importantes, aliados e o destino do confronto contra Strahd.",
+        "description": "Evento em que Madame Eva revelou presságios sobre caminhos importantes, aliados e o destino do confronto contra Strahd."
       }
     },
     {
@@ -1404,9 +1404,9 @@
         "magico": "Sim",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Item antigo em posse de Everlong. Sua verdadeira natureza ainda não está clara.",
-        "descricao": "Tapa-olho antigo de origem e poder incertos.",
-        "description": "Tapa-olho antigo de origem e poder incertos."
+        "notas": "Tapa-olho antigo encontrado durante a jornada. Sua aparência sugere que já pertenceu a alguém marcado por muitas viagens e segredos.",
+        "descricao": "Objeto antigo de aparência discreta, carregado por Everlong.",
+        "description": "Objeto antigo de aparência discreta, carregado por Everlong."
       }
     },
     {
@@ -2167,7 +2167,7 @@
       "reversed": false,
       "attributes": {
         "connection type": "Pertence",
-        "notas": "A metamorfose involuntária de Kaelara é tratada como a própria Maldição da Megera."
+        "notas": "A maldição se manifesta em Kaelara como uma metamorfose involuntária e perigosa."
       },
       "from": "elem-W85t2rpJ",
       "to": "elem-VWPPTU19"
@@ -3282,7 +3282,7 @@
       "reversed": false,
       "attributes": {
         "connection type": "Rumor",
-        "notas": "Ligação suspeita, ainda não confirmada pelo grupo."
+        "notas": "Rumores e sinais sugerem uma possível ligação, mas nada foi plenamente esclarecido."
       },
       "from": "elem-821pwCfE",
       "to": "elem-TXogmC7b"
