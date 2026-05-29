@@ -782,9 +782,9 @@
         "magico": "Sim",
         "degree": 3,
         "metrics::last": 3,
-        "notas": "Item macabro ligado às megeras e às maldições encontradas pelo grupo.",
-        "descricao": "Item macabro ligado às megeras e às maldições encontradas pelo grupo.",
-        "description": "Item macabro ligado às megeras e às maldições encontradas pelo grupo."
+        "notas": "Item macabro ligado às megeras e às maldições encontradas pelo grupo. Everlong o carrega consigo.",
+        "descricao": "Item macabro ligado às megeras e carregado por Everlong.",
+        "description": "Item macabro ligado às megeras e carregado por Everlong."
       }
     },
     {
@@ -1375,10 +1375,10 @@
         "status": "Vivo",
         "degree": 8,
         "metrics::last": 8,
-        "notas": "Humano bruxo do grupo. A condição antes chamada de “O Pesadelo” se refere à influência da Dama do Medo e à possessão que o afeta durante o sono.",
+        "notas": "Humano bruxo do grupo. A condição antes chamada de “O Pesadelo” se refere à influência da Dama do Medo e à possessão que o afeta durante o sono. Carrega consigo lembranças e objetos encontrados desde os primeiros horrores de Barovia.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ed2cdd48-77f6-4c86-a247-e4e0473b4301.png",
-        "descricao": "Humano bruxo ligado à patrona Filuriana e à influência da Dama do Medo.",
-        "description": "Humano bruxo ligado à patrona Filuriana e à influência da Dama do Medo."
+        "descricao": "Humano bruxo marcado por uma condição sombria ligada à Dama do Medo e à patrona Filuriana.",
+        "description": "Humano bruxo marcado por uma condição sombria ligada à Dama do Medo e à patrona Filuriana."
       }
     },
     {
@@ -1404,9 +1404,9 @@
         "magico": "Sim",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Tapa-olho antigo encontrado durante a jornada. Sua aparência sugere que já pertenceu a alguém marcado por muitas viagens e segredos.",
-        "descricao": "Objeto antigo de aparência discreta, carregado por Everlong.",
-        "description": "Objeto antigo de aparência discreta, carregado por Everlong."
+        "notas": "Tapa-olho antigo encontrado na Casa da Morte. Sua aparência sugere que já pertenceu a alguém marcado por muitas viagens e segredos.",
+        "descricao": "Objeto antigo encontrado na Casa da Morte e atualmente carregado por Everlong.",
+        "description": "Objeto antigo encontrado na Casa da Morte e atualmente carregado por Everlong."
       }
     },
     {
@@ -1645,6 +1645,34 @@
         "notas": "Nome associado à caça de vampiros e monstros em Barovia. Sua história se cruza com a luta contra Strahd.",
         "descricao": "Caçador de monstros conhecido por enfrentar criaturas das trevas.",
         "description": "Caçador de monstros conhecido por enfrentar criaturas das trevas."
+      }
+    },
+    {
+      "_id": "elem-huuyH8NR",
+      "attributes": {
+        "label": "Livro com Rituais e Sacrifícios Humanos",
+        "element type": "Item",
+        "raridade": "Desconheida",
+        "magico": "Não",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Livro perturbador encontrado na Casa da Morte, contendo registros de rituais, sacrifícios e práticas sombrias.",
+        "descricao": "Livro macabro ligado aos cultos e horrores encontrados sob a Casa da Morte.",
+        "description": "Livro macabro ligado aos cultos e horrores encontrados sob a Casa da Morte."
+      }
+    },
+    {
+      "_id": "elem-PhoJ9f3Z",
+      "attributes": {
+        "label": "Garrafas antigas do Vinho do Mago",
+        "element type": "Item",
+        "raridade": "Comum",
+        "magico": "Não",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Garrafas antigas e conservadas do vinho dos Martikov, carregadas por Everlong.",
+        "descricao": "Garrafas antigas e conservadas do vinho dos Martikov.",
+        "description": "Garrafas antigas e conservadas do vinho dos Martikov."
       }
     }
   ],
@@ -2313,10 +2341,11 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Pertence",
+        "notas": "Encontrado na Casa da Morte."
       },
-      "from": "elem-T3GHiA90",
-      "to": "elem-ppwXYlQN"
+      "from": "elem-ppwXYlQN",
+      "to": "elem-T3GHiA90"
     },
     {
       "_id": "conn-QEwAxNnH",
@@ -3842,6 +3871,63 @@
       },
       "from": "elem-h1drVi7v",
       "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-3s6ZFWJO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence",
+        "notas": "Encontrado na Casa da Morte."
+      },
+      "from": "elem-huuyH8NR",
+      "to": "elem-T3GHiA90"
+    },
+    {
+      "_id": "conn-yMGCnho9",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-huuyH8NR",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-gLr6hUm3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence",
+        "notas": "Everlong carrega um frasco dessa água."
+      },
+      "from": "elem-WcPjNhKH",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-iEgbHuAl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-PhoJ9f3Z",
+      "to": "elem-2GbE6wkE"
+    },
+    {
+      "_id": "conn-5OPTLDLW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-PhoJ9f3Z",
+      "to": "elem-n1Jow6zV"
     }
   ],
   "loops": [],
@@ -4484,6 +4570,20 @@
           "pinned": false,
           "style": {},
           "element": "elem-UnFrMCs9"
+        },
+        {
+          "_id": "node-8y42K2O8",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-huuyH8NR"
+        },
+        {
+          "_id": "node-KxT3Dg0Q",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PhoJ9f3Z"
         }
       ],
       "connections": [
@@ -5405,6 +5505,31 @@
           "_id": "edge-ORFR2nI3",
           "style": {},
           "connection": "conn-qyrmvJC2"
+        },
+        {
+          "_id": "edge-NBcXSNte",
+          "style": {},
+          "connection": "conn-3s6ZFWJO"
+        },
+        {
+          "_id": "edge-iV8D1ghp",
+          "style": {},
+          "connection": "conn-yMGCnho9"
+        },
+        {
+          "_id": "edge-eJ2qJmjZ",
+          "style": {},
+          "connection": "conn-gLr6hUm3"
+        },
+        {
+          "_id": "edge-TWN2QSMT",
+          "style": {},
+          "connection": "conn-iEgbHuAl"
+        },
+        {
+          "_id": "edge-4ZVvGovK",
+          "style": {},
+          "connection": "conn-5OPTLDLW"
         }
       ],
       "loops": []
