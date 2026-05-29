@@ -424,8 +424,8 @@
       "attributes": {
         "label": "Mãe da Noite",
         "element type": "Entidade",
-        "degree": 1,
-        "metrics::last": 1,
+        "degree": 2,
+        "metrics::last": 2,
         "notas": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia.",
         "descricao": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia.",
         "description": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia."
@@ -436,11 +436,11 @@
       "attributes": {
         "label": "O mirmidão (5 de Espadas)",
         "element type": "Item",
-        "degree": 2,
-        "metrics::last": 2,
-        "notas": "Procure o covil de lobos nas colinas com vista para um lago na na montanha. O tesouro pertence a mãe da noite.",
-        "descricao": "Carta da leitura que aponta para o covil de lobos nas colinas com vista para um lago na montanha.",
-        "description": "Carta da leitura que aponta para o covil de lobos nas colinas com vista para um lago na montanha."
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Carta oficial revelada na leitura. Presságio: um poder de proteção e esperança está ligado a um covil de lobos nas colinas com vista para um lago de montanha; o tesouro pertence à Mãe da Noite.",
+        "descricao": "Carta comum de Espadas da leitura de Tarokka. Seu presságio aponta para um covil de lobos nas colinas acima de um lago de montanha.",
+        "description": "Carta comum de Espadas da leitura de Tarokka. Seu presságio aponta para um covil de lobos nas colinas acima de um lago de montanha."
       }
     },
     {
@@ -867,11 +867,11 @@
       "attributes": {
         "label": "A Sedutora (Grande Carta)",
         "element type": "Item",
-        "degree": 2,
-        "metrics::last": 2,
-        "notas": "Grande carta da leitura, ligada ao destino de Strahd e ao caminho até o confronto final.",
-        "descricao": "Grande carta da leitura, ligada ao destino de Strahd e ao caminho até o confronto final.",
-        "description": "Grande carta da leitura, ligada ao destino de Strahd e ao caminho até o confronto final."
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Carta oficial revelada na leitura. Presságio: um lugar secreto, um cofre de tentações oculto atrás de uma mulher de grande beleza; o mal aguarda no alto de sua torre de tesouros.",
+        "descricao": "Grande carta da leitura de Tarokka ligada ao caminho até Strahd. Seu presságio fala de tentação, beleza e uma torre de tesouros.",
+        "description": "Grande carta da leitura de Tarokka ligada ao caminho até Strahd. Seu presságio fala de tentação, beleza e uma torre de tesouros."
       }
     },
     {
@@ -1023,8 +1023,8 @@
         "tags": [
           "Boss"
         ],
-        "degree": 26,
-        "metrics::last": 26,
+        "degree": 27,
+        "metrics::last": 27,
         "notas": "Senhor vampiro da Barovia. Inimigo central do grupo, responsável por ataques, manipulações e pela sombra que domina o vale.",
         "descricao": "Senhor vampiro da Barovia e maior ameaça conhecida pelo grupo.",
         "description": "Senhor vampiro da Barovia e maior ameaça conhecida pelo grupo."
@@ -1079,9 +1079,9 @@
         "raridade": "Desconheida",
         "degree": 1,
         "metrics::last": 1,
-        "notas": "Eu vejo um irmão que empunhou a luz contra a escuridão. Um juramento quebrado pelo sangue e pela inveja. Procurem onde o herói permanece observado por todos, mas verdadeiramente visto por ninguém.",
-        "descricao": "Carta da leitura ligada a um irmão que empunhou a luz contra a escuridão e a um herói observado por todos.",
-        "description": "Carta da leitura ligada a um irmão que empunhou a luz contra a escuridão e a um herói observado por todos."
+        "notas": "Carta personalizada da campanha. Presságio: “Eu vejo um irmão que empunhou a luz contra a escuridão. Um juramento quebrado pelo sangue e pela inveja. Procurem onde o herói permanece observado por todos, mas verdadeiramente visto por ninguém.”",
+        "descricao": "Carta personalizada da leitura de Tarokka, ligada a um herói observado por todos e ao legado de luz contra a escuridão.",
+        "description": "Carta personalizada da leitura de Tarokka, ligada a um herói observado por todos e ao legado de luz contra a escuridão."
       }
     },
     {
@@ -1104,7 +1104,9 @@
         "image": "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2F51s3lxug73o71.png%3Fwidth%3D3375%26format%3Dpng%26auto%3Dwebp%26s%3D26641f1ed823b880958cae56005d3fcabc5d242c",
         "descricao": "Imagem de fundo do mapa.",
         "notas": "Imagem de fundo do mapa.",
-        "description": "Imagem de fundo do mapa."
+        "description": "Imagem de fundo do mapa.",
+        "degree": 0,
+        "metrics::last": 0
       }
     },
     {
@@ -1209,11 +1211,11 @@
         "label": "O ladino (10 de Ouros)",
         "element type": "Item",
         "raridade": "Desconheida",
-        "degree": 3,
-        "metrics::last": 3,
-        "notas": "Eu vejo um ninho de corvos. Lá você encontrará seu prêmio.",
-        "descricao": "Carta da leitura que aponta para um ninho de corvos onde um prêmio pode ser encontrado.",
-        "description": "Carta da leitura que aponta para um ninho de corvos onde um prêmio pode ser encontrado."
+        "degree": 4,
+        "metrics::last": 4,
+        "notas": "Carta oficial revelada na leitura. Presságio: “vejo um ninho de corvos; lá vocês encontrarão o prêmio”. A leitura associa este sinal aos corvos e aos lugares ligados a eles em Barovia.",
+        "descricao": "Carta Mestre de Ouros da leitura de Tarokka. Seu presságio fala de um ninho de corvos onde repousa um prêmio importante.",
+        "description": "Carta Mestre de Ouros da leitura de Tarokka. Seu presságio fala de um ninho de corvos onde repousa um prêmio importante."
       }
     },
     {
@@ -1252,11 +1254,11 @@
       "attributes": {
         "label": "O Senhor Sombrio (Grande Carta)",
         "element type": "Item",
-        "degree": 1,
-        "metrics::last": 1,
-        "notas": "Grande carta da leitura ligada diretamente a Strahd e ao destino do confronto contra ele.",
-        "descricao": "Grande carta da leitura ligada diretamente a Strahd e ao destino do confronto contra ele.",
-        "description": "Grande carta da leitura ligada diretamente a Strahd e ao destino do confronto contra ele."
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Carta oficial revelada na leitura. Presságio: Strahd espreita nas profundezas da escuridão, no lugar ao qual inevitavelmente deve retornar.",
+        "descricao": "Grande carta da leitura de Tarokka ligada diretamente a Strahd e ao destino do confronto final.",
+        "description": "Grande carta da leitura de Tarokka ligada diretamente a Strahd e ao destino do confronto final."
       }
     },
     {
@@ -1456,7 +1458,9 @@
         "image": "https://preview.redd.it/51s3lxug73o71.png?width=3375&format=png&auto=webp&s=26641f1ed823b880958cae56005d3fcabc5d242c",
         "descricao": "Imagem de fundo alternativa do mapa.",
         "notas": "Imagem de fundo alternativa do mapa.",
-        "description": "Imagem de fundo alternativa do mapa."
+        "description": "Imagem de fundo alternativa do mapa.",
+        "degree": 0,
+        "metrics::last": 0
       }
     },
     {
@@ -1478,8 +1482,8 @@
         "element type": "Local",
         "notas": "Esta com falta de vinho",
         "status": "Desconhecido",
-        "degree": 2,
-        "metrics::last": 2,
+        "degree": 3,
+        "metrics::last": 3,
         "descricao": "Estalagem de Valaki administrada por Urwin Martikov, importante ponto de encontro e abrigo dentro da cidade.",
         "description": "Estalagem de Valaki administrada por Urwin Martikov, importante ponto de encontro e abrigo dentro da cidade."
       }
@@ -1620,8 +1624,8 @@
       "attributes": {
         "label": "Castelo Ravenloft",
         "element type": "Local",
-        "degree": 5,
-        "metrics::last": 5,
+        "degree": 7,
+        "metrics::last": 7,
         "status": "Desconhecido",
         "notas": "Fortaleza de Strahd e símbolo de seu domínio sobre Barovia. Sua presença paira sobre a região como ameaça constante.",
         "descricao": "Castelo sombrio de Strahd, centro de poder do senhor da Barovia.",
@@ -2139,7 +2143,9 @@
       "direction": "directed",
       "delayed": false,
       "reversed": false,
-      "attributes": {},
+      "attributes": {
+        "connection type": "Devoto"
+      },
       "from": "elem-XADwgv9t",
       "to": "elem-76SKVa3j"
     },
@@ -2160,7 +2166,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "notas": "A metamorfose involuntária de Kaelara é tratada como a própria Maldição da Megera."
       },
       "from": "elem-W85t2rpJ",
       "to": "elem-VWPPTU19"
@@ -2682,7 +2689,9 @@
       "direction": "directed",
       "delayed": false,
       "reversed": false,
-      "attributes": {},
+      "attributes": {
+        "connection type": "Devoto"
+      },
       "from": "elem-KvqYsUIR",
       "to": "elem-IqIqOJFS"
     },
@@ -2714,7 +2723,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "notas": "A carta está ligada ao caminho até o confronto com Strahd."
       },
       "from": "elem-TBmIM6Ai",
       "to": "elem-WsoNmcCh"
@@ -2894,7 +2904,7 @@
       "reversed": true,
       "attributes": {
         "connection type": "Rumor",
-        "notas": "Ligação suspeita, ainda não confirmada pelo grupo."
+        "notas": "Existe uma suspeita discreta de ligação entre Volenta e o vampirismo de Valakut, mas nada é confirmado."
       },
       "from": "elem-SKvozc6J",
       "to": "elem-TXogmC7b"
@@ -3106,7 +3116,7 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Conexão Não Classificada"
       },
       "from": "elem-lFeNftmC",
       "to": "elem-gBtUkPMw"
@@ -3679,7 +3689,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Conexão Não Classificada"
+        "connection type": "Pertence",
+        "notas": "A fúria de sangue está ligada à maldição da lança."
       },
       "from": "elem-51xip4L6",
       "to": "elem-ABX4i0rS"
@@ -3771,6 +3782,66 @@
       },
       "from": "elem-WcPjNhKH",
       "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-NoNETrhF",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "O presságio menciona que o tesouro pertence à Mãe da Noite."
+      },
+      "from": "elem-36ZuVpK3",
+      "to": "elem-2H83vgkF"
+    },
+    {
+      "_id": "conn-wZ5DGlXl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "O presságio do ninho de corvos pode apontar para este lugar ou para pessoas ligadas aos corvos."
+      },
+      "from": "elem-eKSirLYR",
+      "to": "elem-ymug32fb"
+    },
+    {
+      "_id": "conn-LXcXaOKM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "O presságio aponta para um lugar de tentação e tesouros ligado ao castelo."
+      },
+      "from": "elem-TBmIM6Ai",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-D3cF1pWu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "O presságio aponta para as profundezas escuras do domínio de Strahd."
+      },
+      "from": "elem-h1drVi7v",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-qyrmvJC2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "A carta está diretamente ligada ao destino do confronto com Strahd."
+      },
+      "from": "elem-h1drVi7v",
+      "to": "elem-WsoNmcCh"
     }
   ],
   "loops": [],
@@ -5309,6 +5380,31 @@
           "_id": "edge-HKy9vCVb",
           "style": {},
           "connection": "conn-psNtmJoN"
+        },
+        {
+          "_id": "edge-X3VaXG3J",
+          "style": {},
+          "connection": "conn-NoNETrhF"
+        },
+        {
+          "_id": "edge-VdVbRwyi",
+          "style": {},
+          "connection": "conn-wZ5DGlXl"
+        },
+        {
+          "_id": "edge-mCWHVjRq",
+          "style": {},
+          "connection": "conn-LXcXaOKM"
+        },
+        {
+          "_id": "edge-cWEQSl55",
+          "style": {},
+          "connection": "conn-D3cF1pWu"
+        },
+        {
+          "_id": "edge-ORFR2nI3",
+          "style": {},
+          "connection": "conn-qyrmvJC2"
         }
       ],
       "loops": []
