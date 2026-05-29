@@ -478,8 +478,8 @@
         "magico": "Sim",
         "notas": "Arma carregada por Tharok. A pedra escarlate no centro da lança parece alimentar uma sede de sangue que pode levá-lo a um frenesi perigoso.",
         "raridade": "Muito Raro",
-        "degree": 3,
-        "metrics::last": 3,
+        "degree": 4,
+        "metrics::last": 4,
         "descricao": "Lança mágica com uma pedra escarlate em seu centro.",
         "description": "Lança mágica com uma pedra escarlate em seu centro."
       }
@@ -490,8 +490,8 @@
         "label": "Abadia St. Markovia",
         "element type": "Local",
         "status": "Destruido",
-        "degree": 5,
-        "metrics::last": 5,
+        "degree": 8,
+        "metrics::last": 8,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/686afb4f-1a98-4904-b40b-18aac909977c.jpg",
         "notas": "A Abadia foi tomada pelos horrores do Abade e da Família Belview. Após os acontecimentos recentes, está destruída como antigo refúgio seguro.",
         "descricao": "Antiga abadia sagrada em Krezk, marcada pela presença do Abade, pela Família Belview e pelos horrores que se acumularam sob sua proteção distorcida.",
@@ -505,8 +505,8 @@
         "element type": "Item",
         "raridade": "Epico",
         "magico": "Sim",
-        "degree": 2,
-        "metrics::last": 2,
+        "degree": 4,
+        "metrics::last": 4,
         "notas": "Foi posicionada no altar de Krezk após os eventos recentes. Sua presença ajudou a fortalecer a esperança dos sobreviventes.",
         "descricao": "Ídolo de St. Markovia associado à fé, esperança e resistência de Krezk após os eventos recentes.",
         "description": "Ídolo de St. Markovia associado à fé, esperança e resistência de Krezk após os eventos recentes."
@@ -519,9 +519,9 @@
         "element type": "Condição",
         "degree": 5,
         "metrics::last": 5,
-        "notas": "Afeta Valakut. A água sagrada de Krezk conseguiu fazê-lo voltar temporariamente ao normal, sem vampirismo, mas com efeitos variáveis.",
-        "descricao": "Condição sobrenatural ligada ao sangue, à fome e à influência vampírica de Barovia.",
-        "description": "Condição sobrenatural ligada ao sangue, à fome e à influência vampírica de Barovia."
+        "notas": "Condição vampírica que afeta Valakut e diversas criaturas ligadas a Strahd. Algumas ligações ainda são tratadas como suspeitas ou rumores pelo grupo.",
+        "descricao": "Condição sobrenatural associada aos vampiros de Barovia.",
+        "description": "Condição sobrenatural associada aos vampiros de Barovia."
       }
     },
     {
@@ -529,8 +529,8 @@
       "attributes": {
         "label": "Vila da Barovia",
         "element type": "Local",
-        "degree": 4,
-        "metrics::last": 4,
+        "degree": 5,
+        "metrics::last": 5,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/f7b964a0-80cf-49a4-9d7b-16a364dd8e15.jpg",
         "notas": "Vila sombria e oprimida aos pés do Castelo Ravenloft, onde muitos dos primeiros horrores da jornada se revelaram.",
         "descricao": "Vila sombria e oprimida aos pés do Castelo Ravenloft, onde muitos dos primeiros horrores da jornada se revelaram.",
@@ -557,11 +557,11 @@
       "attributes": {
         "label": "Fúria de Sangue",
         "element type": "Condição",
-        "degree": 1,
-        "metrics::last": 1,
-        "notas": "Maldição da Lança de Sangue. Em frenesi, Tharok pode não reconhecer aliados. Após receber a Marca de Markovia, sente a sede de sangue um pouco mais controlada.",
-        "descricao": "Maldição da Lança de Sangue que pode lançar Tharok em um frenesi violento, tornando difícil reconhecer aliados e inimigos.",
-        "description": "Maldição da Lança de Sangue que pode lançar Tharok em um frenesi violento, tornando difícil reconhecer aliados e inimigos."
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Maldição ligada à Lança de Sangue. Pode lançar Tharok em um frenesi onde ele deixa de reconhecer aliados. A Marca de Markovia parece ajudar a conter parte dessa sede.",
+        "descricao": "Maldição de frenesi ligada à Lança de Sangue.",
+        "description": "Maldição de frenesi ligada à Lança de Sangue."
       }
     },
     {
@@ -585,8 +585,8 @@
         "lider": "O Abade",
         "status": "Destruido",
         "tipo de grupo": "Civil",
-        "degree": 2,
-        "metrics::last": 2,
+        "degree": 3,
+        "metrics::last": 3,
         "notas": "Mongrelfolks que viviam na Abadia de St. Markovia sob a autoridade do Abade.",
         "descricao": "Mongrelfolks que viviam na Abadia de St. Markovia sob a autoridade do Abade.",
         "description": "Mongrelfolks que viviam na Abadia de St. Markovia sob a autoridade do Abade."
@@ -597,11 +597,11 @@
       "attributes": {
         "label": "Filuriana",
         "element type": "Entidade",
-        "notas": "Patrona de Everlong. Atualmente está aprisionada pela Dama do Medo em outro plano, o que enfraqueceu sua influência direta sobre o bruxo.",
+        "notas": "Megera e patrona de Everlong. Atualmente está aprisionada pela Dama do Medo em outro plano.",
         "degree": 3,
         "metrics::last": 3,
-        "descricao": "Megera patrona de Everlong, ligada ao pacto do bruxo.",
-        "description": "Megera patrona de Everlong, ligada ao pacto do bruxo."
+        "descricao": "Megera patrona de Everlong, atualmente fora de alcance.",
+        "description": "Megera patrona de Everlong, atualmente fora de alcance."
       }
     },
     {
@@ -613,8 +613,8 @@
         "ocupação": "Caçador de Vampiros",
         "status": "Vivo",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/6beb310f-8e5c-4c66-baff-2c7bec9fa080.jpg",
-        "degree": 3,
-        "metrics::last": 3,
+        "degree": 5,
+        "metrics::last": 5,
         "notas": "Caçadora de vampiros.\nAtualmente acompanha o grupo depois dos eventos na passagem de St. Markovia.",
         "descricao": "Caçadora de vampiros experiente, determinada e perigosa, atualmente aliada ao grupo.",
         "description": "Caçadora de vampiros experiente, determinada e perigosa, atualmente aliada ao grupo."
@@ -642,8 +642,8 @@
         "element type": "Item",
         "magico": "Sim",
         "raridade": "Unico",
-        "degree": 7,
-        "metrics::last": 7,
+        "degree": 8,
+        "metrics::last": 8,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/2c9f775d-3130-42bb-afde-e7f6d9779e59.png",
         "notas": "Registro raro ligado à história de Strahd, revelando fragmentos de seu passado e servindo como peça importante na busca por respostas.",
         "descricao": "Registro raro ligado à história de Strahd, revelando fragmentos de seu passado e servindo como peça importante na busca por respostas.",
@@ -658,11 +658,11 @@
         "lider": "Strahd",
         "ocupação": "Servir a Strahd",
         "tipo de grupo": "Clã",
-        "degree": 4,
-        "metrics::last": 4,
-        "notas": "Grupo de vampiras servas de Strahd. Volenta é uma das esposas conhecidas pelo grupo; as demais ainda são figuras de ameaça e mistério.",
-        "descricao": "Vampiras ligadas a Strahd e ao Castelo Ravenloft.",
-        "description": "Vampiras ligadas a Strahd e ao Castelo Ravenloft."
+        "degree": 5,
+        "metrics::last": 5,
+        "notas": "Grupo de vampiras ligadas a Strahd. Até o momento, Volenta Popfsky é a única esposa que apareceu diretamente para o grupo.",
+        "descricao": "Servas vampíricas de Strahd, conhecidas pelo grupo principalmente por Volenta.",
+        "description": "Servas vampíricas de Strahd, conhecidas pelo grupo principalmente por Volenta."
       }
     },
     {
@@ -700,8 +700,8 @@
       "attributes": {
         "label": "Senhor da Manhã",
         "element type": "Entidade",
-        "degree": 4,
-        "metrics::last": 4,
+        "degree": 5,
+        "metrics::last": 5,
         "notas": "Divindade associada à luz, esperança e renovação, venerada por vários habitantes de Barovia.",
         "descricao": "Divindade associada à luz, esperança e renovação, venerada por vários habitantes de Barovia.",
         "description": "Divindade associada à luz, esperança e renovação, venerada por vários habitantes de Barovia."
@@ -736,8 +736,8 @@
       "attributes": {
         "label": "St. Markovia",
         "element type": "Entidade",
-        "degree": 5,
-        "metrics::last": 5,
+        "degree": 8,
+        "metrics::last": 8,
         "notas": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia.",
         "descricao": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia.",
         "description": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia."
@@ -774,29 +774,14 @@
       }
     },
     {
-      "_id": "elem-QiMnXIXw",
-      "attributes": {
-        "label": "Esposa Y",
-        "element type": "Monstro",
-        "ocupação": "Serva de Strahd",
-        "raça": "Vampiro",
-        "status": "Vivo",
-        "degree": 1,
-        "metrics::last": 1,
-        "notas": "Uma das esposas de Strahd. Detalhes conhecidos ainda são limitados.",
-        "descricao": "Uma das vampiras ligadas a Strahd, ainda pouco conhecida pelo grupo.",
-        "description": "Uma das vampiras ligadas a Strahd, ainda pouco conhecida pelo grupo."
-      }
-    },
-    {
       "_id": "elem-QoveVeVD",
       "attributes": {
         "label": "Dedo da Megera",
         "element type": "Item",
         "raridade": "Desconheida",
         "magico": "Sim",
-        "degree": 2,
-        "metrics::last": 2,
+        "degree": 3,
+        "metrics::last": 3,
         "notas": "Item macabro ligado às megeras e às maldições encontradas pelo grupo.",
         "descricao": "Item macabro ligado às megeras e às maldições encontradas pelo grupo.",
         "description": "Item macabro ligado às megeras e às maldições encontradas pelo grupo."
@@ -810,8 +795,8 @@
         "raça": "Anão",
         "ocupação": "Burgomestre de Krezk",
         "status": "Vivo",
-        "degree": 3,
-        "metrics::last": 3,
+        "degree": 6,
+        "metrics::last": 6,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/bb2c3b66-0332-4e6e-9e64-4dafb6f4d03b.png",
         "notas": "Burgomestre de Krezk. Ele e Anna Krezkov fizeram amizade com o grupo após os eventos recentes.",
         "descricao": "Burgomestre de Krezk e uma das principais lideranças sobreviventes da vila.",
@@ -825,8 +810,8 @@
         "element type": "NPC",
         "raça": "Humano",
         "ocupação": "Lider de familia e fabricante de vinho",
-        "degree": 2,
-        "metrics::last": 2,
+        "degree": 3,
+        "metrics::last": 3,
         "image": "https://www.worldanvil.com/uploads/images/7d0f1be66de53b37ed2495ae28f5ecff.jpg",
         "notas": "Patriarca dos Martikov e figura importante na Vinícola Mago dos Vinhos.",
         "descricao": "Patriarca dos Martikov e figura importante na Vinícola Mago dos Vinhos.",
@@ -841,12 +826,12 @@
         "jogador": "Rud",
         "raça": "Elfo Alto",
         "status": "Vivo",
-        "degree": 5,
-        "metrics::last": 5,
-        "notas": "Vampirismo. A Maldição dos Corvos foi removida em Krezk. A água sagrada do lago de Krezk mostrou conseguir fazê-lo voltar temporariamente ao normal, sem vampirismo, mas com efeitos variáveis. Durante o ataque a Krezk, foi controlado por Strahd e ajudou o vampiro a entrar na cidade.",
+        "degree": 10,
+        "metrics::last": 10,
+        "notas": "Alto elfo ladino do grupo. Carrega o vampirismo. A Maldição dos Corvos foi removida em Krezk. A água sagrada do lago mostrou efeitos temporários e variáveis sobre sua condição.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/87e1a247-f970-49a8-9cf9-df6f69693fc8.png",
-        "descricao": "Alto elfo ladino do grupo, marcado pelo vampirismo e por sua relação perigosa com as forças de Strahd.",
-        "description": "Alto elfo ladino do grupo, marcado pelo vampirismo e por sua relação perigosa com as forças de Strahd."
+        "descricao": "Alto elfo ladino do grupo, marcado pelo vampirismo.",
+        "description": "Alto elfo ladino do grupo, marcado pelo vampirismo."
       }
     },
     {
@@ -897,12 +882,12 @@
         "ocupação": "Serva de Strahd",
         "raça": "Vampiro",
         "status": "Vivo",
-        "degree": 3,
-        "metrics::last": 3,
+        "degree": 4,
+        "metrics::last": 4,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/d26b4a90-b897-4f34-9759-fbbb7fde8b0c.png",
-        "notas": "Uma das esposas de Strahd conhecidas pelo grupo. Vampira perigosa, associada ao círculo de poder do Castelo Ravenloft.",
-        "descricao": "Vampira serva de Strahd e uma de suas esposas conhecidas pelo grupo.",
-        "description": "Vampira serva de Strahd e uma de suas esposas conhecidas pelo grupo."
+        "notas": "A única esposa de Strahd que o grupo encontrou até agora. Vampira perigosa, cruel e associada ao círculo de poder de Strahd.",
+        "descricao": "Vampira serva de Strahd e única esposa conhecida diretamente pelo grupo até agora.",
+        "description": "Vampira serva de Strahd e única esposa conhecida diretamente pelo grupo até agora."
       }
     },
     {
@@ -966,12 +951,12 @@
         "jogador": "Jo",
         "raça": "Elfo Negro",
         "status": "Vivo",
-        "degree": 5,
-        "metrics::last": 5,
-        "notas": "Metamorfose involuntária. A Maldição dos Corvos foi removida em Krezk. Em momentos de grande tensão, pode perder o controle e se transformar em uma criatura monstruosa e hostil.",
+        "degree": 9,
+        "metrics::last": 9,
+        "notas": "Guerreira elfa negra do grupo. Carrega a Maldição da Megera, também chamada de metamorfose involuntária. A Maldição dos Corvos foi removida em Krezk.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4519763a-6b82-43bd-a4c3-ac6ac968bc6b.png",
-        "descricao": "Elfa negra guerreira do grupo, marcada por uma metamorfose involuntária perigosa.",
-        "description": "Elfa negra guerreira do grupo, marcada por uma metamorfose involuntária perigosa."
+        "descricao": "Elfa negra guerreira do grupo, marcada por uma perigosa maldição de transformação.",
+        "description": "Elfa negra guerreira do grupo, marcada por uma perigosa maldição de transformação."
       }
     },
     {
@@ -979,11 +964,11 @@
       "attributes": {
         "label": "Maldição da Megera",
         "element type": "Condição",
-        "degree": 5,
-        "metrics::last": 5,
-        "notas": "Maldição ligada às megeras, capaz de marcar vítimas com efeitos cruéis e persistentes.",
-        "descricao": "Maldição ligada às megeras, capaz de marcar vítimas com efeitos cruéis e persistentes.",
-        "description": "Maldição ligada às megeras, capaz de marcar vítimas com efeitos cruéis e persistentes."
+        "degree": 6,
+        "metrics::last": 6,
+        "notas": "Maldição que afeta Kaelara. Em momentos de grande tensão, pode provocar uma metamorfose involuntária e perigosa.",
+        "descricao": "Maldição ligada à transformação involuntária de Kaelara.",
+        "description": "Maldição ligada à transformação involuntária de Kaelara."
       }
     },
     {
@@ -1004,8 +989,8 @@
       "attributes": {
         "label": "Maldição do Corvo",
         "element type": "Condição",
-        "degree": 1,
-        "metrics::last": 1,
+        "degree": 3,
+        "metrics::last": 3,
         "notas": "Condição que já afetou Valakut e Kaelara. Foi removida de ambos durante o experimento com a água sagrada de Krezk.",
         "descricao": "Antiga maldição que afetou Valakut e Kaelara, removida durante o experimento com a água sagrada de Krezk.",
         "description": "Antiga maldição que afetou Valakut e Kaelara, removida durante o experimento com a água sagrada de Krezk."
@@ -1038,11 +1023,11 @@
         "tags": [
           "Boss"
         ],
-        "degree": 16,
-        "metrics::last": 16,
-        "notas": "Senhor vampiro de Barovia e inimigo central do grupo. Atacou Krezk pessoalmente, quase destruiu a vila e demonstrou domínio brutal sobre os personagens, especialmente Valakut e Gildin.",
-        "descricao": "Senhor vampiro de Barovia, mestre do Castelo Ravenloft e principal ameaça sobre as terras amaldiçoadas.",
-        "description": "Senhor vampiro de Barovia, mestre do Castelo Ravenloft e principal ameaça sobre as terras amaldiçoadas."
+        "degree": 26,
+        "metrics::last": 26,
+        "notas": "Senhor vampiro da Barovia. Inimigo central do grupo, responsável por ataques, manipulações e pela sombra que domina o vale.",
+        "descricao": "Senhor vampiro da Barovia e maior ameaça conhecida pelo grupo.",
+        "description": "Senhor vampiro da Barovia e maior ameaça conhecida pelo grupo."
       }
     },
     {
@@ -1053,8 +1038,8 @@
         "ocupação": "Burgomestra de Krezk",
         "raça": "Humano",
         "status": "Vivo",
-        "degree": 3,
-        "metrics::last": 3,
+        "degree": 6,
+        "metrics::last": 6,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/009ad22c-c360-446a-a098-5786ef96099c.png",
         "notas": "Burgomestra de Krezk. Ela e Dmitri Krezkov fizeram amizade com o grupo após os eventos recentes.",
         "descricao": "Burgomestra de Krezk e parceira de Dmitri Krezkov na liderança da vila.",
@@ -1128,8 +1113,8 @@
         "label": "Grupo",
         "element type": "Grupo",
         "tipo de grupo": "Jogadores",
-        "degree": 13,
-        "metrics::last": 13,
+        "degree": 22,
+        "metrics::last": 22,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/fadb01a4-2ca7-454c-a009-5e329fc693a9.png",
         "notas": "Composto por Kaelara, Valakut, Gildin, Everlong e Tharok. Atualmente acompanha Ezmeralda e Zigfried após atravessar a passagem de St. Markovia e chegar à planície nevada além da montanha.",
         "descricao": "Grupo de aventureiros que enfrenta os horrores de Barovia e se opõe às forças de Strahd.",
@@ -1144,12 +1129,12 @@
         "jogador": "Andy",
         "raça": "Meio Orc",
         "status": "Vivo",
-        "degree": 5,
-        "metrics::last": 5,
-        "notas": "Fúria de Sangue. Portador da Lança de Sangue. Recebeu a Marca de Markovia após se sacrificar no teste final da passagem.",
+        "degree": 8,
+        "metrics::last": 8,
+        "notas": "Druida meio-orc do grupo. Carrega a Lança de Sangue e a Fúria de Sangue. Após seu sacrifício na passagem de St. Markovia, recebeu a Marca de Markovia, que o ajuda a controlar melhor sua sede de sangue.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/efb81169-5315-4d08-a60b-a78ba52612d7.png",
-        "descricao": "Meio-orc druida do grupo, portador da Lança de Sangue e da Marca de Markovia.",
-        "description": "Meio-orc druida do grupo, portador da Lança de Sangue e da Marca de Markovia."
+        "descricao": "Meio-orc druida do grupo, marcado pela Lança de Sangue e pela bênção de Markovia.",
+        "description": "Meio-orc druida do grupo, marcado pela Lança de Sangue e pela bênção de Markovia."
       }
     },
     {
@@ -1173,9 +1158,9 @@
         "magico": "Sim",
         "degree": 1,
         "metrics::last": 1,
-        "notas": "Item de proteção menor. Sugestão adotada: quando o portador cair a 0 pontos de vida, o colar pode estabilizá-lo automaticamente uma vez antes de perder sua força até ser restaurado ou recarregado. Não deve ser tratado como item ofensivo ou muito poderoso.",
-        "descricao": "Amuleto protetor ligado à resistência diante da morte e à vontade de continuar vivo mesmo quando tudo parece perdido.",
-        "description": "Amuleto protetor ligado à resistência diante da morte e à vontade de continuar vivo mesmo quando tudo parece perdido."
+        "notas": "Colar protetor em posse de Tharok. Parece carregar uma magia discreta de preservação, capaz de ajudar seu portador a resistir a um momento de morte iminente antes de perder a força.",
+        "descricao": "Colar mágico defensivo ligado à sobrevivência do portador.",
+        "description": "Colar mágico defensivo ligado à sobrevivência do portador."
       }
     },
     {
@@ -1187,9 +1172,9 @@
         "magico": "Sim",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Fragmento escarlate de origem incerta. Sua aparência lembra outras pedras escarlates vistas pelo grupo, embora seu significado ainda não esteja claro.",
-        "descricao": "Fragmento mágico de pedra escarlate, de origem incerta.",
-        "description": "Fragmento mágico de pedra escarlate, de origem incerta."
+        "notas": "Fragmento mágico de origem incerta. Sua aparência lembra a pedra presente na Lança de Sangue, embora essa ligação ainda não tenha sido esclarecida.",
+        "descricao": "Fragmento escarlate mágico de origem desconhecida.",
+        "description": "Fragmento escarlate mágico de origem desconhecida."
       }
     },
     {
@@ -1211,11 +1196,11 @@
       "attributes": {
         "label": "Possessão",
         "element type": "Condição",
-        "degree": 1,
-        "metrics::last": 1,
-        "notas": "Maldição de Everlong. Com Filuriana presa pela Dama do Medo, a Dama consegue se materializar no mundo real, interagir com o ambiente, atacar e controlar o bruxo durante o sono. Por isso Everlong é amarrado todas as noites.",
-        "descricao": "Maldição ligada a Everlong e à influência da Dama do Medo, especialmente durante o sono.",
-        "description": "Maldição ligada a Everlong e à influência da Dama do Medo, especialmente durante o sono."
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Condição que afeta Everlong. Durante o sono, a influência da Dama do Medo pode se manifestar de forma perigosa, razão pela qual ele costuma ser contido à noite.",
+        "descricao": "Condição ligada à influência da Dama do Medo sobre Everlong.",
+        "description": "Condição ligada à influência da Dama do Medo sobre Everlong."
       }
     },
     {
@@ -1254,12 +1239,12 @@
         "jogador": "Doug",
         "raça": "Anão",
         "status": "Vivo",
-        "degree": 7,
-        "metrics::last": 7,
-        "notas": "Licantropia. Paladino de devoção de Imothep. Está frequentemente à beira de quebrar seu voto, sendo tentado pelo Quebrador de Voto. Em Krezk, foi brutalmente humilhado por Strahd em combate, tendo parte do cabelo arrancada e seu sangue tomado.",
+        "degree": 9,
+        "metrics::last": 9,
+        "notas": "Paladino anão do grupo, devoto de Imothep. Carrega licantropia e é tentado pelo Quebrador de Voto, mas recentemente voltou a sentir o apoio de sua divindade.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4ad8e3fb-2ecf-4fbf-a3dd-927f593866b9.png",
-        "descricao": "Anão paladino do grupo, devoto de Imothep, dividido entre seu juramento e as tentações do Quebrador de Voto.",
-        "description": "Anão paladino do grupo, devoto de Imothep, dividido entre seu juramento e as tentações do Quebrador de Voto."
+        "descricao": "Anão paladino do grupo, dividido entre devoção, fardo e tentação.",
+        "description": "Anão paladino do grupo, dividido entre devoção, fardo e tentação."
       }
     },
     {
@@ -1285,7 +1270,7 @@
         "degree": 3,
         "metrics::last": 3,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/b2cb6723-1e5b-48d1-bf1a-266ae2f0e9e2.png",
-        "notas": "Criatura enigmática encontrada em um desafio arcano relacionado a Khazan. Após esse encontro, o grupo obteve o Diário de Strahd e novas pistas sobre a busca indicada pela leitura das cartas.",
+        "notas": "Criatura enigmática encontrada em um desafio arcano relacionado a Khazan. Após o encontro, o grupo obteve o Diário de Strahd e novas pistas ligadas à leitura das cartas.",
         "descricao": "Esfinge sombria ligada aos desafios e enigmas de Khazan.",
         "description": "Esfinge sombria ligada aos desafios e enigmas de Khazan."
       }
@@ -1296,8 +1281,8 @@
         "label": "Vila de Valaki",
         "element type": "Local",
         "status": "Desconhecido",
-        "degree": 5,
-        "metrics::last": 5,
+        "degree": 6,
+        "metrics::last": 6,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/caf248a3-c9eb-411a-b898-002c1a8f1dc7.png",
         "notas": "Cidade murada de Barovia, marcada por tensão política, medo, fé e ataques recentes.",
         "descricao": "Cidade murada de Barovia, marcada por tensão política, medo, fé e ataques recentes.",
@@ -1367,8 +1352,8 @@
         "ocupação": "Abade de St Markovia",
         "raça": "Deva",
         "status": "Morto",
-        "degree": 5,
-        "metrics::last": 5,
+        "degree": 6,
+        "metrics::last": 6,
         "tags": [
           "Morto"
         ],
@@ -1386,12 +1371,12 @@
         "jogador": "Marco",
         "raça": "Humano",
         "status": "Vivo",
-        "degree": 6,
-        "metrics::last": 6,
-        "notas": "A condição conhecida como “O Pesadelo” se refere à influência da Dama do Medo sobre Everlong. Como Filuriana está aprisionada, essa entidade consegue se manifestar, interagir com o ambiente e controlar Everlong durante o sono; por isso ele costuma ser amarrado à noite.",
+        "degree": 8,
+        "metrics::last": 8,
+        "notas": "Humano bruxo do grupo. A condição antes chamada de “O Pesadelo” se refere à influência da Dama do Medo e à possessão que o afeta durante o sono.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ed2cdd48-77f6-4c86-a247-e4e0473b4301.png",
-        "descricao": "Humano bruxo do grupo, ligado à patrona Filuriana e à influência da Dama do Medo.",
-        "description": "Humano bruxo do grupo, ligado à patrona Filuriana e à influência da Dama do Medo."
+        "descricao": "Humano bruxo ligado à patrona Filuriana e à influência da Dama do Medo.",
+        "description": "Humano bruxo ligado à patrona Filuriana e à influência da Dama do Medo."
       }
     },
     {
@@ -1417,24 +1402,9 @@
         "magico": "Sim",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Item antigo carregado pelo grupo. Sua origem e propriedades ainda não foram totalmente compreendidas.",
-        "descricao": "Tapa-olho antigo de origem misteriosa.",
-        "description": "Tapa-olho antigo de origem misteriosa."
-      }
-    },
-    {
-      "_id": "elem-qeBIPKvN",
-      "attributes": {
-        "label": "Esposa Z",
-        "element type": "Monstro",
-        "ocupação": "Serva de Strahd",
-        "raça": "Vampiro",
-        "status": "Vivo",
-        "degree": 1,
-        "metrics::last": 1,
-        "notas": "Uma das esposas de Strahd. Detalhes conhecidos ainda são limitados.",
-        "descricao": "Uma das vampiras ligadas a Strahd, ainda pouco conhecida pelo grupo.",
-        "description": "Uma das vampiras ligadas a Strahd, ainda pouco conhecida pelo grupo."
+        "notas": "Item antigo em posse de Everlong. Sua verdadeira natureza ainda não está clara.",
+        "descricao": "Tapa-olho antigo de origem e poder incertos.",
+        "description": "Tapa-olho antigo de origem e poder incertos."
       }
     },
     {
@@ -1455,8 +1425,8 @@
       "attributes": {
         "label": "Vila de Krezk",
         "element type": "Local",
-        "degree": 6,
-        "metrics::last": 6,
+        "degree": 11,
+        "metrics::last": 11,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/40550c79-1864-4f3d-9c46-90034718cb04.jpg",
         "notas": "A vila sobreviveu ao ataque de Strahd, mas ficou gravemente marcada pela destruição. A estátua/ídolo de St. Markovia foi colocada no altar local. O lago perdeu sua sacralidade, embora a água continue potável.",
         "status": "Vivo",
@@ -1494,11 +1464,11 @@
       "attributes": {
         "label": "Dama do Medo",
         "element type": "Entidade",
-        "notas": "Apresenta-se como uma mulher aracnídea, com muitos braços e pernas, personificando o medo. Sua influência se manifesta nos momentos mais perigosos e está ligada à prisão de Filuriana e à condição que afeta Everlong.",
-        "degree": 2,
-        "metrics::last": 2,
-        "descricao": "Entidade demoníaca ligada ao medo, à possessão e à história de Everlong.",
-        "description": "Entidade demoníaca ligada ao medo, à possessão e à história de Everlong."
+        "notas": "Entidade demoníaca que se apresenta como uma mulher aracnídea, com muitos braços e pernas. Sua influência está ligada ao medo, à prisão de Filuriana e à condição que afeta Everlong.",
+        "degree": 4,
+        "metrics::last": 4,
+        "descricao": "Entidade demoníaca ligada ao medo e à história de Everlong.",
+        "description": "Entidade demoníaca ligada ao medo e à história de Everlong."
       }
     },
     {
@@ -1536,8 +1506,8 @@
         "label": "Ataque de Strahd a Krezk",
         "element type": "Evento",
         "notas": "Strahd atacou Krezk e a vila foi quase totalmente destruída. Com a ajuda do grupo, Krezk sobreviveu. Durante o ataque, Valakut foi controlado por Strahd e ajudou o vampiro a entrar na cidade. O grupo foi derrotado duramente; Gildin sofreu um ferimento humilhante quando Strahd arrancou parte de seu cabelo e tomou seu sangue em combate.",
-        "degree": 6,
-        "metrics::last": 6,
+        "degree": 7,
+        "metrics::last": 7,
         "descricao": "Ataque devastador de Strahd contra Krezk, sobrevivido pela vila com ajuda do grupo.",
         "description": "Ataque devastador de Strahd contra Krezk, sobrevivido pela vila com ajuda do grupo."
       }
@@ -1548,8 +1518,8 @@
         "label": "Experimento com a Água Sagrada de Krezk",
         "element type": "Evento",
         "notas": "Antes de o lago perder sua sacralidade, o grupo usou sua água em uma tentativa de remover maldições. A Maldição dos Corvos foi removida de Valakut e Kaelara. Valakut também descobriu que a água podia fazê-lo voltar temporariamente ao normal, sem vampirismo, embora os efeitos variassem.",
-        "degree": 5,
-        "metrics::last": 5,
+        "degree": 4,
+        "metrics::last": 4,
         "descricao": "Experimento realizado antes da perda da sacralidade do lago de Krezk, usado para tentar remover maldições.",
         "description": "Experimento realizado antes da perda da sacralidade do lago de Krezk, usado para tentar remover maldições."
       }
@@ -1562,8 +1532,8 @@
         "magico": "Sim",
         "raridade": "Raro",
         "notas": "Restam apenas alguns poucos frascos enfraquecidos da antiga água sagrada de Krezk. Seus efeitos são variáveis.",
-        "degree": 3,
-        "metrics::last": 3,
+        "degree": 4,
+        "metrics::last": 4,
         "descricao": "Últimos frascos enfraquecidos da antiga água sagrada de Krezk, com efeitos ainda variáveis.",
         "description": "Últimos frascos enfraquecidos da antiga água sagrada de Krezk, com efeitos ainda variáveis."
       }
@@ -1575,8 +1545,8 @@
         "element type": "Local",
         "status": "Desconhecido",
         "notas": "Passagem subterrânea ligada à Abadia de St. Markovia. O grupo atravessou seus testes e saiu do outro lado da montanha; a porta voltou a se fechar atrás deles.",
-        "degree": 4,
-        "metrics::last": 4,
+        "degree": 3,
+        "metrics::last": 3,
         "descricao": "Passagem subterrânea ligada à Abadia de St. Markovia, atravessada pelo grupo após uma série de testes.",
         "description": "Passagem subterrânea ligada à Abadia de St. Markovia, atravessada pelo grupo após uma série de testes."
       }
@@ -1588,8 +1558,8 @@
         "element type": "Local",
         "status": "Desconhecido",
         "notas": "Pequena planície coberta de neve do outro lado da montanha, diante da porta fechada da passagem.",
-        "degree": 3,
-        "metrics::last": 3,
+        "degree": 2,
+        "metrics::last": 2,
         "descricao": "Pequena planície coberta de neve onde o grupo chegou após atravessar a passagem de St. Markovia.",
         "description": "Pequena planície coberta de neve onde o grupo chegou após atravessar a passagem de St. Markovia."
       }
@@ -1600,8 +1570,8 @@
         "label": "Travessia da Passagem de St. Markovia",
         "element type": "Evento",
         "notas": "O grupo atravessou a passagem de St. Markovia acompanhado por Ezmeralda e Zigfried. No teste final, Tharok se sacrificou e recebeu a Marca de Markovia. Depois disso, a passagem se abriu e o grupo chegou a uma planície nevada do outro lado da montanha.",
-        "degree": 6,
-        "metrics::last": 6,
+        "degree": 5,
+        "metrics::last": 5,
         "descricao": "Evento em que o grupo atravessou a passagem acompanhado por Ezmeralda e Zigfried.",
         "description": "Evento em que o grupo atravessou a passagem acompanhado por Ezmeralda e Zigfried."
       }
@@ -1612,11 +1582,11 @@
         "label": "Marca de Markovia",
         "element type": "Condição",
         "magico": "Sim",
-        "notas": "Marca recebida por Tharok após seu sacrifício no teste final da passagem de St. Markovia. Também parece ajudar a conter parcialmente sua Fúria de Sangue.",
-        "degree": 2,
-        "metrics::last": 2,
-        "descricao": "Marca concedida a Tharok após seu sacrifício no teste final da passagem de St. Markovia.",
-        "description": "Marca concedida a Tharok após seu sacrifício no teste final da passagem de St. Markovia."
+        "notas": "Marca recebida por Tharok após seu sacrifício no teste final da passagem de St. Markovia. Parece ajudá-lo a conter melhor a Fúria de Sangue.",
+        "degree": 3,
+        "metrics::last": 3,
+        "descricao": "Marca sagrada recebida por Tharok após seu sacrifício.",
+        "description": "Marca sagrada recebida por Tharok após seu sacrifício."
       }
     },
     {
@@ -1626,11 +1596,11 @@
         "element type": "NPC",
         "raça": "Desconhecido",
         "status": "Vivo",
-        "notas": "Um dos mongrelfolks/Belviews que viviam na Abadia sob controle do Abade. Atualmente acompanha o grupo após a travessia da passagem de St. Markovia.",
-        "degree": 2,
-        "metrics::last": 2,
-        "descricao": "Membro da Família Belview que vivia na Abadia de St. Markovia.",
-        "description": "Membro da Família Belview que vivia na Abadia de St. Markovia."
+        "notas": "Membro da Família Belview, os mongrelfolks que viviam na Abadia sob o controle do Abade. Atualmente acompanha o grupo e Ezmeralda após a travessia da passagem de St. Markovia.",
+        "degree": 5,
+        "metrics::last": 5,
+        "descricao": "Mongrelfolk da Família Belview que acompanha o grupo.",
+        "description": "Mongrelfolk da Família Belview que acompanha o grupo."
       }
     },
     {
@@ -1643,6 +1613,34 @@
         "metrics::last": 3,
         "descricao": "Retorno em que Valakut precisou ser escondido para evitar a fúria dos aldeões de Krezk.",
         "description": "Retorno em que Valakut precisou ser escondido para evitar a fúria dos aldeões de Krezk."
+      }
+    },
+    {
+      "_id": "elem-BeZZgrMH",
+      "attributes": {
+        "label": "Castelo Ravenloft",
+        "element type": "Local",
+        "degree": 5,
+        "metrics::last": 5,
+        "status": "Desconhecido",
+        "notas": "Fortaleza de Strahd e símbolo de seu domínio sobre Barovia. Sua presença paira sobre a região como ameaça constante.",
+        "descricao": "Castelo sombrio de Strahd, centro de poder do senhor da Barovia.",
+        "description": "Castelo sombrio de Strahd, centro de poder do senhor da Barovia."
+      }
+    },
+    {
+      "_id": "elem-UnFrMCs9",
+      "attributes": {
+        "label": "Van Richten",
+        "element type": "NPC",
+        "degree": 2,
+        "metrics::last": 2,
+        "status": "Desconhecido",
+        "raça": "Humano",
+        "ocupação": "Caçador de monstros",
+        "notas": "Nome associado à caça de vampiros e monstros em Barovia. Sua história se cruza com a luta contra Strahd.",
+        "descricao": "Caçador de monstros conhecido por enfrentar criaturas das trevas.",
+        "description": "Caçador de monstros conhecido por enfrentar criaturas das trevas."
       }
     }
   ],
@@ -1979,15 +1977,6 @@
       "to": "elem-rNvmafto"
     },
     {
-      "_id": "conn-BlunFPLP",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-821pwCfE",
-      "to": "elem-qeBIPKvN"
-    },
-    {
       "_id": "conn-C9zGOO1C",
       "direction": "directed",
       "delayed": false,
@@ -2164,17 +2153,6 @@
       },
       "from": "elem-h1drVi7v",
       "to": "elem-lFeNftmC"
-    },
-    {
-      "_id": "conn-M9ic7bSB",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "connection type": "Membro"
-      },
-      "from": "elem-qeBIPKvN",
-      "to": "elem-HBTFbEds"
     },
     {
       "_id": "conn-MIaaE73m",
@@ -2911,11 +2889,12 @@
     },
     {
       "_id": "conn-lG6oUJHI",
-      "direction": "directed",
+      "direction": "mutual",
       "delayed": false,
       "reversed": true,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Rumor",
+        "notas": "Ligação suspeita, ainda não confirmada pelo grupo."
       },
       "from": "elem-SKvozc6J",
       "to": "elem-TXogmC7b"
@@ -2955,17 +2934,6 @@
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-h1YC88dR"
-    },
-    {
-      "_id": "conn-mav0z8mc",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "connection type": "Membro"
-      },
-      "from": "elem-QiMnXIXw",
-      "to": "elem-HBTFbEds"
     },
     {
       "_id": "conn-nce5ttFe",
@@ -3144,15 +3112,6 @@
       "to": "elem-gBtUkPMw"
     },
     {
-      "_id": "conn-tXjp7RV8",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-821pwCfE",
-      "to": "elem-QiMnXIXw"
-    },
-    {
       "_id": "conn-tfFU4VBf",
       "direction": "mutual",
       "delayed": false,
@@ -3308,11 +3267,12 @@
     },
     {
       "_id": "conn-zi6u11Ak",
-      "direction": "directed",
+      "direction": "mutual",
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Rumor",
+        "notas": "Ligação suspeita, ainda não confirmada pelo grupo."
       },
       "from": "elem-821pwCfE",
       "to": "elem-TXogmC7b"
@@ -3624,6 +3584,193 @@
       },
       "from": "elem-kkICUvQd",
       "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-eqsnSBmA",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-7zDNdNs1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-TXogmC7b",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-6TSNpQCq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-HBTFbEds",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-5kKDEGoT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-GsofZpct",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-aqhYvKgm",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-UnFrMCs9",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-rd6pN4ic",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-UnFrMCs9",
+      "to": "elem-Gf3ntous"
+    },
+    {
+      "_id": "conn-rtDlsSsr",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-BeZZgrMH",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-ERwdd5Kv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yUb8ofHy",
+      "to": "elem-dtZyT4d1"
+    },
+    {
+      "_id": "conn-IYVvd290",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-51xip4L6",
+      "to": "elem-ABX4i0rS"
+    },
+    {
+      "_id": "conn-pCUESRbk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-5ShkQoOw",
+      "to": "elem-ABX4i0rS"
+    },
+    {
+      "_id": "conn-77kIkESU",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-nEnEKM1w",
+      "to": "elem-Eg4oTpAM"
+    },
+    {
+      "_id": "conn-j2F9CTMG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-nEnEKM1w",
+      "to": "elem-5EaTw5FN"
+    },
+    {
+      "_id": "conn-RO1PVE69",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-mKkTVT30",
+      "to": "elem-nEnEKM1w"
+    },
+    {
+      "_id": "conn-sBJTzCRq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yfbwBICB",
+      "to": "elem-Rb0KC6l6"
+    },
+    {
+      "_id": "conn-ayXmwjfu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yfbwBICB",
+      "to": "elem-XADwgv9t"
+    },
+    {
+      "_id": "conn-bH1MW6yT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-WcPjNhKH",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-psNtmJoN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-WcPjNhKH",
+      "to": "elem-VWPPTU19"
     }
   ],
   "loops": [],
@@ -4252,6 +4399,20 @@
           "pinned": false,
           "style": {},
           "element": "elem-kkICUvQd"
+        },
+        {
+          "_id": "node-y2T7N0QQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-BeZZgrMH"
+        },
+        {
+          "_id": "node-iLWnusdy",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-UnFrMCs9"
         }
       ],
       "connections": [
@@ -5063,6 +5224,91 @@
           "_id": "edge-N5pIwuAP",
           "style": {},
           "connection": "conn-IuCTE9Ik"
+        },
+        {
+          "_id": "edge-YLWujxmC",
+          "style": {},
+          "connection": "conn-eqsnSBmA"
+        },
+        {
+          "_id": "edge-PlxlVbRi",
+          "style": {},
+          "connection": "conn-7zDNdNs1"
+        },
+        {
+          "_id": "edge-9fSoWbW4",
+          "style": {},
+          "connection": "conn-6TSNpQCq"
+        },
+        {
+          "_id": "edge-4Y0ICJ3R",
+          "style": {},
+          "connection": "conn-5kKDEGoT"
+        },
+        {
+          "_id": "edge-5bLmOmkP",
+          "style": {},
+          "connection": "conn-aqhYvKgm"
+        },
+        {
+          "_id": "edge-2ZzxHajm",
+          "style": {},
+          "connection": "conn-rd6pN4ic"
+        },
+        {
+          "_id": "edge-sMm6pJzg",
+          "style": {},
+          "connection": "conn-rtDlsSsr"
+        },
+        {
+          "_id": "edge-oWuvfGga",
+          "style": {},
+          "connection": "conn-ERwdd5Kv"
+        },
+        {
+          "_id": "edge-HJvVCt8R",
+          "style": {},
+          "connection": "conn-IYVvd290"
+        },
+        {
+          "_id": "edge-WJgL1SDC",
+          "style": {},
+          "connection": "conn-pCUESRbk"
+        },
+        {
+          "_id": "edge-lXDSLrl0",
+          "style": {},
+          "connection": "conn-77kIkESU"
+        },
+        {
+          "_id": "edge-V6Qxpa4f",
+          "style": {},
+          "connection": "conn-j2F9CTMG"
+        },
+        {
+          "_id": "edge-0E9aAJXw",
+          "style": {},
+          "connection": "conn-RO1PVE69"
+        },
+        {
+          "_id": "edge-muOm7CRS",
+          "style": {},
+          "connection": "conn-sBJTzCRq"
+        },
+        {
+          "_id": "edge-G6rQywnO",
+          "style": {},
+          "connection": "conn-ayXmwjfu"
+        },
+        {
+          "_id": "edge-X5R1qHUD",
+          "style": {},
+          "connection": "conn-bH1MW6yT"
+        },
+        {
+          "_id": "edge-HKy9vCVb",
+          "style": {},
+          "connection": "conn-psNtmJoN"
         }
       ],
       "loops": []
