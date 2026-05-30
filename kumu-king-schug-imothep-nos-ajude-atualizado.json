@@ -597,11 +597,11 @@
       "attributes": {
         "label": "Filuriana",
         "element type": "Entidade",
-        "notas": "Megera e patrona de Everlong. Atualmente está aprisionada pela Dama do Medo em outro plano.",
+        "notas": "Filuriana está ligada ao pacto de Everlong. Sua prisão pela Dama do Medo enfraquece sua presença e deixa Everlong vulnerável a outra influência.",
         "degree": 3,
         "metrics::last": 3,
-        "descricao": "Megera patrona de Everlong, atualmente fora de alcance.",
-        "description": "Megera patrona de Everlong, atualmente fora de alcance."
+        "descricao": "Megera e patrona de Everlong, atualmente aprisionada por uma força mais sombria.",
+        "description": "Megera e patrona de Everlong, atualmente aprisionada por uma força mais sombria."
       }
     },
     {
@@ -753,7 +753,7 @@
         "metrics::last": 2,
         "raça": "Humano",
         "image": "https://5e.tools/img/bestiary/CoS/Donavich.webp",
-        "notas": "Sacerdote da Igreja de Barovia, marcado pela tragédia envolvendo seu filho Doru.",
+        "notas": "Sua morte se tornou uma fonte de conflito e culpa, ecoando mais tarde em Vallaki.",
         "descricao": "Sacerdote da Igreja de Barovia, marcado pela tragédia envolvendo seu filho Doru.",
         "description": "Sacerdote da Igreja de Barovia, marcado pela tragédia envolvendo seu filho Doru."
       }
@@ -897,7 +897,7 @@
         "element type": "Condição",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Maldição bestial ligada aos lobisomens de Barovia.",
+        "notas": "Gildin foi marcado pela licantropia após um ataque de lobisomens na estrada.",
         "descricao": "Maldição bestial ligada aos lobisomens de Barovia.",
         "description": "Maldição bestial ligada aos lobisomens de Barovia."
       }
@@ -1062,13 +1062,13 @@
     {
       "_id": "elem-YOHE4ytX",
       "attributes": {
-        "label": "Ataque a Valaki",
+        "label": "Ataque a Vallaki",
         "element type": "Evento",
-        "notas": "Vila Destruida",
+        "notas": "Vallaki foi atacada e sofreu grande destruição. O fato ainda pesa sobre os rumores, as estradas e os sobreviventes da região.",
         "degree": 4,
         "metrics::last": 4,
-        "descricao": "Evento em que Valaki foi atacada e ficou em estado de destruição e incerteza.",
-        "description": "Evento em que Valaki foi atacada e ficou em estado de destruição e incerteza."
+        "descricao": "Evento devastador que deixou Vallaki marcada pela violência e pelo medo.",
+        "description": "Evento devastador que deixou Vallaki marcada pela violência e pelo medo."
       }
     },
     {
@@ -1200,9 +1200,9 @@
         "element type": "Condição",
         "degree": 2,
         "metrics::last": 2,
-        "notas": "Condição que afeta Everlong. Durante o sono, a influência da Dama do Medo pode se manifestar de forma perigosa, razão pela qual ele costuma ser contido à noite.",
-        "descricao": "Condição ligada à influência da Dama do Medo sobre Everlong.",
-        "description": "Condição ligada à influência da Dama do Medo sobre Everlong."
+        "notas": "Durante o sono de Everlong, a influência da Dama do Medo pode se manifestar de forma perigosa, afetando seu corpo e o ambiente ao redor.",
+        "descricao": "Condição que permite à Dama do Medo influenciar Everlong, especialmente durante o sono.",
+        "description": "Condição que permite à Dama do Medo influenciar Everlong, especialmente durante o sono."
       }
     },
     {
@@ -1286,9 +1286,9 @@
         "degree": 6,
         "metrics::last": 6,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/caf248a3-c9eb-411a-b898-002c1a8f1dc7.png",
-        "notas": "Cidade murada de Barovia, marcada por tensão política, medo, fé e ataques recentes.",
-        "descricao": "Cidade murada de Barovia, marcada por tensão política, medo, fé e ataques recentes.",
-        "description": "Cidade murada de Barovia, marcada por tensão política, medo, fé e ataques recentes."
+        "notas": "O grupo passou por Vallaki, conheceu a Estalagem Água Azul, a Igreja de São Andral e acabou sendo expulso da cidade após tensão com Padre Lucian e os fiéis.",
+        "descricao": "Cidade murada de Barovia, marcada por medo, fé, tensão política e ataques recentes.",
+        "description": "Cidade murada de Barovia, marcada por medo, fé, tensão política e ataques recentes."
       }
     },
     {
@@ -1300,9 +1300,9 @@
         "degree": 1,
         "metrics::last": 1,
         "raça": "Humano",
-        "notas": "Sacerdote da Igreja de São Andral em Valaki.",
-        "descricao": "Sacerdote da Igreja de São Andral em Valaki.",
-        "description": "Sacerdote da Igreja de São Andral em Valaki."
+        "notas": "Após revelações e tensão entre o grupo e os fiéis, Padre Lucian conduziu a expulsão do grupo de Vallaki junto aos devotos da igreja.",
+        "descricao": "Sacerdote da Igreja de São Andral em Vallaki.",
+        "description": "Sacerdote da Igreja de São Andral em Vallaki."
       }
     },
     {
@@ -1375,10 +1375,10 @@
         "status": "Vivo",
         "degree": 8,
         "metrics::last": 8,
-        "notas": "Humano bruxo do grupo. A condição antes chamada de “O Pesadelo” se refere à influência da Dama do Medo e à possessão que o afeta durante o sono. Carrega consigo lembranças e objetos encontrados desde os primeiros horrores de Barovia.",
+        "notas": "A condição antes chamada de “O Pesadelo” se refere à influência da Dama do Medo e à possessão que o ameaça durante o sono. Por segurança, Everlong costuma ser amarrado durante a noite.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ed2cdd48-77f6-4c86-a247-e4e0473b4301.png",
-        "descricao": "Humano bruxo marcado por uma condição sombria ligada à Dama do Medo e à patrona Filuriana.",
-        "description": "Humano bruxo marcado por uma condição sombria ligada à Dama do Medo e à patrona Filuriana."
+        "descricao": "Humano bruxo marcado por uma presença sombria que o persegue em sonhos e despertares.",
+        "description": "Humano bruxo marcado por uma presença sombria que o persegue em sonhos e despertares."
       }
     },
     {
@@ -1468,11 +1468,11 @@
       "attributes": {
         "label": "Dama do Medo",
         "element type": "Entidade",
-        "notas": "Entidade demoníaca que se apresenta como uma mulher aracnídea, com muitos braços e pernas. Sua influência está ligada ao medo, à prisão de Filuriana e à condição que afeta Everlong.",
+        "notas": "Manifesta-se como uma mulher aracnídea, com muitos braços e pernas. Sua influência ameaça Everlong e prende Filuriana longe de seu alcance.",
         "degree": 4,
         "metrics::last": 4,
-        "descricao": "Entidade demoníaca ligada ao medo e à história de Everlong.",
-        "description": "Entidade demoníaca ligada ao medo e à história de Everlong."
+        "descricao": "Entidade demoníaca ligada ao medo, aos pesadelos e à influência que assombra Everlong.",
+        "description": "Entidade demoníaca ligada ao medo, aos pesadelos e à influência que assombra Everlong."
       }
     },
     {
@@ -1480,12 +1480,12 @@
       "attributes": {
         "label": "Estalagem Água Azul",
         "element type": "Local",
-        "notas": "Esta com falta de vinho",
+        "notas": "Ponto importante de encontro em Vallaki. A falta de vinho e a ligação com os Martikov aproximaram o grupo da Vinícola Mago dos Vinhos.",
         "status": "Desconhecido",
         "degree": 3,
         "metrics::last": 3,
-        "descricao": "Estalagem de Valaki administrada por Urwin Martikov, importante ponto de encontro e abrigo dentro da cidade.",
-        "description": "Estalagem de Valaki administrada por Urwin Martikov, importante ponto de encontro e abrigo dentro da cidade."
+        "descricao": "Estalagem de Vallaki administrada por Urwin Martikov e sua família.",
+        "description": "Estalagem de Vallaki administrada por Urwin Martikov e sua família."
       }
     },
     {
@@ -1674,6 +1674,93 @@
         "descricao": "Garrafas antigas e conservadas do vinho dos Martikov.",
         "description": "Garrafas antigas e conservadas do vinho dos Martikov."
       }
+    },
+    {
+      "_id": "elem-Uvag7PtS",
+      "attributes": {
+        "label": "Lago de Krezk",
+        "element type": "Local",
+        "degree": 4,
+        "metrics::last": 4,
+        "status": "Desconhecido",
+        "descricao": "Lago da vila de Krezk, antes conhecido por sua água sagrada.",
+        "description": "Lago da vila de Krezk, antes conhecido por sua água sagrada.",
+        "notas": "Antes de perder sua sacralidade, a água do lago foi usada em um experimento que removeu a Maldição do Corvo de Valakut e Kaelara. Depois dos ataques e da corrupção sofrida, a água continua potável, mas não mantém a mesma força sagrada."
+      }
+    },
+    {
+      "_id": "elem-Dffppr7x",
+      "attributes": {
+        "label": "Cartas de Strahd",
+        "element type": "Item",
+        "degree": 4,
+        "metrics::last": 4,
+        "raridade": "Unico",
+        "magico": "Não",
+        "descricao": "Cartas seladas que atraíram os membros do grupo para Barovia e depois os chamaram ao castelo.",
+        "description": "Cartas seladas que atraíram os membros do grupo para Barovia e depois os chamaram ao castelo.",
+        "notas": "As primeiras cartas pareciam vir do burgomestre da Vila da Barovia, mas mais tarde o grupo entendeu que estavam ligadas a Strahd. Outra carta, recebida na saída de Vallaki, convidou o grupo ao Castelo Ravenloft."
+      }
+    },
+    {
+      "_id": "elem-jbOMcHxx",
+      "attributes": {
+        "label": "Chegada à Barovia",
+        "element type": "Evento",
+        "degree": 5,
+        "metrics::last": 5,
+        "descricao": "Chegada dos viajantes às névoas e à estrada que conduzia à Vila da Barovia.",
+        "description": "Chegada dos viajantes às névoas e à estrada que conduzia à Vila da Barovia.",
+        "notas": "Kaelara, Valakut, Gildin e Everlong chegaram separados, atraídos por cartas diferentes. Encontraram-se nas névoas diante de uma placa indicando a direção da Barovia, ainda desconfiados uns dos outros."
+      }
+    },
+    {
+      "_id": "elem-8dxaAYBZ",
+      "attributes": {
+        "label": "Desaparecimento de Ismark e Ireena",
+        "element type": "Evento",
+        "degree": 5,
+        "metrics::last": 5,
+        "descricao": "Sumiu o rastro de Ismark e Ireena durante a travessia pelas estradas e montanhas.",
+        "description": "Sumiu o rastro de Ismark e Ireena durante a travessia pelas estradas e montanhas.",
+        "notas": "Após a separação do grupo e o encontro com uma megera que se revelou ligada à condição de Kaelara, Ismark e Ireena desapareceram. Restaram sinais de luta, sangue, roupas e pertences rasgados."
+      }
+    },
+    {
+      "_id": "elem-7VGXfcLz",
+      "attributes": {
+        "label": "Expulsão de Vallaki",
+        "element type": "Evento",
+        "degree": 4,
+        "metrics::last": 4,
+        "descricao": "Padre Lucian e os fiéis expulsaram o grupo de Vallaki após uma grave ruptura de confiança.",
+        "description": "Padre Lucian e os fiéis expulsaram o grupo de Vallaki após uma grave ruptura de confiança.",
+        "notas": "A morte do Padre Donavich e as ações de Valakut se tornaram motivo de indignação entre os fiéis. Padre Lucian conduziu a expulsão do grupo da cidade de forma humilhante, embora não tenha havido massacre."
+      }
+    },
+    {
+      "_id": "elem-741v8Mp5",
+      "attributes": {
+        "label": "Ataque dos Lobisomens na Estrada",
+        "element type": "Evento",
+        "degree": 4,
+        "metrics::last": 4,
+        "descricao": "Ataque sofrido pelo grupo nas estradas a oeste de Vallaki.",
+        "description": "Ataque sofrido pelo grupo nas estradas a oeste de Vallaki.",
+        "notas": "Durante o caminho rumo à Vinícola Mago dos Vinhos, o grupo foi atacado por lobisomens. Nesse confronto, Gildin foi marcado pela licantropia."
+      }
+    },
+    {
+      "_id": "elem-T85fAhnx",
+      "attributes": {
+        "label": "Lua de Sangue na Vinícola",
+        "element type": "Evento",
+        "degree": 5,
+        "metrics::last": 5,
+        "descricao": "Noite de tensão sobrenatural na Vinícola Mago dos Vinhos.",
+        "description": "Noite de tensão sobrenatural na Vinícola Mago dos Vinhos.",
+        "notas": "Durante uma lua de sangue, Gildin resistiu à licantropia e Valakut resistiu à sede vampírica. A influência da Dama do Medo se aproximou perigosamente do mundo físico antes de ser contida."
+      }
     }
   ],
   "connections": [
@@ -1742,17 +1829,6 @@
       },
       "from": "elem-ljY50beo",
       "to": "elem-WE2l1epP"
-    },
-    {
-      "_id": "conn-3dZcklaz",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "connection type": "Pertence"
-      },
-      "from": "elem-W85t2rpJ",
-      "to": "elem-EwAQsiZc"
     },
     {
       "_id": "conn-3pfmnl6h",
@@ -1970,7 +2046,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Patrono"
+        "connection type": "Inimigo",
+        "notas": "A Dama do Medo ameaça e influencia Everlong, mas não é sua patrona."
       },
       "from": "elem-yUb8ofHy",
       "to": "elem-n1Jow6zV"
@@ -2944,7 +3021,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Inimigo",
+        "notas": "Filuriana está aprisionada pela Dama do Medo."
       },
       "from": "elem-EwAQsiZc",
       "to": "elem-yUb8ofHy"
@@ -3730,7 +3808,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Conexão Não Classificada"
+        "connection type": "Conexão Não Classificada",
+        "notas": "A marca ajuda Tharok a conter melhor a sede de sangue ligada à lança."
       },
       "from": "elem-5ShkQoOw",
       "to": "elem-ABX4i0rS"
@@ -3928,6 +4007,347 @@
       },
       "from": "elem-PhoJ9f3Z",
       "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-QmOtXb50",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-Uvag7PtS",
+      "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-6ExHvL8Q",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-WcPjNhKH",
+      "to": "elem-Uvag7PtS"
+    },
+    {
+      "_id": "conn-Xj9C6eJo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-GdCaCAl4",
+      "to": "elem-Uvag7PtS"
+    },
+    {
+      "_id": "conn-F8AmYfNo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-Uvag7PtS",
+      "to": "elem-KvqYsUIR"
+    },
+    {
+      "_id": "conn-r7yomDbf",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-Dffppr7x",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-f7PtUgGG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-Dffppr7x",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-5qMiqjrv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-Dffppr7x",
+      "to": "elem-9StePIZL"
+    },
+    {
+      "_id": "conn-JKLhuiYD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-Dffppr7x",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-N3ClVGs5",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-jbOMcHxx",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-cTneY5hk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-jbOMcHxx",
+      "to": "elem-9StePIZL"
+    },
+    {
+      "_id": "conn-55QsSXdQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-jbOMcHxx",
+      "to": "elem-Dffppr7x"
+    },
+    {
+      "_id": "conn-ppNcLOAm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-8dxaAYBZ",
+      "to": "elem-GjkFljdB"
+    },
+    {
+      "_id": "conn-uGiEUV8G",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-8dxaAYBZ",
+      "to": "elem-IcxpZi6G"
+    },
+    {
+      "_id": "conn-asTvvcOE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-8dxaAYBZ",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-XcFPHGJO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-8dxaAYBZ",
+      "to": "elem-W85t2rpJ"
+    },
+    {
+      "_id": "conn-yRl3eAac",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-7VGXfcLz",
+      "to": "elem-i6VwoArL"
+    },
+    {
+      "_id": "conn-ttlxHjCg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-7VGXfcLz",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-ReePAgCC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-jTSAKRHi",
+      "to": "elem-7VGXfcLz"
+    },
+    {
+      "_id": "conn-IgBqiOIl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-7VGXfcLz",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-kixeKRqg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-7VGXfcLz",
+      "to": "elem-LKBTh5I0"
+    },
+    {
+      "_id": "conn-YWrfq0xF",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-741v8Mp5",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-YCGbsBPu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-741v8Mp5",
+      "to": "elem-UJ4lyTu4"
+    },
+    {
+      "_id": "conn-oJgMxgpq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-741v8Mp5",
+      "to": "elem-XwOLar26"
+    },
+    {
+      "_id": "conn-fvHc0P2O",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-741v8Mp5",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-ARuLPYB6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-T85fAhnx",
+      "to": "elem-2GbE6wkE"
+    },
+    {
+      "_id": "conn-7i8aBc07",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-T85fAhnx",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-qVJF4Hjq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-T85fAhnx",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-nFaPjRaT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-T85fAhnx",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-yjnvFKK0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-T85fAhnx",
+      "to": "elem-yUb8ofHy"
+    },
+    {
+      "_id": "conn-hFkRJFAR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-dtZyT4d1",
+      "to": "elem-yUb8ofHy"
+    },
+    {
+      "_id": "conn-UiFTmkgq",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-TXogmC7b",
+      "to": "elem-ailywYOA"
     }
   ],
   "loops": [],
@@ -4584,6 +5004,55 @@
           "pinned": false,
           "style": {},
           "element": "elem-PhoJ9f3Z"
+        },
+        {
+          "_id": "node-LUCFI33W",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Uvag7PtS"
+        },
+        {
+          "_id": "node-7oYVd2Rk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Dffppr7x"
+        },
+        {
+          "_id": "node-jGVL054t",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-jbOMcHxx"
+        },
+        {
+          "_id": "node-pMM5TNhz",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-8dxaAYBZ"
+        },
+        {
+          "_id": "node-5MYtrPyR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-7VGXfcLz"
+        },
+        {
+          "_id": "node-qPfnFnWm",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-741v8Mp5"
+        },
+        {
+          "_id": "node-hRG63sgv",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-T85fAhnx"
         }
       ],
       "connections": [
@@ -4929,11 +5398,6 @@
           "_id": "edge-RwKEP8k0",
           "style": {},
           "connection": "conn-jRLgFSt1"
-        },
-        {
-          "_id": "edge-RyLrspkA",
-          "style": {},
-          "connection": "conn-3dZcklaz"
         },
         {
           "_id": "edge-SIOlcd1E",
@@ -5530,6 +5994,161 @@
           "_id": "edge-4ZVvGovK",
           "style": {},
           "connection": "conn-5OPTLDLW"
+        },
+        {
+          "_id": "edge-CMft9ODM",
+          "style": {},
+          "connection": "conn-QmOtXb50"
+        },
+        {
+          "_id": "edge-0dkI8c34",
+          "style": {},
+          "connection": "conn-6ExHvL8Q"
+        },
+        {
+          "_id": "edge-UVtJ4HP9",
+          "style": {},
+          "connection": "conn-Xj9C6eJo"
+        },
+        {
+          "_id": "edge-jO2Kx69P",
+          "style": {},
+          "connection": "conn-F8AmYfNo"
+        },
+        {
+          "_id": "edge-WAuahzGx",
+          "style": {},
+          "connection": "conn-r7yomDbf"
+        },
+        {
+          "_id": "edge-IWSB9BI3",
+          "style": {},
+          "connection": "conn-f7PtUgGG"
+        },
+        {
+          "_id": "edge-FvcXuiAB",
+          "style": {},
+          "connection": "conn-5qMiqjrv"
+        },
+        {
+          "_id": "edge-XtFzAjoV",
+          "style": {},
+          "connection": "conn-JKLhuiYD"
+        },
+        {
+          "_id": "edge-r2SWhJwF",
+          "style": {},
+          "connection": "conn-N3ClVGs5"
+        },
+        {
+          "_id": "edge-DbSs3efM",
+          "style": {},
+          "connection": "conn-cTneY5hk"
+        },
+        {
+          "_id": "edge-hzvPvSgv",
+          "style": {},
+          "connection": "conn-55QsSXdQ"
+        },
+        {
+          "_id": "edge-oBqva0Gn",
+          "style": {},
+          "connection": "conn-ppNcLOAm"
+        },
+        {
+          "_id": "edge-BUMv1Z1X",
+          "style": {},
+          "connection": "conn-uGiEUV8G"
+        },
+        {
+          "_id": "edge-nP4HavQd",
+          "style": {},
+          "connection": "conn-asTvvcOE"
+        },
+        {
+          "_id": "edge-2ZlmLGAf",
+          "style": {},
+          "connection": "conn-XcFPHGJO"
+        },
+        {
+          "_id": "edge-BzX1PyIQ",
+          "style": {},
+          "connection": "conn-yRl3eAac"
+        },
+        {
+          "_id": "edge-KOagmB47",
+          "style": {},
+          "connection": "conn-ttlxHjCg"
+        },
+        {
+          "_id": "edge-mY4Ag2iG",
+          "style": {},
+          "connection": "conn-ReePAgCC"
+        },
+        {
+          "_id": "edge-2PVN6fXD",
+          "style": {},
+          "connection": "conn-IgBqiOIl"
+        },
+        {
+          "_id": "edge-EN7fOEgq",
+          "style": {},
+          "connection": "conn-kixeKRqg"
+        },
+        {
+          "_id": "edge-RRJRabr2",
+          "style": {},
+          "connection": "conn-YWrfq0xF"
+        },
+        {
+          "_id": "edge-mFJlvhdn",
+          "style": {},
+          "connection": "conn-YCGbsBPu"
+        },
+        {
+          "_id": "edge-iKwIb0iM",
+          "style": {},
+          "connection": "conn-oJgMxgpq"
+        },
+        {
+          "_id": "edge-QZjyMwxX",
+          "style": {},
+          "connection": "conn-fvHc0P2O"
+        },
+        {
+          "_id": "edge-SvFP7Bte",
+          "style": {},
+          "connection": "conn-ARuLPYB6"
+        },
+        {
+          "_id": "edge-LHYzOloq",
+          "style": {},
+          "connection": "conn-7i8aBc07"
+        },
+        {
+          "_id": "edge-3q37noPj",
+          "style": {},
+          "connection": "conn-qVJF4Hjq"
+        },
+        {
+          "_id": "edge-ywsH2p0c",
+          "style": {},
+          "connection": "conn-nFaPjRaT"
+        },
+        {
+          "_id": "edge-L5XpYXWS",
+          "style": {},
+          "connection": "conn-yjnvFKK0"
+        },
+        {
+          "_id": "edge-yGqZNdVh",
+          "style": {},
+          "connection": "conn-hFkRJFAR"
+        },
+        {
+          "_id": "edge-8ADrso6D",
+          "style": {},
+          "connection": "conn-UiFTmkgq"
         }
       ],
       "loops": []
