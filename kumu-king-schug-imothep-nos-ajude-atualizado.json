@@ -574,7 +574,8 @@
         "metrics::last": 3,
         "notas": "Igreja de Valaki dedicada ao Senhor da Manhã, conhecida como possível refúgio espiritual dentro da cidade.",
         "descricao": "Igreja de Valaki dedicada ao Senhor da Manhã, conhecida como possível refúgio espiritual dentro da cidade.",
-        "description": "Igreja de Valaki dedicada ao Senhor da Manhã, conhecida como possível refúgio espiritual dentro da cidade."
+        "description": "Igreja de Valaki dedicada ao Senhor da Manhã, conhecida como possível refúgio espiritual dentro da cidade.",
+        "image": "https://www.worldanvil.com/uploads/images/3e2538e96491ba41fd1ae83c9ead2f1e.jpg"
       }
     },
     {
@@ -728,7 +729,8 @@
         "metrics::last": 3,
         "notas": "Colina ritualística ligada aos druidas, aos berserkers e a forças antigas que ameaçaram os vinhedos.",
         "descricao": "Colina ritualística ligada aos druidas, aos berserkers e a forças antigas que ameaçaram os vinhedos.",
-        "description": "Colina ritualística ligada aos druidas, aos berserkers e a forças antigas que ameaçaram os vinhedos."
+        "description": "Colina ritualística ligada aos druidas, aos berserkers e a forças antigas que ameaçaram os vinhedos.",
+        "image": "https://wa-cdn.nyc3.digitaloceanspaces.com/user-data/production/5fdab7b6-01e9-481c-be66-f50d4d31ea98/uploads/images/47cd4de9ddbc2a07498860c64f498e94.jpeg"
       }
     },
     {
@@ -844,7 +846,8 @@
         "metrics::last": 4,
         "notas": "Um dos primeiros lugares explorados pelo grupo em Barovia. Sob a casa, havia vestígios de cultos, sacrifícios e horrores antigos.",
         "descricao": "Casa assombrada da Vila da Barovia, marcada por cultos, mortes e horrores antigos.",
-        "description": "Casa assombrada da Vila da Barovia, marcada por cultos, mortes e horrores antigos."
+        "description": "Casa assombrada da Vila da Barovia, marcada por cultos, mortes e horrores antigos.",
+        "image": "https://storage.ghost.io/c/77/85/7785af74-5911-409f-8658-d5a52cd53042/content/images/2023/09/00-Death-House.png"
       }
     },
     {
@@ -912,7 +915,8 @@
         "metrics::last": 2,
         "notas": "Acampamento dos Vistani, povo nômade com ligações profundas com Barovia e com Madame Eva.",
         "descricao": "Acampamento dos Vistani, povo nômade com ligações profundas com Barovia e com Madame Eva.",
-        "description": "Acampamento dos Vistani, povo nômade com ligações profundas com Barovia e com Madame Eva."
+        "description": "Acampamento dos Vistani, povo nômade com ligações profundas com Barovia e com Madame Eva.",
+        "image": "https://www.worldanvil.com/uploads/images/f7069a5cc72d21a4a13db4f1fe88e285.jpg"
       }
     },
     {
@@ -940,7 +944,8 @@
         "metrics::last": 1,
         "notas": "Moinho associado às megeras, aos doces amaldiçoados e aos horrores contra crianças em Barovia.",
         "descricao": "Moinho associado às megeras, aos doces amaldiçoados e aos horrores contra crianças em Barovia.",
-        "description": "Moinho associado às megeras, aos doces amaldiçoados e aos horrores contra crianças em Barovia."
+        "description": "Moinho associado às megeras, aos doces amaldiçoados e aos horrores contra crianças em Barovia.",
+        "image": "https://www.worldanvil.com/uploads/images/984f19d03d7ce6f909667c3d44dc553e.png"
       }
     },
     {
@@ -1008,7 +1013,8 @@
         "metrics::last": 3,
         "notas": "Povo nômade com presença importante em Barovia, frequentemente ligado a viagens, presságios e à leitura das cartas.",
         "descricao": "Povo nômade com presença importante em Barovia, frequentemente ligado a viagens, presságios e à leitura das cartas.",
-        "description": "Povo nômade com presença importante em Barovia, frequentemente ligado a viagens, presságios e à leitura das cartas."
+        "description": "Povo nômade com presença importante em Barovia, frequentemente ligado a viagens, presságios e à leitura das cartas.",
+        "image": "https://www.worldanvil.com/uploads/images/b5c3217212a230c939ff141cdc003eda.jpg"
       }
     },
     {
@@ -1056,7 +1062,8 @@
         "metrics::last": 3,
         "notas": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
         "descricao": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
-        "description": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas."
+        "description": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
+        "image": "https://storage.ghost.io/c/77/85/7785af74-5911-409f-8658-d5a52cd53042/content/images/2026/04/Werewolf-Den-Entrance.jpg"
       }
     },
     {
@@ -1094,7 +1101,8 @@
         "metrics::last": 3,
         "notas": "Igreja da Vila da Barovia, marcada pela tragédia de Donavich e Doru.",
         "descricao": "Igreja da Vila da Barovia, marcada pela tragédia de Donavich e Doru.",
-        "description": "Igreja da Vila da Barovia, marcada pela tragédia de Donavich e Doru."
+        "description": "Igreja da Vila da Barovia, marcada pela tragédia de Donavich e Doru.",
+        "image": "https://preview.redd.it/txjhrhw5fw571.jpg?width=768&format=pjpg&auto=webp&s=d572d8369176a0d96f45585ba6de1aff610eb3ad"
       }
     },
     {
@@ -1485,7 +1493,8 @@
         "degree": 3,
         "metrics::last": 3,
         "descricao": "Estalagem de Vallaki administrada por Urwin Martikov e sua família.",
-        "description": "Estalagem de Vallaki administrada por Urwin Martikov e sua família."
+        "description": "Estalagem de Vallaki administrada por Urwin Martikov e sua família.",
+        "image": "https://www.worldanvil.com/uploads/images/805334b0cd3162241c0aa99afcbf381d.jpg"
       }
     },
     {
@@ -1629,7 +1638,8 @@
         "status": "Desconhecido",
         "notas": "Fortaleza de Strahd e símbolo de seu domínio sobre Barovia. Sua presença paira sobre a região como ameaça constante.",
         "descricao": "Castelo sombrio de Strahd, centro de poder do senhor da Barovia.",
-        "description": "Castelo sombrio de Strahd, centro de poder do senhor da Barovia."
+        "description": "Castelo sombrio de Strahd, centro de poder do senhor da Barovia.",
+        "image": "https://i0.wp.com/dungeonmister.com/wp-content/uploads/2022/05/Castle-Ravenloft-2904638186-1652679972429.webp?fit=1202%2C1202&ssl=1"
       }
     },
     {
@@ -1644,7 +1654,8 @@
         "ocupação": "Caçador de monstros",
         "notas": "Nome associado à caça de vampiros e monstros em Barovia. Sua história se cruza com a luta contra Strahd.",
         "descricao": "Caçador de monstros conhecido por enfrentar criaturas das trevas.",
-        "description": "Caçador de monstros conhecido por enfrentar criaturas das trevas."
+        "description": "Caçador de monstros conhecido por enfrentar criaturas das trevas.",
+        "image": "https://static.wikia.nocookie.net/ravenloft/images/e/e1/Rictavio.png/revision/latest/scale-to-width-down/180?cb=20210503134906"
       }
     },
     {
@@ -1685,7 +1696,8 @@
         "status": "Desconhecido",
         "descricao": "Lago da vila de Krezk, antes conhecido por sua água sagrada.",
         "description": "Lago da vila de Krezk, antes conhecido por sua água sagrada.",
-        "notas": "Antes de perder sua sacralidade, a água do lago foi usada em um experimento que removeu a Maldição do Corvo de Valakut e Kaelara. Depois dos ataques e da corrupção sofrida, a água continua potável, mas não mantém a mesma força sagrada."
+        "notas": "Antes de perder sua sacralidade, a água do lago foi usada em um experimento que removeu a Maldição do Corvo de Valakut e Kaelara. Depois dos ataques e da corrupção sofrida, a água continua potável, mas não mantém a mesma força sagrada.",
+        "image": "https://images.squarespace-cdn.com/content/v1/670447eeba89c103beabb9a5/3ebb74fa-48f2-4cd9-a4eb-9828bb0fde63/Krezk%2BShrine.jpg"
       }
     },
     {
