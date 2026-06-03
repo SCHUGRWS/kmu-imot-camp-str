@@ -73,30 +73,69 @@
       "Description",
       "Imagem"
     ],
-    "undefined-connection": [],
-    "conexão-não-classificada-connection": [],
-    "rumor-connection": [],
-    "comerciante-connection": [],
-    "devoto-connection": [],
-    "patrono-connection": [],
-    "inimigo-connection": [],
-    "amigo-connection": [],
-    "lider-connection": [],
-    "membro-connection": [],
-    "pertence-connection": [],
+    "undefined-connection": [
+      "Descricao"
+    ],
+    "conexão-não-classificada-connection": [
+      "Descricao"
+    ],
+    "rumor-connection": [
+      "Descricao"
+    ],
+    "comerciante-connection": [
+      "Descricao"
+    ],
+    "devoto-connection": [
+      "Descricao"
+    ],
+    "patrono-connection": [
+      "Descricao"
+    ],
+    "inimigo-connection": [
+      "Descricao"
+    ],
+    "amigo-connection": [
+      "Descricao"
+    ],
+    "lider-connection": [
+      "Descricao"
+    ],
+    "membro-connection": [
+      "Descricao"
+    ],
+    "pertence-connection": [
+      "Descricao"
+    ],
     "condição": [
       "Notas",
       "Descricao",
       "Description",
       "Magico"
     ],
-    "parente-connection": [],
-    "undefined-loop": [],
-    "portador-connection": [],
-    "afeta-connection": [],
-    "ocorreu-em-connection": [],
-    "envolvido-connection": [],
-    "origem-connection": []
+    "parente-connection": [
+      "Descricao"
+    ],
+    "undefined-loop": [
+      "Descricao"
+    ],
+    "portador-connection": [
+      "Descricao"
+    ],
+    "afeta-connection": [
+      "Descricao"
+    ],
+    "ocorreu-em-connection": [
+      "Descricao"
+    ],
+    "envolvido-connection": [
+      "Descricao"
+    ],
+    "origem-connection": [
+      "Descricao"
+    ],
+    "ocorreu em-connection": [
+      "Descricao"
+    ]
   },
   "attributes": [
     {
@@ -1819,7 +1858,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "A carta chegou ao grupo em Krezk, trazendo notícias de Juvenal e de sua busca por Valakut."
       },
       "from": "elem-iwrgx5Ml",
       "to": "elem-rNvmafto"
@@ -1830,7 +1870,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "A maldição de Kaelara tem ecos dos horrores e das megeras encontradas no Velho Moinho de Ossos."
       },
       "from": "elem-VWPPTU19",
       "to": "elem-Us2A1ei9"
@@ -1841,7 +1882,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "A carta fala da tentativa de Juvenal de encontrar Valakut nas terras de Barovia."
       },
       "from": "elem-iwrgx5Ml",
       "to": "elem-SKvozc6J"
@@ -1852,7 +1894,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "Há presságios e temores que ligam o destino de Kaelara às sombras de Ravenloft."
       },
       "from": "elem-VWPPTU19",
       "to": "elem-BeZZgrMH"
@@ -1863,7 +1906,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "A memória de St. Markovia representa resistência contra Strahd e sua escuridão."
       },
       "from": "elem-KvqYsUIR",
       "to": "elem-WsoNmcCh"
@@ -1874,7 +1918,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Dmitri entregou ao grupo a carta deixada por Juvenal."
       },
       "from": "elem-iwrgx5Ml",
       "to": "elem-Rb0KC6l6"
@@ -1885,7 +1930,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "A carta sugere que Juvenal seguiu para oeste, rumo aos perigos ligados ao domínio de Strahd."
       },
       "from": "elem-iwrgx5Ml",
       "to": "elem-BeZZgrMH"
@@ -1896,7 +1942,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "O item macabro carrega sinais inquietantes associados à maldição que afeta Kaelara."
       },
       "from": "elem-QoveVeVD",
       "to": "elem-W85t2rpJ"
@@ -1907,7 +1954,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "Os Vistani são vistos com desconfiança por alguns habitantes de Barovia por sua relação ambígua com Strahd."
       },
       "from": "elem-WOiOlkAy",
       "to": "elem-WsoNmcCh"
@@ -1918,7 +1966,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "O machado foi encontrado em meio aos acontecimentos sombrios de Yester Hill."
       },
       "from": "elem-jfj9nHJp",
       "to": "elem-K55IDhWH"
@@ -1929,7 +1978,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "A loja fica em Vallaki e é conhecida por brinquedos estranhos e macabros."
       },
       "from": "elem-WE2l1epP",
       "to": "elem-i6VwoArL"
@@ -1940,7 +1990,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "A jornada do grupo por Barovia começou na vila, entre luto, medo e horrores antigos."
       },
       "from": "elem-9StePIZL",
       "to": "elem-ailywYOA"
@@ -1951,7 +2002,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "A boneca tem origem ligada às criações estranhas de Blinsky."
       },
       "from": "elem-ljY50beo",
       "to": "elem-WE2l1epP"
@@ -1962,7 +2014,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Amigo"
+        "connection type": "Amigo",
+        "descricao": "Ezmeralda tornou-se aliada do grupo após os eventos recentes."
       },
       "from": "elem-Gf3ntous",
       "to": "elem-ailywYOA"
@@ -1973,7 +2026,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Devoto"
+        "connection type": "Devoto",
+        "descricao": "Ireena buscava proteção e esperança em locais ligados à fé do Senhor da Manhã."
       },
       "from": "elem-IcxpZi6G",
       "to": "elem-IqIqOJFS"
@@ -1984,7 +2038,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Afeta"
+        "connection type": "Afeta",
+        "descricao": "Maldição da Megera afeta Offalia Wormwiggle de forma marcante."
       },
       "from": "elem-W85t2rpJ",
       "to": "elem-TA6dqfdp"
@@ -1995,7 +2050,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "Padre Donavich exerce liderança ou autoridade sobre Igreja de Barovia."
       },
       "from": "elem-LKBTh5I0",
       "to": "elem-Z794fFos"
@@ -2006,7 +2062,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "Irmandade de Morgantha se opõe a Grupo."
       },
       "from": "elem-rHGgpxVX",
       "to": "elem-ailywYOA"
@@ -2017,7 +2074,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Afeta"
+        "connection type": "Afeta",
+        "descricao": "Gildin carrega a marca da licantropia após o ataque de lobisomens na estrada."
       },
       "from": "elem-UJ4lyTu4",
       "to": "elem-h1YC88dR"
@@ -2028,7 +2086,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "Igreja de São Andral está ligado a Vila de Valaki."
       },
       "from": "elem-BchOjZP1",
       "to": "elem-i6VwoArL"
@@ -2039,7 +2098,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Amigo"
+        "connection type": "Amigo",
+        "descricao": "Krezk e o grupo se aproximaram após a defesa da vila contra as forças de Strahd."
       },
       "from": "elem-rNvmafto",
       "to": "elem-ailywYOA"
@@ -2050,7 +2110,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "As esposas de Strahd servem ao senhor vampiro de Barovia."
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-HBTFbEds"
@@ -2061,7 +2122,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "O presságio do ninho de corvos aponta para lugares e pessoas ligadas aos Martikov."
       },
       "from": "elem-eKSirLYR",
       "to": "elem-9ejG12QY"
@@ -2072,7 +2134,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "A boneca acompanha Gildin como um fardo impossível de abandonar."
       },
       "from": "elem-ljY50beo",
       "to": "elem-h1YC88dR"
@@ -2083,7 +2146,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "A esfinge está ligada ao caminho pelo qual o diário foi encontrado."
       },
       "from": "elem-hYcITjsP",
       "to": "elem-GsofZpct"
@@ -2094,7 +2158,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Amigo"
+        "connection type": "Amigo",
+        "descricao": "Os Martikov ajudaram o grupo e pediram auxílio para proteger o vinho de Barovia."
       },
       "from": "elem-9ejG12QY",
       "to": "elem-ailywYOA"
@@ -2105,7 +2170,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "A igreja fica na Vila da Barovia e carrega as tragédias de Donavich e Doru."
       },
       "from": "elem-Z794fFos",
       "to": "elem-9StePIZL"
@@ -2116,7 +2182,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Parente"
+        "connection type": "Parente",
+        "descricao": "Ismark Kol­yanovich tem laços familiares com Burgomestre Kol­yanovich."
       },
       "from": "elem-GjkFljdB",
       "to": "elem-sgfsc69w"
@@ -2127,7 +2194,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "A Sedutora (Grande Carta) está ligado a Leitura das Cartas."
       },
       "from": "elem-TBmIM6Ai",
       "to": "elem-lFeNftmC"
@@ -2138,7 +2206,8 @@
       "delayed": false,
       "reversed": true,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "A gema está ligada à vitalidade dos vinhedos e ao vinho dos Martikov."
       },
       "from": "elem-dYD2oHmz",
       "to": "elem-2GbE6wkE"
@@ -2150,7 +2219,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Afeta",
-        "notas": "Histórico: a condição foi removida em Krezk."
+        "notas": "Histórico: a condição foi removida em Krezk.",
+        "descricao": "Kaelara já foi afetada por essa maldição, removida depois em Krezk."
       },
       "from": "elem-WGRE38ij",
       "to": "elem-VWPPTU19"
@@ -2161,7 +2231,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Devoto"
+        "connection type": "Devoto",
+        "descricao": "Anna mantém a fé em St. Markovia como símbolo de esperança para Krezk."
       },
       "from": "elem-XADwgv9t",
       "to": "elem-KvqYsUIR"
@@ -2173,7 +2244,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Inimigo",
-        "notas": "A Dama do Medo ameaça e influencia Everlong, mas não é sua patrona."
+        "notas": "A Dama do Medo ameaça e influencia Everlong, mas não é sua patrona.",
+        "descricao": "A Dama do Medo ameaça Everlong por meio de sonhos, medo e manifestações perigosas."
       },
       "from": "elem-yUb8ofHy",
       "to": "elem-n1Jow6zV"
@@ -2184,7 +2256,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Membro"
+        "connection type": "Membro",
+        "descricao": "Bella Sunbane faz parte de Irmandade de Morgantha."
       },
       "from": "elem-4CEhQXiz",
       "to": "elem-rHGgpxVX"
@@ -2195,7 +2268,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Everlong carrega o tapa-olho encontrado entre os vestígios da Casa da Morte."
       },
       "from": "elem-ppwXYlQN",
       "to": "elem-n1Jow6zV"
@@ -2206,7 +2280,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Membro"
+        "connection type": "Membro",
+        "descricao": "Anna Krezkov faz parte de Vila de Krezk."
       },
       "from": "elem-XADwgv9t",
       "to": "elem-rNvmafto"
@@ -2220,7 +2295,8 @@
         "connection type": "Inimigo",
         "tags": [
           "Conexão Importante"
-        ]
+        ],
+        "descricao": "Strahd já manipulou Valakut e usou sua fraqueza contra o grupo."
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-SKvozc6J"
@@ -2231,7 +2307,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "A semelhança entre as pedras sugere uma ligação ainda incerta."
       },
       "from": "elem-cWMt9o9P",
       "to": "elem-51xip4L6"
@@ -2242,7 +2319,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Kaelara carrega o machado conquistado após os eventos em Yester Hill."
       },
       "from": "elem-jfj9nHJp",
       "to": "elem-VWPPTU19"
@@ -2253,7 +2331,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "A família Martikov está ligada à produção e proteção do vinho."
       },
       "from": "elem-9ejG12QY",
       "to": "elem-2GbE6wkE"
@@ -2265,7 +2344,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Afeta",
-        "notas": "Histórico: a condição foi removida em Krezk."
+        "notas": "Histórico: a condição foi removida em Krezk.",
+        "descricao": "Valakut já foi afetado por essa maldição, removida depois em Krezk."
       },
       "from": "elem-WGRE38ij",
       "to": "elem-SKvozc6J"
@@ -2276,7 +2356,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "O nome de Khazan surge ligado a mistérios arcanos e ao caminho do diário."
       },
       "from": "elem-LiMPjxiE",
       "to": "elem-GsofZpct"
@@ -2287,7 +2368,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Membro"
+        "connection type": "Membro",
+        "descricao": "Everlong faz parte do grupo que enfrenta os horrores de Barovia."
       },
       "from": "elem-n1Jow6zV",
       "to": "elem-ailywYOA"
@@ -2298,7 +2380,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Tharok carrega o colar protetor em sua jornada."
       },
       "from": "elem-c7Ek6UIl",
       "to": "elem-bWiUVxhR"
@@ -2309,7 +2392,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "O presságio aponta para o covil de lobos nas colinas acima de um lago de montanha."
       },
       "from": "elem-36ZuVpK3",
       "to": "elem-XwOLar26"
@@ -2320,7 +2404,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "O diário e a gema foram usados juntos para revelar sinais importantes."
       },
       "from": "elem-GsofZpct",
       "to": "elem-dYD2oHmz"
@@ -2331,7 +2416,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Vallaki marcou o grupo com alianças, conflitos e expulsão."
       },
       "from": "elem-i6VwoArL",
       "to": "elem-ailywYOA"
@@ -2342,7 +2428,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "As esposas de Strahd representam ameaças vampíricas ao grupo."
       },
       "from": "elem-HBTFbEds",
       "to": "elem-ailywYOA"
@@ -2353,7 +2440,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Afeta"
+        "connection type": "Afeta",
+        "descricao": "Tharok sente a sede de sangue associada à lança que carrega."
       },
       "from": "elem-ABX4i0rS",
       "to": "elem-bWiUVxhR"
@@ -2364,7 +2452,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Devoto"
+        "connection type": "Devoto",
+        "descricao": "A igreja é dedicada à fé do Senhor da Manhã em Vallaki."
       },
       "from": "elem-BchOjZP1",
       "to": "elem-IqIqOJFS"
@@ -2375,7 +2464,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Devoto"
+        "connection type": "Devoto",
+        "descricao": "Anna reconhece no ídolo um símbolo de esperança para Krezk."
       },
       "from": "elem-XADwgv9t",
       "to": "elem-76SKVa3j"
@@ -2386,7 +2476,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "Esta carta faz parte da leitura de Tarokka recebida pelo grupo."
       },
       "from": "elem-h1drVi7v",
       "to": "elem-lFeNftmC"
@@ -2398,7 +2489,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Afeta",
-        "notas": "A maldição se manifesta em Kaelara como uma metamorfose involuntária e perigosa."
+        "notas": "A maldição se manifesta em Kaelara como uma metamorfose involuntária e perigosa.",
+        "descricao": "Kaelara sofre a maldição que pode provocar sua transformação involuntária."
       },
       "from": "elem-W85t2rpJ",
       "to": "elem-VWPPTU19"
@@ -2409,7 +2501,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Patrono"
+        "connection type": "Patrono",
+        "descricao": "Filuriana é a patrona ligada ao pacto de Everlong."
       },
       "from": "elem-EwAQsiZc",
       "to": "elem-n1Jow6zV"
@@ -2420,7 +2513,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "O ritual ameaçava os vinhedos e o equilíbrio frágil da região."
       },
       "from": "elem-4MHVBIKF",
       "to": "elem-2GbE6wkE"
@@ -2431,7 +2525,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "O ladino (10 de Ouros) está ligado a Leitura das Cartas."
       },
       "from": "elem-eKSirLYR",
       "to": "elem-lFeNftmC"
@@ -2442,7 +2537,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "Strahd exerce liderança ou autoridade sobre Ataque a Vallaki."
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-YOHE4ytX"
@@ -2453,7 +2549,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "Esta carta faz parte da leitura de Tarokka recebida pelo grupo."
       },
       "from": "elem-36ZuVpK3",
       "to": "elem-lFeNftmC"
@@ -2464,7 +2561,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Afeta"
+        "connection type": "Afeta",
+        "descricao": "Doru foi consumido pela condição vampírica antes de ser enfrentado na igreja."
       },
       "from": "elem-821pwCfE",
       "to": "elem-UnfmtOjb"
@@ -2478,7 +2576,8 @@
         "connection type": "Inimigo",
         "tags": [
           "Conexão Importante"
-        ]
+        ],
+        "descricao": "Strahd se opõe a Everlong (Marco)."
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-n1Jow6zV"
@@ -2489,7 +2588,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "A abadia se ergue acima de Krezk e marcou profundamente o destino da vila."
       },
       "from": "elem-5EaTw5FN",
       "to": "elem-rNvmafto"
@@ -2500,7 +2600,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Tharok carregou o ídolo antes de sua importância ser revelada em Krezk."
       },
       "from": "elem-76SKVa3j",
       "to": "elem-bWiUVxhR"
@@ -2511,7 +2612,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "A vila vive sob a sombra de Strahd e do castelo acima do vale."
       },
       "from": "elem-9StePIZL",
       "to": "elem-WsoNmcCh"
@@ -2522,7 +2624,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "A figura sombria contrasta com a fé de Gildin em Imothep."
       },
       "from": "elem-c00WaNFh",
       "to": "elem-JbMJYKl6"
@@ -2533,7 +2636,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "Dmitri lidera Krezk como burgomestre."
       },
       "from": "elem-Rb0KC6l6",
       "to": "elem-rNvmafto"
@@ -2545,7 +2649,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Origem",
-        "notas": "Encontrado na Casa da Morte."
+        "notas": "Encontrado na Casa da Morte.",
+        "descricao": "O tapa-olho foi encontrado entre os vestígios da Casa da Morte."
       },
       "from": "elem-ppwXYlQN",
       "to": "elem-T3GHiA90"
@@ -2556,7 +2661,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "O diário ajuda a interpretar sinais revelados pela leitura das cartas."
       },
       "from": "elem-GsofZpct",
       "to": "elem-lFeNftmC"
@@ -2567,7 +2673,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "A Dama do Medo ameaça Everlong por meio de sonhos, medo e manifestações perigosas."
       },
       "from": "elem-yUb8ofHy",
       "to": "elem-n1Jow6zV"
@@ -2578,7 +2685,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Kaelara carrega a gema ligada aos vinhedos e ao diário."
       },
       "from": "elem-dYD2oHmz",
       "to": "elem-VWPPTU19"
@@ -2589,7 +2697,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "O presságio se conecta à busca guiada pelo diário."
       },
       "from": "elem-eKSirLYR",
       "to": "elem-GsofZpct"
@@ -2603,7 +2712,8 @@
         "connection type": "Inimigo",
         "tags": [
           "Conexão Importante"
-        ]
+        ],
+        "descricao": "Strahd é uma ameaça direta ao destino de Kaelara e do grupo."
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-VWPPTU19"
@@ -2614,7 +2724,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "O dedo foi encontrado entre os horrores reunidos na Casa da Morte."
       },
       "from": "elem-QoveVeVD",
       "to": "elem-T3GHiA90"
@@ -2625,7 +2736,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Valakut carrega o anel que usa em suas ações furtivas."
       },
       "from": "elem-pasXDkMt",
       "to": "elem-SKvozc6J"
@@ -2636,7 +2748,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "O diário guarda fragmentos da história de Strahd."
       },
       "from": "elem-GsofZpct",
       "to": "elem-WsoNmcCh"
@@ -2647,7 +2760,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Devoto"
+        "connection type": "Devoto",
+        "descricao": "A igreja da vila preservava a fé do Senhor da Manhã em meio ao desespero."
       },
       "from": "elem-Z794fFos",
       "to": "elem-IqIqOJFS"
@@ -2658,7 +2772,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "O Quebrador de Voto aparece a Gildin em sonhos e visões de tentação."
       },
       "from": "elem-c00WaNFh",
       "to": "elem-h1YC88dR"
@@ -2669,7 +2784,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Afeta"
+        "connection type": "Afeta",
+        "descricao": "Valakut carrega uma condição vampírica descoberta durante a jornada."
       },
       "from": "elem-821pwCfE",
       "to": "elem-SKvozc6J"
@@ -2680,7 +2796,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "Há rumores que ligam o destino de Ireena aos horrores sofridos por Vallaki."
       },
       "from": "elem-IcxpZi6G",
       "to": "elem-YOHE4ytX"
@@ -2691,7 +2808,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "Everlong carrega o dedo como item macabro ligado às megeras."
       },
       "from": "elem-QoveVeVD",
       "to": "elem-n1Jow6zV"
@@ -2702,7 +2820,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "Padre Lucian conduz a fé na Igreja de São Andral."
       },
       "from": "elem-jTSAKRHi",
       "to": "elem-BchOjZP1"
@@ -2713,7 +2832,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Devoto"
+        "connection type": "Devoto",
+        "descricao": "Gildin segue Imothep como divindade de fé, luz e proteção."
       },
       "from": "elem-h1YC88dR",
       "to": "elem-JbMJYKl6"
@@ -2724,7 +2844,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Gildin carrega o fragmento escarlate de origem ainda incerta."
       },
       "from": "elem-cWMt9o9P",
       "to": "elem-h1YC88dR"
@@ -2735,7 +2856,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "O Abade exercia autoridade sobre os Belviews na abadia."
       },
       "from": "elem-mKkTVT30",
       "to": "elem-Eg4oTpAM"
@@ -2746,7 +2868,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "Urwin está ligado à Estalagem Água Azul e ao acolhimento em Vallaki."
       },
       "from": "elem-zVy4jS7m",
       "to": "elem-ymug32fb"
@@ -2757,7 +2880,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Parente"
+        "connection type": "Parente",
+        "descricao": "Anna e Dmitri governam Krezk como casal e liderança da vila."
       },
       "from": "elem-XADwgv9t",
       "to": "elem-Rb0KC6l6"
@@ -2768,7 +2892,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "A leitura de Tarokka guia parte da busca e das esperanças do grupo."
       },
       "from": "elem-lFeNftmC",
       "to": "elem-ailywYOA"
@@ -2779,7 +2904,8 @@
       "delayed": false,
       "reversed": true,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "A maldição de Gildin aponta para os lobisomens das montanhas."
       },
       "from": "elem-UJ4lyTu4",
       "to": "elem-XwOLar26"
@@ -2790,7 +2916,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Membro"
+        "connection type": "Membro",
+        "descricao": "Os Belviews viviam na abadia sob a autoridade do Abade."
       },
       "from": "elem-Eg4oTpAM",
       "to": "elem-5EaTw5FN"
@@ -2801,7 +2928,8 @@
       "delayed": false,
       "reversed": true,
       "attributes": {
-        "connection type": "Membro"
+        "connection type": "Membro",
+        "descricao": "Gildin faz parte do grupo que enfrenta os horrores de Barovia."
       },
       "from": "elem-h1YC88dR",
       "to": "elem-ailywYOA"
@@ -2812,7 +2940,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "A casa assombrada fica na Vila da Barovia."
       },
       "from": "elem-T3GHiA90",
       "to": "elem-9StePIZL"
@@ -2823,7 +2952,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "O burgomestre era a autoridade da Vila da Barovia."
       },
       "from": "elem-sgfsc69w",
       "to": "elem-9StePIZL"
@@ -2834,7 +2964,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Membro"
+        "connection type": "Membro",
+        "descricao": "Offalia pertence à irmandade de megeras ligada ao moinho."
       },
       "from": "elem-TA6dqfdp",
       "to": "elem-rHGgpxVX"
@@ -2845,7 +2976,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "Morgantha lidera a irmandade de megeras do Velho Moinho de Ossos."
       },
       "from": "elem-IiSVrC5P",
       "to": "elem-rHGgpxVX"
@@ -2856,7 +2988,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Afeta"
+        "connection type": "Afeta",
+        "descricao": "Strahd é o vampiro mais temido e antigo conhecido pelo grupo em Barovia."
       },
       "from": "elem-821pwCfE",
       "to": "elem-WsoNmcCh"
@@ -2867,7 +3000,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "Strahd demonstra interesse obsessivo por Ireena."
       },
       "from": "elem-IcxpZi6G",
       "to": "elem-WsoNmcCh"
@@ -2878,7 +3012,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "A esfinge carrega o nome e os mistérios ligados a Khazan."
       },
       "from": "elem-hYcITjsP",
       "to": "elem-LiMPjxiE"
@@ -2889,7 +3024,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "A memória de St. Markovia representa resistência contra Strahd e sua escuridão."
       },
       "from": "elem-KvqYsUIR",
       "to": "elem-WsoNmcCh"
@@ -2900,7 +3036,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Parente"
+        "connection type": "Parente",
+        "descricao": "Urwin é parte da linhagem Martikov ligada a Davian."
       },
       "from": "elem-zVy4jS7m",
       "to": "elem-RjGV7X5r"
@@ -2911,7 +3048,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "Krezk resistiu à investida de Strahd e passou a vê-lo como ameaça direta."
       },
       "from": "elem-rNvmafto",
       "to": "elem-WsoNmcCh"
@@ -2922,7 +3060,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Devoto"
+        "connection type": "Devoto",
+        "descricao": "A fé em St. Markovia se aproxima dos símbolos de luz e esperança do Senhor da Manhã."
       },
       "from": "elem-KvqYsUIR",
       "to": "elem-IqIqOJFS"
@@ -2933,7 +3072,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "O ídolo representa a memória e a fé em St. Markovia."
       },
       "from": "elem-76SKVa3j",
       "to": "elem-KvqYsUIR"
@@ -2944,7 +3084,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "A lança foi encontrada durante os eventos de Yester Hill."
       },
       "from": "elem-51xip4L6",
       "to": "elem-K55IDhWH"
@@ -2956,7 +3097,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Rumor",
-        "notas": "A carta está ligada ao caminho até o confronto com Strahd."
+        "notas": "A carta está ligada ao caminho até o confronto com Strahd.",
+        "descricao": "O presságio da carta se liga ao caminho que leva ao senhor de Barovia."
       },
       "from": "elem-TBmIM6Ai",
       "to": "elem-WsoNmcCh"
@@ -2967,7 +3109,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "Strahd é o inimigo central do grupo em Barovia."
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-ailywYOA"
@@ -2978,7 +3121,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Devoto"
+        "connection type": "Devoto",
+        "descricao": "Ismark buscava proteção e esperança em meio à escuridão de Barovia."
       },
       "from": "elem-GjkFljdB",
       "to": "elem-IqIqOJFS"
@@ -2989,7 +3133,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "A Mãe da Noite é associada aos lobos e aos cultos sombrios nas montanhas."
       },
       "from": "elem-2H83vgkF",
       "to": "elem-XwOLar26"
@@ -3000,7 +3145,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Tharok carrega a lança e sofre sua influência sangrenta."
       },
       "from": "elem-51xip4L6",
       "to": "elem-bWiUVxhR"
@@ -3011,7 +3157,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Devoto"
+        "connection type": "Devoto",
+        "descricao": "A abadia preservava o nome e a fé de St. Markovia."
       },
       "from": "elem-5EaTw5FN",
       "to": "elem-KvqYsUIR"
@@ -3022,7 +3169,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Membro"
+        "connection type": "Membro",
+        "descricao": "Kaelara faz parte do grupo que enfrenta os horrores de Barovia."
       },
       "from": "elem-VWPPTU19",
       "to": "elem-ailywYOA"
@@ -3033,7 +3181,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Parente"
+        "connection type": "Parente",
+        "descricao": "Ireena e Ismark são irmãos."
       },
       "from": "elem-IcxpZi6G",
       "to": "elem-GjkFljdB"
@@ -3044,7 +3193,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "Há rumores de que o anel tem ligação com objetos encontrados no início da jornada."
       },
       "from": "elem-pasXDkMt",
       "to": "elem-T3GHiA90"
@@ -3055,7 +3205,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "A maça pertencia ao Abade antes de passar às mãos de Gildin."
       },
       "from": "elem-0Q7T5jBG",
       "to": "elem-mKkTVT30"
@@ -3066,7 +3217,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "Os Martikov resistem, à sua maneira, à sombra de Strahd sobre Barovia."
       },
       "from": "elem-9ejG12QY",
       "to": "elem-WsoNmcCh"
@@ -3077,7 +3229,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "A esfinge se liga aos mistérios que envolveram a gema e o diário."
       },
       "from": "elem-hYcITjsP",
       "to": "elem-dYD2oHmz"
@@ -3088,7 +3241,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "Há sinais de que as megeras prosperam dentro da escuridão governada por Strahd."
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-rHGgpxVX"
@@ -3099,7 +3253,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "O ritual trouxe ecos da presença e da influência de Strahd."
       },
       "from": "elem-4MHVBIKF",
       "to": "elem-WsoNmcCh"
@@ -3110,7 +3265,8 @@
       "delayed": false,
       "reversed": true,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "O acampamento pertence aos Vistani."
       },
       "from": "elem-URJYrs1l",
       "to": "elem-WOiOlkAy"
@@ -3124,7 +3280,8 @@
         "connection type": "Inimigo",
         "tags": [
           "Conexão Importante"
-        ]
+        ],
+        "descricao": "Strahd é uma ameaça direta a Tharok e ao grupo."
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-bWiUVxhR"
@@ -3136,7 +3293,8 @@
       "reversed": true,
       "attributes": {
         "connection type": "Rumor",
-        "notas": "Existe uma suspeita discreta de ligação entre Volenta e o vampirismo de Valakut, mas nada é confirmado."
+        "notas": "Existe uma suspeita discreta de ligação entre Volenta e o vampirismo de Valakut, mas nada é confirmado.",
+        "descricao": "Há sinais inquietantes de uma possível ligação entre Volenta e Valakut."
       },
       "from": "elem-SKvozc6J",
       "to": "elem-TXogmC7b"
@@ -3148,7 +3306,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Inimigo",
-        "notas": "Filuriana está aprisionada pela Dama do Medo."
+        "notas": "Filuriana está aprisionada pela Dama do Medo.",
+        "descricao": "Filuriana está aprisionada pela Dama do Medo."
       },
       "from": "elem-EwAQsiZc",
       "to": "elem-yUb8ofHy"
@@ -3159,7 +3318,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Membro"
+        "connection type": "Membro",
+        "descricao": "Volenta é uma das esposas de Strahd conhecidas pelo grupo."
       },
       "from": "elem-TXogmC7b",
       "to": "elem-HBTFbEds"
@@ -3173,7 +3333,8 @@
         "connection type": "Inimigo",
         "tags": [
           "Conexão Importante"
-        ]
+        ],
+        "descricao": "Strahd feriu e humilhou Gildin durante o confronto em Krezk."
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-h1YC88dR"
@@ -3184,7 +3345,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "Esta carta faz parte da leitura de Tarokka recebida pelo grupo."
       },
       "from": "elem-YVmcMlMn",
       "to": "elem-lFeNftmC"
@@ -3195,7 +3357,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "Ezmeralda surgiu ligada aos acontecimentos da Abadia de St. Markovia."
       },
       "from": "elem-Gf3ntous",
       "to": "elem-5EaTw5FN"
@@ -3206,7 +3369,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Gildin carrega a maça tomada após a queda do Abade."
       },
       "from": "elem-0Q7T5jBG",
       "to": "elem-h1YC88dR"
@@ -3217,7 +3381,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "Há sinais de que o Abade servia, de algum modo, aos desígnios sombrios de Strahd."
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-mKkTVT30"
@@ -3228,7 +3393,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "Há rumores que ligam o destino de Ismark aos horrores sofridos por Vallaki."
       },
       "from": "elem-GjkFljdB",
       "to": "elem-YOHE4ytX"
@@ -3239,7 +3405,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "Vallaki sofreu sob a sombra de Strahd e de suas forças."
       },
       "from": "elem-i6VwoArL",
       "to": "elem-WsoNmcCh"
@@ -3250,7 +3417,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Membro"
+        "connection type": "Membro",
+        "descricao": "Valakut faz parte do grupo, apesar das tensões causadas por sua condição."
       },
       "from": "elem-SKvozc6J",
       "to": "elem-ailywYOA"
@@ -3261,7 +3429,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Afeta"
+        "connection type": "Afeta",
+        "descricao": "A maldição tem sinais associados às megeras de Barovia."
       },
       "from": "elem-W85t2rpJ",
       "to": "elem-IiSVrC5P"
@@ -3272,7 +3441,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Devoto"
+        "connection type": "Devoto",
+        "descricao": "Krezk mantém forte devoção à memória de St. Markovia."
       },
       "from": "elem-rNvmafto",
       "to": "elem-KvqYsUIR"
@@ -3283,7 +3453,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Amigo"
+        "connection type": "Amigo",
+        "descricao": "Dmitri e Davian se conhecem por meio das necessidades e alianças entre Krezk e os Martikov."
       },
       "from": "elem-Rb0KC6l6",
       "to": "elem-RjGV7X5r"
@@ -3294,7 +3465,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Afeta"
+        "connection type": "Afeta",
+        "descricao": "A maldição tem sinais associados às megeras de Barovia."
       },
       "from": "elem-W85t2rpJ",
       "to": "elem-4CEhQXiz"
@@ -3305,7 +3477,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "Ezmeralda caça vampiros e se opõe a Strahd."
       },
       "from": "elem-Gf3ntous",
       "to": "elem-WsoNmcCh"
@@ -3316,7 +3489,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Afeta"
+        "connection type": "Afeta",
+        "descricao": "Everlong sofre a influência perigosa da possessão durante o sono."
       },
       "from": "elem-dtZyT4d1",
       "to": "elem-n1Jow6zV"
@@ -3327,7 +3501,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "Davian é o patriarca dos Martikov."
       },
       "from": "elem-RjGV7X5r",
       "to": "elem-9ejG12QY"
@@ -3338,7 +3513,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "A irmandade está ligada ao moinho e aos doces amaldiçoados."
       },
       "from": "elem-rHGgpxVX",
       "to": "elem-Us2A1ei9"
@@ -3349,7 +3525,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "Madame Eva realizou a leitura de Tarokka para o grupo."
       },
       "from": "elem-lFeNftmC",
       "to": "elem-gBtUkPMw"
@@ -3360,7 +3537,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "As esposas de Strahd são vampiras ligadas à sua corte."
       },
       "from": "elem-821pwCfE",
       "to": "elem-HBTFbEds"
@@ -3371,7 +3549,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Parente"
+        "connection type": "Parente",
+        "descricao": "Ireena é filha do burgomestre da Vila da Barovia."
       },
       "from": "elem-IcxpZi6G",
       "to": "elem-sgfsc69w"
@@ -3382,7 +3561,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "O ataque deixou Vallaki marcada por destruição e medo."
       },
       "from": "elem-YOHE4ytX",
       "to": "elem-i6VwoArL"
@@ -3393,7 +3573,8 @@
       "delayed": false,
       "reversed": true,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "Madame Eva é uma figura central do acampamento Vistani."
       },
       "from": "elem-URJYrs1l",
       "to": "elem-gBtUkPMw"
@@ -3404,7 +3585,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Membro"
+        "connection type": "Membro",
+        "descricao": "Urwin pertence à família Martikov."
       },
       "from": "elem-zVy4jS7m",
       "to": "elem-9ejG12QY"
@@ -3415,7 +3597,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "A estalagem fica em Vallaki e serviu como refúgio temporário."
       },
       "from": "elem-ymug32fb",
       "to": "elem-i6VwoArL"
@@ -3426,7 +3609,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Kaelara carrega o diário de Strahd."
       },
       "from": "elem-GsofZpct",
       "to": "elem-VWPPTU19"
@@ -3437,7 +3621,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "O ritual ocorreu em Yester Hill."
       },
       "from": "elem-4MHVBIKF",
       "to": "elem-K55IDhWH"
@@ -3448,7 +3633,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Membro"
+        "connection type": "Membro",
+        "descricao": "Tharok faz parte do grupo que enfrenta os horrores de Barovia."
       },
       "from": "elem-bWiUVxhR",
       "to": "elem-ailywYOA"
@@ -3459,7 +3645,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Parente"
+        "connection type": "Parente",
+        "descricao": "Doru é filho de Padre Donavich."
       },
       "from": "elem-UnfmtOjb",
       "to": "elem-LKBTh5I0"
@@ -3470,7 +3657,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Devoto"
+        "connection type": "Devoto",
+        "descricao": "Dmitri preserva a fé em St. Markovia como símbolo de Krezk."
       },
       "from": "elem-Rb0KC6l6",
       "to": "elem-KvqYsUIR"
@@ -3481,7 +3669,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "O Abade governava a abadia antes de sua queda."
       },
       "from": "elem-mKkTVT30",
       "to": "elem-5EaTw5FN"
@@ -3492,7 +3681,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "Madame Eva lidera e orienta o acampamento Vistani."
       },
       "from": "elem-gBtUkPMw",
       "to": "elem-WOiOlkAy"
@@ -3503,7 +3693,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "O Abade se tornou inimigo do grupo durante os eventos da abadia."
       },
       "from": "elem-mKkTVT30",
       "to": "elem-ailywYOA"
@@ -3515,7 +3706,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Rumor",
-        "notas": "Rumores e sinais sugerem uma possível ligação, mas nada foi plenamente esclarecido."
+        "notas": "Rumores e sinais sugerem uma possível ligação, mas nada foi plenamente esclarecido.",
+        "descricao": "A natureza vampírica de Volenta se liga aos sinais que cercam a condição de Valakut."
       },
       "from": "elem-821pwCfE",
       "to": "elem-TXogmC7b"
@@ -3526,7 +3718,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "O ataque devastou Krezk e mudou o destino da vila."
       },
       "from": "elem-yfbwBICB",
       "to": "elem-rNvmafto"
@@ -3537,7 +3730,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "Strahd conduziu o ataque contra Krezk."
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-yfbwBICB"
@@ -3548,7 +3742,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "O grupo esteve no centro da defesa de Krezk durante o ataque."
       },
       "from": "elem-yfbwBICB",
       "to": "elem-ailywYOA"
@@ -3559,7 +3754,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Valakut foi envolvido de forma trágica no ataque contra Krezk."
       },
       "from": "elem-yfbwBICB",
       "to": "elem-SKvozc6J"
@@ -3570,7 +3766,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Gildin sofreu duramente durante o confronto em Krezk."
       },
       "from": "elem-yfbwBICB",
       "to": "elem-h1YC88dR"
@@ -3581,7 +3778,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Amigo"
+        "connection type": "Amigo",
+        "descricao": "Dmitri e o grupo se tornaram aliados após a defesa de Krezk."
       },
       "from": "elem-Rb0KC6l6",
       "to": "elem-ailywYOA"
@@ -3592,7 +3790,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Amigo"
+        "connection type": "Amigo",
+        "descricao": "Anna e o grupo se aproximaram após a defesa de Krezk."
       },
       "from": "elem-XADwgv9t",
       "to": "elem-ailywYOA"
@@ -3603,7 +3802,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "O ídolo foi colocado no altar de Krezk e fortaleceu a esperança da vila."
       },
       "from": "elem-76SKVa3j",
       "to": "elem-rNvmafto"
@@ -3614,7 +3814,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "O experimento ocorreu em Krezk, quando a água ainda preservava parte de sua sacralidade."
       },
       "from": "elem-GdCaCAl4",
       "to": "elem-rNvmafto"
@@ -3625,7 +3826,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Valakut foi afetado pelo experimento com a água sagrada."
       },
       "from": "elem-GdCaCAl4",
       "to": "elem-SKvozc6J"
@@ -3636,7 +3838,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Kaelara foi afetada pelo experimento com a água sagrada."
       },
       "from": "elem-GdCaCAl4",
       "to": "elem-VWPPTU19"
@@ -3647,7 +3850,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "O experimento removeu a Maldição do Corvo de Valakut e Kaelara."
       },
       "from": "elem-GdCaCAl4",
       "to": "elem-WGRE38ij"
@@ -3658,7 +3862,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "O grupo conserva poucos frascos da água de Krezk."
       },
       "from": "elem-WcPjNhKH",
       "to": "elem-ailywYOA"
@@ -3669,7 +3874,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "Os frascos vieram da água sagrada de Krezk."
       },
       "from": "elem-WcPjNhKH",
       "to": "elem-rNvmafto"
@@ -3680,7 +3886,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "A passagem está ligada à abadia e aos mistérios de St. Markovia."
       },
       "from": "elem-EC5Ngo48",
       "to": "elem-5EaTw5FN"
@@ -3691,7 +3898,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "A travessia ocorreu pela passagem associada a St. Markovia."
       },
       "from": "elem-yVPnvyx3",
       "to": "elem-EC5Ngo48"
@@ -3702,7 +3910,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "O grupo atravessou a passagem após enfrentar seus perigos."
       },
       "from": "elem-yVPnvyx3",
       "to": "elem-ailywYOA"
@@ -3713,7 +3922,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Ezmeralda atravessou a passagem junto ao grupo."
       },
       "from": "elem-yVPnvyx3",
       "to": "elem-Gf3ntous"
@@ -3724,7 +3934,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Zigfried saiu da passagem junto ao grupo."
       },
       "from": "elem-yVPnvyx3",
       "to": "elem-nEnEKM1w"
@@ -3735,7 +3946,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Tharok se sacrificou durante a travessia e recebeu a Marca de Markovia."
       },
       "from": "elem-yVPnvyx3",
       "to": "elem-bWiUVxhR"
@@ -3746,7 +3958,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Afeta"
+        "connection type": "Afeta",
+        "descricao": "Tharok recebeu a marca após seu sacrifício na passagem."
       },
       "from": "elem-5ShkQoOw",
       "to": "elem-bWiUVxhR"
@@ -3757,7 +3970,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "A marca está ligada à bênção e à memória de St. Markovia."
       },
       "from": "elem-5ShkQoOw",
       "to": "elem-KvqYsUIR"
@@ -3768,7 +3982,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "A planície fica do outro lado da passagem, além da montanha."
       },
       "from": "elem-uUAMZucY",
       "to": "elem-EC5Ngo48"
@@ -3779,7 +3994,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "O grupo chegou à planície nevada após atravessar a passagem."
       },
       "from": "elem-ailywYOA",
       "to": "elem-uUAMZucY"
@@ -3790,7 +4006,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Amigo"
+        "connection type": "Amigo",
+        "descricao": "Zigfried acompanha o grupo após os eventos da passagem."
       },
       "from": "elem-nEnEKM1w",
       "to": "elem-ailywYOA"
@@ -3801,7 +4018,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Valakut precisou retornar escondido em meio à tensão com Krezk."
       },
       "from": "elem-kkICUvQd",
       "to": "elem-SKvozc6J"
@@ -3812,7 +4030,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "O retorno passou pela Abadia de St. Markovia."
       },
       "from": "elem-kkICUvQd",
       "to": "elem-5EaTw5FN"
@@ -3823,7 +4042,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "O retorno ocorreu após os conflitos e desconfianças em Krezk."
       },
       "from": "elem-kkICUvQd",
       "to": "elem-rNvmafto"
@@ -3834,7 +4054,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "Strahd está ligado ao Castelo Ravenloft, centro de seu domínio em Barovia."
       },
       "from": "elem-WsoNmcCh",
       "to": "elem-BeZZgrMH"
@@ -3845,7 +4066,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "Volenta pertence à corte vampírica ligada a Ravenloft."
       },
       "from": "elem-TXogmC7b",
       "to": "elem-BeZZgrMH"
@@ -3856,7 +4078,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "As esposas de Strahd pertencem à corte de Ravenloft."
       },
       "from": "elem-HBTFbEds",
       "to": "elem-BeZZgrMH"
@@ -3867,7 +4090,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "O diário aponta para segredos ligados ao castelo de Strahd."
       },
       "from": "elem-GsofZpct",
       "to": "elem-BeZZgrMH"
@@ -3878,7 +4102,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "Van Richten caça vampiros e se opõe a Strahd."
       },
       "from": "elem-UnFrMCs9",
       "to": "elem-WsoNmcCh"
@@ -3889,7 +4114,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Amigo"
+        "connection type": "Amigo",
+        "descricao": "Van Richten e Ezmeralda compartilham a caça aos vampiros."
       },
       "from": "elem-UnFrMCs9",
       "to": "elem-Gf3ntous"
@@ -3901,7 +4127,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Origem",
-        "notas": "A fúria de sangue está ligada à maldição da lança."
+        "notas": "A fúria de sangue está ligada à maldição da lança.",
+        "descricao": "A fúria nasce da influência da Lança de Sangue."
       },
       "from": "elem-ABX4i0rS",
       "to": "elem-51xip4L6"
@@ -3913,7 +4140,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Afeta",
-        "notas": "A marca ajuda Tharok a conter melhor a sede de sangue ligada à lança."
+        "notas": "A marca ajuda Tharok a conter melhor a sede de sangue ligada à lança.",
+        "descricao": "A Marca de Markovia ajuda Tharok a conter parte da sede de sangue."
       },
       "from": "elem-5ShkQoOw",
       "to": "elem-ABX4i0rS"
@@ -3924,7 +4152,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Membro"
+        "connection type": "Membro",
+        "descricao": "Zigfried pertence à Família Belview da Abadia."
       },
       "from": "elem-nEnEKM1w",
       "to": "elem-Eg4oTpAM"
@@ -3935,7 +4164,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "Zigfried vivia na Abadia de St. Markovia."
       },
       "from": "elem-nEnEKM1w",
       "to": "elem-5EaTw5FN"
@@ -3946,7 +4176,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "O Abade exercia autoridade sobre Zigfried e os demais Belviews."
       },
       "from": "elem-mKkTVT30",
       "to": "elem-nEnEKM1w"
@@ -3957,7 +4188,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Dmitri foi diretamente afetado pelo ataque a Krezk."
       },
       "from": "elem-yfbwBICB",
       "to": "elem-Rb0KC6l6"
@@ -3968,7 +4200,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Anna foi diretamente afetada pelo ataque a Krezk."
       },
       "from": "elem-yfbwBICB",
       "to": "elem-XADwgv9t"
@@ -3979,7 +4212,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "A água sagrada mostrou efeitos instáveis sobre Valakut."
       },
       "from": "elem-WcPjNhKH",
       "to": "elem-SKvozc6J"
@@ -3990,7 +4224,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "A água sagrada foi usada no experimento que afetou Kaelara."
       },
       "from": "elem-WcPjNhKH",
       "to": "elem-VWPPTU19"
@@ -4002,7 +4237,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Rumor",
-        "notas": "O presságio menciona que o tesouro pertence à Mãe da Noite."
+        "notas": "O presságio menciona que o tesouro pertence à Mãe da Noite.",
+        "descricao": "O presságio menciona um tesouro associado à Mãe da Noite."
       },
       "from": "elem-36ZuVpK3",
       "to": "elem-2H83vgkF"
@@ -4014,7 +4250,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Rumor",
-        "notas": "O presságio do ninho de corvos pode apontar para este lugar ou para pessoas ligadas aos corvos."
+        "notas": "O presságio do ninho de corvos pode apontar para este lugar ou para pessoas ligadas aos corvos.",
+        "descricao": "O presságio do ninho de corvos aponta para a Estalagem Água Azul."
       },
       "from": "elem-eKSirLYR",
       "to": "elem-ymug32fb"
@@ -4026,7 +4263,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Rumor",
-        "notas": "O presságio aponta para um lugar de tentação e tesouros ligado ao castelo."
+        "notas": "O presságio aponta para um lugar de tentação e tesouros ligado ao castelo.",
+        "descricao": "O presságio da carta aponta para uma torre de tesouros ligada ao castelo."
       },
       "from": "elem-TBmIM6Ai",
       "to": "elem-BeZZgrMH"
@@ -4038,7 +4276,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Rumor",
-        "notas": "O presságio aponta para as profundezas escuras do domínio de Strahd."
+        "notas": "O presságio aponta para as profundezas escuras do domínio de Strahd.",
+        "descricao": "O presságio aponta para a escuridão profunda de Ravenloft."
       },
       "from": "elem-h1drVi7v",
       "to": "elem-BeZZgrMH"
@@ -4050,7 +4289,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Rumor",
-        "notas": "A carta está diretamente ligada ao destino do confronto com Strahd."
+        "notas": "A carta está diretamente ligada ao destino do confronto com Strahd.",
+        "descricao": "A carta aponta diretamente para Strahd e seu destino."
       },
       "from": "elem-h1drVi7v",
       "to": "elem-WsoNmcCh"
@@ -4062,7 +4302,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Origem",
-        "notas": "Encontrado na Casa da Morte."
+        "notas": "Encontrado na Casa da Morte.",
+        "descricao": "O livro foi encontrado entre os horrores da Casa da Morte."
       },
       "from": "elem-huuyH8NR",
       "to": "elem-T3GHiA90"
@@ -4073,7 +4314,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Everlong carrega o livro de rituais encontrado na Casa da Morte."
       },
       "from": "elem-huuyH8NR",
       "to": "elem-n1Jow6zV"
@@ -4085,7 +4327,8 @@
       "reversed": false,
       "attributes": {
         "connection type": "Portador",
-        "notas": "Everlong carrega um frasco dessa água."
+        "notas": "Everlong carrega um frasco dessa água.",
+        "descricao": "Everlong carrega um dos frascos restantes da água de Krezk."
       },
       "from": "elem-WcPjNhKH",
       "to": "elem-n1Jow6zV"
@@ -4096,7 +4339,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "As garrafas vêm da produção antiga ligada à vinícola dos Martikov."
       },
       "from": "elem-PhoJ9f3Z",
       "to": "elem-2GbE6wkE"
@@ -4107,7 +4351,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Everlong carrega algumas garrafas antigas do Vinho do Mago."
       },
       "from": "elem-PhoJ9f3Z",
       "to": "elem-n1Jow6zV"
@@ -4118,7 +4363,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence"
+        "connection type": "Pertence",
+        "descricao": "O lago fica em Krezk e já foi símbolo sagrado da vila."
       },
       "from": "elem-Uvag7PtS",
       "to": "elem-rNvmafto"
@@ -4129,7 +4375,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "Os frascos vieram da água do lago de Krezk."
       },
       "from": "elem-WcPjNhKH",
       "to": "elem-Uvag7PtS"
@@ -4140,7 +4387,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "O experimento usou a água do lago de Krezk."
       },
       "from": "elem-GdCaCAl4",
       "to": "elem-Uvag7PtS"
@@ -4151,7 +4399,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Devoto"
+        "connection type": "Devoto",
+        "descricao": "O lago preservava uma ligação espiritual com St. Markovia."
       },
       "from": "elem-Uvag7PtS",
       "to": "elem-KvqYsUIR"
@@ -4162,7 +4411,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "As cartas carregam a sombra e a letra de Strahd."
       },
       "from": "elem-Dffppr7x",
       "to": "elem-WsoNmcCh"
@@ -4173,7 +4423,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "As cartas atraíram o grupo para os caminhos de Barovia."
       },
       "from": "elem-Dffppr7x",
       "to": "elem-ailywYOA"
@@ -4184,7 +4435,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "As cartas aparentavam ligação inicial com a Vila da Barovia."
       },
       "from": "elem-Dffppr7x",
       "to": "elem-9StePIZL"
@@ -4195,7 +4447,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "As cartas conduzem o grupo à sombra de Ravenloft."
       },
       "from": "elem-Dffppr7x",
       "to": "elem-BeZZgrMH"
@@ -4206,7 +4459,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "A chegada à Barovia reuniu os primeiros membros do grupo sob a névoa."
       },
       "from": "elem-jbOMcHxx",
       "to": "elem-ailywYOA"
@@ -4217,7 +4471,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "A chegada levou o grupo aos arredores da Vila da Barovia."
       },
       "from": "elem-jbOMcHxx",
       "to": "elem-9StePIZL"
@@ -4228,7 +4483,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "A chegada foi precedida pelas cartas que atraíram o grupo."
       },
       "from": "elem-jbOMcHxx",
       "to": "elem-Dffppr7x"
@@ -4239,7 +4495,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Ismark desapareceu após sinais de luta na estrada."
       },
       "from": "elem-8dxaAYBZ",
       "to": "elem-GjkFljdB"
@@ -4250,7 +4507,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Ireena desapareceu junto de Ismark após sinais de luta na estrada."
       },
       "from": "elem-8dxaAYBZ",
       "to": "elem-IcxpZi6G"
@@ -4261,7 +4519,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "O desaparecimento marcou uma falha dolorosa no caminho do grupo."
       },
       "from": "elem-8dxaAYBZ",
       "to": "elem-ailywYOA"
@@ -4272,7 +4531,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "Há sinais incertos ligando o desaparecimento ao caos daquela noite."
       },
       "from": "elem-8dxaAYBZ",
       "to": "elem-W85t2rpJ"
@@ -4283,7 +4543,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "A expulsão ocorreu em Vallaki após tensão com a igreja e os fiéis."
       },
       "from": "elem-7VGXfcLz",
       "to": "elem-i6VwoArL"
@@ -4294,7 +4555,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "O grupo foi expulso de Vallaki de forma pública e humilhante."
       },
       "from": "elem-7VGXfcLz",
       "to": "elem-ailywYOA"
@@ -4305,7 +4567,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Lider"
+        "connection type": "Lider",
+        "descricao": "Padre Lucian conduziu a expulsão do grupo junto aos fiéis."
       },
       "from": "elem-jTSAKRHi",
       "to": "elem-7VGXfcLz"
@@ -4316,7 +4579,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "A revelação envolvendo Valakut pesou na expulsão do grupo."
       },
       "from": "elem-7VGXfcLz",
       "to": "elem-SKvozc6J"
@@ -4327,7 +4591,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "A morte de Padre Donavich ecoou na expulsão de Vallaki."
       },
       "from": "elem-7VGXfcLz",
       "to": "elem-LKBTh5I0"
@@ -4338,7 +4603,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Gildin foi ferido e amaldiçoado durante o ataque dos lobisomens."
       },
       "from": "elem-741v8Mp5",
       "to": "elem-h1YC88dR"
@@ -4349,7 +4615,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "A licantropia de Gildin veio do ataque dos lobisomens."
       },
       "from": "elem-741v8Mp5",
       "to": "elem-UJ4lyTu4"
@@ -4360,7 +4627,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "O ataque aponta para os lobisomens das montanhas."
       },
       "from": "elem-741v8Mp5",
       "to": "elem-XwOLar26"
@@ -4371,7 +4639,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "O grupo enfrentou os lobisomens durante a viagem."
       },
       "from": "elem-741v8Mp5",
       "to": "elem-ailywYOA"
@@ -4382,7 +4651,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Ocorreu em"
+        "connection type": "Ocorreu em",
+        "descricao": "A lua de sangue marcou uma noite terrível na vinícola."
       },
       "from": "elem-T85fAhnx",
       "to": "elem-2GbE6wkE"
@@ -4393,7 +4663,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Gildin resistiu à própria maldição durante a lua de sangue."
       },
       "from": "elem-T85fAhnx",
       "to": "elem-h1YC88dR"
@@ -4404,7 +4675,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Valakut resistiu ao impulso vampírico durante a lua de sangue."
       },
       "from": "elem-T85fAhnx",
       "to": "elem-SKvozc6J"
@@ -4415,7 +4687,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Everlong esteve no centro dos sinais ligados à Dama do Medo naquela noite."
       },
       "from": "elem-T85fAhnx",
       "to": "elem-n1Jow6zV"
@@ -4426,7 +4699,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Rumor"
+        "connection type": "Rumor",
+        "descricao": "A noite trouxe sinais inquietantes da presença da Dama do Medo."
       },
       "from": "elem-T85fAhnx",
       "to": "elem-yUb8ofHy"
@@ -4437,7 +4711,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "A possessão está ligada à influência da Dama do Medo."
       },
       "from": "elem-dtZyT4d1",
       "to": "elem-yUb8ofHy"
@@ -4448,7 +4723,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Inimigo"
+        "connection type": "Inimigo",
+        "descricao": "Volenta já enfrentou o grupo e mostrou ser uma ameaça perigosa."
       },
       "from": "elem-TXogmC7b",
       "to": "elem-ailywYOA"
@@ -4459,7 +4735,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Valakut carrega algumas garrafas antigas do Vinho do Mago."
       },
       "from": "elem-PhoJ9f3Z",
       "to": "elem-SKvozc6J"
@@ -4470,7 +4747,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Tharok carrega uma garrafa antiga do Vinho do Mago."
       },
       "from": "elem-PhoJ9f3Z",
       "to": "elem-bWiUVxhR"
@@ -4481,7 +4759,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Origem"
+        "connection type": "Origem",
+        "descricao": "Os ossos de Walter Dust vêm dos horrores da Casa da Morte."
       },
       "from": "elem-btlVNR1w",
       "to": "elem-T3GHiA90"
@@ -4492,7 +4771,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador"
+        "connection type": "Portador",
+        "descricao": "Everlong carrega os ossos de Walter Dust."
       },
       "from": "elem-btlVNR1w",
       "to": "elem-n1Jow6zV"
@@ -4503,7 +4783,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Envolvido"
+        "connection type": "Envolvido",
+        "descricao": "Os ossos lembram a promessa não cumprida de Gildin às crianças da Casa da Morte."
       },
       "from": "elem-btlVNR1w",
       "to": "elem-h1YC88dR"
