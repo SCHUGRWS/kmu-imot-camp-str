@@ -1,0 +1,6302 @@
+{
+  "version": 1,
+  "name": "Imothep nos Ajude",
+  "description": "",
+  "proxyImages": false,
+  "defaultMap": "map-KW9y9ZvF",
+  "defaultPerspective": null,
+  "attributeRelevance": {
+    "pc": [
+      "Notas",
+      "Descricao",
+      "Description",
+      "Jogador",
+      "Raça",
+      "Status",
+      "degree"
+    ],
+    "npc": [
+      "Notas",
+      "Descricao",
+      "Description",
+      "Ocupação",
+      "Raça",
+      "Status"
+    ],
+    "grupo": [
+      "Notas",
+      "Descricao",
+      "Description",
+      "Lider",
+      "Ocupação",
+      "Status",
+      "Tipo de Grupo"
+    ],
+    "local": [
+      "Notas",
+      "Descricao",
+      "Description",
+      "Status"
+    ],
+    "monstro": [
+      "Notas",
+      "Descricao",
+      "Description",
+      "Ocupação",
+      "Raça",
+      "Status",
+      "degree"
+    ],
+    "entidade": [
+      "Notas",
+      "Descricao",
+      "Description",
+      "Status"
+    ],
+    "item": [
+      "Notas",
+      "Descricao",
+      "Description",
+      "Magico",
+      "Raridade",
+      "Status",
+      "Valor"
+    ],
+    "evento": [
+      "Notas",
+      "Descricao",
+      "Description"
+    ],
+    "undefined": [
+      "Notas",
+      "Descricao",
+      "Description",
+      "Imagem"
+    ],
+    "undefined-connection": [],
+    "conexão-não-classificada-connection": [],
+    "rumor-connection": [],
+    "comerciante-connection": [],
+    "devoto-connection": [],
+    "patrono-connection": [],
+    "inimigo-connection": [],
+    "amigo-connection": [],
+    "lider-connection": [],
+    "membro-connection": [],
+    "pertence-connection": [],
+    "condição": [
+      "Notas",
+      "Descricao",
+      "Description",
+      "Magico"
+    ],
+    "parente-connection": [],
+    "undefined-loop": []
+  },
+  "attributes": [
+    {
+      "_id": "attr-7vjTMYCA",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Membro",
+        "Lider",
+        "Amigo",
+        "Inimigo",
+        "Patrono",
+        "Devoto",
+        "Comerciante",
+        "Rumor",
+        "Conexão Não Classificada",
+        "Pertence",
+        "Parente"
+      ],
+      "sort": true,
+      "cluster": false
+    },
+    {
+      "_id": "attr-bF95kocr",
+      "name": "Descricao",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-YLiSkVmS",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-quitlIs6",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "PC",
+        "NPC",
+        "Grupo",
+        "Local",
+        "Monstro",
+        "Entidade",
+        "Item",
+        "Evento",
+        "Condição"
+      ],
+      "sort": true,
+      "cluster": true
+    },
+    {
+      "_id": "attr-dnja7Cdl",
+      "name": "Image",
+      "format": "image",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-wLvh4YXK",
+      "name": "Jogador",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": true,
+      "cluster": true
+    },
+    {
+      "_id": "attr-I5Heowqw",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-5TEy76mI",
+      "name": "Lider",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": true,
+      "cluster": true
+    },
+    {
+      "_id": "attr-E8IhFUYs",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-HEp9xLqf",
+      "name": "Magico",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": true,
+      "values": [
+        "Sim",
+        "Não"
+      ],
+      "sort": true,
+      "cluster": true
+    },
+    {
+      "_id": "attr-mLwFozVa",
+      "name": "Notas",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-eOEceENb",
+      "name": "Ocupação",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": true,
+      "cluster": true
+    },
+    {
+      "_id": "attr-mllJiuje",
+      "name": "Raridade",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": true,
+      "values": [
+        "Desconheida",
+        "Comum",
+        "Incomum",
+        "Raro",
+        "Muito Raro",
+        "Epico",
+        "Lendario",
+        "Unico"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-67PBSOQQ",
+      "name": "Raça",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": true,
+      "cluster": true
+    },
+    {
+      "_id": "attr-RimJmEaI",
+      "name": "Status",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": true,
+      "values": [
+        "Vivo",
+        "Morto",
+        "Desconhecido",
+        "Destruido"
+      ],
+      "sort": true,
+      "cluster": true
+    },
+    {
+      "_id": "attr-CshMrwvK",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": true,
+      "values": [
+        "Conexão Importante",
+        "Conhecido",
+        "Boss"
+      ],
+      "sort": true,
+      "cluster": true
+    },
+    {
+      "_id": "attr-tMYh054C",
+      "name": "Tipo de Grupo",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": true,
+      "values": [
+        "Jogadores",
+        "Exercito",
+        "Clã",
+        "Bando",
+        "Civil"
+      ],
+      "sort": true,
+      "cluster": true
+    },
+    {
+      "_id": "attr-ZYOghL6Y",
+      "name": "degree",
+      "format": "number",
+      "private": false,
+      "limit": 1,
+      "category": "Metrics",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-NaRoCRG6",
+      "name": "metrics::last",
+      "format": "number",
+      "private": false,
+      "limit": 1,
+      "category": "Metrics",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [
+    {
+      "_id": "elem-EwAQsiZc",
+      "attributes": {
+        "label": "Filuriana",
+        "element type": "Entidade",
+        "notas": "Filuriana está ligada ao pacto de Everlong. Sua prisão pela Dama do Medo enfraquece sua presença e deixa Everlong vulnerável a outra influência.",
+        "degree": 3,
+        "metrics::last": 3,
+        "descricao": "Megera e patrona de Everlong, atualmente aprisionada por uma força mais sombria.",
+        "description": "Megera e patrona de Everlong, atualmente aprisionada por uma força mais sombria.",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1269313/a648e12e-60cf-4311-9ea5-783cf2d44dab.png"
+      }
+    },
+    {
+      "_id": "elem-KvqYsUIR",
+      "attributes": {
+        "label": "St. Markovia",
+        "element type": "Entidade",
+        "degree": 8,
+        "metrics::last": 8,
+        "notas": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia.",
+        "descricao": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia.",
+        "description": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia.",
+        "status": "Morto"
+      }
+    },
+    {
+      "_id": "elem-iwrgx5Ml",
+      "attributes": {
+        "label": "Carta de Juvenal Xirinfompela",
+        "element type": "Item",
+        "descricao": "Uma carta envelhecidade de Juvenal Xirinfompela, ex-conselheiro do rei, pai falecido, de Valakut. Carta entregue pelo burgomestre de Krezk",
+        "notas": "A carta informa que ele foi atraido para essas terras achando poder encontrar Valakut, porem ficou preso. Ela termina falando que ele iria para oeste, tentar enfrentar o que estivesse la para poder sair dessas terras."
+      }
+    },
+    {
+      "_id": "elem-yUb8ofHy",
+      "attributes": {
+        "label": "Dama do Medo",
+        "element type": "Entidade",
+        "notas": "Manifesta-se como uma mulher aracnídea, com muitos braços e pernas. Sua influência ameaça Everlong e prende Filuriana longe de seu alcance.",
+        "degree": 4,
+        "metrics::last": 4,
+        "descricao": "Entidade demoníaca ligada ao medo, aos pesadelos e à influência que assombra Everlong.",
+        "description": "Entidade demoníaca ligada ao medo, aos pesadelos e à influência que assombra Everlong.",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1269313/a11ba407-2b8e-4881-9356-679162aa1cc6.png"
+      }
+    },
+    {
+      "_id": "elem-0Q7T5jBG",
+      "attributes": {
+        "label": "Maça do Abade",
+        "element type": "Item",
+        "magico": "Sim",
+        "raridade": "Epico",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Arma ligada ao Abade de St. Markovia, um deva corrompido. Após a derrota do Abade, a maça passou para as mãos de Gildin.",
+        "descricao": "Maça mágica tomada do Abade após sua derrota.",
+        "description": "Maça mágica tomada do Abade após sua derrota."
+      }
+    },
+    {
+      "_id": "elem-2GbE6wkE",
+      "attributes": {
+        "label": "Vinícola Mago dos Vinhos",
+        "element type": "Local",
+        "notas": "Vinhedo",
+        "degree": 3,
+        "metrics::last": 3,
+        "image": "https://i.redd.it/1irtw6sjki721.jpg",
+        "descricao": "Vinhedo dos Martikov e principal fonte conhecida de vinho em Barovia, importante para comunidades que ainda se agarram a pequenos confortos em meio ao horror.",
+        "description": "Vinhedo dos Martikov e principal fonte conhecida de vinho em Barovia, importante para comunidades que ainda se agarram a pequenos confortos em meio ao horror."
+      }
+    },
+    {
+      "_id": "elem-2H83vgkF",
+      "attributes": {
+        "label": "Mãe da Noite",
+        "element type": "Entidade",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia.",
+        "descricao": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia.",
+        "description": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia."
+      }
+    },
+    {
+      "_id": "elem-36ZuVpK3",
+      "attributes": {
+        "label": "O mirmidão (5 de Espadas)",
+        "element type": "Item",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Presságio: um poder de proteção e esperança está ligado a um covil de lobos nas colinas com vista para um lago de montanha; o tesouro pertence à Mãe da Noite.",
+        "descricao": "Carta da leitura de Tarokka cujo presságio aponta para um covil de lobos nas colinas acima de um lago de montanha.",
+        "description": "Carta da leitura de Tarokka cujo presságio aponta para um covil de lobos nas colinas acima de um lago de montanha."
+      }
+    },
+    {
+      "_id": "elem-4CEhQXiz",
+      "attributes": {
+        "label": "Bella Sunbane",
+        "element type": "Monstro",
+        "status": "Morto",
+        "degree": 2,
+        "metrics::last": 2,
+        "raça": "Megera",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ff55fde5-0968-411b-93ef-caea1c7ca6b1.jpg",
+        "notas": "Megera ligada à Irmandade de Morgantha e aos horrores do Velho Moinho de Ossos.",
+        "descricao": "Megera ligada à Irmandade de Morgantha e aos horrores do Velho Moinho de Ossos.",
+        "description": "Megera ligada à Irmandade de Morgantha e aos horrores do Velho Moinho de Ossos."
+      }
+    },
+    {
+      "_id": "elem-4MHVBIKF",
+      "attributes": {
+        "label": "Ritual Druídico (Árvore da Morte)",
+        "element type": "Evento",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Ritual sombrio realizado em Yester Hill, ligado aos druidas, à grande árvore e às forças hostis aos vinhedos.",
+        "descricao": "Ritual sombrio realizado em Yester Hill, ligado aos druidas, à grande árvore e às forças hostis aos vinhedos.",
+        "description": "Ritual sombrio realizado em Yester Hill, ligado aos druidas, à grande árvore e às forças hostis aos vinhedos."
+      }
+    },
+    {
+      "_id": "elem-51xip4L6",
+      "attributes": {
+        "label": "Lança de Sangue",
+        "element type": "Item",
+        "magico": "Sim",
+        "notas": "Arma carregada por Tharok. A pedra escarlate no centro da lança parece alimentar uma sede de sangue que pode levá-lo a um frenesi perigoso.",
+        "raridade": "Muito Raro",
+        "degree": 4,
+        "metrics::last": 4,
+        "descricao": "Lança mágica com uma pedra escarlate em seu centro.",
+        "description": "Lança mágica com uma pedra escarlate em seu centro."
+      }
+    },
+    {
+      "_id": "elem-5EaTw5FN",
+      "attributes": {
+        "label": "Abadia St. Markovia",
+        "element type": "Local",
+        "status": "Destruido",
+        "degree": 8,
+        "metrics::last": 8,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/686afb4f-1a98-4904-b40b-18aac909977c.jpg",
+        "notas": "A Abadia foi tomada pelos horrores do Abade e da Família Belview. Após os acontecimentos recentes, está destruída como antigo refúgio seguro.",
+        "descricao": "Antiga abadia sagrada em Krezk, marcada pela presença do Abade, pela Família Belview e pelos horrores que se acumularam sob sua proteção distorcida.",
+        "description": "Antiga abadia sagrada em Krezk, marcada pela presença do Abade, pela Família Belview e pelos horrores que se acumularam sob sua proteção distorcida."
+      }
+    },
+    {
+      "_id": "elem-76SKVa3j",
+      "attributes": {
+        "label": "Estátua/Ídolo St. Markovia",
+        "element type": "Item",
+        "raridade": "Epico",
+        "magico": "Sim",
+        "degree": 4,
+        "metrics::last": 4,
+        "notas": "Foi posicionada no altar de Krezk após os eventos recentes. Sua presença ajudou a fortalecer a esperança dos sobreviventes.",
+        "descricao": "Ídolo de St. Markovia associado à fé, esperança e resistência de Krezk após os eventos recentes.",
+        "description": "Ídolo de St. Markovia associado à fé, esperança e resistência de Krezk após os eventos recentes."
+      }
+    },
+    {
+      "_id": "elem-821pwCfE",
+      "attributes": {
+        "label": "Vampirismo",
+        "element type": "Condição",
+        "degree": 5,
+        "metrics::last": 5,
+        "notas": "Condição vampírica que afeta Valakut e diversas criaturas ligadas a Strahd. Algumas ligações ainda são tratadas como suspeitas ou rumores pelo grupo.",
+        "descricao": "Condição sobrenatural associada aos vampiros de Barovia.",
+        "description": "Condição sobrenatural associada aos vampiros de Barovia."
+      }
+    },
+    {
+      "_id": "elem-9StePIZL",
+      "attributes": {
+        "label": "Vila da Barovia",
+        "element type": "Local",
+        "degree": 5,
+        "metrics::last": 5,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/f7b964a0-80cf-49a4-9d7b-16a364dd8e15.jpg",
+        "notas": "Vila sombria e oprimida aos pés do Castelo Ravenloft, onde muitos dos primeiros horrores da jornada se revelaram.",
+        "descricao": "Vila sombria e oprimida aos pés do Castelo Ravenloft, onde muitos dos primeiros horrores da jornada se revelaram.",
+        "description": "Vila sombria e oprimida aos pés do Castelo Ravenloft, onde muitos dos primeiros horrores da jornada se revelaram."
+      }
+    },
+    {
+      "_id": "elem-9ejG12QY",
+      "attributes": {
+        "label": "Família Martikov",
+        "element type": "Grupo",
+        "ocupação": "Fabricantes de Vinho",
+        "tipo de grupo": "Clã",
+        "degree": 6,
+        "metrics::last": 6,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/b5cd1510-a024-4839-bae8-e1d9bac30d5a.jpg",
+        "notas": "Família ligada à produção e distribuição de vinho em Barovia, especialmente à Vinícola Mago dos Vinhos e à Estalagem Água Azul.",
+        "descricao": "Família ligada à produção e distribuição de vinho em Barovia, especialmente à Vinícola Mago dos Vinhos e à Estalagem Água Azul.",
+        "description": "Família ligada à produção e distribuição de vinho em Barovia, especialmente à Vinícola Mago dos Vinhos e à Estalagem Água Azul."
+      }
+    },
+    {
+      "_id": "elem-ABX4i0rS",
+      "attributes": {
+        "label": "Fúria de Sangue",
+        "element type": "Condição",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Maldição ligada à Lança de Sangue. Pode lançar Tharok em um frenesi onde ele deixa de reconhecer aliados. A Marca de Markovia parece ajudar a conter parte dessa sede.",
+        "descricao": "Maldição de frenesi ligada à Lança de Sangue.",
+        "description": "Maldição de frenesi ligada à Lança de Sangue."
+      }
+    },
+    {
+      "_id": "elem-BchOjZP1",
+      "attributes": {
+        "label": "Igreja de São Andral",
+        "element type": "Local",
+        "status": "Desconhecido",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Igreja de Valaki dedicada ao Senhor da Manhã, conhecida como possível refúgio espiritual dentro da cidade.",
+        "descricao": "Igreja de Valaki dedicada ao Senhor da Manhã, conhecida como possível refúgio espiritual dentro da cidade.",
+        "description": "Igreja de Valaki dedicada ao Senhor da Manhã, conhecida como possível refúgio espiritual dentro da cidade.",
+        "image": "https://www.worldanvil.com/uploads/images/3e2538e96491ba41fd1ae83c9ead2f1e.jpg"
+      }
+    },
+    {
+      "_id": "elem-Eg4oTpAM",
+      "attributes": {
+        "label": "Família Belview",
+        "element type": "Grupo",
+        "lider": "O Abade",
+        "status": "Destruido",
+        "tipo de grupo": "Civil",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Mongrelfolks que viviam na Abadia de St. Markovia sob a autoridade do Abade.",
+        "descricao": "Mongrelfolks que viviam na Abadia de St. Markovia sob a autoridade do Abade.",
+        "description": "Mongrelfolks que viviam na Abadia de St. Markovia sob a autoridade do Abade."
+      }
+    },
+    {
+      "_id": "elem-Gf3ntous",
+      "attributes": {
+        "label": "Ezmeralda D'Avenir",
+        "element type": "NPC",
+        "raça": "Humano",
+        "ocupação": "Caçador de Vampiros",
+        "status": "Vivo",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/6beb310f-8e5c-4c66-baff-2c7bec9fa080.jpg",
+        "degree": 5,
+        "metrics::last": 5,
+        "notas": "Caçadora de vampiros.\nAtualmente acompanha o grupo depois dos eventos na passagem de St. Markovia.",
+        "descricao": "Caçadora de vampiros experiente, determinada e perigosa, atualmente aliada ao grupo.",
+        "description": "Caçadora de vampiros experiente, determinada e perigosa, atualmente aliada ao grupo."
+      }
+    },
+    {
+      "_id": "elem-GjkFljdB",
+      "attributes": {
+        "label": "Ismark Kol­yanovich",
+        "element type": "NPC",
+        "status": "Desconhecido",
+        "degree": 4,
+        "metrics::last": 4,
+        "raça": "Humano",
+        "image": "https://ik.imagekit.io/criticalnotes/campaigns/1328/characters/8991/avatar/41127f47c2fa45da973eb7a37530cbc1.jpg?",
+        "notas": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família.",
+        "descricao": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família.",
+        "description": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família."
+      }
+    },
+    {
+      "_id": "elem-GsofZpct",
+      "attributes": {
+        "label": "Diário de Strahd",
+        "element type": "Item",
+        "magico": "Sim",
+        "raridade": "Unico",
+        "degree": 8,
+        "metrics::last": 8,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/2c9f775d-3130-42bb-afde-e7f6d9779e59.png",
+        "notas": "Registro raro ligado à história de Strahd, revelando fragmentos de seu passado e servindo como peça importante na busca por respostas.",
+        "descricao": "Registro raro ligado à história de Strahd, revelando fragmentos de seu passado e servindo como peça importante na busca por respostas.",
+        "description": "Registro raro ligado à história de Strahd, revelando fragmentos de seu passado e servindo como peça importante na busca por respostas."
+      }
+    },
+    {
+      "_id": "elem-HBTFbEds",
+      "attributes": {
+        "label": "Esposas de Strahd",
+        "element type": "Grupo",
+        "lider": "Strahd",
+        "ocupação": "Servir a Strahd",
+        "tipo de grupo": "Clã",
+        "degree": 5,
+        "metrics::last": 5,
+        "notas": "Grupo de vampiras ligadas a Strahd. Até o momento, Volenta Popfsky é a única esposa que apareceu diretamente para o grupo.",
+        "descricao": "Servas vampíricas de Strahd, conhecidas pelo grupo principalmente por Volenta.",
+        "description": "Servas vampíricas de Strahd, conhecidas pelo grupo principalmente por Volenta."
+      }
+    },
+    {
+      "_id": "elem-IcxpZi6G",
+      "attributes": {
+        "label": "Ireena Kolyana",
+        "element type": "NPC",
+        "status": "Desconhecido",
+        "degree": 5,
+        "metrics::last": 5,
+        "raça": "Humano",
+        "image": "https://ik.imagekit.io/criticalnotes/campaigns/1472/characters/10553/avatar-crop/bd43186ee676480d99c416b7d5f1db74.jpg?tr=w-400,h-400",
+        "notas": "Jovem nobre da Vila da Barovia, protegida por Ismark e perseguida por Strahd. Sua presença marcou alguns dos primeiros rumos da jornada do grupo.",
+        "descricao": "Jovem nobre da Vila da Barovia, perseguida por Strahd e ligada a acontecimentos centrais em Barovia.",
+        "description": "Jovem nobre da Vila da Barovia, perseguida por Strahd e ligada a acontecimentos centrais em Barovia."
+      }
+    },
+    {
+      "_id": "elem-IiSVrC5P",
+      "attributes": {
+        "label": "Morgantha",
+        "element type": "Monstro",
+        "status": "Desconhecido",
+        "degree": 2,
+        "metrics::last": 2,
+        "raça": "Megera",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/902e8b01-2113-4e4e-9b39-bba4eb1db885.jpg",
+        "notas": "Megera ligada ao Velho Moinho de Ossos e à Irmandade de Morgantha.",
+        "descricao": "Megera ligada ao Velho Moinho de Ossos e à Irmandade de Morgantha.",
+        "description": "Megera ligada ao Velho Moinho de Ossos e à Irmandade de Morgantha."
+      }
+    },
+    {
+      "_id": "elem-IqIqOJFS",
+      "attributes": {
+        "label": "Senhor da Manhã",
+        "element type": "Entidade",
+        "degree": 5,
+        "metrics::last": 5,
+        "notas": "Divindade associada à luz, esperança e renovação, venerada por vários habitantes de Barovia.",
+        "descricao": "Divindade associada à luz, esperança e renovação, venerada por vários habitantes de Barovia.",
+        "description": "Divindade associada à luz, esperança e renovação, venerada por vários habitantes de Barovia."
+      }
+    },
+    {
+      "_id": "elem-JbMJYKl6",
+      "attributes": {
+        "label": "Imothep",
+        "element type": "Entidade",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Deus de vida, deserto, calor e luz, próximo aos antigos símbolos de morte e renascimento. Gildin passou a segui-lo como divindade patrona. A pequena múmia encontrada sob a Casa da Morte tornou-se um símbolo importante dessa fé.",
+        "descricao": "Divindade de inspiração egípcia seguida por Gildin, associada à vida, ao deserto, ao calor e à luz.",
+        "description": "Divindade de inspiração egípcia seguida por Gildin, associada à vida, ao deserto, ao calor e à luz."
+      }
+    },
+    {
+      "_id": "elem-K55IDhWH",
+      "attributes": {
+        "label": "Colina Yester",
+        "element type": "Local",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Colina ritualística ligada aos druidas, aos berserkers e a forças antigas que ameaçaram os vinhedos.",
+        "descricao": "Colina ritualística ligada aos druidas, aos berserkers e a forças antigas que ameaçaram os vinhedos.",
+        "description": "Colina ritualística ligada aos druidas, aos berserkers e a forças antigas que ameaçaram os vinhedos.",
+        "image": "https://wa-cdn.nyc3.digitaloceanspaces.com/user-data/production/5fdab7b6-01e9-481c-be66-f50d4d31ea98/uploads/images/47cd4de9ddbc2a07498860c64f498e94.jpeg"
+      }
+    },
+    {
+      "_id": "elem-LKBTh5I0",
+      "attributes": {
+        "label": "Padre Donavich",
+        "element type": "NPC",
+        "status": "Morto",
+        "degree": 2,
+        "metrics::last": 2,
+        "raça": "Humano",
+        "image": "https://5e.tools/img/bestiary/CoS/Donavich.webp",
+        "notas": "Sua morte se tornou uma fonte de conflito e culpa, ecoando mais tarde em Vallaki.",
+        "descricao": "Sacerdote da Igreja de Barovia, marcado pela tragédia envolvendo seu filho Doru.",
+        "description": "Sacerdote da Igreja de Barovia, marcado pela tragédia envolvendo seu filho Doru."
+      }
+    },
+    {
+      "_id": "elem-LiMPjxiE",
+      "attributes": {
+        "label": "Mago Khazan",
+        "element type": "NPC",
+        "raça": "Desconhecido",
+        "status": "Desconhecido",
+        "ocupação": "Mago",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Antigo mago associado a mistérios, construções e desafios arcanos espalhados por Barovia.",
+        "descricao": "Antigo mago associado a mistérios, construções e desafios arcanos espalhados por Barovia.",
+        "description": "Antigo mago associado a mistérios, construções e desafios arcanos espalhados por Barovia."
+      }
+    },
+    {
+      "_id": "elem-QoveVeVD",
+      "attributes": {
+        "label": "Dedo da Megera",
+        "element type": "Item",
+        "raridade": "Desconheida",
+        "magico": "Sim",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Item macabro ligado às megeras e às maldições encontradas pelo grupo. Everlong o carrega consigo.",
+        "descricao": "Item macabro ligado às megeras e carregado por Everlong.",
+        "description": "Item macabro ligado às megeras e carregado por Everlong."
+      }
+    },
+    {
+      "_id": "elem-Rb0KC6l6",
+      "attributes": {
+        "label": "Dmitri Krezkov",
+        "element type": "NPC",
+        "raça": "Anão",
+        "ocupação": "Burgomestre de Krezk",
+        "status": "Vivo",
+        "degree": 6,
+        "metrics::last": 6,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/bb2c3b66-0332-4e6e-9e64-4dafb6f4d03b.png",
+        "notas": "Burgomestre de Krezk. Ele e Anna Krezkov fizeram amizade com o grupo após os eventos recentes.",
+        "descricao": "Burgomestre de Krezk e uma das principais lideranças sobreviventes da vila.",
+        "description": "Burgomestre de Krezk e uma das principais lideranças sobreviventes da vila."
+      }
+    },
+    {
+      "_id": "elem-RjGV7X5r",
+      "attributes": {
+        "label": "Davian Martikov",
+        "element type": "NPC",
+        "raça": "Humano",
+        "ocupação": "Lider de familia e fabricante de vinho",
+        "degree": 3,
+        "metrics::last": 3,
+        "image": "https://www.worldanvil.com/uploads/images/7d0f1be66de53b37ed2495ae28f5ecff.jpg",
+        "notas": "Patriarca dos Martikov e figura importante na Vinícola Mago dos Vinhos.",
+        "descricao": "Patriarca dos Martikov e figura importante na Vinícola Mago dos Vinhos.",
+        "description": "Patriarca dos Martikov e figura importante na Vinícola Mago dos Vinhos."
+      }
+    },
+    {
+      "_id": "elem-SKvozc6J",
+      "attributes": {
+        "label": "Valakut (Rud)",
+        "element type": "PC",
+        "jogador": "Rud",
+        "raça": "Elfo Alto",
+        "status": "Vivo",
+        "degree": 10,
+        "metrics::last": 10,
+        "notas": "Alto elfo ladino do grupo. Carrega o vampirismo. A Maldição dos Corvos foi removida em Krezk. A água sagrada do lago mostrou efeitos temporários e variáveis sobre sua condição.",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/87e1a247-f970-49a8-9cf9-df6f69693fc8.png",
+        "descricao": "Alto elfo ladino do grupo, marcado pelo vampirismo.",
+        "description": "Alto elfo ladino do grupo, marcado pelo vampirismo."
+      }
+    },
+    {
+      "_id": "elem-T3GHiA90",
+      "attributes": {
+        "label": "Casa da Morte",
+        "element type": "Local",
+        "status": "Desconhecido",
+        "degree": 4,
+        "metrics::last": 4,
+        "notas": "Um dos primeiros lugares explorados pelo grupo em Barovia. Sob a casa, havia vestígios de cultos, sacrifícios e horrores antigos.",
+        "descricao": "Casa assombrada da Vila da Barovia, marcada por cultos, mortes e horrores antigos.",
+        "description": "Casa assombrada da Vila da Barovia, marcada por cultos, mortes e horrores antigos.",
+        "image": "https://storage.ghost.io/c/77/85/7785af74-5911-409f-8658-d5a52cd53042/content/images/2023/09/00-Death-House.png"
+      }
+    },
+    {
+      "_id": "elem-TA6dqfdp",
+      "attributes": {
+        "label": "Offalia Wormwiggle",
+        "element type": "Monstro",
+        "status": "Desconhecido",
+        "degree": 2,
+        "metrics::last": 2,
+        "raça": "Megera",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/226fa6c0-4771-4c10-ab14-fe3505e0793a.jpg",
+        "notas": "Megera ligada à Irmandade de Morgantha e ao Velho Moinho de Ossos.",
+        "descricao": "Megera ligada à Irmandade de Morgantha e ao Velho Moinho de Ossos.",
+        "description": "Megera ligada à Irmandade de Morgantha e ao Velho Moinho de Ossos."
+      }
+    },
+    {
+      "_id": "elem-TBmIM6Ai",
+      "attributes": {
+        "label": "A Sedutora (Grande Carta)",
+        "element type": "Item",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Presságio: há um lugar secreto, um cofre de tentações oculto atrás de uma mulher de grande beleza; o mal aguarda no alto de sua torre de tesouros.",
+        "descricao": "Grande carta da leitura de Tarokka ligada ao caminho até Strahd. Seu presságio fala de tentação, beleza e uma torre de tesouros.",
+        "description": "Grande carta da leitura de Tarokka ligada ao caminho até Strahd. Seu presságio fala de tentação, beleza e uma torre de tesouros."
+      }
+    },
+    {
+      "_id": "elem-TXogmC7b",
+      "attributes": {
+        "label": "Volenta Popfsky",
+        "element type": "Monstro",
+        "ocupação": "Serva de Strahd",
+        "raça": "Vampiro",
+        "status": "Vivo",
+        "degree": 4,
+        "metrics::last": 4,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/d26b4a90-b897-4f34-9759-fbbb7fde8b0c.png",
+        "notas": "Uma das esposas de Strahd conhecidas pelo grupo. Vampira serva de Strahd, associada diretamente às ameaças recentes em Barovia.",
+        "descricao": "Vampira serva de Strahd e uma de suas esposas conhecidas pelo grupo.",
+        "description": "Vampira serva de Strahd e uma de suas esposas conhecidas pelo grupo."
+      }
+    },
+    {
+      "_id": "elem-UJ4lyTu4",
+      "attributes": {
+        "label": "Licantropia",
+        "element type": "Condição",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Gildin foi marcado pela licantropia após um ataque de lobisomens na estrada.",
+        "descricao": "Maldição bestial ligada aos lobisomens de Barovia.",
+        "description": "Maldição bestial ligada aos lobisomens de Barovia."
+      }
+    },
+    {
+      "_id": "elem-URJYrs1l",
+      "attributes": {
+        "label": "Acampamento Vistani",
+        "element type": "Local",
+        "status": "Desconhecido",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Acampamento dos Vistani, povo nômade com ligações profundas com Barovia e com Madame Eva.",
+        "descricao": "Acampamento dos Vistani, povo nômade com ligações profundas com Barovia e com Madame Eva.",
+        "description": "Acampamento dos Vistani, povo nômade com ligações profundas com Barovia e com Madame Eva.",
+        "image": "https://www.worldanvil.com/uploads/images/f7069a5cc72d21a4a13db4f1fe88e285.jpg"
+      }
+    },
+    {
+      "_id": "elem-UnfmtOjb",
+      "attributes": {
+        "label": "Doru",
+        "element type": "Monstro",
+        "raça": "Vampiro",
+        "status": "Morto",
+        "degree": 2,
+        "metrics::last": 2,
+        "image": "https://i0.wp.com/feyancestry.wordpress.com/wp-content/uploads/2016/07/07-doru.png?fit=709%2C1200&ssl=1&w=640",
+        "notas": "Filho de Padre Donavich, transformado em vampiro e aprisionado na Igreja de Barovia.",
+        "descricao": "Filho de Padre Donavich, transformado em vampiro e aprisionado na Igreja de Barovia.",
+        "description": "Filho de Padre Donavich, transformado em vampiro e aprisionado na Igreja de Barovia."
+      }
+    },
+    {
+      "_id": "elem-Us2A1ei9",
+      "attributes": {
+        "label": "Velho Moinho de Ossos",
+        "element type": "Local",
+        "status": "Destruido",
+        "degree": 1,
+        "metrics::last": 1,
+        "notas": "Moinho associado às megeras, aos doces amaldiçoados e aos horrores contra crianças em Barovia.",
+        "descricao": "Moinho associado às megeras, aos doces amaldiçoados e aos horrores contra crianças em Barovia.",
+        "description": "Moinho associado às megeras, aos doces amaldiçoados e aos horrores contra crianças em Barovia.",
+        "image": "https://www.worldanvil.com/uploads/images/984f19d03d7ce6f909667c3d44dc553e.png"
+      }
+    },
+    {
+      "_id": "elem-VWPPTU19",
+      "attributes": {
+        "label": "Kaelara (Jo)",
+        "element type": "PC",
+        "jogador": "Jo",
+        "raça": "Elfo Negro",
+        "status": "Vivo",
+        "degree": 9,
+        "metrics::last": 9,
+        "notas": "Guerreira elfa negra do grupo. Carrega a Maldição da Megera, também chamada de metamorfose involuntária. A Maldição dos Corvos foi removida em Krezk.",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4519763a-6b82-43bd-a4c3-ac6ac968bc6b.png",
+        "descricao": "Elfa negra guerreira do grupo, marcada por uma perigosa maldição de transformação.",
+        "description": "Elfa negra guerreira do grupo, marcada por uma perigosa maldição de transformação."
+      }
+    },
+    {
+      "_id": "elem-W85t2rpJ",
+      "attributes": {
+        "label": "Maldição da Megera",
+        "element type": "Condição",
+        "degree": 6,
+        "metrics::last": 6,
+        "notas": "Maldição que afeta Kaelara. Em momentos de grande tensão, pode provocar uma metamorfose involuntária e perigosa.",
+        "descricao": "Maldição ligada à transformação involuntária de Kaelara.",
+        "description": "Maldição ligada à transformação involuntária de Kaelara."
+      }
+    },
+    {
+      "_id": "elem-WE2l1epP",
+      "attributes": {
+        "label": "Loja de Brinquedos Blinsky",
+        "element type": "Local",
+        "status": "Desconhecido",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Loja de brinquedos de Valaki, conhecida por criações estranhas e macabras.",
+        "descricao": "Loja de brinquedos de Valaki, conhecida por criações estranhas e macabras.",
+        "description": "Loja de brinquedos de Valaki, conhecida por criações estranhas e macabras."
+      }
+    },
+    {
+      "_id": "elem-WGRE38ij",
+      "attributes": {
+        "label": "Maldição do Corvo",
+        "element type": "Condição",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Condição que já afetou Valakut e Kaelara. Foi removida de ambos durante o experimento com a água sagrada de Krezk.",
+        "descricao": "Antiga maldição que afetou Valakut e Kaelara, removida durante o experimento com a água sagrada de Krezk.",
+        "description": "Antiga maldição que afetou Valakut e Kaelara, removida durante o experimento com a água sagrada de Krezk."
+      }
+    },
+    {
+      "_id": "elem-WOiOlkAy",
+      "attributes": {
+        "label": "Vistani",
+        "element type": "Grupo",
+        "lider": "Madame Eva",
+        "status": "Vivo",
+        "tipo de grupo": "Clã",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Povo nômade com presença importante em Barovia, frequentemente ligado a viagens, presságios e à leitura das cartas.",
+        "descricao": "Povo nômade com presença importante em Barovia, frequentemente ligado a viagens, presságios e à leitura das cartas.",
+        "description": "Povo nômade com presença importante em Barovia, frequentemente ligado a viagens, presságios e à leitura das cartas.",
+        "image": "https://www.worldanvil.com/uploads/images/b5c3217212a230c939ff141cdc003eda.jpg"
+      }
+    },
+    {
+      "_id": "elem-WsoNmcCh",
+      "attributes": {
+        "label": "Strahd",
+        "element type": "Monstro",
+        "ocupação": "Senhor da Barovia",
+        "raça": "Vampiro",
+        "status": "Vivo",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/f6996dff-2522-4cbb-aeae-563ed38e3eac.png",
+        "tags": [
+          "Boss"
+        ],
+        "degree": 27,
+        "metrics::last": 27,
+        "notas": "Senhor vampiro da Barovia. Inimigo central do grupo, responsável por ataques, manipulações e pela sombra que domina o vale.",
+        "descricao": "Senhor vampiro da Barovia e maior ameaça conhecida pelo grupo.",
+        "description": "Senhor vampiro da Barovia e maior ameaça conhecida pelo grupo."
+      }
+    },
+    {
+      "_id": "elem-XADwgv9t",
+      "attributes": {
+        "label": "Anna Krezkov",
+        "element type": "NPC",
+        "ocupação": "Burgomestra de Krezk",
+        "raça": "Humano",
+        "status": "Vivo",
+        "degree": 6,
+        "metrics::last": 6,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/009ad22c-c360-446a-a098-5786ef96099c.png",
+        "notas": "Burgomestra de Krezk. Ela e Dmitri Krezkov fizeram amizade com o grupo após os eventos recentes.",
+        "descricao": "Burgomestra de Krezk e parceira de Dmitri Krezkov na liderança da vila.",
+        "description": "Burgomestra de Krezk e parceira de Dmitri Krezkov na liderança da vila."
+      }
+    },
+    {
+      "_id": "elem-XwOLar26",
+      "attributes": {
+        "label": "Covil de Lobisomens",
+        "element type": "Local",
+        "status": "Desconhecido",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
+        "descricao": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
+        "description": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
+        "image": "https://storage.ghost.io/c/77/85/7785af74-5911-409f-8658-d5a52cd53042/content/images/2026/04/Werewolf-Den-Entrance.jpg"
+      }
+    },
+    {
+      "_id": "elem-YOHE4ytX",
+      "attributes": {
+        "label": "Ataque a Vallaki",
+        "element type": "Evento",
+        "notas": "Vallaki foi atacada e sofreu grande destruição. O fato ainda pesa sobre os rumores, as estradas e os sobreviventes da região.",
+        "degree": 4,
+        "metrics::last": 4,
+        "descricao": "Evento devastador que deixou Vallaki marcada pela violência e pelo medo.",
+        "description": "Evento devastador que deixou Vallaki marcada pela violência e pelo medo."
+      }
+    },
+    {
+      "_id": "elem-YVmcMlMn",
+      "attributes": {
+        "label": "O paladino (2 de Espadas)",
+        "element type": "Item",
+        "raridade": "Desconheida",
+        "degree": 1,
+        "metrics::last": 1,
+        "notas": "Presságio: “Eu vejo um irmão que empunhou a luz contra a escuridão. Um juramento quebrado pelo sangue e pela inveja. Procurem onde o herói permanece observado por todos, mas verdadeiramente visto por ninguém.”",
+        "descricao": "Carta da leitura de Tarokka ligada a um herói observado por todos e ao legado de luz contra a escuridão.",
+        "description": "Carta da leitura de Tarokka ligada a um herói observado por todos e ao legado de luz contra a escuridão."
+      }
+    },
+    {
+      "_id": "elem-Z794fFos",
+      "attributes": {
+        "label": "Igreja de Barovia",
+        "element type": "Local",
+        "status": "Destruido",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Igreja da Vila da Barovia, marcada pela tragédia de Donavich e Doru.",
+        "descricao": "Igreja da Vila da Barovia, marcada pela tragédia de Donavich e Doru.",
+        "description": "Igreja da Vila da Barovia, marcada pela tragédia de Donavich e Doru.",
+        "image": "https://preview.redd.it/txjhrhw5fw571.jpg?width=768&format=pjpg&auto=webp&s=d572d8369176a0d96f45585ba6de1aff610eb3ad"
+      }
+    },
+    {
+      "_id": "elem-aX0Az9Sj",
+      "attributes": {
+        "label": "background",
+        "image": "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2F51s3lxug73o71.png%3Fwidth%3D3375%26format%3Dpng%26auto%3Dwebp%26s%3D26641f1ed823b880958cae56005d3fcabc5d242c",
+        "descricao": "Imagem de fundo do mapa.",
+        "notas": "Imagem de fundo do mapa.",
+        "description": "Imagem de fundo do mapa.",
+        "degree": 0,
+        "metrics::last": 0
+      }
+    },
+    {
+      "_id": "elem-ailywYOA",
+      "attributes": {
+        "label": "Grupo",
+        "element type": "Grupo",
+        "tipo de grupo": "Jogadores",
+        "degree": 22,
+        "metrics::last": 22,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/fadb01a4-2ca7-454c-a009-5e329fc693a9.png",
+        "notas": "Composto por Kaelara, Valakut, Gildin, Everlong e Tharok. Atualmente acompanha Ezmeralda e Zigfried após atravessar a passagem de St. Markovia e chegar à planície nevada além da montanha.",
+        "descricao": "Grupo de aventureiros que enfrenta os horrores de Barovia e se opõe às forças de Strahd.",
+        "description": "Grupo de aventureiros que enfrenta os horrores de Barovia e se opõe às forças de Strahd."
+      }
+    },
+    {
+      "_id": "elem-bWiUVxhR",
+      "attributes": {
+        "label": "Tharok (Andy)",
+        "element type": "PC",
+        "jogador": "Andy",
+        "raça": "Meio Orc",
+        "status": "Vivo",
+        "degree": 8,
+        "metrics::last": 8,
+        "notas": "Druida meio-orc do grupo. Carrega a Lança de Sangue e a Fúria de Sangue. Após seu sacrifício na passagem de St. Markovia, recebeu a Marca de Markovia, que o ajuda a controlar melhor sua sede de sangue.",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/efb81169-5315-4d08-a60b-a78ba52612d7.png",
+        "descricao": "Meio-orc druida do grupo, marcado pela Lança de Sangue e pela bênção de Markovia.",
+        "description": "Meio-orc druida do grupo, marcado pela Lança de Sangue e pela bênção de Markovia."
+      }
+    },
+    {
+      "_id": "elem-c00WaNFh",
+      "attributes": {
+        "label": "Quebrador de Voto",
+        "element type": "Entidade",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Figura encapuzada que surge em sonhos e visões de Gildin, associada à tensão entre seu juramento de devoção, suas escolhas e a fé em Imothep.",
+        "descricao": "Figura sombria que aparece em sonhos e visões de Gildin.",
+        "description": "Figura sombria que aparece em sonhos e visões de Gildin."
+      }
+    },
+    {
+      "_id": "elem-c7Ek6UIl",
+      "attributes": {
+        "label": "Colar da Sobrevivência",
+        "element type": "Item",
+        "raridade": "Muito Raro",
+        "magico": "Sim",
+        "degree": 1,
+        "metrics::last": 1,
+        "notas": "Colar protetor em posse de Tharok. Parece carregar uma magia discreta de preservação, capaz de ajudar seu portador a resistir a um momento de morte iminente antes de perder a força.",
+        "descricao": "Colar mágico defensivo ligado à sobrevivência do portador.",
+        "description": "Colar mágico defensivo ligado à sobrevivência do portador."
+      }
+    },
+    {
+      "_id": "elem-cWMt9o9P",
+      "attributes": {
+        "label": "Fragmento de Pedra Escarlate",
+        "element type": "Item",
+        "raridade": "Muito Raro",
+        "magico": "Sim",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Fragmento escarlate de origem desconhecida. Sua aparência lembra a pedra presente na Lança de Sangue, embora a ligação entre os dois ainda não esteja clara.",
+        "descricao": "Fragmento mágico de pedra vermelha, semelhante à gema presente na Lança de Sangue.",
+        "description": "Fragmento mágico de pedra vermelha, semelhante à gema presente na Lança de Sangue."
+      }
+    },
+    {
+      "_id": "elem-dYD2oHmz",
+      "attributes": {
+        "label": "Gema Esmeralda dos Vinhedos",
+        "element type": "Item",
+        "magico": "Sim",
+        "raridade": "Epico",
+        "degree": 4,
+        "metrics::last": 4,
+        "notas": "Gema mágica associada aos vinhedos e à vitalidade da produção de vinho em Barovia.",
+        "descricao": "Gema mágica associada aos vinhedos e à vitalidade da produção de vinho em Barovia.",
+        "description": "Gema mágica associada aos vinhedos e à vitalidade da produção de vinho em Barovia."
+      }
+    },
+    {
+      "_id": "elem-dtZyT4d1",
+      "attributes": {
+        "label": "Possessão",
+        "element type": "Condição",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Durante o sono de Everlong, a influência da Dama do Medo pode se manifestar de forma perigosa, afetando seu corpo e o ambiente ao redor.",
+        "descricao": "Condição que permite à Dama do Medo influenciar Everlong, especialmente durante o sono.",
+        "description": "Condição que permite à Dama do Medo influenciar Everlong, especialmente durante o sono."
+      }
+    },
+    {
+      "_id": "elem-eKSirLYR",
+      "attributes": {
+        "label": "O ladino (10 de Ouros)",
+        "element type": "Item",
+        "raridade": "Desconheida",
+        "degree": 4,
+        "metrics::last": 4,
+        "notas": "Presságio: “vejo um ninho de corvos; lá vocês encontrarão o prêmio”. A leitura associa este sinal aos corvos e aos lugares ligados a eles em Barovia.",
+        "descricao": "Carta de Ouros da leitura de Tarokka. Seu presságio fala de um ninho de corvos onde repousa um prêmio importante.",
+        "description": "Carta de Ouros da leitura de Tarokka. Seu presságio fala de um ninho de corvos onde repousa um prêmio importante."
+      }
+    },
+    {
+      "_id": "elem-gBtUkPMw",
+      "attributes": {
+        "label": "Madame Eva",
+        "element type": "NPC",
+        "raça": "Humana",
+        "status": "Vivo",
+        "degree": 3,
+        "metrics::last": 3,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ee868dd0-fef2-4537-ab8d-45f43347e025.jpg",
+        "notas": "Líder Vistani e vidente responsável pela leitura das cartas que guia parte do destino do grupo.",
+        "descricao": "Líder Vistani e vidente responsável pela leitura das cartas que guia parte do destino do grupo.",
+        "description": "Líder Vistani e vidente responsável pela leitura das cartas que guia parte do destino do grupo."
+      }
+    },
+    {
+      "_id": "elem-h1YC88dR",
+      "attributes": {
+        "label": "Gildin (Doug)",
+        "element type": "PC",
+        "jogador": "Doug",
+        "raça": "Anão",
+        "status": "Vivo",
+        "degree": 9,
+        "metrics::last": 9,
+        "notas": "Paladino anão do grupo, devoto de Imothep. Carrega licantropia e é tentado pelo Quebrador de Voto, mas recentemente voltou a sentir o apoio de sua divindade.",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4ad8e3fb-2ecf-4fbf-a3dd-927f593866b9.png",
+        "descricao": "Anão paladino do grupo, dividido entre devoção, fardo e tentação.",
+        "description": "Anão paladino do grupo, dividido entre devoção, fardo e tentação."
+      }
+    },
+    {
+      "_id": "elem-h1drVi7v",
+      "attributes": {
+        "label": "O Senhor Sombrio (Grande Carta)",
+        "element type": "Item",
+        "degree": 3,
+        "metrics::last": 3,
+        "notas": "Presságio: Strahd espreita nas profundezas da escuridão, no lugar ao qual inevitavelmente deve retornar.",
+        "descricao": "Grande carta da leitura de Tarokka ligada diretamente a Strahd e ao destino do confronto final.",
+        "description": "Grande carta da leitura de Tarokka ligada diretamente a Strahd e ao destino do confronto final."
+      }
+    },
+    {
+      "_id": "elem-hYcITjsP",
+      "attributes": {
+        "label": "Esfinge Negra de Khazan",
+        "element type": "Monstro",
+        "status": "Desconhecido",
+        "raça": "Esfinge",
+        "ocupação": "Guardiao dos Desafios de Khazan",
+        "degree": 3,
+        "metrics::last": 3,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/b2cb6723-1e5b-48d1-bf1a-266ae2f0e9e2.png",
+        "notas": "A esfinge surgiu como uma presença sombria e imponente, impondo desafios e enigmas aos que buscavam respostas antigas. Sua presença está ligada a Khazan e aos mistérios que cercam os grandes poderes de Barovia.",
+        "descricao": "Guardião enigmático ligado aos desafios de Khazan e a antigos segredos de Barovia.",
+        "description": "Guardião enigmático ligado aos desafios de Khazan e a antigos segredos de Barovia."
+      }
+    },
+    {
+      "_id": "elem-i6VwoArL",
+      "attributes": {
+        "label": "Vila de Valaki",
+        "element type": "Local",
+        "status": "Desconhecido",
+        "degree": 6,
+        "metrics::last": 6,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/caf248a3-c9eb-411a-b898-002c1a8f1dc7.png",
+        "notas": "O grupo passou por Vallaki, conheceu a Estalagem Água Azul, a Igreja de São Andral e acabou sendo expulso da cidade após tensão com Padre Lucian e os fiéis.",
+        "descricao": "Cidade murada de Barovia, marcada por medo, fé, tensão política e ataques recentes.",
+        "description": "Cidade murada de Barovia, marcada por medo, fé, tensão política e ataques recentes."
+      }
+    },
+    {
+      "_id": "elem-jTSAKRHi",
+      "attributes": {
+        "label": "Padre Lucian Petrovich",
+        "element type": "NPC",
+        "status": "Desconhecido",
+        "degree": 1,
+        "metrics::last": 1,
+        "raça": "Humano",
+        "notas": "Após revelações e tensão entre o grupo e os fiéis, Padre Lucian conduziu a expulsão do grupo de Vallaki junto aos devotos da igreja.",
+        "descricao": "Sacerdote da Igreja de São Andral em Vallaki.",
+        "description": "Sacerdote da Igreja de São Andral em Vallaki."
+      }
+    },
+    {
+      "_id": "elem-jfj9nHJp",
+      "attributes": {
+        "label": "Machado do Caçador",
+        "element type": "Item",
+        "magico": "Sim",
+        "raridade": "Desconheida",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Machado retirado da árvore envolvida no ritual druídico da Colina Yester. Carrega marcas de violência, natureza corrompida e antigos ritos de Barovia.",
+        "descricao": "Machado encontrado preso à árvore ligada ao ritual druídico.",
+        "description": "Machado encontrado preso à árvore ligada ao ritual druídico."
+      }
+    },
+    {
+      "_id": "elem-lFeNftmC",
+      "attributes": {
+        "label": "Leitura das Cartas",
+        "element type": "Evento",
+        "degree": 8,
+        "metrics::last": 8,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/1d6e8c90-a807-480e-8f44-966352c61b69.jpg",
+        "notas": "Madame Eva revelou presságios enigmáticos sobre lugares, aliados, tesouros e o caminho que pode levar ao confronto contra Strahd.",
+        "descricao": "Evento em que Madame Eva revelou presságios sobre caminhos importantes, aliados e o destino do confronto contra Strahd.",
+        "description": "Evento em que Madame Eva revelou presságios sobre caminhos importantes, aliados e o destino do confronto contra Strahd."
+      }
+    },
+    {
+      "_id": "elem-ljY50beo",
+      "attributes": {
+        "label": "Boneca Noiva Blinsky",
+        "element type": "Item",
+        "raridade": "Muito Raro",
+        "magico": "Sim",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Boneca encontrada na Casa da Morte. Desde então, passou a retornar para Gildin sempre que ele tenta se livrar dela.",
+        "descricao": "Boneca macabra que se prende a Gildin de forma sobrenatural.",
+        "description": "Boneca macabra que se prende a Gildin de forma sobrenatural."
+      }
+    },
+    {
+      "_id": "elem-mKkTVT30",
+      "attributes": {
+        "label": "O Abade",
+        "element type": "Monstro",
+        "ocupação": "Abade de St Markovia",
+        "raça": "Deva",
+        "status": "Morto",
+        "degree": 6,
+        "metrics::last": 6,
+        "tags": [
+          "Morto"
+        ],
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/2d9b5913-c63b-4b85-b87f-809fa8a6a439.jpg",
+        "notas": "Deva corrompido que governava a Abadia de St. Markovia e a Família Belview antes de ser derrotado pelo grupo.",
+        "descricao": "Deva corrompido que governava a Abadia de St. Markovia e a Família Belview antes de ser derrotado pelo grupo.",
+        "description": "Deva corrompido que governava a Abadia de St. Markovia e a Família Belview antes de ser derrotado pelo grupo."
+      }
+    },
+    {
+      "_id": "elem-n1Jow6zV",
+      "attributes": {
+        "label": "Everlong (Marco)",
+        "element type": "PC",
+        "jogador": "Marco",
+        "raça": "Humano",
+        "status": "Vivo",
+        "degree": 8,
+        "metrics::last": 8,
+        "notas": "A condição antes chamada de “O Pesadelo” se refere à influência da Dama do Medo e à possessão que o ameaça durante o sono. Por segurança, Everlong costuma ser amarrado durante a noite.",
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ed2cdd48-77f6-4c86-a247-e4e0473b4301.png",
+        "descricao": "Humano bruxo marcado por uma presença sombria que o persegue em sonhos e despertares.",
+        "description": "Humano bruxo marcado por uma presença sombria que o persegue em sonhos e despertares."
+      }
+    },
+    {
+      "_id": "elem-pasXDkMt",
+      "attributes": {
+        "label": "Anel do Invisível",
+        "element type": "Item",
+        "magico": "Sim",
+        "raridade": "Muito Raro",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Anel mágico associado a Valakut e à furtividade.",
+        "descricao": "Anel mágico associado a Valakut e à furtividade.",
+        "description": "Anel mágico associado a Valakut e à furtividade."
+      }
+    },
+    {
+      "_id": "elem-ppwXYlQN",
+      "attributes": {
+        "label": "Tapa Olho Antigo",
+        "element type": "Item",
+        "raridade": "Desconheida",
+        "magico": "Sim",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Tapa-olho antigo encontrado na Casa da Morte. Sua aparência sugere que já pertenceu a alguém marcado por muitas viagens e segredos.",
+        "descricao": "Objeto antigo encontrado na Casa da Morte e atualmente carregado por Everlong.",
+        "description": "Objeto antigo encontrado na Casa da Morte e atualmente carregado por Everlong."
+      }
+    },
+    {
+      "_id": "elem-rHGgpxVX",
+      "attributes": {
+        "label": "Irmandade de Morgantha",
+        "element type": "Grupo",
+        "status": "Desconhecido",
+        "degree": 6,
+        "metrics::last": 6,
+        "notas": "Grupo de megeras associado ao Velho Moinho de Ossos e às maldições enfrentadas pelo grupo.",
+        "descricao": "Grupo de megeras associado ao Velho Moinho de Ossos e às maldições enfrentadas pelo grupo.",
+        "description": "Grupo de megeras associado ao Velho Moinho de Ossos e às maldições enfrentadas pelo grupo."
+      }
+    },
+    {
+      "_id": "elem-rNvmafto",
+      "attributes": {
+        "label": "Vila de Krezk",
+        "element type": "Local",
+        "degree": 11,
+        "metrics::last": 11,
+        "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/40550c79-1864-4f3d-9c46-90034718cb04.jpg",
+        "notas": "A vila sobreviveu ao ataque de Strahd, mas ficou gravemente marcada pela destruição. A estátua/ídolo de St. Markovia foi colocada no altar local. O lago perdeu sua sacralidade, embora a água continue potável.",
+        "status": "Vivo",
+        "descricao": "Vila isolada aos pés da Abadia de St. Markovia, gravemente marcada pelo ataque de Strahd, mas ainda viva.",
+        "description": "Vila isolada aos pés da Abadia de St. Markovia, gravemente marcada pelo ataque de Strahd, mas ainda viva."
+      }
+    },
+    {
+      "_id": "elem-sgfsc69w",
+      "attributes": {
+        "label": "Burgomestre Kol­yanovich",
+        "element type": "NPC",
+        "status": "Morto",
+        "degree": 3,
+        "metrics::last": 3,
+        "raça": "Humano",
+        "image": "https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/43e9dd55-51b6-4358-9c39-53e593c8659e/uploads/images/51949a61b2a5707ecdf22bf9c81cb58f.png",
+        "notas": "Antigo burgomestre da Vila da Barovia e pai de Ireena e Ismark.",
+        "descricao": "Antigo burgomestre da Vila da Barovia e pai de Ireena e Ismark.",
+        "description": "Antigo burgomestre da Vila da Barovia e pai de Ireena e Ismark."
+      }
+    },
+    {
+      "_id": "elem-vqKbxr8E",
+      "attributes": {
+        "label": "background1",
+        "image": "https://preview.redd.it/51s3lxug73o71.png?width=3375&format=png&auto=webp&s=26641f1ed823b880958cae56005d3fcabc5d242c",
+        "descricao": "Imagem de fundo alternativa do mapa.",
+        "notas": "Imagem de fundo alternativa do mapa.",
+        "description": "Imagem de fundo alternativa do mapa.",
+        "degree": 0,
+        "metrics::last": 0
+      }
+    },
+    {
+      "_id": "elem-ymug32fb",
+      "attributes": {
+        "label": "Estalagem Água Azul",
+        "element type": "Local",
+        "notas": "Ponto importante de encontro em Vallaki. A falta de vinho e a ligação com os Martikov aproximaram o grupo da Vinícola Mago dos Vinhos.",
+        "status": "Desconhecido",
+        "degree": 3,
+        "metrics::last": 3,
+        "descricao": "Estalagem de Vallaki administrada por Urwin Martikov e sua família.",
+        "description": "Estalagem de Vallaki administrada por Urwin Martikov e sua família.",
+        "image": "https://www.worldanvil.com/uploads/images/805334b0cd3162241c0aa99afcbf381d.jpg"
+      }
+    },
+    {
+      "_id": "elem-zVy4jS7m",
+      "attributes": {
+        "label": "Urwin Martikov",
+        "element type": "NPC",
+        "ocupação": "Estalageiro",
+        "raça": "Humano",
+        "status": "Desconhecido",
+        "degree": 3,
+        "metrics::last": 3,
+        "image": "https://www.worldanvil.com/uploads/images/3487a8a29202ecb189ffd7532b4a81f4.jpg",
+        "notas": "Estalageiro da Água Azul e membro da Família Martikov.",
+        "descricao": "Estalageiro da Água Azul e membro da Família Martikov.",
+        "description": "Estalageiro da Água Azul e membro da Família Martikov."
+      }
+    },
+    {
+      "_id": "elem-yfbwBICB",
+      "attributes": {
+        "label": "Ataque de Strahd a Krezk",
+        "element type": "Evento",
+        "notas": "Strahd atacou Krezk e a vila foi quase totalmente destruída. Com a ajuda do grupo, Krezk sobreviveu. Durante o ataque, Valakut foi controlado por Strahd e ajudou o vampiro a entrar na cidade. O grupo foi derrotado duramente; Gildin sofreu um ferimento humilhante quando Strahd arrancou parte de seu cabelo e tomou seu sangue em combate.",
+        "degree": 7,
+        "metrics::last": 7,
+        "descricao": "Ataque devastador de Strahd contra Krezk, sobrevivido pela vila com ajuda do grupo.",
+        "description": "Ataque devastador de Strahd contra Krezk, sobrevivido pela vila com ajuda do grupo."
+      }
+    },
+    {
+      "_id": "elem-GdCaCAl4",
+      "attributes": {
+        "label": "Experimento com a Água Sagrada de Krezk",
+        "element type": "Evento",
+        "notas": "Antes de o lago perder sua sacralidade, o grupo usou sua água em uma tentativa de remover maldições. A Maldição dos Corvos foi removida de Valakut e Kaelara. Valakut também descobriu que a água podia fazê-lo voltar temporariamente ao normal, sem vampirismo, embora os efeitos variassem.",
+        "degree": 4,
+        "metrics::last": 4,
+        "descricao": "Experimento realizado antes da perda da sacralidade do lago de Krezk, usado para tentar remover maldições.",
+        "description": "Experimento realizado antes da perda da sacralidade do lago de Krezk, usado para tentar remover maldições."
+      }
+    },
+    {
+      "_id": "elem-WcPjNhKH",
+      "attributes": {
+        "label": "Frascos de Água Sagrada de Krezk",
+        "element type": "Item",
+        "magico": "Sim",
+        "raridade": "Raro",
+        "notas": "Restam apenas alguns poucos frascos enfraquecidos da antiga água sagrada de Krezk. Seus efeitos são variáveis.",
+        "degree": 4,
+        "metrics::last": 4,
+        "descricao": "Últimos frascos enfraquecidos da antiga água sagrada de Krezk, com efeitos ainda variáveis.",
+        "description": "Últimos frascos enfraquecidos da antiga água sagrada de Krezk, com efeitos ainda variáveis."
+      }
+    },
+    {
+      "_id": "elem-EC5Ngo48",
+      "attributes": {
+        "label": "Passagem de St. Markovia",
+        "element type": "Local",
+        "status": "Desconhecido",
+        "notas": "Passagem subterrânea ligada à Abadia de St. Markovia. O grupo atravessou seus testes e saiu do outro lado da montanha; a porta voltou a se fechar atrás deles.",
+        "degree": 3,
+        "metrics::last": 3,
+        "descricao": "Passagem subterrânea ligada à Abadia de St. Markovia, atravessada pelo grupo após uma série de testes.",
+        "description": "Passagem subterrânea ligada à Abadia de St. Markovia, atravessada pelo grupo após uma série de testes."
+      }
+    },
+    {
+      "_id": "elem-uUAMZucY",
+      "attributes": {
+        "label": "Planície Nevada além da Montanha",
+        "element type": "Local",
+        "status": "Desconhecido",
+        "notas": "Pequena planície coberta de neve do outro lado da montanha, diante da porta fechada da passagem.",
+        "degree": 2,
+        "metrics::last": 2,
+        "descricao": "Pequena planície coberta de neve onde o grupo chegou após atravessar a passagem de St. Markovia.",
+        "description": "Pequena planície coberta de neve onde o grupo chegou após atravessar a passagem de St. Markovia."
+      }
+    },
+    {
+      "_id": "elem-yVPnvyx3",
+      "attributes": {
+        "label": "Travessia da Passagem de St. Markovia",
+        "element type": "Evento",
+        "notas": "O grupo atravessou a passagem de St. Markovia acompanhado por Ezmeralda e Zigfried. No teste final, Tharok se sacrificou e recebeu a Marca de Markovia. Depois disso, a passagem se abriu e o grupo chegou a uma planície nevada do outro lado da montanha.",
+        "degree": 5,
+        "metrics::last": 5,
+        "descricao": "Evento em que o grupo atravessou a passagem acompanhado por Ezmeralda e Zigfried.",
+        "description": "Evento em que o grupo atravessou a passagem acompanhado por Ezmeralda e Zigfried."
+      }
+    },
+    {
+      "_id": "elem-5ShkQoOw",
+      "attributes": {
+        "label": "Marca de Markovia",
+        "element type": "Condição",
+        "magico": "Sim",
+        "notas": "Marca recebida por Tharok após seu sacrifício no teste final da passagem de St. Markovia. Parece ajudá-lo a conter melhor a Fúria de Sangue.",
+        "degree": 3,
+        "metrics::last": 3,
+        "descricao": "Marca sagrada recebida por Tharok após seu sacrifício.",
+        "description": "Marca sagrada recebida por Tharok após seu sacrifício."
+      }
+    },
+    {
+      "_id": "elem-nEnEKM1w",
+      "attributes": {
+        "label": "Zigfried",
+        "element type": "NPC",
+        "raça": "Desconhecido",
+        "status": "Vivo",
+        "notas": "Membro da Família Belview, os mongrelfolks que viviam na Abadia sob o controle do Abade. Atualmente acompanha o grupo e Ezmeralda após a travessia da passagem de St. Markovia.",
+        "degree": 5,
+        "metrics::last": 5,
+        "descricao": "Mongrelfolk da Família Belview que acompanha o grupo.",
+        "description": "Mongrelfolk da Família Belview que acompanha o grupo."
+      }
+    },
+    {
+      "_id": "elem-kkICUvQd",
+      "attributes": {
+        "label": "Retorno escondido de Valakut à Abadia",
+        "element type": "Evento",
+        "notas": "Após o ataque a Krezk, Valakut precisou ser levado escondido pelo grupo no retorno à Abadia, evitando a fúria dos aldeões.",
+        "degree": 3,
+        "metrics::last": 3,
+        "descricao": "Retorno em que Valakut precisou ser escondido para evitar a fúria dos aldeões de Krezk.",
+        "description": "Retorno em que Valakut precisou ser escondido para evitar a fúria dos aldeões de Krezk."
+      }
+    },
+    {
+      "_id": "elem-BeZZgrMH",
+      "attributes": {
+        "label": "Castelo Ravenloft",
+        "element type": "Local",
+        "degree": 7,
+        "metrics::last": 7,
+        "status": "Desconhecido",
+        "notas": "Fortaleza de Strahd e símbolo de seu domínio sobre Barovia. Sua presença paira sobre a região como ameaça constante.",
+        "descricao": "Castelo sombrio de Strahd, centro de poder do senhor da Barovia.",
+        "description": "Castelo sombrio de Strahd, centro de poder do senhor da Barovia.",
+        "image": "https://i0.wp.com/dungeonmister.com/wp-content/uploads/2022/05/Castle-Ravenloft-2904638186-1652679972429.webp?fit=1202%2C1202&ssl=1"
+      }
+    },
+    {
+      "_id": "elem-UnFrMCs9",
+      "attributes": {
+        "label": "Van Richten",
+        "element type": "NPC",
+        "degree": 2,
+        "metrics::last": 2,
+        "status": "Desconhecido",
+        "raça": "Humano",
+        "ocupação": "Caçador de monstros",
+        "notas": "Nome associado à caça de vampiros e monstros em Barovia. Sua história se cruza com a luta contra Strahd.",
+        "descricao": "Caçador de monstros conhecido por enfrentar criaturas das trevas.",
+        "description": "Caçador de monstros conhecido por enfrentar criaturas das trevas.",
+        "image": "https://static.wikia.nocookie.net/ravenloft/images/e/e1/Rictavio.png/revision/latest/scale-to-width-down/180?cb=20210503134906"
+      }
+    },
+    {
+      "_id": "elem-huuyH8NR",
+      "attributes": {
+        "label": "Livro com Rituais e Sacrifícios Humanos",
+        "element type": "Item",
+        "raridade": "Desconheida",
+        "magico": "Não",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Livro perturbador encontrado na Casa da Morte, contendo registros de rituais, sacrifícios e práticas sombrias.",
+        "descricao": "Livro macabro ligado aos cultos e horrores encontrados sob a Casa da Morte.",
+        "description": "Livro macabro ligado aos cultos e horrores encontrados sob a Casa da Morte."
+      }
+    },
+    {
+      "_id": "elem-PhoJ9f3Z",
+      "attributes": {
+        "label": "Garrafas antigas do Vinho do Mago",
+        "element type": "Item",
+        "raridade": "Comum",
+        "magico": "Não",
+        "degree": 2,
+        "metrics::last": 2,
+        "notas": "Garrafas antigas e conservadas do vinho dos Martikov, carregadas por Everlong.",
+        "descricao": "Garrafas antigas e conservadas do vinho dos Martikov.",
+        "description": "Garrafas antigas e conservadas do vinho dos Martikov."
+      }
+    },
+    {
+      "_id": "elem-Uvag7PtS",
+      "attributes": {
+        "label": "Lago de Krezk",
+        "element type": "Local",
+        "degree": 4,
+        "metrics::last": 4,
+        "status": "Desconhecido",
+        "descricao": "Lago da vila de Krezk, antes conhecido por sua água sagrada.",
+        "description": "Lago da vila de Krezk, antes conhecido por sua água sagrada.",
+        "notas": "Antes de perder sua sacralidade, a água do lago foi usada em um experimento que removeu a Maldição do Corvo de Valakut e Kaelara. Depois dos ataques e da corrupção sofrida, a água continua potável, mas não mantém a mesma força sagrada.",
+        "image": "https://images.squarespace-cdn.com/content/v1/670447eeba89c103beabb9a5/3ebb74fa-48f2-4cd9-a4eb-9828bb0fde63/Krezk%2BShrine.jpg"
+      }
+    },
+    {
+      "_id": "elem-Dffppr7x",
+      "attributes": {
+        "label": "Cartas de Strahd",
+        "element type": "Item",
+        "degree": 4,
+        "metrics::last": 4,
+        "raridade": "Unico",
+        "magico": "Não",
+        "descricao": "Cartas seladas que atraíram os membros do grupo para Barovia e depois os chamaram ao castelo.",
+        "description": "Cartas seladas que atraíram os membros do grupo para Barovia e depois os chamaram ao castelo.",
+        "notas": "As primeiras cartas pareciam vir do burgomestre da Vila da Barovia, mas mais tarde o grupo entendeu que estavam ligadas a Strahd. Outra carta, recebida na saída de Vallaki, convidou o grupo ao Castelo Ravenloft."
+      }
+    },
+    {
+      "_id": "elem-jbOMcHxx",
+      "attributes": {
+        "label": "Chegada à Barovia",
+        "element type": "Evento",
+        "degree": 5,
+        "metrics::last": 5,
+        "descricao": "Chegada dos viajantes às névoas e à estrada que conduzia à Vila da Barovia.",
+        "description": "Chegada dos viajantes às névoas e à estrada que conduzia à Vila da Barovia.",
+        "notas": "Kaelara, Valakut, Gildin e Everlong chegaram separados, atraídos por cartas diferentes. Encontraram-se nas névoas diante de uma placa indicando a direção da Barovia, ainda desconfiados uns dos outros."
+      }
+    },
+    {
+      "_id": "elem-8dxaAYBZ",
+      "attributes": {
+        "label": "Desaparecimento de Ismark e Ireena",
+        "element type": "Evento",
+        "degree": 5,
+        "metrics::last": 5,
+        "descricao": "Sumiu o rastro de Ismark e Ireena durante a travessia pelas estradas e montanhas.",
+        "description": "Sumiu o rastro de Ismark e Ireena durante a travessia pelas estradas e montanhas.",
+        "notas": "Após a separação do grupo e o encontro com uma megera que se revelou ligada à condição de Kaelara, Ismark e Ireena desapareceram. Restaram sinais de luta, sangue, roupas e pertences rasgados."
+      }
+    },
+    {
+      "_id": "elem-7VGXfcLz",
+      "attributes": {
+        "label": "Expulsão de Vallaki",
+        "element type": "Evento",
+        "degree": 4,
+        "metrics::last": 4,
+        "descricao": "Padre Lucian e os fiéis expulsaram o grupo de Vallaki após uma grave ruptura de confiança.",
+        "description": "Padre Lucian e os fiéis expulsaram o grupo de Vallaki após uma grave ruptura de confiança.",
+        "notas": "A morte do Padre Donavich e as ações de Valakut se tornaram motivo de indignação entre os fiéis. Padre Lucian conduziu a expulsão do grupo da cidade de forma humilhante, embora não tenha havido massacre."
+      }
+    },
+    {
+      "_id": "elem-741v8Mp5",
+      "attributes": {
+        "label": "Ataque dos Lobisomens na Estrada",
+        "element type": "Evento",
+        "degree": 4,
+        "metrics::last": 4,
+        "descricao": "Ataque sofrido pelo grupo nas estradas a oeste de Vallaki.",
+        "description": "Ataque sofrido pelo grupo nas estradas a oeste de Vallaki.",
+        "notas": "Durante o caminho rumo à Vinícola Mago dos Vinhos, o grupo foi atacado por lobisomens. Nesse confronto, Gildin foi marcado pela licantropia."
+      }
+    },
+    {
+      "_id": "elem-T85fAhnx",
+      "attributes": {
+        "label": "Lua de Sangue na Vinícola",
+        "element type": "Evento",
+        "degree": 5,
+        "metrics::last": 5,
+        "descricao": "Noite de tensão sobrenatural na Vinícola Mago dos Vinhos.",
+        "description": "Noite de tensão sobrenatural na Vinícola Mago dos Vinhos.",
+        "notas": "Durante uma lua de sangue, Gildin resistiu à licantropia e Valakut resistiu à sede vampírica. A influência da Dama do Medo se aproximou perigosamente do mundo físico antes de ser contida."
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-EsVTtJE4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-iwrgx5Ml",
+      "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-RrCZrvIT",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-VWPPTU19",
+      "to": "elem-Us2A1ei9"
+    },
+    {
+      "_id": "conn-f5NdSsJF",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-iwrgx5Ml",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-fyzAdfyC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-VWPPTU19",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-qAWyGvSt",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-KvqYsUIR",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-rtDlsSsr",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-BeZZgrMH",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-vhuu8m71",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-iwrgx5Ml",
+      "to": "elem-Rb0KC6l6"
+    },
+    {
+      "_id": "conn-xs6mZ160",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-iwrgx5Ml",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-0XtHHquh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-QoveVeVD",
+      "to": "elem-W85t2rpJ"
+    },
+    {
+      "_id": "conn-0a9otnGo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-WOiOlkAy",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-0fZ6Gsag",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-K55IDhWH",
+      "to": "elem-jfj9nHJp"
+    },
+    {
+      "_id": "conn-0pr79xZR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-WE2l1epP",
+      "to": "elem-i6VwoArL"
+    },
+    {
+      "_id": "conn-2T7wzZ3t",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-9StePIZL",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-34ROxDKN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-ljY50beo",
+      "to": "elem-WE2l1epP"
+    },
+    {
+      "_id": "conn-3pfmnl6h",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-Gf3ntous",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-4KK6ZD9D",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Devoto"
+      },
+      "from": "elem-IcxpZi6G",
+      "to": "elem-IqIqOJFS"
+    },
+    {
+      "_id": "conn-4RTZ8huF",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-W85t2rpJ",
+      "to": "elem-TA6dqfdp"
+    },
+    {
+      "_id": "conn-4iipMsBD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-LKBTh5I0",
+      "to": "elem-Z794fFos"
+    },
+    {
+      "_id": "conn-4n40UJu4",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-rHGgpxVX",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-5gcegE0H",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-UJ4lyTu4",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-5rCLJfqN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-BchOjZP1",
+      "to": "elem-i6VwoArL"
+    },
+    {
+      "_id": "conn-6PWPeeSo",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-rNvmafto",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-77vNwnKl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-HBTFbEds"
+    },
+    {
+      "_id": "conn-7AQhjVLW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-eKSirLYR",
+      "to": "elem-9ejG12QY"
+    },
+    {
+      "_id": "conn-8EWkeGLO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-ljY50beo",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-8ZSjAO93",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-hYcITjsP",
+      "to": "elem-GsofZpct"
+    },
+    {
+      "_id": "conn-8jS7EaGq",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-9ejG12QY",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-9T8thgiZ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-Z794fFos",
+      "to": "elem-9StePIZL"
+    },
+    {
+      "_id": "conn-9WTtLxPE",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Parente"
+      },
+      "from": "elem-GjkFljdB",
+      "to": "elem-sgfsc69w"
+    },
+    {
+      "_id": "conn-9czYH7JG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-TBmIM6Ai",
+      "to": "elem-lFeNftmC"
+    },
+    {
+      "_id": "conn-9jR94H9j",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-dYD2oHmz",
+      "to": "elem-2GbE6wkE"
+    },
+    {
+      "_id": "conn-9sTnP6Tf",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada",
+        "notas": "Histórico: a condição foi removida em Krezk."
+      },
+      "from": "elem-WGRE38ij",
+      "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-AJwWOPjN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Devoto"
+      },
+      "from": "elem-XADwgv9t",
+      "to": "elem-KvqYsUIR"
+    },
+    {
+      "_id": "conn-AONTkh4v",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo",
+        "notas": "A Dama do Medo ameaça e influencia Everlong, mas não é sua patrona."
+      },
+      "from": "elem-yUb8ofHy",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-Aj1ovR5F",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-4CEhQXiz",
+      "to": "elem-rHGgpxVX"
+    },
+    {
+      "_id": "conn-ApKYvRQo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-ppwXYlQN",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-BBRxnQKX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-XADwgv9t",
+      "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-C9zGOO1C",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo",
+        "tags": [
+          "Conexão Importante"
+        ]
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-CI0Jcrd0",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-cWMt9o9P",
+      "to": "elem-51xip4L6"
+    },
+    {
+      "_id": "conn-D4iEhBqH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-jfj9nHJp",
+      "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-DvId01ua",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-9ejG12QY",
+      "to": "elem-2GbE6wkE"
+    },
+    {
+      "_id": "conn-HJDJb5DI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada",
+        "notas": "Histórico: a condição foi removida em Krezk."
+      },
+      "from": "elem-WGRE38ij",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-HRBqYSGQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-LiMPjxiE",
+      "to": "elem-GsofZpct"
+    },
+    {
+      "_id": "conn-HhPFYpk8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-n1Jow6zV",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-IP3lhGIJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-c7Ek6UIl",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-IbLiMkOL",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-36ZuVpK3",
+      "to": "elem-XwOLar26"
+    },
+    {
+      "_id": "conn-IiUfV8B6",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-GsofZpct",
+      "to": "elem-dYD2oHmz"
+    },
+    {
+      "_id": "conn-JPWa6T8x",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-i6VwoArL",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-JVRbisKq",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-HBTFbEds",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-Jb9OV2SZ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-ABX4i0rS",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-KQmV5bAs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Devoto"
+      },
+      "from": "elem-BchOjZP1",
+      "to": "elem-IqIqOJFS"
+    },
+    {
+      "_id": "conn-L8OekVJh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Devoto"
+      },
+      "from": "elem-XADwgv9t",
+      "to": "elem-76SKVa3j"
+    },
+    {
+      "_id": "conn-LwOl0Hve",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-h1drVi7v",
+      "to": "elem-lFeNftmC"
+    },
+    {
+      "_id": "conn-MIaaE73m",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence",
+        "notas": "A maldição se manifesta em Kaelara como uma metamorfose involuntária e perigosa."
+      },
+      "from": "elem-W85t2rpJ",
+      "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-MircgOVD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Patrono"
+      },
+      "from": "elem-EwAQsiZc",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-Mv1BXSzE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-4MHVBIKF",
+      "to": "elem-2GbE6wkE"
+    },
+    {
+      "_id": "conn-NHEKLwtH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-eKSirLYR",
+      "to": "elem-lFeNftmC"
+    },
+    {
+      "_id": "conn-NUsZMfDZ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-YOHE4ytX"
+    },
+    {
+      "_id": "conn-NmFUtncn",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-36ZuVpK3",
+      "to": "elem-lFeNftmC"
+    },
+    {
+      "_id": "conn-Nnp3w6Wo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-821pwCfE",
+      "to": "elem-UnfmtOjb"
+    },
+    {
+      "_id": "conn-NoXsJJHj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo",
+        "tags": [
+          "Conexão Importante"
+        ]
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-OkdJMmFB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-5EaTw5FN",
+      "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-OmAcJhOQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-76SKVa3j",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-PIuDJTlx",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-9StePIZL",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-PWDQULr2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-c00WaNFh",
+      "to": "elem-JbMJYKl6"
+    },
+    {
+      "_id": "conn-PpfUlvsh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-Rb0KC6l6",
+      "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-Q0Q1m01W",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence",
+        "notas": "Encontrado na Casa da Morte."
+      },
+      "from": "elem-ppwXYlQN",
+      "to": "elem-T3GHiA90"
+    },
+    {
+      "_id": "conn-QEwAxNnH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-GsofZpct",
+      "to": "elem-lFeNftmC"
+    },
+    {
+      "_id": "conn-Qwn4m10O",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-yUb8ofHy",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-RXkDNePO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-dYD2oHmz",
+      "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-SbdUt4iF",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-eKSirLYR",
+      "to": "elem-GsofZpct"
+    },
+    {
+      "_id": "conn-SdO82DBl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo",
+        "tags": [
+          "Conexão Importante"
+        ]
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-UrRrlaEP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-QoveVeVD",
+      "to": "elem-T3GHiA90"
+    },
+    {
+      "_id": "conn-VZxKtagp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-pasXDkMt",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-VpWtihPa",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-GsofZpct",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-WSi9qCTz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Devoto"
+      },
+      "from": "elem-Z794fFos",
+      "to": "elem-IqIqOJFS"
+    },
+    {
+      "_id": "conn-Wd7YKelh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-c00WaNFh",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-Wupjs27A",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-821pwCfE",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-X7zxkExk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-IcxpZi6G",
+      "to": "elem-YOHE4ytX"
+    },
+    {
+      "_id": "conn-XCOHTFOz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-QoveVeVD",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-Y0RFKE2H",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-jTSAKRHi",
+      "to": "elem-BchOjZP1"
+    },
+    {
+      "_id": "conn-YCoN71B3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Devoto"
+      },
+      "from": "elem-h1YC88dR",
+      "to": "elem-JbMJYKl6"
+    },
+    {
+      "_id": "conn-YEtBsUWm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-cWMt9o9P",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-YG3HwWac",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-mKkTVT30",
+      "to": "elem-Eg4oTpAM"
+    },
+    {
+      "_id": "conn-YVJixj4F",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-zVy4jS7m",
+      "to": "elem-ymug32fb"
+    },
+    {
+      "_id": "conn-Z2V1EU2v",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Parente"
+      },
+      "from": "elem-XADwgv9t",
+      "to": "elem-Rb0KC6l6"
+    },
+    {
+      "_id": "conn-Z4pUIgpX",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-lFeNftmC",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-ZGidYHBV",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-UJ4lyTu4",
+      "to": "elem-XwOLar26"
+    },
+    {
+      "_id": "conn-ZJuPvgqH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-Eg4oTpAM",
+      "to": "elem-5EaTw5FN"
+    },
+    {
+      "_id": "conn-ZaEPYFi9",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-h1YC88dR",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-b5kSiWQ9",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-T3GHiA90",
+      "to": "elem-9StePIZL"
+    },
+    {
+      "_id": "conn-bFEGxuDO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-sgfsc69w",
+      "to": "elem-9StePIZL"
+    },
+    {
+      "_id": "conn-bG0pGzkL",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-TA6dqfdp",
+      "to": "elem-rHGgpxVX"
+    },
+    {
+      "_id": "conn-cBE3HJ8L",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-IiSVrC5P",
+      "to": "elem-rHGgpxVX"
+    },
+    {
+      "_id": "conn-cIc5YJVI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-821pwCfE",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-cXvrg9Vc",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-IcxpZi6G",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-cbDx9UOE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-hYcITjsP",
+      "to": "elem-LiMPjxiE"
+    },
+    {
+      "_id": "conn-coPxNdtd",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-KvqYsUIR",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-dD35Or2a",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Parente"
+      },
+      "from": "elem-zVy4jS7m",
+      "to": "elem-RjGV7X5r"
+    },
+    {
+      "_id": "conn-eRxfR4n7",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-rNvmafto",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-eSoAlRGN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Devoto"
+      },
+      "from": "elem-KvqYsUIR",
+      "to": "elem-IqIqOJFS"
+    },
+    {
+      "_id": "conn-egZjbBfc",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-76SKVa3j",
+      "to": "elem-KvqYsUIR"
+    },
+    {
+      "_id": "conn-falPQZmo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-K55IDhWH",
+      "to": "elem-51xip4L6"
+    },
+    {
+      "_id": "conn-fkI7dGRS",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "A carta está ligada ao caminho até o confronto com Strahd."
+      },
+      "from": "elem-TBmIM6Ai",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-fppjuwjj",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-frbXhB3U",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Devoto"
+      },
+      "from": "elem-GjkFljdB",
+      "to": "elem-IqIqOJFS"
+    },
+    {
+      "_id": "conn-gcu5lQPs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-2H83vgkF",
+      "to": "elem-XwOLar26"
+    },
+    {
+      "_id": "conn-gw3yzwQU",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-51xip4L6",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-iWamo4a6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Patrono"
+      },
+      "from": "elem-KvqYsUIR",
+      "to": "elem-5EaTw5FN"
+    },
+    {
+      "_id": "conn-jRLgFSt1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-VWPPTU19",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-jltfA4M3",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Parente"
+      },
+      "from": "elem-IcxpZi6G",
+      "to": "elem-GjkFljdB"
+    },
+    {
+      "_id": "conn-jp9IdxuQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-pasXDkMt",
+      "to": "elem-T3GHiA90"
+    },
+    {
+      "_id": "conn-jvEkrTgy",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-0Q7T5jBG",
+      "to": "elem-mKkTVT30"
+    },
+    {
+      "_id": "conn-jxd1qWIw",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-9ejG12QY",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-k4dv7ftz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-hYcITjsP",
+      "to": "elem-dYD2oHmz"
+    },
+    {
+      "_id": "conn-kZQ5VGmn",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-rHGgpxVX"
+    },
+    {
+      "_id": "conn-kkx43Txw",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-4MHVBIKF",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-l4sVW4yD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-WOiOlkAy",
+      "to": "elem-URJYrs1l"
+    },
+    {
+      "_id": "conn-lB7LecXH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo",
+        "tags": [
+          "Conexão Importante"
+        ]
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-lG6oUJHI",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "Existe uma suspeita discreta de ligação entre Volenta e o vampirismo de Valakut, mas nada é confirmado."
+      },
+      "from": "elem-SKvozc6J",
+      "to": "elem-TXogmC7b"
+    },
+    {
+      "_id": "conn-lUGFpyzl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo",
+        "notas": "Filuriana está aprisionada pela Dama do Medo."
+      },
+      "from": "elem-EwAQsiZc",
+      "to": "elem-yUb8ofHy"
+    },
+    {
+      "_id": "conn-luBpHupS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-TXogmC7b",
+      "to": "elem-HBTFbEds"
+    },
+    {
+      "_id": "conn-mRkmQir2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo",
+        "tags": [
+          "Conexão Importante"
+        ]
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-nce5ttFe",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-YVmcMlMn",
+      "to": "elem-lFeNftmC"
+    },
+    {
+      "_id": "conn-nkWgLp02",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-Gf3ntous",
+      "to": "elem-5EaTw5FN"
+    },
+    {
+      "_id": "conn-pQciAn7x",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-0Q7T5jBG",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-pXkQaxUY",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-mKkTVT30"
+    },
+    {
+      "_id": "conn-paz6RcMS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-GjkFljdB",
+      "to": "elem-YOHE4ytX"
+    },
+    {
+      "_id": "conn-pyQWN2DW",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-i6VwoArL",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-q2dMpIG7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-SKvozc6J",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-qJUz9cQu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-W85t2rpJ",
+      "to": "elem-IiSVrC5P"
+    },
+    {
+      "_id": "conn-qaqFoJGP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Patrono"
+      },
+      "from": "elem-KvqYsUIR",
+      "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-qhopsSIU",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Amigo"
+      },
+      "from": "elem-Rb0KC6l6",
+      "to": "elem-RjGV7X5r"
+    },
+    {
+      "_id": "conn-r2kO48Zp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-W85t2rpJ",
+      "to": "elem-4CEhQXiz"
+    },
+    {
+      "_id": "conn-r4a9rX0C",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-Gf3ntous",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-r7NVDipq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-dtZyT4d1",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-raF2UfuY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-RjGV7X5r",
+      "to": "elem-9ejG12QY"
+    },
+    {
+      "_id": "conn-s8ZE1WWS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-rHGgpxVX",
+      "to": "elem-Us2A1ei9"
+    },
+    {
+      "_id": "conn-sIUU5aqw",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-lFeNftmC",
+      "to": "elem-gBtUkPMw"
+    },
+    {
+      "_id": "conn-tfFU4VBf",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-821pwCfE",
+      "to": "elem-HBTFbEds"
+    },
+    {
+      "_id": "conn-tjSu5Ww3",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Parente"
+      },
+      "from": "elem-IcxpZi6G",
+      "to": "elem-sgfsc69w"
+    },
+    {
+      "_id": "conn-uhDvm3J5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-YOHE4ytX",
+      "to": "elem-i6VwoArL"
+    },
+    {
+      "_id": "conn-v2rY9uUm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-URJYrs1l",
+      "to": "elem-gBtUkPMw"
+    },
+    {
+      "_id": "conn-w9eXvjmp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-zVy4jS7m",
+      "to": "elem-9ejG12QY"
+    },
+    {
+      "_id": "conn-ww9VJWpT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-ymug32fb",
+      "to": "elem-i6VwoArL"
+    },
+    {
+      "_id": "conn-xAgNYzWx",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-GsofZpct",
+      "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-xB8mmTNW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-4MHVBIKF",
+      "to": "elem-K55IDhWH"
+    },
+    {
+      "_id": "conn-xLCcQfvd",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-bWiUVxhR",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-zFv2vCkW",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Parente"
+      },
+      "from": "elem-UnfmtOjb",
+      "to": "elem-LKBTh5I0"
+    },
+    {
+      "_id": "conn-zL3PE6uZ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Devoto"
+      },
+      "from": "elem-Rb0KC6l6",
+      "to": "elem-KvqYsUIR"
+    },
+    {
+      "_id": "conn-zMp4H48H",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-mKkTVT30",
+      "to": "elem-5EaTw5FN"
+    },
+    {
+      "_id": "conn-zS8DvV55",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-gBtUkPMw",
+      "to": "elem-WOiOlkAy"
+    },
+    {
+      "_id": "conn-zSsYs1Pg",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-mKkTVT30",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-zi6u11Ak",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "Rumores e sinais sugerem uma possível ligação, mas nada foi plenamente esclarecido."
+      },
+      "from": "elem-821pwCfE",
+      "to": "elem-TXogmC7b"
+    },
+    {
+      "_id": "conn-7VGIK4yh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-yfbwBICB",
+      "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-7vT4uK5q",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-yfbwBICB"
+    },
+    {
+      "_id": "conn-4t6ldAIJ",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yfbwBICB",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-HdLmnqWz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yfbwBICB",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-1ODO3c9S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yfbwBICB",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-iMtRbSQP",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Amigo"
+      },
+      "from": "elem-Rb0KC6l6",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-4xjbLiFB",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Amigo"
+      },
+      "from": "elem-XADwgv9t",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-4xN5Y2Mr",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-76SKVa3j",
+      "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-2gREoTNk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-GdCaCAl4",
+      "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-pu7wNXUT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-GdCaCAl4",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-MB9mZCqa",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-GdCaCAl4",
+      "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-H5mkN6w6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-GdCaCAl4",
+      "to": "elem-WGRE38ij"
+    },
+    {
+      "_id": "conn-GFFiH41j",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-WcPjNhKH",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-FIAiKOme",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-WcPjNhKH",
+      "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-0c2qh9WC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-EC5Ngo48",
+      "to": "elem-5EaTw5FN"
+    },
+    {
+      "_id": "conn-aXukAEFT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-yVPnvyx3",
+      "to": "elem-EC5Ngo48"
+    },
+    {
+      "_id": "conn-XwOzoBpa",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yVPnvyx3",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-57YCauwE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yVPnvyx3",
+      "to": "elem-Gf3ntous"
+    },
+    {
+      "_id": "conn-fjKp5y1n",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yVPnvyx3",
+      "to": "elem-nEnEKM1w"
+    },
+    {
+      "_id": "conn-ue3MUcOH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yVPnvyx3",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-u5TPSYen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-5ShkQoOw",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-KSiKZYa4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Devoto"
+      },
+      "from": "elem-5ShkQoOw",
+      "to": "elem-KvqYsUIR"
+    },
+    {
+      "_id": "conn-17mjuH2A",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-uUAMZucY",
+      "to": "elem-EC5Ngo48"
+    },
+    {
+      "_id": "conn-VJvZO4Cf",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-ailywYOA",
+      "to": "elem-uUAMZucY"
+    },
+    {
+      "_id": "conn-pEZquyMs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-nEnEKM1w",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-avYlyLLc",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-kkICUvQd",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-ULIG3Awy",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-kkICUvQd",
+      "to": "elem-5EaTw5FN"
+    },
+    {
+      "_id": "conn-IuCTE9Ik",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-kkICUvQd",
+      "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-eqsnSBmA",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-WsoNmcCh",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-7zDNdNs1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-TXogmC7b",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-6TSNpQCq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-HBTFbEds",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-5kKDEGoT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-GsofZpct",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-aqhYvKgm",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-UnFrMCs9",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-rd6pN4ic",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-UnFrMCs9",
+      "to": "elem-Gf3ntous"
+    },
+    {
+      "_id": "conn-ERwdd5Kv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yUb8ofHy",
+      "to": "elem-dtZyT4d1"
+    },
+    {
+      "_id": "conn-IYVvd290",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence",
+        "notas": "A fúria de sangue está ligada à maldição da lança."
+      },
+      "from": "elem-51xip4L6",
+      "to": "elem-ABX4i0rS"
+    },
+    {
+      "_id": "conn-pCUESRbk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada",
+        "notas": "A marca ajuda Tharok a conter melhor a sede de sangue ligada à lança."
+      },
+      "from": "elem-5ShkQoOw",
+      "to": "elem-ABX4i0rS"
+    },
+    {
+      "_id": "conn-77kIkESU",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Membro"
+      },
+      "from": "elem-nEnEKM1w",
+      "to": "elem-Eg4oTpAM"
+    },
+    {
+      "_id": "conn-j2F9CTMG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-nEnEKM1w",
+      "to": "elem-5EaTw5FN"
+    },
+    {
+      "_id": "conn-RO1PVE69",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-mKkTVT30",
+      "to": "elem-nEnEKM1w"
+    },
+    {
+      "_id": "conn-sBJTzCRq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yfbwBICB",
+      "to": "elem-Rb0KC6l6"
+    },
+    {
+      "_id": "conn-ayXmwjfu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-yfbwBICB",
+      "to": "elem-XADwgv9t"
+    },
+    {
+      "_id": "conn-bH1MW6yT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-WcPjNhKH",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-psNtmJoN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-WcPjNhKH",
+      "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-NoNETrhF",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "O presságio menciona que o tesouro pertence à Mãe da Noite."
+      },
+      "from": "elem-36ZuVpK3",
+      "to": "elem-2H83vgkF"
+    },
+    {
+      "_id": "conn-wZ5DGlXl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "O presságio do ninho de corvos pode apontar para este lugar ou para pessoas ligadas aos corvos."
+      },
+      "from": "elem-eKSirLYR",
+      "to": "elem-ymug32fb"
+    },
+    {
+      "_id": "conn-LXcXaOKM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "O presságio aponta para um lugar de tentação e tesouros ligado ao castelo."
+      },
+      "from": "elem-TBmIM6Ai",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-D3cF1pWu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "O presságio aponta para as profundezas escuras do domínio de Strahd."
+      },
+      "from": "elem-h1drVi7v",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-qyrmvJC2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "notas": "A carta está diretamente ligada ao destino do confronto com Strahd."
+      },
+      "from": "elem-h1drVi7v",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-3s6ZFWJO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence",
+        "notas": "Encontrado na Casa da Morte."
+      },
+      "from": "elem-huuyH8NR",
+      "to": "elem-T3GHiA90"
+    },
+    {
+      "_id": "conn-yMGCnho9",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-huuyH8NR",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-gLr6hUm3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence",
+        "notas": "Everlong carrega um frasco dessa água."
+      },
+      "from": "elem-WcPjNhKH",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-iEgbHuAl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-PhoJ9f3Z",
+      "to": "elem-2GbE6wkE"
+    },
+    {
+      "_id": "conn-5OPTLDLW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-PhoJ9f3Z",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-QmOtXb50",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-Uvag7PtS",
+      "to": "elem-rNvmafto"
+    },
+    {
+      "_id": "conn-6ExHvL8Q",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-WcPjNhKH",
+      "to": "elem-Uvag7PtS"
+    },
+    {
+      "_id": "conn-Xj9C6eJo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-GdCaCAl4",
+      "to": "elem-Uvag7PtS"
+    },
+    {
+      "_id": "conn-F8AmYfNo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-Uvag7PtS",
+      "to": "elem-KvqYsUIR"
+    },
+    {
+      "_id": "conn-r7yomDbf",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-Dffppr7x",
+      "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-f7PtUgGG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-Dffppr7x",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-5qMiqjrv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-Dffppr7x",
+      "to": "elem-9StePIZL"
+    },
+    {
+      "_id": "conn-JKLhuiYD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-Dffppr7x",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-N3ClVGs5",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-jbOMcHxx",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-cTneY5hk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-jbOMcHxx",
+      "to": "elem-9StePIZL"
+    },
+    {
+      "_id": "conn-55QsSXdQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-jbOMcHxx",
+      "to": "elem-Dffppr7x"
+    },
+    {
+      "_id": "conn-ppNcLOAm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-8dxaAYBZ",
+      "to": "elem-GjkFljdB"
+    },
+    {
+      "_id": "conn-uGiEUV8G",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-8dxaAYBZ",
+      "to": "elem-IcxpZi6G"
+    },
+    {
+      "_id": "conn-asTvvcOE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-8dxaAYBZ",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-XcFPHGJO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-8dxaAYBZ",
+      "to": "elem-W85t2rpJ"
+    },
+    {
+      "_id": "conn-yRl3eAac",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-7VGXfcLz",
+      "to": "elem-i6VwoArL"
+    },
+    {
+      "_id": "conn-ttlxHjCg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-7VGXfcLz",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-ReePAgCC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider"
+      },
+      "from": "elem-jTSAKRHi",
+      "to": "elem-7VGXfcLz"
+    },
+    {
+      "_id": "conn-IgBqiOIl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-7VGXfcLz",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-kixeKRqg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-7VGXfcLz",
+      "to": "elem-LKBTh5I0"
+    },
+    {
+      "_id": "conn-YWrfq0xF",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-741v8Mp5",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-YCGbsBPu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-741v8Mp5",
+      "to": "elem-UJ4lyTu4"
+    },
+    {
+      "_id": "conn-oJgMxgpq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-741v8Mp5",
+      "to": "elem-XwOLar26"
+    },
+    {
+      "_id": "conn-fvHc0P2O",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-741v8Mp5",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-ARuLPYB6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-T85fAhnx",
+      "to": "elem-2GbE6wkE"
+    },
+    {
+      "_id": "conn-7i8aBc07",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-T85fAhnx",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-qVJF4Hjq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-T85fAhnx",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-nFaPjRaT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-T85fAhnx",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-yjnvFKK0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor"
+      },
+      "from": "elem-T85fAhnx",
+      "to": "elem-yUb8ofHy"
+    },
+    {
+      "_id": "conn-hFkRJFAR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-dtZyT4d1",
+      "to": "elem-yUb8ofHy"
+    },
+    {
+      "_id": "conn-UiFTmkgq",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo"
+      },
+      "from": "elem-TXogmC7b",
+      "to": "elem-ailywYOA"
+    }
+  ],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-KW9y9ZvF",
+      "name": "Notas da Campanha",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-hvcN62nI",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "directed",
+      "elements": [
+        {
+          "_id": "node-0JMjVz64",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-gBtUkPMw"
+        },
+        {
+          "_id": "node-0Vdj5UxX",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-IcxpZi6G"
+        },
+        {
+          "_id": "node-2nqTYDnZ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-VWPPTU19"
+        },
+        {
+          "_id": "node-3IsIs2sa",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-rHGgpxVX"
+        },
+        {
+          "_id": "node-3u4AzJRd",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-h1YC88dR"
+        },
+        {
+          "_id": "node-4mKavdgR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-h1drVi7v"
+        },
+        {
+          "_id": "node-5CK2aNQm",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-0Q7T5jBG"
+        },
+        {
+          "_id": "node-5Wh02biv",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-YVmcMlMn"
+        },
+        {
+          "_id": "node-5xSiBBkR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-T3GHiA90"
+        },
+        {
+          "_id": "node-63q63jNA",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ymug32fb"
+        },
+        {
+          "_id": "node-8f1OrRPk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-hYcITjsP"
+        },
+        {
+          "_id": "node-8oC1fsC3",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-K55IDhWH"
+        },
+        {
+          "_id": "node-9i2u9SG6",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-76SKVa3j"
+        },
+        {
+          "_id": "node-9usRrc6L",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-BchOjZP1"
+        },
+        {
+          "_id": "node-AKFjLDMr",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-LKBTh5I0"
+        },
+        {
+          "_id": "node-B9EWt1eK",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-TXogmC7b"
+        },
+        {
+          "_id": "node-BCaNWbHm",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-eKSirLYR"
+        },
+        {
+          "_id": "node-CjlhPgQI",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-dYD2oHmz"
+        },
+        {
+          "_id": "node-Clsop8QK",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-5EaTw5FN"
+        },
+        {
+          "_id": "node-DZi2LTAF",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-c7Ek6UIl"
+        },
+        {
+          "_id": "node-Dbdzz37w",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-QoveVeVD"
+        },
+        {
+          "_id": "node-DfvN5qvc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-JbMJYKl6"
+        },
+        {
+          "_id": "node-ED07SGEG",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-821pwCfE"
+        },
+        {
+          "_id": "node-EMg9mhkk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-51xip4L6"
+        },
+        {
+          "_id": "node-FAi2HJ4Z",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-YOHE4ytX"
+        },
+        {
+          "_id": "node-Fg9pAYXs",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-jTSAKRHi"
+        },
+        {
+          "_id": "node-GlGpNg48",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-36ZuVpK3"
+        },
+        {
+          "_id": "node-I5cNhf6y",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-mKkTVT30"
+        },
+        {
+          "_id": "node-KIPjCGOC",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-lFeNftmC"
+        },
+        {
+          "_id": "node-LhIIjhH7",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ljY50beo"
+        },
+        {
+          "_id": "node-M8PVOEpP",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-pasXDkMt"
+        },
+        {
+          "_id": "node-NzrwjcPV",
+          "position": null,
+          "pinned": false,
+          "style": {
+            "shape": "rectangle",
+            "height": 51
+          },
+          "element": "elem-ailywYOA"
+        },
+        {
+          "_id": "node-Omso0ikM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-rNvmafto"
+        },
+        {
+          "_id": "node-PXUAn9ow",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-GjkFljdB"
+        },
+        {
+          "_id": "node-PxCUHH8I",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WsoNmcCh"
+        },
+        {
+          "_id": "node-QmkWAcHV",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WE2l1epP"
+        },
+        {
+          "_id": "node-S0fMULsF",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-GsofZpct"
+        },
+        {
+          "_id": "node-VOefy7Hq",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-bWiUVxhR"
+        },
+        {
+          "_id": "node-VykouciG",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-9StePIZL"
+        },
+        {
+          "_id": "node-ZDXjHpAN",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Eg4oTpAM"
+        },
+        {
+          "_id": "node-ZmI4ZZkb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ABX4i0rS"
+        },
+        {
+          "_id": "node-aR4iYXfc",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-SKvozc6J"
+        },
+        {
+          "_id": "node-ae86qJ5W",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-TA6dqfdp"
+        },
+        {
+          "_id": "node-c8YIUPdj",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WGRE38ij"
+        },
+        {
+          "_id": "node-cN36Ue8z",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-HBTFbEds"
+        },
+        {
+          "_id": "node-cc05lAqJ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-dtZyT4d1"
+        },
+        {
+          "_id": "node-clnhZm1T",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-n1Jow6zV"
+        },
+        {
+          "_id": "node-ebBceijp",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-i6VwoArL"
+        },
+        {
+          "_id": "node-ey6Uj8AA",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-KvqYsUIR"
+        },
+        {
+          "_id": "node-fGNF5wRV",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Us2A1ei9"
+        },
+        {
+          "_id": "node-fiNp61o7",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-zVy4jS7m"
+        },
+        {
+          "_id": "node-hjJ5KAAs",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-TBmIM6Ai"
+        },
+        {
+          "_id": "node-iTFFNi5t",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-UJ4lyTu4"
+        },
+        {
+          "_id": "node-jWD3Mp0H",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-IiSVrC5P"
+        },
+        {
+          "_id": "node-l2P5VkHj",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WOiOlkAy"
+        },
+        {
+          "_id": "node-m32YI2Us",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-RjGV7X5r"
+        },
+        {
+          "_id": "node-m4NGNKST",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-2H83vgkF"
+        },
+        {
+          "_id": "node-mAQbhsdN",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-sgfsc69w"
+        },
+        {
+          "_id": "node-mKZDplrv",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-EwAQsiZc"
+        },
+        {
+          "_id": "node-mTL0NMLt",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Gf3ntous"
+        },
+        {
+          "_id": "node-n3eOMxNN",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-IqIqOJFS"
+        },
+        {
+          "_id": "node-nYyJxfr0",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Z794fFos"
+        },
+        {
+          "_id": "node-piKrFP9b",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-c00WaNFh"
+        },
+        {
+          "_id": "node-q2kRRkhP",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-URJYrs1l"
+        },
+        {
+          "_id": "node-ruS8DvqZ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-4MHVBIKF"
+        },
+        {
+          "_id": "node-sNlYS9x0",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ppwXYlQN"
+        },
+        {
+          "_id": "node-szxgVg89",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-jfj9nHJp"
+        },
+        {
+          "_id": "node-tRwGhNws",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-XwOLar26"
+        },
+        {
+          "_id": "node-tgrbXgvf",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-UnfmtOjb"
+        },
+        {
+          "_id": "node-w5u0T8fC",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-4CEhQXiz"
+        },
+        {
+          "_id": "node-wvV3lP5O",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-cWMt9o9P"
+        },
+        {
+          "_id": "node-xHgrQZUK",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Rb0KC6l6"
+        },
+        {
+          "_id": "node-xO0yeWHz",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-9ejG12QY"
+        },
+        {
+          "_id": "node-xpixvot4",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-LiMPjxiE"
+        },
+        {
+          "_id": "node-yoAIDQDl",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-2GbE6wkE"
+        },
+        {
+          "_id": "node-zJybAcwd",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-XADwgv9t"
+        },
+        {
+          "_id": "node-zmPKHLXq",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-yUb8ofHy"
+        },
+        {
+          "_id": "node-zyNciWUT",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-W85t2rpJ"
+        },
+        {
+          "_id": "node-gvG9zCjm",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-yfbwBICB"
+        },
+        {
+          "_id": "node-wRWpwcV1",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-GdCaCAl4"
+        },
+        {
+          "_id": "node-8foe2ZaG",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-WcPjNhKH"
+        },
+        {
+          "_id": "node-Dvm7rOX2",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-EC5Ngo48"
+        },
+        {
+          "_id": "node-lgixRlQs",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-uUAMZucY"
+        },
+        {
+          "_id": "node-UDWtM1Nf",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-yVPnvyx3"
+        },
+        {
+          "_id": "node-XWzmPBbL",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-5ShkQoOw"
+        },
+        {
+          "_id": "node-UFo9Tue0",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-nEnEKM1w"
+        },
+        {
+          "_id": "node-tfFutHOM",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-kkICUvQd"
+        },
+        {
+          "_id": "node-y2T7N0QQ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-BeZZgrMH"
+        },
+        {
+          "_id": "node-iLWnusdy",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-UnFrMCs9"
+        },
+        {
+          "_id": "node-8y42K2O8",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-huuyH8NR"
+        },
+        {
+          "_id": "node-KxT3Dg0Q",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-PhoJ9f3Z"
+        },
+        {
+          "_id": "node-LUCFI33W",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Uvag7PtS"
+        },
+        {
+          "_id": "node-7oYVd2Rk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-Dffppr7x"
+        },
+        {
+          "_id": "node-jGVL054t",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-jbOMcHxx"
+        },
+        {
+          "_id": "node-pMM5TNhz",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-8dxaAYBZ"
+        },
+        {
+          "_id": "node-5MYtrPyR",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-7VGXfcLz"
+        },
+        {
+          "_id": "node-qPfnFnWm",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-741v8Mp5"
+        },
+        {
+          "_id": "node-hRG63sgv",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-T85fAhnx"
+        },
+        {
+          "_id": "node-i3ZBxcKo",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-iwrgx5Ml"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-0P8pZMDq",
+          "style": {},
+          "connection": "conn-PWDQULr2"
+        },
+        {
+          "_id": "edge-0dejBiRq",
+          "style": {},
+          "connection": "conn-SbdUt4iF"
+        },
+        {
+          "_id": "edge-0pG2xcHP",
+          "style": {},
+          "connection": "conn-pXkQaxUY"
+        },
+        {
+          "_id": "edge-120VP7vv",
+          "style": {},
+          "connection": "conn-0pr79xZR"
+        },
+        {
+          "_id": "edge-1MsJ6MKr",
+          "style": {},
+          "connection": "conn-Aj1ovR5F"
+        },
+        {
+          "_id": "edge-1ur5EiPj",
+          "style": {},
+          "connection": "conn-HRBqYSGQ"
+        },
+        {
+          "_id": "edge-2bhHIgqe",
+          "style": {},
+          "connection": "conn-NHEKLwtH"
+        },
+        {
+          "_id": "edge-2rAMRLlA",
+          "style": {},
+          "connection": "conn-RXkDNePO"
+        },
+        {
+          "_id": "edge-31IkGQSt",
+          "style": {},
+          "connection": "conn-JVRbisKq"
+        },
+        {
+          "_id": "edge-3P5HrNoF",
+          "style": {},
+          "connection": "conn-cBE3HJ8L"
+        },
+        {
+          "_id": "edge-3Q9IMcw5",
+          "style": {},
+          "connection": "conn-34ROxDKN"
+        },
+        {
+          "_id": "edge-48jP7Bej",
+          "style": {},
+          "connection": "conn-q2dMpIG7"
+        },
+        {
+          "_id": "edge-4WOy4KzH",
+          "style": {},
+          "connection": "conn-ZGidYHBV"
+        },
+        {
+          "_id": "edge-4pMqMb0h",
+          "style": {},
+          "connection": "conn-fkI7dGRS"
+        },
+        {
+          "_id": "edge-4vU7Hixu",
+          "style": {},
+          "connection": "conn-8ZSjAO93"
+        },
+        {
+          "_id": "edge-57ezeEI6",
+          "style": {},
+          "connection": "conn-D4iEhBqH"
+        },
+        {
+          "_id": "edge-5LkFrewk",
+          "style": {},
+          "connection": "conn-4n40UJu4"
+        },
+        {
+          "_id": "edge-6Ynjtvf8",
+          "curvature": -0.27522501797612,
+          "style": {},
+          "connection": "conn-ZaEPYFi9"
+        },
+        {
+          "_id": "edge-7WiI8udY",
+          "style": {},
+          "connection": "conn-kZQ5VGmn"
+        },
+        {
+          "_id": "edge-8KitRIi5",
+          "style": {},
+          "connection": "conn-NUsZMfDZ"
+        },
+        {
+          "_id": "edge-8Q7RQAOL",
+          "style": {},
+          "connection": "conn-jp9IdxuQ"
+        },
+        {
+          "_id": "edge-8qP99PDL",
+          "style": {},
+          "connection": "conn-zL3PE6uZ"
+        },
+        {
+          "_id": "edge-99qUR6Yb",
+          "style": {},
+          "connection": "conn-Y0RFKE2H"
+        },
+        {
+          "_id": "edge-9IoawQHM",
+          "style": {},
+          "connection": "conn-VpWtihPa"
+        },
+        {
+          "_id": "edge-9Jcqnu5V",
+          "style": {},
+          "connection": "conn-KQmV5bAs"
+        },
+        {
+          "_id": "edge-9cqmHLeh",
+          "style": {},
+          "connection": "conn-jvEkrTgy"
+        },
+        {
+          "_id": "edge-9ly8RYaa",
+          "style": {},
+          "connection": "conn-Wupjs27A"
+        },
+        {
+          "_id": "edge-9nvqULRa",
+          "style": {},
+          "connection": "conn-NmFUtncn"
+        },
+        {
+          "_id": "edge-AD7jvW2D",
+          "style": {},
+          "connection": "conn-w9eXvjmp"
+        },
+        {
+          "_id": "edge-AJWNbR3e",
+          "style": {},
+          "connection": "conn-9WTtLxPE"
+        },
+        {
+          "_id": "edge-AyjOjVl8",
+          "style": {},
+          "connection": "conn-IbLiMkOL"
+        },
+        {
+          "_id": "edge-CKxbQqvU",
+          "style": {},
+          "connection": "conn-0a9otnGo"
+        },
+        {
+          "_id": "edge-DTePbInN",
+          "style": {},
+          "connection": "conn-LwOl0Hve"
+        },
+        {
+          "_id": "edge-DhPvAoMz",
+          "style": {},
+          "connection": "conn-sIUU5aqw"
+        },
+        {
+          "_id": "edge-DsbSp5b9",
+          "style": {},
+          "connection": "conn-gw3yzwQU"
+        },
+        {
+          "_id": "edge-FUhTVhlD",
+          "style": {},
+          "connection": "conn-egZjbBfc"
+        },
+        {
+          "_id": "edge-GHdulb9G",
+          "style": {},
+          "connection": "conn-77vNwnKl"
+        },
+        {
+          "_id": "edge-GeTxZLt6",
+          "style": {},
+          "connection": "conn-9czYH7JG"
+        },
+        {
+          "_id": "edge-GnqcIyi8",
+          "style": {},
+          "connection": "conn-s8ZE1WWS"
+        },
+        {
+          "_id": "edge-GuBbEzWM",
+          "style": {},
+          "connection": "conn-HhPFYpk8"
+        },
+        {
+          "_id": "edge-HqzbhOdv",
+          "style": {},
+          "connection": "conn-tjSu5Ww3"
+        },
+        {
+          "_id": "edge-IO00AaPz",
+          "style": {},
+          "connection": "conn-Q0Q1m01W"
+        },
+        {
+          "_id": "edge-JA1gLK4b",
+          "style": {},
+          "connection": "conn-8jS7EaGq"
+        },
+        {
+          "_id": "edge-JkdO8jZT",
+          "style": {},
+          "connection": "conn-pyQWN2DW"
+        },
+        {
+          "_id": "edge-K7AMyHRe",
+          "style": {},
+          "connection": "conn-Jb9OV2SZ"
+        },
+        {
+          "_id": "edge-LB1TmXkD",
+          "style": {},
+          "connection": "conn-ApKYvRQo"
+        },
+        {
+          "_id": "edge-LjHsps8g",
+          "style": {},
+          "connection": "conn-YVJixj4F"
+        },
+        {
+          "_id": "edge-LrCPSVPC",
+          "style": {},
+          "connection": "conn-eRxfR4n7"
+        },
+        {
+          "_id": "edge-LuSNiu3N",
+          "style": {},
+          "connection": "conn-bFEGxuDO"
+        },
+        {
+          "_id": "edge-MEgDUBMp",
+          "style": {},
+          "connection": "conn-lUGFpyzl"
+        },
+        {
+          "_id": "edge-MMBktcY5",
+          "style": {},
+          "connection": "conn-paz6RcMS"
+        },
+        {
+          "_id": "edge-MjLuPpsk",
+          "style": {},
+          "connection": "conn-4KK6ZD9D"
+        },
+        {
+          "_id": "edge-NQDPFZPb",
+          "style": {},
+          "connection": "conn-r4a9rX0C"
+        },
+        {
+          "_id": "edge-Nw1iZbco",
+          "style": {},
+          "connection": "conn-zFv2vCkW"
+        },
+        {
+          "_id": "edge-O5Z4kmoP",
+          "style": {},
+          "connection": "conn-luBpHupS"
+        },
+        {
+          "_id": "edge-P2ZuKkMp",
+          "style": {},
+          "connection": "conn-tfFU4VBf"
+        },
+        {
+          "_id": "edge-PN2Skoc5",
+          "style": {},
+          "connection": "conn-VZxKtagp"
+        },
+        {
+          "_id": "edge-PWjOtVRt",
+          "style": {},
+          "connection": "conn-3pfmnl6h"
+        },
+        {
+          "_id": "edge-PcnrOlT8",
+          "style": {},
+          "connection": "conn-dD35Or2a"
+        },
+        {
+          "_id": "edge-Pz3CMBWc",
+          "style": {},
+          "connection": "conn-gcu5lQPs"
+        },
+        {
+          "_id": "edge-PzCHLIKK",
+          "style": {
+            "size": 2.98
+          },
+          "connection": "conn-6PWPeeSo"
+        },
+        {
+          "_id": "edge-Q4Y1NmWS",
+          "style": {},
+          "connection": "conn-nce5ttFe"
+        },
+        {
+          "_id": "edge-Q68a7lJo",
+          "style": {},
+          "connection": "conn-OkdJMmFB"
+        },
+        {
+          "_id": "edge-QSXvg45q",
+          "style": {},
+          "connection": "conn-X7zxkExk"
+        },
+        {
+          "_id": "edge-Qlu92wLv",
+          "style": {},
+          "connection": "conn-k4dv7ftz"
+        },
+        {
+          "_id": "edge-QtKKAMXf",
+          "style": {},
+          "connection": "conn-pQciAn7x"
+        },
+        {
+          "_id": "edge-R06KVdvZ",
+          "style": {},
+          "connection": "conn-9T8thgiZ"
+        },
+        {
+          "_id": "edge-RwKEP8k0",
+          "style": {},
+          "connection": "conn-jRLgFSt1"
+        },
+        {
+          "_id": "edge-SIOlcd1E",
+          "style": {},
+          "connection": "conn-YEtBsUWm"
+        },
+        {
+          "_id": "edge-SM2ElL9b",
+          "style": {},
+          "connection": "conn-OmAcJhOQ"
+        },
+        {
+          "_id": "edge-SudrYLh7",
+          "style": {},
+          "connection": "conn-Wd7YKelh"
+        },
+        {
+          "_id": "edge-T1EKM6ZR",
+          "style": {},
+          "connection": "conn-bG0pGzkL"
+        },
+        {
+          "_id": "edge-T8vWVV13",
+          "style": {},
+          "connection": "conn-ww9VJWpT"
+        },
+        {
+          "_id": "edge-Tb3cqGZa",
+          "style": {},
+          "connection": "conn-xLCcQfvd"
+        },
+        {
+          "_id": "edge-UwvskxJX",
+          "style": {},
+          "connection": "conn-lG6oUJHI"
+        },
+        {
+          "_id": "edge-V1DMEmIU",
+          "style": {},
+          "connection": "conn-qJUz9cQu"
+        },
+        {
+          "_id": "edge-VqLJMQ49",
+          "style": {},
+          "connection": "conn-YG3HwWac"
+        },
+        {
+          "_id": "edge-X33j3DRc",
+          "style": {},
+          "connection": "conn-r2kO48Zp"
+        },
+        {
+          "_id": "edge-XHRNouCw",
+          "style": {},
+          "connection": "conn-zSsYs1Pg"
+        },
+        {
+          "_id": "edge-XStwUX7M",
+          "style": {},
+          "connection": "conn-HJDJb5DI"
+        },
+        {
+          "_id": "edge-XsvYiX4k",
+          "style": {},
+          "connection": "conn-XCOHTFOz"
+        },
+        {
+          "_id": "edge-YNEvnE7o",
+          "style": {},
+          "connection": "conn-7AQhjVLW"
+        },
+        {
+          "_id": "edge-Yidx4PLO",
+          "style": {},
+          "connection": "conn-BBRxnQKX"
+        },
+        {
+          "_id": "edge-YqR8LLaq",
+          "style": {},
+          "connection": "conn-Z4pUIgpX"
+        },
+        {
+          "_id": "edge-Z2ilSPvB",
+          "style": {},
+          "connection": "conn-CI0Jcrd0"
+        },
+        {
+          "_id": "edge-Zodg4GwW",
+          "style": {},
+          "connection": "conn-4RTZ8huF"
+        },
+        {
+          "_id": "edge-bMG3CPn1",
+          "style": {},
+          "connection": "conn-kkx43Txw"
+        },
+        {
+          "_id": "edge-bs6r0adK",
+          "style": {},
+          "connection": "conn-0fZ6Gsag"
+        },
+        {
+          "_id": "edge-cFEKYJYH",
+          "style": {},
+          "connection": "conn-MIaaE73m"
+        },
+        {
+          "_id": "edge-ckQjsFAY",
+          "style": {},
+          "connection": "conn-zS8DvV55"
+        },
+        {
+          "_id": "edge-dzNR0o5g",
+          "style": {},
+          "connection": "conn-AJwWOPjN"
+        },
+        {
+          "_id": "edge-e6aKHYow",
+          "style": {},
+          "connection": "conn-8EWkeGLO"
+        },
+        {
+          "_id": "edge-eTXDVzHB",
+          "style": {},
+          "connection": "conn-cXvrg9Vc"
+        },
+        {
+          "_id": "edge-f2jvRE6C",
+          "style": {},
+          "connection": "conn-zMp4H48H"
+        },
+        {
+          "_id": "edge-f6MgNFAo",
+          "style": {},
+          "connection": "conn-cbDx9UOE"
+        },
+        {
+          "_id": "edge-ftfsSWfS",
+          "style": {},
+          "connection": "conn-jxd1qWIw"
+        },
+        {
+          "_id": "edge-fxR0vc6p",
+          "style": {},
+          "connection": "conn-xAgNYzWx"
+        },
+        {
+          "_id": "edge-g3r1uXtU",
+          "style": {},
+          "connection": "conn-IiUfV8B6"
+        },
+        {
+          "_id": "edge-gX8pbN0o",
+          "style": {},
+          "connection": "conn-frbXhB3U"
+        },
+        {
+          "_id": "edge-gaPClFKJ",
+          "style": {},
+          "connection": "conn-l4sVW4yD"
+        },
+        {
+          "_id": "edge-gbjGy5av",
+          "style": {},
+          "connection": "conn-Nnp3w6Wo"
+        },
+        {
+          "_id": "edge-hk9Wxwft",
+          "style": {},
+          "connection": "conn-IP3lhGIJ"
+        },
+        {
+          "_id": "edge-jMKBwbRl",
+          "style": {},
+          "connection": "conn-QEwAxNnH"
+        },
+        {
+          "_id": "edge-k2chevF7",
+          "style": {},
+          "connection": "conn-PpfUlvsh"
+        },
+        {
+          "_id": "edge-km2oWFW7",
+          "curvature": 0.20617311476772934,
+          "style": {},
+          "connection": "conn-fppjuwjj"
+        },
+        {
+          "_id": "edge-lcH7SlFG",
+          "style": {},
+          "connection": "conn-9jR94H9j"
+        },
+        {
+          "_id": "edge-np6CxVYM",
+          "style": {},
+          "connection": "conn-falPQZmo"
+        },
+        {
+          "_id": "edge-ntEMQYIs",
+          "style": {},
+          "connection": "conn-cIc5YJVI"
+        },
+        {
+          "_id": "edge-oVt4IRIz",
+          "style": {},
+          "connection": "conn-zi6u11Ak"
+        },
+        {
+          "_id": "edge-oY7tJ91Q",
+          "style": {},
+          "connection": "conn-WSi9qCTz"
+        },
+        {
+          "_id": "edge-peHEtEu7",
+          "style": {},
+          "connection": "conn-MircgOVD"
+        },
+        {
+          "_id": "edge-qlZyKfpf",
+          "style": {},
+          "connection": "conn-qaqFoJGP"
+        },
+        {
+          "_id": "edge-rD2Ev9oi",
+          "style": {},
+          "connection": "conn-uhDvm3J5"
+        },
+        {
+          "_id": "edge-rL94B8dK",
+          "style": {},
+          "connection": "conn-YCoN71B3"
+        },
+        {
+          "_id": "edge-rYduNNh0",
+          "style": {},
+          "connection": "conn-jltfA4M3"
+        },
+        {
+          "_id": "edge-sJgYvsoe",
+          "style": {},
+          "connection": "conn-5rCLJfqN"
+        },
+        {
+          "_id": "edge-tQl4ruRN",
+          "style": {},
+          "connection": "conn-DvId01ua"
+        },
+        {
+          "_id": "edge-tVWPr3dV",
+          "style": {},
+          "connection": "conn-v2rY9uUm"
+        },
+        {
+          "_id": "edge-u8J7Uv8J",
+          "style": {},
+          "connection": "conn-b5kSiWQ9"
+        },
+        {
+          "_id": "edge-uifhyW5C",
+          "style": {},
+          "connection": "conn-Mv1BXSzE"
+        },
+        {
+          "_id": "edge-vMueCnai",
+          "style": {},
+          "connection": "conn-Qwn4m10O"
+        },
+        {
+          "_id": "edge-vwhKq15e",
+          "style": {},
+          "connection": "conn-PIuDJTlx"
+        },
+        {
+          "_id": "edge-wEu3QlUl",
+          "style": {},
+          "connection": "conn-r7NVDipq"
+        },
+        {
+          "_id": "edge-xli0aNzN",
+          "style": {},
+          "connection": "conn-iWamo4a6"
+        },
+        {
+          "_id": "edge-xmEQe5HC",
+          "style": {},
+          "connection": "conn-ZJuPvgqH"
+        },
+        {
+          "_id": "edge-xxyLOhhR",
+          "style": {},
+          "connection": "conn-nkWgLp02"
+        },
+        {
+          "_id": "edge-yb0Smp3C",
+          "style": {},
+          "connection": "conn-UrRrlaEP"
+        },
+        {
+          "_id": "edge-yepYPQle",
+          "style": {},
+          "connection": "conn-4iipMsBD"
+        },
+        {
+          "_id": "edge-yfo8snXb",
+          "style": {},
+          "connection": "conn-xB8mmTNW"
+        },
+        {
+          "_id": "edge-z7cE0ulW",
+          "style": {},
+          "connection": "conn-5gcegE0H"
+        },
+        {
+          "_id": "edge-zDEC46kI",
+          "style": {},
+          "connection": "conn-Z2V1EU2v"
+        },
+        {
+          "_id": "edge-zlSLwOsm",
+          "style": {},
+          "connection": "conn-raF2UfuY"
+        },
+        {
+          "_id": "edge-3rsnPGmA",
+          "style": {},
+          "connection": "conn-7VGIK4yh"
+        },
+        {
+          "_id": "edge-ESEomI3W",
+          "style": {},
+          "connection": "conn-7vT4uK5q"
+        },
+        {
+          "_id": "edge-Rvgxi9n1",
+          "style": {},
+          "connection": "conn-4t6ldAIJ"
+        },
+        {
+          "_id": "edge-EYeONlvX",
+          "style": {},
+          "connection": "conn-HdLmnqWz"
+        },
+        {
+          "_id": "edge-6bDCCyEP",
+          "style": {},
+          "connection": "conn-1ODO3c9S"
+        },
+        {
+          "_id": "edge-fynbuSIH",
+          "style": {},
+          "connection": "conn-iMtRbSQP"
+        },
+        {
+          "_id": "edge-fg3dcvX0",
+          "style": {},
+          "connection": "conn-4xjbLiFB"
+        },
+        {
+          "_id": "edge-KMtzQ4hv",
+          "style": {},
+          "connection": "conn-4xN5Y2Mr"
+        },
+        {
+          "_id": "edge-LCjmgCWW",
+          "style": {},
+          "connection": "conn-2gREoTNk"
+        },
+        {
+          "_id": "edge-Fxv1Bnmu",
+          "style": {},
+          "connection": "conn-pu7wNXUT"
+        },
+        {
+          "_id": "edge-Oxk82wXt",
+          "style": {},
+          "connection": "conn-MB9mZCqa"
+        },
+        {
+          "_id": "edge-LQyweHJX",
+          "style": {},
+          "connection": "conn-H5mkN6w6"
+        },
+        {
+          "_id": "edge-6oP5VOuJ",
+          "style": {},
+          "connection": "conn-GFFiH41j"
+        },
+        {
+          "_id": "edge-HukYGP5M",
+          "style": {},
+          "connection": "conn-FIAiKOme"
+        },
+        {
+          "_id": "edge-mIXYNKcq",
+          "style": {},
+          "connection": "conn-0c2qh9WC"
+        },
+        {
+          "_id": "edge-cXoIvnug",
+          "style": {},
+          "connection": "conn-aXukAEFT"
+        },
+        {
+          "_id": "edge-pxqkIMHE",
+          "style": {},
+          "connection": "conn-XwOzoBpa"
+        },
+        {
+          "_id": "edge-5SEpKYVp",
+          "style": {},
+          "connection": "conn-57YCauwE"
+        },
+        {
+          "_id": "edge-MbBjBQpi",
+          "style": {},
+          "connection": "conn-fjKp5y1n"
+        },
+        {
+          "_id": "edge-JIta2fRv",
+          "style": {},
+          "connection": "conn-ue3MUcOH"
+        },
+        {
+          "_id": "edge-oNoxJDhQ",
+          "style": {},
+          "connection": "conn-u5TPSYen"
+        },
+        {
+          "_id": "edge-GInjlxkh",
+          "style": {},
+          "connection": "conn-KSiKZYa4"
+        },
+        {
+          "_id": "edge-wh7koQwk",
+          "style": {},
+          "connection": "conn-17mjuH2A"
+        },
+        {
+          "_id": "edge-nEPj9UU5",
+          "style": {},
+          "connection": "conn-VJvZO4Cf"
+        },
+        {
+          "_id": "edge-CHfJD8pR",
+          "style": {},
+          "connection": "conn-pEZquyMs"
+        },
+        {
+          "_id": "edge-t0IIZV5O",
+          "style": {},
+          "connection": "conn-avYlyLLc"
+        },
+        {
+          "_id": "edge-cWvqUpii",
+          "style": {},
+          "connection": "conn-ULIG3Awy"
+        },
+        {
+          "_id": "edge-N5pIwuAP",
+          "style": {},
+          "connection": "conn-IuCTE9Ik"
+        },
+        {
+          "_id": "edge-YLWujxmC",
+          "style": {},
+          "connection": "conn-eqsnSBmA"
+        },
+        {
+          "_id": "edge-PlxlVbRi",
+          "style": {},
+          "connection": "conn-7zDNdNs1"
+        },
+        {
+          "_id": "edge-9fSoWbW4",
+          "style": {},
+          "connection": "conn-6TSNpQCq"
+        },
+        {
+          "_id": "edge-4Y0ICJ3R",
+          "style": {},
+          "connection": "conn-5kKDEGoT"
+        },
+        {
+          "_id": "edge-5bLmOmkP",
+          "style": {},
+          "connection": "conn-aqhYvKgm"
+        },
+        {
+          "_id": "edge-2ZzxHajm",
+          "style": {},
+          "connection": "conn-rd6pN4ic"
+        },
+        {
+          "_id": "edge-oWuvfGga",
+          "style": {},
+          "connection": "conn-ERwdd5Kv"
+        },
+        {
+          "_id": "edge-HJvVCt8R",
+          "style": {},
+          "connection": "conn-IYVvd290"
+        },
+        {
+          "_id": "edge-WJgL1SDC",
+          "style": {},
+          "connection": "conn-pCUESRbk"
+        },
+        {
+          "_id": "edge-lXDSLrl0",
+          "style": {},
+          "connection": "conn-77kIkESU"
+        },
+        {
+          "_id": "edge-V6Qxpa4f",
+          "style": {},
+          "connection": "conn-j2F9CTMG"
+        },
+        {
+          "_id": "edge-0E9aAJXw",
+          "style": {},
+          "connection": "conn-RO1PVE69"
+        },
+        {
+          "_id": "edge-muOm7CRS",
+          "style": {},
+          "connection": "conn-sBJTzCRq"
+        },
+        {
+          "_id": "edge-G6rQywnO",
+          "style": {},
+          "connection": "conn-ayXmwjfu"
+        },
+        {
+          "_id": "edge-X5R1qHUD",
+          "style": {},
+          "connection": "conn-bH1MW6yT"
+        },
+        {
+          "_id": "edge-HKy9vCVb",
+          "style": {},
+          "connection": "conn-psNtmJoN"
+        },
+        {
+          "_id": "edge-X3VaXG3J",
+          "style": {},
+          "connection": "conn-NoNETrhF"
+        },
+        {
+          "_id": "edge-VdVbRwyi",
+          "style": {},
+          "connection": "conn-wZ5DGlXl"
+        },
+        {
+          "_id": "edge-mCWHVjRq",
+          "style": {},
+          "connection": "conn-LXcXaOKM"
+        },
+        {
+          "_id": "edge-cWEQSl55",
+          "style": {},
+          "connection": "conn-D3cF1pWu"
+        },
+        {
+          "_id": "edge-ORFR2nI3",
+          "style": {},
+          "connection": "conn-qyrmvJC2"
+        },
+        {
+          "_id": "edge-NBcXSNte",
+          "style": {},
+          "connection": "conn-3s6ZFWJO"
+        },
+        {
+          "_id": "edge-iV8D1ghp",
+          "style": {},
+          "connection": "conn-yMGCnho9"
+        },
+        {
+          "_id": "edge-eJ2qJmjZ",
+          "style": {},
+          "connection": "conn-gLr6hUm3"
+        },
+        {
+          "_id": "edge-TWN2QSMT",
+          "style": {},
+          "connection": "conn-iEgbHuAl"
+        },
+        {
+          "_id": "edge-4ZVvGovK",
+          "style": {},
+          "connection": "conn-5OPTLDLW"
+        },
+        {
+          "_id": "edge-CMft9ODM",
+          "style": {},
+          "connection": "conn-QmOtXb50"
+        },
+        {
+          "_id": "edge-0dkI8c34",
+          "style": {},
+          "connection": "conn-6ExHvL8Q"
+        },
+        {
+          "_id": "edge-UVtJ4HP9",
+          "style": {},
+          "connection": "conn-Xj9C6eJo"
+        },
+        {
+          "_id": "edge-jO2Kx69P",
+          "style": {},
+          "connection": "conn-F8AmYfNo"
+        },
+        {
+          "_id": "edge-WAuahzGx",
+          "style": {},
+          "connection": "conn-r7yomDbf"
+        },
+        {
+          "_id": "edge-IWSB9BI3",
+          "style": {},
+          "connection": "conn-f7PtUgGG"
+        },
+        {
+          "_id": "edge-FvcXuiAB",
+          "style": {},
+          "connection": "conn-5qMiqjrv"
+        },
+        {
+          "_id": "edge-XtFzAjoV",
+          "style": {},
+          "connection": "conn-JKLhuiYD"
+        },
+        {
+          "_id": "edge-r2SWhJwF",
+          "style": {},
+          "connection": "conn-N3ClVGs5"
+        },
+        {
+          "_id": "edge-DbSs3efM",
+          "style": {},
+          "connection": "conn-cTneY5hk"
+        },
+        {
+          "_id": "edge-hzvPvSgv",
+          "style": {},
+          "connection": "conn-55QsSXdQ"
+        },
+        {
+          "_id": "edge-oBqva0Gn",
+          "style": {},
+          "connection": "conn-ppNcLOAm"
+        },
+        {
+          "_id": "edge-BUMv1Z1X",
+          "style": {},
+          "connection": "conn-uGiEUV8G"
+        },
+        {
+          "_id": "edge-nP4HavQd",
+          "style": {},
+          "connection": "conn-asTvvcOE"
+        },
+        {
+          "_id": "edge-2ZlmLGAf",
+          "style": {},
+          "connection": "conn-XcFPHGJO"
+        },
+        {
+          "_id": "edge-BzX1PyIQ",
+          "style": {},
+          "connection": "conn-yRl3eAac"
+        },
+        {
+          "_id": "edge-KOagmB47",
+          "style": {},
+          "connection": "conn-ttlxHjCg"
+        },
+        {
+          "_id": "edge-mY4Ag2iG",
+          "style": {},
+          "connection": "conn-ReePAgCC"
+        },
+        {
+          "_id": "edge-2PVN6fXD",
+          "style": {},
+          "connection": "conn-IgBqiOIl"
+        },
+        {
+          "_id": "edge-EN7fOEgq",
+          "style": {},
+          "connection": "conn-kixeKRqg"
+        },
+        {
+          "_id": "edge-RRJRabr2",
+          "style": {},
+          "connection": "conn-YWrfq0xF"
+        },
+        {
+          "_id": "edge-mFJlvhdn",
+          "style": {},
+          "connection": "conn-YCGbsBPu"
+        },
+        {
+          "_id": "edge-iKwIb0iM",
+          "style": {},
+          "connection": "conn-oJgMxgpq"
+        },
+        {
+          "_id": "edge-QZjyMwxX",
+          "style": {},
+          "connection": "conn-fvHc0P2O"
+        },
+        {
+          "_id": "edge-SvFP7Bte",
+          "style": {},
+          "connection": "conn-ARuLPYB6"
+        },
+        {
+          "_id": "edge-LHYzOloq",
+          "style": {},
+          "connection": "conn-7i8aBc07"
+        },
+        {
+          "_id": "edge-3q37noPj",
+          "style": {},
+          "connection": "conn-qVJF4Hjq"
+        },
+        {
+          "_id": "edge-ywsH2p0c",
+          "style": {},
+          "connection": "conn-nFaPjRaT"
+        },
+        {
+          "_id": "edge-L5XpYXWS",
+          "style": {},
+          "connection": "conn-yjnvFKK0"
+        },
+        {
+          "_id": "edge-yGqZNdVh",
+          "style": {},
+          "connection": "conn-hFkRJFAR"
+        },
+        {
+          "_id": "edge-8ADrso6D",
+          "style": {},
+          "connection": "conn-UiFTmkgq"
+        },
+        {
+          "_id": "edge-QGJ8ydqw",
+          "style": {},
+          "connection": "conn-EsVTtJE4"
+        },
+        {
+          "_id": "edge-EQUSmCAh",
+          "style": {},
+          "connection": "conn-RrCZrvIT"
+        },
+        {
+          "_id": "edge-EGCdIM32",
+          "style": {},
+          "connection": "conn-f5NdSsJF"
+        },
+        {
+          "_id": "edge-bBRLDQTN",
+          "style": {},
+          "connection": "conn-fyzAdfyC"
+        },
+        {
+          "_id": "edge-GHJnfCng",
+          "style": {},
+          "connection": "conn-qAWyGvSt"
+        },
+        {
+          "_id": "edge-z5HPwpaf",
+          "style": {},
+          "connection": "conn-vhuu8m71"
+        },
+        {
+          "_id": "edge-K9rENmui",
+          "style": {},
+          "connection": "conn-xs6mZ160"
+        }
+      ],
+      "loops": []
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-hvcN62nI",
+      "name": "Notas da Campanha",
+      "style": "@controls {\n  bottom {\n    filter {\n      target: connection;\n      by: \"connection type\";\n      as: labels;\n      multiple: true;\n      default: show-all;\n    }\n  }\n\n  top {\n    filter {\n      target: element;\n      by: \"element type\";\n      as: labels;\n      multiple: true;\n      default: show-all;\n    }\n  }\n}\n\n@settings {\n  template: stakeholder;\n  theme: dark;\n  layout: force;\n  connection-color: #a7a7a7;\n  renderer: canvas;\n  layout-preset: hairball;\n  element-scale: scale(\"degree\", 0.5, 4);\n}\n\n/* Personagem */\nelement[\"element type\"=\"PC\"] {\n  color: #54a159;\n}\n\n/* NPC */\nelement[\"element type\"=\"NPC\"] {\n  color: #6aaed6;\n}\n\n/* Grupo */\nelement[\"element type\"=\"Grupo\"] {\n  color: #f67c49;\n  shape: pentagon;\n}\n\n/* Local */\nelement[\"element type\"=\"Local\"] {\n  color: #97bd8a;\n  shape: rectangle;\n}\n\n/* Monstro / Criatura / Boss */\nelement[\"element type\"=\"Monstro\"] {\n  color: #a80707;\n  shape: hexagon;\n}\n\n/* Deus / Patrono / Entidade */\nelement[\"element type\"=\"Entidade\"] {\n  color: #fff1a5;\n  shape: circle;\n}\n\n/* Item / Artefato */\nelement[\"element type\"=\"Item\"] {\n  color: #fffc00;\n  shape: diamond;\n}\n\n/* Evento */\nelement[\"element type\"=\"Evento\"] {\n  color: white;\n  shape: circle;\n}\n\n/* Condição */\nelement[\"element type\"=\"Condição\"] {\n  color: purple;\n  shape: circle;\n}\n\n/* Líder */\nconnection[\"connection type\"=\"Lider\"] {\n  color: #f67c49;\n}\n\n/* Membro */\nconnection[\"connection type\"=\"Membro\"] {\n  color: #f67c49;\n  style: dashed;\n}\n\n/* Parente */\nconnection[\"connection type\"=\"Parente\"] {\n  color: #3596c0;\n}\n\n/* Pertence */\nconnection[\"connection type\"=\"Pertence\"] {\n  color: #3596c0;\n  style: dashed;\n}\n\n/* Amigo */\nconnection[\"connection type\"=\"Amigo\"] {\n  color: #00682a;\n}\n\n/* Inimigo */\nconnection[\"connection type\"=\"Inimigo\"] {\n  color: #FF0000;\n}\n\n/* Patrono */\nconnection[\"connection type\"=\"Patrono\"] {\n  color: #74c89e;\n}\n\n/* Devoto */\nconnection[\"connection type\"=\"Devoto\"] {\n  color: #74c89e;\n  style: dashed;\n}\n\n/* Rumor */\nconnection[\"connection type\"=\"Rumor\"] {\n  color: purple;\n  style: dashed;\n}\n\n/* Conexão Não Classificada */\nconnection[\"connection type\"=\"Conexão Não Classificada\"] {\n  color: #ffffff;\n  style: dashed;\n}\n\nelement[\"status\"=\"Morto\"], element[\"status\"=\"Morto?\"] {\n  opacity: 0.3;\n  border-width: 5;\n  border-color: black;\n  label: \"{{label}} (Morto)\";\n}\n\nelement[\"status\"=\"Destruido\"], element[\"status\"=\"Destruido?\"] {\n  opacity: 0.5;\n  border-width: 5;\n  border-color: Orange;\n  label: \"{{label}} (Destruido)\";\n}\n\nelement[\"status\"=\"Desconhecido\"], element[\"status\"=\"Desconhecido?\"] {\n  opacity: 0.7;\n  border-width: 5;\n  border-color: Green;\n  label: \"{{label}} (Desconhecido)\";\n}\n\n"
+    }
+  ]
+}
