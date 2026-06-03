@@ -2218,7 +2218,7 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Afeta",
+        "connection type": "Ocorreu em",
         "notas": "Histórico: a condição foi removida em Krezk.",
         "descricao": "Kaelara já foi afetada por essa maldição, removida depois em Krezk."
       },
@@ -2343,7 +2343,7 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Afeta",
+        "connection type": "Ocorreu em",
         "notas": "Histórico: a condição foi removida em Krezk.",
         "descricao": "Valakut já foi afetado por essa maldição, removida depois em Krezk."
       },
@@ -2600,7 +2600,7 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador",
+        "connection type": "Envolvido",
         "descricao": "Tharok carregou o ídolo antes de sua importância ser revelada em Krezk."
       },
       "from": "elem-76SKVa3j",
