@@ -852,8 +852,8 @@
         "jogador": "Rud",
         "raça": "Elfo Alto",
         "status": "Vivo",
-        "degree": 10,
-        "metrics::last": 10,
+        "degree": 11,
+        "metrics::last": 11,
         "notas": "Alto elfo ladino do grupo. Carrega o vampirismo. A Maldição dos Corvos foi removida em Krezk. A água sagrada do lago mostrou efeitos temporários e variáveis sobre sua condição.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/87e1a247-f970-49a8-9cf9-df6f69693fc8.png",
         "descricao": "Alto elfo ladino do grupo, marcado pelo vampirismo.",
@@ -866,8 +866,8 @@
         "label": "Casa da Morte",
         "element type": "Local",
         "status": "Desconhecido",
-        "degree": 4,
-        "metrics::last": 4,
+        "degree": 5,
+        "metrics::last": 5,
         "notas": "Um dos primeiros lugares explorados pelo grupo em Barovia. Sob a casa, havia vestígios de cultos, sacrifícios e horrores antigos.",
         "descricao": "Casa assombrada da Vila da Barovia, marcada por cultos, mortes e horrores antigos.",
         "description": "Casa assombrada da Vila da Barovia, marcada por cultos, mortes e horrores antigos.",
@@ -1163,8 +1163,8 @@
         "jogador": "Andy",
         "raça": "Meio Orc",
         "status": "Vivo",
-        "degree": 8,
-        "metrics::last": 8,
+        "degree": 9,
+        "metrics::last": 9,
         "notas": "Druida meio-orc do grupo. Carrega a Lança de Sangue e a Fúria de Sangue. Após seu sacrifício na passagem de St. Markovia, recebeu a Marca de Markovia, que o ajuda a controlar melhor sua sede de sangue.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/efb81169-5315-4d08-a60b-a78ba52612d7.png",
         "descricao": "Meio-orc druida do grupo, marcado pela Lança de Sangue e pela bênção de Markovia.",
@@ -1273,8 +1273,8 @@
         "jogador": "Doug",
         "raça": "Anão",
         "status": "Vivo",
-        "degree": 9,
-        "metrics::last": 9,
+        "degree": 10,
+        "metrics::last": 10,
         "notas": "Paladino anão do grupo, devoto de Imothep. Carrega licantropia e é tentado pelo Quebrador de Voto, mas recentemente voltou a sentir o apoio de sua divindade.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4ad8e3fb-2ecf-4fbf-a3dd-927f593866b9.png",
         "descricao": "Anão paladino do grupo, dividido entre devoção, fardo e tentação.",
@@ -1405,8 +1405,8 @@
         "jogador": "Marco",
         "raça": "Humano",
         "status": "Vivo",
-        "degree": 8,
-        "metrics::last": 8,
+        "degree": 9,
+        "metrics::last": 9,
         "notas": "A condição antes chamada de “O Pesadelo” se refere à influência da Dama do Medo e à possessão que o ameaça durante o sono. Por segurança, Everlong costuma ser amarrado durante a noite.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ed2cdd48-77f6-4c86-a247-e4e0473b4301.png",
         "descricao": "Humano bruxo marcado por uma presença sombria que o persegue em sonhos e despertares.",
@@ -1691,11 +1691,11 @@
         "element type": "Item",
         "raridade": "Comum",
         "magico": "Não",
-        "degree": 2,
-        "metrics::last": 2,
-        "notas": "Garrafas antigas e conservadas do vinho dos Martikov, carregadas por Everlong.",
-        "descricao": "Garrafas antigas e conservadas do vinho dos Martikov.",
-        "description": "Garrafas antigas e conservadas do vinho dos Martikov."
+        "degree": 4,
+        "metrics::last": 4,
+        "notas": "Garrafas antigas e conservadas do vinho dos Martikov, atualmente espalhadas entre membros do grupo.",
+        "descricao": "Garrafas antigas e conservadas do vinho dos Martikov, carregadas pelo grupo.",
+        "description": "Garrafas antigas e conservadas do vinho dos Martikov, carregadas pelo grupo."
       }
     },
     {
@@ -1784,6 +1784,19 @@
         "descricao": "Noite de tensão sobrenatural na Vinícola Mago dos Vinhos.",
         "description": "Noite de tensão sobrenatural na Vinícola Mago dos Vinhos.",
         "notas": "Durante uma lua de sangue, Gildin resistiu à licantropia e Valakut resistiu à sede vampírica. A influência da Dama do Medo se aproximou perigosamente do mundo físico antes de ser contida."
+      }
+    },
+    {
+      "_id": "elem-btlVNR1w",
+      "attributes": {
+        "label": "Ossos de Walter Dust",
+        "element type": "Item",
+        "raridade": "Desconheida",
+        "magico": "Não",
+        "notas": "Ossos encontrados na Casa da Morte. Permanecem como lembrança pesada dos juramentos, perdas e promessas feitas naquele lugar.",
+        "descricao": "Restos mortais de Walter Dust encontrados na Casa da Morte.",
+        "degree": 3,
+        "metrics::last": 3
       }
     }
   ],
@@ -4449,6 +4462,61 @@
       },
       "from": "elem-TXogmC7b",
       "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-APx1oc7x",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-PhoJ9f3Z",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-mKgIJDzS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-PhoJ9f3Z",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-jFdidfu2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-btlVNR1w",
+      "to": "elem-T3GHiA90"
+    },
+    {
+      "_id": "conn-sscVi1Hg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence"
+      },
+      "from": "elem-btlVNR1w",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-f1pLKpea",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada"
+      },
+      "from": "elem-btlVNR1w",
+      "to": "elem-h1YC88dR"
     }
   ],
   "loops": [],
@@ -5161,6 +5229,13 @@
           "pinned": false,
           "style": {},
           "element": "elem-iwrgx5Ml"
+        },
+        {
+          "_id": "node-PuBTgqhk",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-btlVNR1w"
         }
       ],
       "connections": [
@@ -6287,6 +6362,31 @@
           "_id": "edge-K9rENmui",
           "style": {},
           "connection": "conn-xs6mZ160"
+        },
+        {
+          "_id": "edge-xO949wyv",
+          "style": {},
+          "connection": "conn-APx1oc7x"
+        },
+        {
+          "_id": "edge-XbRqtHwu",
+          "style": {},
+          "connection": "conn-mKgIJDzS"
+        },
+        {
+          "_id": "edge-CWVezipK",
+          "style": {},
+          "connection": "conn-jFdidfu2"
+        },
+        {
+          "_id": "edge-rxGJbehC",
+          "style": {},
+          "connection": "conn-sscVi1Hg"
+        },
+        {
+          "_id": "edge-T2ACeNrf",
+          "style": {},
+          "connection": "conn-f1pLKpea"
         }
       ],
       "loops": []
