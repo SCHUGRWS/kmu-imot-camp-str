@@ -447,8 +447,8 @@
         "label": "Filuriana",
         "element type": "Entidade",
         "notas": "Filuriana está ligada ao pacto de Everlong. Sua prisão pela Dama do Medo enfraquece sua presença e deixa Everlong vulnerável a outra influência.",
-        "degree": 2,
-        "metrics::last": 2,
+        "degree": 3,
+        "metrics::last": 3,
         "descricao": "Megera e patrona de Everlong, atualmente aprisionada por uma força mais sombria.",
         "description": "Megera e patrona de Everlong, atualmente aprisionada por uma força mais sombria.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1269313/a648e12e-60cf-4311-9ea5-783cf2d44dab.png"
@@ -459,8 +459,8 @@
       "attributes": {
         "label": "St. Markovia",
         "element type": "Entidade",
-        "degree": 10,
-        "metrics::last": 10,
+        "degree": 12,
+        "metrics::last": 12,
         "notas": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia.",
         "descricao": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia.",
         "description": "Santa guerreira lembrada por sua coragem contra Strahd e por sua ligação espiritual com Krezk e a Abadia.",
@@ -577,8 +577,8 @@
         "magico": "Sim",
         "notas": "Arma carregada por Tharok. A pedra escarlate no centro da lança parece alimentar uma sede de sangue que pode levá-lo a um frenesi perigoso.",
         "raridade": "Muito Raro",
-        "degree": 4,
-        "metrics::last": 4,
+        "degree": 5,
+        "metrics::last": 5,
         "descricao": "Lança mágica com uma pedra escarlate em seu centro.",
         "description": "Lança mágica com uma pedra escarlate em seu centro."
       }
@@ -616,9 +616,9 @@
       "attributes": {
         "label": "Vampirismo",
         "element type": "Condição",
-        "degree": 5,
-        "metrics::last": 5,
-        "notas": "Condição vampírica que afeta Valakut e diversas criaturas ligadas a Strahd. Algumas ligações ainda são tratadas como suspeitas ou rumores pelo grupo.",
+        "degree": 7,
+        "metrics::last": 7,
+        "notas": "Condição vampírica que afeta Valakut e diversas criaturas ligadas a Strahd. Algumas ligações ainda são tratadas como suspeitas ou rumores pelo grupo.\nDurante o ataque da matilha invernal, Valakut foi tomado por fome e frenesi. Ao tentar se alimentar de Tharok, sofreu com o sangue marcado por St. Markovia.",
         "descricao": "Condição sobrenatural associada aos vampiros de Barovia.",
         "description": "Condição sobrenatural associada aos vampiros de Barovia."
       }
@@ -699,11 +699,11 @@
         "element type": "NPC",
         "raça": "Humano",
         "ocupação": "Caçador de Vampiros",
-        "status": "Vivo",
+        "status": "Desconhecido",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/6beb310f-8e5c-4c66-baff-2c7bec9fa080.jpg",
-        "degree": 5,
-        "metrics::last": 5,
-        "notas": "Caçadora de vampiros.\nAtualmente acompanha o grupo depois dos eventos na passagem de St. Markovia.",
+        "degree": 8,
+        "metrics::last": 8,
+        "notas": "Caçadora de vampiros.\nAtualmente acompanha o grupo depois dos eventos na passagem de St. Markovia.\nApós o ataque da matilha e a chegada da cabana, seu estado tornou-se incerto para o grupo.",
         "descricao": "Caçadora de vampiros experiente, determinada e perigosa, atualmente aliada ao grupo.",
         "description": "Caçadora de vampiros experiente, determinada e perigosa, atualmente aliada ao grupo."
       }
@@ -800,8 +800,8 @@
       "attributes": {
         "label": "Imothep",
         "element type": "Entidade",
-        "degree": 2,
-        "metrics::last": 2,
+        "degree": 3,
+        "metrics::last": 3,
         "notas": "Deus de vida, deserto, calor e luz, próximo aos antigos símbolos de morte e renascimento. Gildin passou a segui-lo como divindade patrona. A pequena múmia encontrada sob a Casa da Morte tornou-se um símbolo importante dessa fé.",
         "descricao": "Divindade de inspiração egípcia seguida por Gildin, associada à vida, ao deserto, ao calor e à luz.",
         "description": "Divindade de inspiração egípcia seguida por Gildin, associada à vida, ao deserto, ao calor e à luz."
@@ -857,10 +857,10 @@
         "element type": "Item",
         "raridade": "Desconheida",
         "magico": "Sim",
-        "degree": 3,
-        "metrics::last": 3,
-        "notas": "Item macabro ligado às megeras e às maldições encontradas pelo grupo. Everlong o carrega consigo.",
-        "descricao": "Item macabro ligado às megeras e carregado por Everlong.",
+        "degree": 5,
+        "metrics::last": 5,
+        "notas": "Item macabro ligado às megeras e às maldições encontradas pelo grupo. Everlong o carrega consigo.\nEverlong entregou o Dedo da Megera a Baba Lysaga em troca de respostas dentro da cabana ambulante.",
+        "descricao": "Item macabro ligado às megeras, entregue por Everlong a Baba Lysaga.",
         "description": "Item macabro ligado às megeras e carregado por Everlong."
       }
     },
@@ -903,9 +903,9 @@
         "jogador": "Rud",
         "raça": "Elfo Alto",
         "status": "Vivo",
-        "degree": 14,
-        "metrics::last": 14,
-        "notas": "Alto elfo ladino do grupo. Carrega o vampirismo. A Maldição dos Corvos foi removida em Krezk. A água sagrada do lago mostrou efeitos temporários e variáveis sobre sua condição.",
+        "degree": 18,
+        "metrics::last": 18,
+        "notas": "Alto elfo ladino do grupo. Carrega o vampirismo. A Maldição dos Corvos foi removida em Krezk. A água sagrada do lago mostrou efeitos temporários e variáveis sobre sua condição.\nNa cabana de Baba Lysaga, Valakut perdeu um olho em uma tentativa falha de cura e recebeu outro em troca.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/87e1a247-f970-49a8-9cf9-df6f69693fc8.png",
         "descricao": "Alto elfo ladino do grupo, marcado pelo vampirismo.",
         "description": "Alto elfo ladino do grupo, marcado pelo vampirismo."
@@ -973,9 +973,9 @@
       "attributes": {
         "label": "Licantropia",
         "element type": "Condição",
-        "degree": 3,
-        "metrics::last": 3,
-        "notas": "Gildin foi marcado pela licantropia após um ataque de lobisomens na estrada.",
+        "degree": 5,
+        "metrics::last": 5,
+        "notas": "Gildin foi marcado pela licantropia após um ataque de lobisomens na estrada.\nA maldição de Gildin se manifestou sob a lua cheia durante o ataque da matilha invernal, fazendo-o perder o controle e atacar aliados.",
         "descricao": "Maldição bestial ligada aos lobisomens de Barovia.",
         "description": "Maldição bestial ligada aos lobisomens de Barovia."
       }
@@ -1031,9 +1031,9 @@
         "jogador": "Jo",
         "raça": "Elfo Negro",
         "status": "Vivo",
-        "degree": 11,
-        "metrics::last": 11,
-        "notas": "Guerreira elfa negra do grupo. Carrega a Maldição da Megera, também chamada de metamorfose involuntária. A Maldição dos Corvos foi removida em Krezk.",
+        "degree": 14,
+        "metrics::last": 14,
+        "notas": "Guerreira elfa negra do grupo. Carrega a Maldição da Megera, também chamada de metamorfose involuntária. A Maldição dos Corvos foi removida em Krezk.\nDurante a visita à cabana de Baba Lysaga, Kaelara foi chamada de tataraneta e perdeu dois dedos da mão esquerda em troca de respostas.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4519763a-6b82-43bd-a4c3-ac6ac968bc6b.png",
         "descricao": "Elfa negra guerreira do grupo, marcada por uma perigosa maldição de transformação.",
         "description": "Elfa negra guerreira do grupo, marcada por uma perigosa maldição de transformação."
@@ -1198,8 +1198,8 @@
         "label": "Grupo",
         "element type": "Grupo",
         "tipo de grupo": "Jogadores",
-        "degree": 28,
-        "metrics::last": 28,
+        "degree": 32,
+        "metrics::last": 32,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/fadb01a4-2ca7-454c-a009-5e329fc693a9.png",
         "notas": "Composto por Kaelara, Valakut, Gildin, Everlong e Tharok. Atualmente acompanha Ezmeralda e Zigfried após atravessar a passagem de St. Markovia e chegar à planície nevada além da montanha.",
         "descricao": "Grupo de aventureiros que enfrenta os horrores de Barovia e se opõe às forças de Strahd.",
@@ -1214,9 +1214,9 @@
         "jogador": "Andy",
         "raça": "Meio Orc",
         "status": "Vivo",
-        "degree": 9,
-        "metrics::last": 9,
-        "notas": "Druida meio-orc do grupo. Carrega a Lança de Sangue e a Fúria de Sangue. Após seu sacrifício na passagem de St. Markovia, recebeu a Marca de Markovia, que o ajuda a controlar melhor sua sede de sangue.",
+        "degree": 13,
+        "metrics::last": 13,
+        "notas": "Druida meio-orc do grupo. Carrega a Lança de Sangue e a Fúria de Sangue. Após seu sacrifício na passagem de St. Markovia, recebeu a Marca de Markovia, que o ajuda a controlar melhor sua sede de sangue.\nNa cabana de Baba Lysaga, Tharok recusou entregar sua sanidade em troca de conhecer seu futuro.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/efb81169-5315-4d08-a60b-a78ba52612d7.png",
         "descricao": "Meio-orc druida do grupo, marcado pela Lança de Sangue e pela bênção de Markovia.",
         "description": "Meio-orc druida do grupo, marcado pela Lança de Sangue e pela bênção de Markovia."
@@ -1324,9 +1324,9 @@
         "jogador": "Doug",
         "raça": "Anão",
         "status": "Vivo",
-        "degree": 12,
-        "metrics::last": 12,
-        "notas": "Paladino anão do grupo, devoto de Imothep. Carrega licantropia e é tentado pelo Quebrador de Voto, mas recentemente voltou a sentir o apoio de sua divindade.",
+        "degree": 15,
+        "metrics::last": 15,
+        "notas": "Paladino anão do grupo, devoto de Imothep. Carrega licantropia e é tentado pelo Quebrador de Voto, mas recentemente voltou a sentir o apoio de sua divindade.\nNa cabana de Baba Lysaga, Gildin ouviu palavras antigas e perturbadoras sobre Imothep.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4ad8e3fb-2ecf-4fbf-a3dd-927f593866b9.png",
         "descricao": "Anão paladino do grupo, dividido entre devoção, fardo e tentação.",
         "description": "Anão paladino do grupo, dividido entre devoção, fardo e tentação."
@@ -1456,9 +1456,9 @@
         "jogador": "Marco",
         "raça": "Humano",
         "status": "Vivo",
-        "degree": 13,
-        "metrics::last": 13,
-        "notas": "A condição antes chamada de “O Pesadelo” se refere à influência da Dama do Medo e à possessão que o ameaça durante o sono. Por segurança, Everlong costuma ser amarrado durante a noite.",
+        "degree": 16,
+        "metrics::last": 16,
+        "notas": "A condição antes chamada de “O Pesadelo” se refere à influência da Dama do Medo e à possessão que o ameaça durante o sono. Por segurança, Everlong costuma ser amarrado durante a noite.\nBaba Lysaga afirmou já ter ouvido falar de Everlong por meio de Filuriana. Everlong entregou o Dedo da Megera em troca de respostas.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ed2cdd48-77f6-4c86-a247-e4e0473b4301.png",
         "descricao": "Humano bruxo marcado por uma presença sombria que o persegue em sonhos e despertares.",
         "description": "Humano bruxo marcado por uma presença sombria que o persegue em sonhos e despertares."
@@ -1621,8 +1621,8 @@
         "element type": "Local",
         "status": "Desconhecido",
         "notas": "Passagem subterrânea ligada à Abadia de St. Markovia. O grupo atravessou seus testes e saiu do outro lado da montanha; a porta voltou a se fechar atrás deles.",
-        "degree": 3,
-        "metrics::last": 3,
+        "degree": 5,
+        "metrics::last": 5,
         "descricao": "Passagem subterrânea ligada à Abadia de St. Markovia, atravessada pelo grupo após uma série de testes.",
         "description": "Passagem subterrânea ligada à Abadia de St. Markovia, atravessada pelo grupo após uma série de testes."
       }
@@ -1658,9 +1658,9 @@
         "label": "Marca de Markovia",
         "element type": "Condição",
         "magico": "Sim",
-        "notas": "Marca recebida por Tharok após seu sacrifício no teste final da passagem de St. Markovia. Parece ajudá-lo a conter melhor a Fúria de Sangue.",
-        "degree": 3,
-        "metrics::last": 3,
+        "notas": "Marca recebida por Tharok após seu sacrifício no teste final da passagem de St. Markovia. Parece ajudá-lo a conter melhor a Fúria de Sangue.\nA marca se mostrou presente no próprio sangue de Tharok, ferindo Valakut quando ele tentou se alimentar dele durante o ataque da matilha invernal.",
+        "degree": 5,
+        "metrics::last": 5,
         "descricao": "Marca sagrada recebida por Tharok após seu sacrifício.",
         "description": "Marca sagrada recebida por Tharok após seu sacrifício."
       }
@@ -1671,10 +1671,10 @@
         "label": "Zigfried",
         "element type": "NPC",
         "raça": "Desconhecido",
-        "status": "Vivo",
-        "notas": "Membro da Família Belview, os mongrelfolks que viviam na Abadia sob o controle do Abade. Atualmente acompanha o grupo e Ezmeralda após a travessia da passagem de St. Markovia.",
-        "degree": 5,
-        "metrics::last": 5,
+        "status": "Desconhecido",
+        "notas": "Membro da Família Belview, os mongrelfolks que viviam na Abadia sob o controle do Abade. Atualmente acompanha o grupo e Ezmeralda após a travessia da passagem de St. Markovia.\nDurante o ataque da matilha, Zigfried protegeu Ezmeralda com o próprio corpo. Depois, permaneceu fora da cabana de Baba Lysaga, e seu destino ficou incerto.",
+        "degree": 8,
+        "metrics::last": 8,
         "descricao": "Mongrelfolk da Família Belview que acompanha o grupo.",
         "description": "Mongrelfolk da Família Belview que acompanha o grupo."
       }
@@ -1844,10 +1844,93 @@
         "element type": "Item",
         "raridade": "Desconheida",
         "magico": "Não",
-        "notas": "Ossos encontrados na Casa da Morte. Permanecem como lembrança pesada dos juramentos, perdas e promessas feitas naquele lugar.",
-        "descricao": "Restos mortais de Walter Dust encontrados na Casa da Morte.",
+        "notas": "Ossos encontrados na Casa da Morte. Permanecem como lembrança pesada dos juramentos, perdas e promessas feitas naquele lugar.\nApós a saída da passagem de St. Markovia, Gildin sepultou os ossos de Walter Dust junto aos antigos fiéis encontrados sob a neve, rezando pela paz da família Dust.",
+        "descricao": "Restos de Walter Dust, ligados à tragédia da Casa da Morte e ao juramento ferido de Gildin.",
+        "degree": 5,
+        "metrics::last": 5
+      }
+    },
+    {
+      "_id": "elem-DbatEX9t",
+      "attributes": {
+        "label": "Travessia da Planície Nevada",
+        "element type": "Evento",
+        "descricao": "Travessia brutal pela neve após a saída da passagem de St. Markovia.",
+        "notas": "Após deixarem a passagem de St. Markovia, o grupo encontrou antigos mortos preservados no gelo, sepultou os corpos que conseguiu e atravessou uma planície castigada por frio e nevasca.",
+        "degree": 8,
+        "metrics::last": 8
+      }
+    },
+    {
+      "_id": "elem-nuloHGSE",
+      "attributes": {
+        "label": "Livro da Lança e da Luz",
+        "element type": "Item",
+        "magico": "Não",
+        "raridade": "Desconheida",
+        "descricao": "Pequeno livro encontrado junto aos antigos fiéis de Markovia, narrando fragmentos de fé, guerra, sacrifício e luz.",
+        "notas": "O livro foi encontrado junto a corpos antigos preservados sob a neve, próximos à saída da passagem de St. Markovia. Seu conteúdo foi lido pelo grupo antes do sepultamento dos mortos.",
+        "degree": 5,
+        "metrics::last": 5
+      }
+    },
+    {
+      "_id": "elem-ly2DPJoX",
+      "attributes": {
+        "label": "Ataque da Matilha Invernal",
+        "element type": "Evento",
+        "descricao": "Ataque de lobos e lobos invernais contra o acampamento do grupo na floresta nevada.",
+        "notas": "No acampamento em meio à neve, o grupo foi cercado por uma matilha. Sob a lua cheia, Gildin sucumbiu à licantropia, Valakut foi tomado por fome e frenesi, e Zigfried protegeu Ezmeralda com o próprio corpo.",
+        "degree": 14,
+        "metrics::last": 14
+      }
+    },
+    {
+      "_id": "elem-QvBu8UeS",
+      "attributes": {
+        "label": "Baba Lysaga",
+        "element type": "Entidade",
+        "status": "Vivo",
+        "descricao": "Entidade antiga associada às megeras, aos costumes antigos e a barganhas cruéis.",
+        "notas": "Recebeu o grupo dentro de sua cabana ambulante, oferecendo descanso, respostas e curas mediante pagamentos dolorosos. Trata pedidos e barganhas segundo costumes antigos e interpretações cruéis.",
+        "degree": 12,
+        "metrics::last": 12
+      }
+    },
+    {
+      "_id": "elem-1iH3TDjs",
+      "attributes": {
+        "label": "Cabana de Baba Lysaga",
+        "element type": "Local",
+        "status": "Desconhecido",
+        "descricao": "Cabana ambulante que caminha sobre pernas gigantescas e serve como morada de Baba Lysaga.",
+        "notas": "A cabana surgiu durante uma vigia na floresta nevada, bloqueou a saída do acampamento e baixou uma escada para que o grupo subisse.",
         "degree": 3,
         "metrics::last": 3
+      }
+    },
+    {
+      "_id": "elem-o7rcBeoq",
+      "attributes": {
+        "label": "Visita à Cabana de Baba Lysaga",
+        "element type": "Evento",
+        "descricao": "Encontro do grupo com Baba Lysaga dentro de sua cabana ambulante.",
+        "notas": "Dentro da cabana, o grupo recebeu abrigo, comida e ofertas de respostas ou curas em troca de pagamentos dolorosos. Kaelara perdeu dois dedos, Valakut perdeu um olho, Everlong entregou o Dedo da Megera e Tharok recusou pagar com sua sanidade.",
+        "degree": 14,
+        "metrics::last": 14
+      }
+    },
+    {
+      "_id": "elem-jBXDESbJ",
+      "attributes": {
+        "label": "Olho Estranho de Valakut",
+        "element type": "Item",
+        "magico": "Sim",
+        "raridade": "Desconheida",
+        "descricao": "Olho estranho dado por Baba Lysaga a Valakut após uma barganha cruel.",
+        "notas": "Após perder um olho em uma tentativa falha de cura, Valakut recebeu de Baba Lysaga um olho retirado de dentro dela. O olho lhe permitiu perceber veios mágicos na cabana.",
+        "degree": 4,
+        "metrics::last": 4
       }
     }
   ],
@@ -2220,7 +2303,7 @@
       "attributes": {
         "connection type": "Ocorreu em",
         "notas": "Histórico: a condição foi removida em Krezk.",
-        "descricao": "Kaelara já foi afetada por essa maldição, removida depois em Krezk."
+        "descricao": "A relação com Kaelara é lembrada como parte dos acontecimentos em Krezk, onde a maldição foi removida."
       },
       "from": "elem-WGRE38ij",
       "to": "elem-VWPPTU19"
@@ -2345,7 +2428,7 @@
       "attributes": {
         "connection type": "Ocorreu em",
         "notas": "Histórico: a condição foi removida em Krezk.",
-        "descricao": "Valakut já foi afetado por essa maldição, removida depois em Krezk."
+        "descricao": "A relação com Valakut é lembrada como parte dos acontecimentos em Krezk, onde a maldição foi removida."
       },
       "from": "elem-WGRE38ij",
       "to": "elem-SKvozc6J"
@@ -2601,7 +2684,7 @@
       "reversed": false,
       "attributes": {
         "connection type": "Envolvido",
-        "descricao": "Tharok carregou o ídolo antes de sua importância ser revelada em Krezk."
+        "descricao": "Tharok teve papel importante ao reconhecer a utilidade do ídolo durante o ataque a Krezk, embora ele não esteja mais em sua posse."
       },
       "from": "elem-76SKVa3j",
       "to": "elem-bWiUVxhR"
@@ -2808,8 +2891,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Pertence",
-        "descricao": "Everlong carrega o dedo como item macabro ligado às megeras."
+        "connection type": "Envolvido",
+        "descricao": "Everlong carregou o dedo até entregá-lo a Baba Lysaga em uma barganha por respostas."
       },
       "from": "elem-QoveVeVD",
       "to": "elem-n1Jow6zV"
@@ -4771,8 +4854,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "Portador",
-        "descricao": "Everlong carrega os ossos de Walter Dust."
+        "connection type": "Envolvido",
+        "descricao": "Everlong carregou os ossos durante parte da jornada até seu sepultamento."
       },
       "from": "elem-btlVNR1w",
       "to": "elem-n1Jow6zV"
@@ -4784,10 +4867,634 @@
       "reversed": false,
       "attributes": {
         "connection type": "Envolvido",
-        "descricao": "Os ossos lembram a promessa não cumprida de Gildin às crianças da Casa da Morte."
+        "descricao": "Gildin sepultou os ossos de Walter Dust e rezou pela paz da família Dust."
       },
       "from": "elem-btlVNR1w",
       "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-1y9TYOxB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Ocorreu em",
+        "descricao": "A travessia começou logo após a saída da passagem de St. Markovia."
+      },
+      "from": "elem-DbatEX9t",
+      "to": "elem-EC5Ngo48"
+    },
+    {
+      "_id": "conn-rjWAamvk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "O grupo atravessou a planície tomada por neve e frio intenso."
+      },
+      "from": "elem-DbatEX9t",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-hKcJyBWB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Ezmeralda acompanhava o grupo durante a travessia pela neve."
+      },
+      "from": "elem-DbatEX9t",
+      "to": "elem-Gf3ntous"
+    },
+    {
+      "_id": "conn-f7DhJzIE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Zigfried acompanhava o grupo durante a travessia pela neve."
+      },
+      "from": "elem-DbatEX9t",
+      "to": "elem-nEnEKM1w"
+    },
+    {
+      "_id": "conn-Mi41u27F",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "A travessia revelou antigos fiéis de Markovia preservados sob a neve."
+      },
+      "from": "elem-DbatEX9t",
+      "to": "elem-KvqYsUIR"
+    },
+    {
+      "_id": "conn-j83RoL62",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Os ossos de Walter Dust foram sepultados durante a travessia, junto aos mortos de Markovia."
+      },
+      "from": "elem-DbatEX9t",
+      "to": "elem-btlVNR1w"
+    },
+    {
+      "_id": "conn-oWy2QonU",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence",
+        "descricao": "O livro preserva palavras e memórias ligadas à fé em St. Markovia."
+      },
+      "from": "elem-nuloHGSE",
+      "to": "elem-KvqYsUIR"
+    },
+    {
+      "_id": "conn-uLjV9hZt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "descricao": "O livro fala de lança, luz e antigos conflitos ligados ao passado sombrio de Barovia."
+      },
+      "from": "elem-nuloHGSE",
+      "to": "elem-51xip4L6"
+    },
+    {
+      "_id": "conn-F4J0tRFH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Origem",
+        "descricao": "O livro foi encontrado durante a saída para a planície nevada."
+      },
+      "from": "elem-nuloHGSE",
+      "to": "elem-DbatEX9t"
+    },
+    {
+      "_id": "conn-Ybw8Mf9m",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Origem",
+        "descricao": "O livro estava junto aos mortos próximos à passagem de St. Markovia."
+      },
+      "from": "elem-nuloHGSE",
+      "to": "elem-EC5Ngo48"
+    },
+    {
+      "_id": "conn-nix71HP0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Tharok carrega a Marca de Markovia e a Lança de Sangue, tornando o livro especialmente significativo para seu caminho."
+      },
+      "from": "elem-nuloHGSE",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-e1Z3n3eT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "O grupo foi cercado e atacado pela matilha no acampamento em meio à neve."
+      },
+      "from": "elem-ly2DPJoX",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-IvTaCYXg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Gildin sucumbiu à licantropia durante o ataque da matilha."
+      },
+      "from": "elem-ly2DPJoX",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-FWju6qjY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Valakut caiu em frenesi e foi gravemente afetado durante o ataque."
+      },
+      "from": "elem-ly2DPJoX",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-4plpZ2ga",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Tharok enfrentou a matilha e depois foi alvo da fome de Valakut."
+      },
+      "from": "elem-ly2DPJoX",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-8Kyqylhj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Everlong foi atacado quando Gildin perdeu o controle sob a lua cheia."
+      },
+      "from": "elem-ly2DPJoX",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-1vFqaHNr",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Kaelara lutou contra os lobos invernais durante o ataque."
+      },
+      "from": "elem-ly2DPJoX",
+      "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-EXUEqWv2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Ezmeralda foi protegida por Zigfried durante o ataque da matilha."
+      },
+      "from": "elem-ly2DPJoX",
+      "to": "elem-Gf3ntous"
+    },
+    {
+      "_id": "conn-k8Rvjqxv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Zigfried protegeu Ezmeralda com o próprio corpo durante o ataque."
+      },
+      "from": "elem-ly2DPJoX",
+      "to": "elem-nEnEKM1w"
+    },
+    {
+      "_id": "conn-FLO2AJUe",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "A licantropia de Gildin se manifestou durante o ataque sob a lua cheia."
+      },
+      "from": "elem-ly2DPJoX",
+      "to": "elem-UJ4lyTu4"
+    },
+    {
+      "_id": "conn-v5LuDZwu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "O vampirismo de Valakut se manifestou em fome e frenesi durante o ataque."
+      },
+      "from": "elem-ly2DPJoX",
+      "to": "elem-821pwCfE"
+    },
+    {
+      "_id": "conn-pzV7Fs99",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "A marca no sangue de Tharok se mostrou perigosa para Valakut durante o ataque."
+      },
+      "from": "elem-ly2DPJoX",
+      "to": "elem-5ShkQoOw"
+    },
+    {
+      "_id": "conn-Yujtctjf",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Ocorreu em",
+        "descricao": "O encontro com Baba Lysaga ocorreu dentro de sua cabana ambulante."
+      },
+      "from": "elem-o7rcBeoq",
+      "to": "elem-1iH3TDjs"
+    },
+    {
+      "_id": "conn-57eUcqst",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Baba Lysaga recebeu o grupo e conduziu as barganhas dentro de sua cabana."
+      },
+      "from": "elem-o7rcBeoq",
+      "to": "elem-QvBu8UeS"
+    },
+    {
+      "_id": "conn-FWbTNhCR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "O grupo subiu à cabana e aceitou descanso sob as regras de Baba Lysaga."
+      },
+      "from": "elem-o7rcBeoq",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-KqdHDkOH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Kaelara barganhou por respostas e perdeu dois dedos da mão esquerda."
+      },
+      "from": "elem-o7rcBeoq",
+      "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-uhlYH18H",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Valakut buscou cura e perdeu um olho antes de receber outro em troca."
+      },
+      "from": "elem-o7rcBeoq",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-4JpjkjOM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Gildin ouviu Baba Lysaga falar de Imothep de forma antiga e inquietante."
+      },
+      "from": "elem-o7rcBeoq",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-NEpBc50s",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Everlong entregou o Dedo da Megera a Baba Lysaga em troca de respostas."
+      },
+      "from": "elem-o7rcBeoq",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-2eY9mZc6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Tharok recusou pagar com sua sanidade para conhecer seu futuro."
+      },
+      "from": "elem-o7rcBeoq",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-c91FYpej",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Zigfried permaneceu fora da cabana enquanto o grupo subia para encontrar Baba Lysaga."
+      },
+      "from": "elem-o7rcBeoq",
+      "to": "elem-nEnEKM1w"
+    },
+    {
+      "_id": "conn-EnTq9cXW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "O estado de Ezmeralda ficou incerto no momento em que o grupo subiu à cabana."
+      },
+      "from": "elem-o7rcBeoq",
+      "to": "elem-Gf3ntous"
+    },
+    {
+      "_id": "conn-8fLgPqYb",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "O dedo foi entregue a Baba Lysaga como pagamento por respostas."
+      },
+      "from": "elem-o7rcBeoq",
+      "to": "elem-QoveVeVD"
+    },
+    {
+      "_id": "conn-DAtiEc0r",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "O olho foi recebido por Valakut durante a barganha com Baba Lysaga."
+      },
+      "from": "elem-o7rcBeoq",
+      "to": "elem-jBXDESbJ"
+    },
+    {
+      "_id": "conn-HLCtlRKT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence",
+        "descricao": "A cabana ambulante é a morada de Baba Lysaga."
+      },
+      "from": "elem-1iH3TDjs",
+      "to": "elem-QvBu8UeS"
+    },
+    {
+      "_id": "conn-JgK1T2hs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "A cabana surgiu, bloqueou o acampamento e tornou possível o encontro com Baba Lysaga."
+      },
+      "from": "elem-1iH3TDjs",
+      "to": "elem-o7rcBeoq"
+    },
+    {
+      "_id": "conn-gBSzZzDD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "descricao": "Baba Lysaga chamou Kaelara de tataraneta, sugerindo uma ligação antiga e perturbadora."
+      },
+      "from": "elem-QvBu8UeS",
+      "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-QjswUXjQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "descricao": "Baba Lysaga afirmou já ter ouvido falar de Everlong por meio de Filuriana."
+      },
+      "from": "elem-QvBu8UeS",
+      "to": "elem-EwAQsiZc"
+    },
+    {
+      "_id": "conn-UndGvS0J",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "descricao": "Baba Lysaga falou de Imothep como alguém conhecido por tempos muito antigos."
+      },
+      "from": "elem-QvBu8UeS",
+      "to": "elem-JbMJYKl6"
+    },
+    {
+      "_id": "conn-R1qR3cdr",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Baba Lysaga recebeu o grupo sob as regras de sua casa."
+      },
+      "from": "elem-QvBu8UeS",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-De1wGx4Y",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Baba Lysaga reconheceu Everlong por sua ligação com Filuriana."
+      },
+      "from": "elem-QvBu8UeS",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-x9MGfH0M",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Baba Lysaga conduziu uma barganha cruel com Valakut em busca de cura."
+      },
+      "from": "elem-QvBu8UeS",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-7xzFxCbi",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Baba Lysaga falou com Gildin sobre Imothep e antigos poderes."
+      },
+      "from": "elem-QvBu8UeS",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-F6vSa3oC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Baba Lysaga ofereceu a Tharok conhecimento sobre seu futuro por um preço terrível."
+      },
+      "from": "elem-QvBu8UeS",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-vMkvOBCl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Portador",
+        "descricao": "Baba Lysaga recebeu o Dedo da Megera de Everlong como pagamento por respostas."
+      },
+      "from": "elem-QoveVeVD",
+      "to": "elem-QvBu8UeS"
+    },
+    {
+      "_id": "conn-8nN127Bt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Afeta",
+        "descricao": "O olho estranho passou a fazer parte de Valakut após a barganha com Baba Lysaga."
+      },
+      "from": "elem-jBXDESbJ",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-Fx185M2T",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Origem",
+        "descricao": "O olho foi entregue por Baba Lysaga durante a barganha."
+      },
+      "from": "elem-jBXDESbJ",
+      "to": "elem-QvBu8UeS"
+    },
+    {
+      "_id": "conn-d0fZIu2j",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Origem",
+        "descricao": "Valakut recebeu o olho durante a visita à cabana de Baba Lysaga."
+      },
+      "from": "elem-jBXDESbJ",
+      "to": "elem-o7rcBeoq"
+    },
+    {
+      "_id": "conn-xxnNfT9H",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Ocorreu em",
+        "descricao": "A licantropia de Gildin se manifestou claramente durante o ataque da matilha."
+      },
+      "from": "elem-UJ4lyTu4",
+      "to": "elem-ly2DPJoX"
+    },
+    {
+      "_id": "conn-lEaKdkjh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Ocorreu em",
+        "descricao": "A fome vampírica de Valakut se manifestou durante o ataque da matilha."
+      },
+      "from": "elem-821pwCfE",
+      "to": "elem-ly2DPJoX"
+    },
+    {
+      "_id": "conn-NOJ3MUrC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Ocorreu em",
+        "descricao": "A marca de Tharok demonstrou sua força sagrada durante o ataque da matilha."
+      },
+      "from": "elem-5ShkQoOw",
+      "to": "elem-ly2DPJoX"
+    },
+    {
+      "_id": "conn-lG9PZ1iv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Os ossos foram sepultados durante a travessia pela planície nevada."
+      },
+      "from": "elem-btlVNR1w",
+      "to": "elem-DbatEX9t"
     }
   ],
   "loops": [],
@@ -5507,6 +6214,69 @@
           "pinned": false,
           "style": {},
           "element": "elem-btlVNR1w"
+        },
+        {
+          "_id": "node-50MgwCHZ",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-DbatEX9t"
+        },
+        {
+          "_id": "node-egwkGGIF",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-nuloHGSE"
+        },
+        {
+          "_id": "node-8YRMov68",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-ly2DPJoX"
+        },
+        {
+          "_id": "node-pbdvKPqq",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-QvBu8UeS"
+        },
+        {
+          "_id": "node-YGnp3ar5",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-1iH3TDjs"
+        },
+        {
+          "_id": "node-NZrFhzBb",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-o7rcBeoq"
+        },
+        {
+          "_id": "node-1yVralm7",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-jBXDESbJ"
+        },
+        {
+          "_id": "node-aj1lhBCw",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-aX0Az9Sj"
+        },
+        {
+          "_id": "node-9SzWOET4",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-vqKbxr8E"
         }
       ],
       "connections": [
@@ -6718,6 +7488,271 @@
           "_id": "edge-IZbqs1Qs",
           "style": {},
           "connection": "conn-qhopsSIU"
+        },
+        {
+          "_id": "edge-psuGp7yp",
+          "style": {},
+          "connection": "conn-1y9TYOxB"
+        },
+        {
+          "_id": "edge-Q2FqgGS8",
+          "style": {},
+          "connection": "conn-rjWAamvk"
+        },
+        {
+          "_id": "edge-pUc59Qp2",
+          "style": {},
+          "connection": "conn-hKcJyBWB"
+        },
+        {
+          "_id": "edge-vj08ja1r",
+          "style": {},
+          "connection": "conn-f7DhJzIE"
+        },
+        {
+          "_id": "edge-IV1xRjpT",
+          "style": {},
+          "connection": "conn-Mi41u27F"
+        },
+        {
+          "_id": "edge-mmxqwonB",
+          "style": {},
+          "connection": "conn-j83RoL62"
+        },
+        {
+          "_id": "edge-gwuY79QI",
+          "style": {},
+          "connection": "conn-oWy2QonU"
+        },
+        {
+          "_id": "edge-piOD9Duy",
+          "style": {},
+          "connection": "conn-uLjV9hZt"
+        },
+        {
+          "_id": "edge-QQOv7HCR",
+          "style": {},
+          "connection": "conn-F4J0tRFH"
+        },
+        {
+          "_id": "edge-sRxMsCD9",
+          "style": {},
+          "connection": "conn-Ybw8Mf9m"
+        },
+        {
+          "_id": "edge-BZrkHZBl",
+          "style": {},
+          "connection": "conn-nix71HP0"
+        },
+        {
+          "_id": "edge-6Z11l87p",
+          "style": {},
+          "connection": "conn-e1Z3n3eT"
+        },
+        {
+          "_id": "edge-UibAdYfY",
+          "style": {},
+          "connection": "conn-IvTaCYXg"
+        },
+        {
+          "_id": "edge-Z8MVt70S",
+          "style": {},
+          "connection": "conn-FWju6qjY"
+        },
+        {
+          "_id": "edge-fBWr44lq",
+          "style": {},
+          "connection": "conn-4plpZ2ga"
+        },
+        {
+          "_id": "edge-VJhB9Bd7",
+          "style": {},
+          "connection": "conn-8Kyqylhj"
+        },
+        {
+          "_id": "edge-rZQfjkaZ",
+          "style": {},
+          "connection": "conn-1vFqaHNr"
+        },
+        {
+          "_id": "edge-XmvPPLXV",
+          "style": {},
+          "connection": "conn-EXUEqWv2"
+        },
+        {
+          "_id": "edge-Fce9l4hE",
+          "style": {},
+          "connection": "conn-k8Rvjqxv"
+        },
+        {
+          "_id": "edge-g8VWAXAx",
+          "style": {},
+          "connection": "conn-FLO2AJUe"
+        },
+        {
+          "_id": "edge-Ne4yK4dU",
+          "style": {},
+          "connection": "conn-v5LuDZwu"
+        },
+        {
+          "_id": "edge-0P4g5dBs",
+          "style": {},
+          "connection": "conn-pzV7Fs99"
+        },
+        {
+          "_id": "edge-QWeRMmck",
+          "style": {},
+          "connection": "conn-Yujtctjf"
+        },
+        {
+          "_id": "edge-DnJcdEE1",
+          "style": {},
+          "connection": "conn-57eUcqst"
+        },
+        {
+          "_id": "edge-VSlqWLhL",
+          "style": {},
+          "connection": "conn-FWbTNhCR"
+        },
+        {
+          "_id": "edge-sMubDwaR",
+          "style": {},
+          "connection": "conn-KqdHDkOH"
+        },
+        {
+          "_id": "edge-jLhmCuwq",
+          "style": {},
+          "connection": "conn-uhlYH18H"
+        },
+        {
+          "_id": "edge-P7ATxVtk",
+          "style": {},
+          "connection": "conn-4JpjkjOM"
+        },
+        {
+          "_id": "edge-1sypZBwU",
+          "style": {},
+          "connection": "conn-NEpBc50s"
+        },
+        {
+          "_id": "edge-LkNRJlc3",
+          "style": {},
+          "connection": "conn-2eY9mZc6"
+        },
+        {
+          "_id": "edge-3l8cd3Gd",
+          "style": {},
+          "connection": "conn-c91FYpej"
+        },
+        {
+          "_id": "edge-Pko1xZor",
+          "style": {},
+          "connection": "conn-EnTq9cXW"
+        },
+        {
+          "_id": "edge-QhRlCaoa",
+          "style": {},
+          "connection": "conn-8fLgPqYb"
+        },
+        {
+          "_id": "edge-Xr7l4Elx",
+          "style": {},
+          "connection": "conn-DAtiEc0r"
+        },
+        {
+          "_id": "edge-5qcPTFDX",
+          "style": {},
+          "connection": "conn-HLCtlRKT"
+        },
+        {
+          "_id": "edge-CZAK0Rvn",
+          "style": {},
+          "connection": "conn-JgK1T2hs"
+        },
+        {
+          "_id": "edge-e0Y6uEKI",
+          "style": {},
+          "connection": "conn-gBSzZzDD"
+        },
+        {
+          "_id": "edge-u19VQSha",
+          "style": {},
+          "connection": "conn-QjswUXjQ"
+        },
+        {
+          "_id": "edge-BaZQuT9V",
+          "style": {},
+          "connection": "conn-UndGvS0J"
+        },
+        {
+          "_id": "edge-23nO7Px0",
+          "style": {},
+          "connection": "conn-R1qR3cdr"
+        },
+        {
+          "_id": "edge-hrZSP4mc",
+          "style": {},
+          "connection": "conn-De1wGx4Y"
+        },
+        {
+          "_id": "edge-Cz9RB75G",
+          "style": {},
+          "connection": "conn-x9MGfH0M"
+        },
+        {
+          "_id": "edge-YUCoi8pU",
+          "style": {},
+          "connection": "conn-7xzFxCbi"
+        },
+        {
+          "_id": "edge-ktUzg7M2",
+          "style": {},
+          "connection": "conn-F6vSa3oC"
+        },
+        {
+          "_id": "edge-emZ3GN6n",
+          "style": {},
+          "connection": "conn-vMkvOBCl"
+        },
+        {
+          "_id": "edge-UdcP0J2I",
+          "style": {},
+          "connection": "conn-8nN127Bt"
+        },
+        {
+          "_id": "edge-njiV4hqu",
+          "style": {},
+          "connection": "conn-Fx185M2T"
+        },
+        {
+          "_id": "edge-ofAbmnua",
+          "style": {},
+          "connection": "conn-d0fZIu2j"
+        },
+        {
+          "_id": "edge-AQa3dRMi",
+          "style": {},
+          "connection": "conn-xxnNfT9H"
+        },
+        {
+          "_id": "edge-S5Q2MwDF",
+          "style": {},
+          "connection": "conn-lEaKdkjh"
+        },
+        {
+          "_id": "edge-sjIou4y2",
+          "style": {},
+          "connection": "conn-NOJ3MUrC"
+        },
+        {
+          "_id": "edge-DrPlifyD",
+          "style": {},
+          "connection": "conn-lG9PZ1iv"
+        },
+        {
+          "_id": "edge-fUHMO504",
+          "style": {},
+          "connection": "conn-0XtHHquh"
         }
       ],
       "loops": []
