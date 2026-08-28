@@ -701,9 +701,9 @@
         "ocupação": "Caçador de Vampiros",
         "status": "Desconhecido",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/6beb310f-8e5c-4c66-baff-2c7bec9fa080.jpg",
-        "degree": 8,
-        "metrics::last": 8,
-        "notas": "Caçadora de vampiros.\nAtualmente acompanha o grupo depois dos eventos na passagem de St. Markovia.\nApós o ataque da matilha e a chegada da cabana, seu estado tornou-se incerto para o grupo.",
+        "degree": 10,
+        "metrics::last": 10,
+        "notas": "Caçadora de vampiros e aliada do grupo. Acompanhou os aventureiros pela passagem de St. Markovia e pela travessia na neve.\nSegundo Baba Lysaga, Ezmeralda sobreviveu aos acontecimentos recentes e seguiu para leste com Zigfried depois que ele ofereceu algo em troca da vida dela. O que Zigfried entregou não foi revelado ao grupo.",
         "descricao": "Caçadora de vampiros experiente, determinada e perigosa, atualmente aliada ao grupo.",
         "description": "Caçadora de vampiros experiente, determinada e perigosa, atualmente aliada ao grupo."
       }
@@ -746,9 +746,9 @@
         "lider": "Strahd",
         "ocupação": "Servir a Strahd",
         "tipo de grupo": "Clã",
-        "degree": 5,
-        "metrics::last": 5,
-        "notas": "Grupo de vampiras ligadas a Strahd. Até o momento, Volenta Popfsky é a única esposa que apareceu diretamente para o grupo.",
+        "degree": 6,
+        "metrics::last": 6,
+        "notas": "Grupo de vampiras ligadas a Strahd. Até o momento, Volenta Popfsky é a única esposa que apareceu diretamente para o grupo.\nPor causa do pacto com Mahadi, o grupo precisa obter uma mecha de cabelo de cada esposa de Strahd antes de deixar Barovia.",
         "descricao": "Servas vampíricas de Strahd, conhecidas pelo grupo principalmente por Volenta.",
         "description": "Servas vampíricas de Strahd, conhecidas pelo grupo principalmente por Volenta."
       }
@@ -903,9 +903,9 @@
         "jogador": "Rud",
         "raça": "Elfo Alto",
         "status": "Vivo",
-        "degree": 18,
-        "metrics::last": 18,
-        "notas": "Alto elfo ladino do grupo. Carrega o vampirismo. A Maldição dos Corvos foi removida em Krezk. A água sagrada do lago mostrou efeitos temporários e variáveis sobre sua condição.\nNa cabana de Baba Lysaga, Valakut perdeu um olho em uma tentativa falha de cura e recebeu outro em troca.",
+        "degree": 19,
+        "metrics::last": 19,
+        "notas": "Alto elfo ladino do grupo. Carrega o vampirismo. A Maldição dos Corvos foi removida em Krezk. A água sagrada do lago mostrou efeitos temporários e variáveis sobre sua condição.\nNa cabana de Baba Lysaga, Valakut perdeu um olho em uma tentativa falha de cura e recebeu outro em troca. Mais tarde descobriu um efeito adverso do olho mágico: quando tenta se esconder, o olho brilha magicamente e impõe desvantagem em seus testes de Furtividade.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/87e1a247-f970-49a8-9cf9-df6f69693fc8.png",
         "descricao": "Alto elfo ladino do grupo, marcado pelo vampirismo.",
         "description": "Alto elfo ladino do grupo, marcado pelo vampirismo."
@@ -1031,9 +1031,9 @@
         "jogador": "Jo",
         "raça": "Elfo Negro",
         "status": "Vivo",
-        "degree": 14,
-        "metrics::last": 14,
-        "notas": "Guerreira elfa negra do grupo. Carrega a Maldição da Megera, também chamada de metamorfose involuntária. A Maldição dos Corvos foi removida em Krezk.\nDurante a visita à cabana de Baba Lysaga, Kaelara foi chamada de tataraneta e perdeu dois dedos da mão esquerda em troca de respostas.",
+        "degree": 15,
+        "metrics::last": 15,
+        "notas": "Guerreira elfa negra do grupo. Carrega a Maldição da Megera, também chamada de metamorfose involuntária. A Maldição dos Corvos foi removida em Krezk.\nDurante a visita à cabana de Baba Lysaga, Kaelara foi chamada de tataraneta e perdeu dois dedos da mão esquerda em troca de respostas. Na despedida, Baba devolveu seus dedos. Kaelara concordou em atender ao pedido de Baba, mas ainda não decidiu qual das duas opções apresentadas irá escolher.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4519763a-6b82-43bd-a4c3-ac6ac968bc6b.png",
         "descricao": "Elfa negra guerreira do grupo, marcada por uma perigosa maldição de transformação.",
         "description": "Elfa negra guerreira do grupo, marcada por uma perigosa maldição de transformação."
@@ -1133,9 +1133,9 @@
         "label": "Covil de Lobisomens",
         "element type": "Local",
         "status": "Desconhecido",
-        "degree": 4,
-        "metrics::last": 4,
-        "notas": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
+        "degree": 6,
+        "metrics::last": 6,
+        "notas": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.\nEstado atual: o grupo chegou apenas à entrada e matou as duas guardas antes que elas conseguissem soar o alarme. O grupo ainda não avançou para o interior do covil; acontecimentos, encontros e descobertas internas permanecem desconhecidos.",
         "descricao": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
         "description": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
         "image": "https://storage.ghost.io/c/77/85/7785af74-5911-409f-8658-d5a52cd53042/content/images/2026/04/Werewolf-Den-Entrance.jpg"
@@ -1198,10 +1198,10 @@
         "label": "Grupo",
         "element type": "Grupo",
         "tipo de grupo": "Jogadores",
-        "degree": 32,
-        "metrics::last": 32,
+        "degree": 37,
+        "metrics::last": 37,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/fadb01a4-2ca7-454c-a009-5e329fc693a9.png",
-        "notas": "Composto por Kaelara, Valakut, Gildin, Everlong e Tharok. Atualmente acompanha Ezmeralda e Zigfried após atravessar a passagem de St. Markovia e chegar à planície nevada além da montanha.",
+        "notas": "Composto por Kaelara, Valakut, Gildin, Everlong e Tharok. Ezmeralda e Zigfried não estão mais viajando com o grupo; segundo Baba Lysaga, os dois seguiram para leste.\nApós deixar a cabana de Baba, o grupo encontrou o mercador mágico Mahadi e acabou preso a um pacto: deve obter uma mecha de cabelo de cada esposa de Strahd antes de sair de Barovia, ou suas almas pertencerão a Mahadi. Todos foram marcados com um símbolo arcano invisível e sabem que carregam a marca.\nO grupo terminou a jornada atual na entrada do Covil de Lobisomens, após matar as duas guardas antes que elas soassem o alarme. O interior do covil ainda não foi explorado.",
         "descricao": "Grupo de aventureiros que enfrenta os horrores de Barovia e se opõe às forças de Strahd.",
         "description": "Grupo de aventureiros que enfrenta os horrores de Barovia e se opõe às forças de Strahd."
       }
@@ -1214,9 +1214,9 @@
         "jogador": "Andy",
         "raça": "Meio Orc",
         "status": "Vivo",
-        "degree": 13,
-        "metrics::last": 13,
-        "notas": "Druida meio-orc do grupo. Carrega a Lança de Sangue e a Fúria de Sangue. Após seu sacrifício na passagem de St. Markovia, recebeu a Marca de Markovia, que o ajuda a controlar melhor sua sede de sangue.\nNa cabana de Baba Lysaga, Tharok recusou entregar sua sanidade em troca de conhecer seu futuro.",
+        "degree": 15,
+        "metrics::last": 15,
+        "notas": "Druida meio-orc do grupo. Carrega a Lança de Sangue e a Fúria de Sangue. Após seu sacrifício na passagem de St. Markovia, recebeu a Marca de Markovia, que o ajuda a controlar melhor sua sede de sangue.\nNa cabana de Baba Lysaga, Tharok recusou entregar sua sanidade em troca de conhecer seu futuro.\nDurante o encontro com Mahadi, Gildin atacou a carroça antes que Tharok conseguisse concluir sua compra.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/efb81169-5315-4d08-a60b-a78ba52612d7.png",
         "descricao": "Meio-orc druida do grupo, marcado pela Lança de Sangue e pela bênção de Markovia.",
         "description": "Meio-orc druida do grupo, marcado pela Lança de Sangue e pela bênção de Markovia."
@@ -1324,9 +1324,9 @@
         "jogador": "Doug",
         "raça": "Anão",
         "status": "Vivo",
-        "degree": 15,
-        "metrics::last": 15,
-        "notas": "Paladino anão do grupo, devoto de Imothep. Carrega licantropia e é tentado pelo Quebrador de Voto, mas recentemente voltou a sentir o apoio de sua divindade.\nNa cabana de Baba Lysaga, Gildin ouviu palavras antigas e perturbadoras sobre Imothep.",
+        "degree": 17,
+        "metrics::last": 17,
+        "notas": "Paladino anão do grupo, devoto de Imothep. Carrega licantropia e é tentado pelo Quebrador de Voto, mas recentemente voltou a sentir o apoio de sua divindade.\nNa cabana de Baba Lysaga, Gildin ouviu palavras antigas e perturbadoras sobre Imothep.\nDurante o encontro com Mahadi, Gildin atacou a carroça do mercador mágico. A reação de Mahadi colocou o grupo em risco imediato de extermínio e levou ao pacto imposto ao grupo.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4ad8e3fb-2ecf-4fbf-a3dd-927f593866b9.png",
         "descricao": "Anão paladino do grupo, dividido entre devoção, fardo e tentação.",
         "description": "Anão paladino do grupo, dividido entre devoção, fardo e tentação."
@@ -1456,9 +1456,9 @@
         "jogador": "Marco",
         "raça": "Humano",
         "status": "Vivo",
-        "degree": 16,
-        "metrics::last": 16,
-        "notas": "A condição antes chamada de “O Pesadelo” se refere à influência da Dama do Medo e à possessão que o ameaça durante o sono. Por segurança, Everlong costuma ser amarrado durante a noite.\nBaba Lysaga afirmou já ter ouvido falar de Everlong por meio de Filuriana. Everlong entregou o Dedo da Megera em troca de respostas.",
+        "degree": 18,
+        "metrics::last": 18,
+        "notas": "A condição antes chamada de “O Pesadelo” se refere à influência da Dama do Medo e à possessão que o ameaça durante o sono. Por segurança, Everlong costuma ser amarrado durante a noite.\nBaba Lysaga afirmou já ter ouvido falar de Everlong por meio de Filuriana. Everlong entregou o Dedo da Megera em troca de respostas. Na despedida, recebeu de Baba uma moeda de prata com runas. Everlong concordou em atender ao pedido de Baba, mas ainda não decidiu qual das duas opções apresentadas irá escolher.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/ed2cdd48-77f6-4c86-a247-e4e0473b4301.png",
         "descricao": "Humano bruxo marcado por uma presença sombria que o persegue em sonhos e despertares.",
         "description": "Humano bruxo marcado por uma presença sombria que o persegue em sonhos e despertares."
@@ -1672,11 +1672,11 @@
         "element type": "NPC",
         "raça": "Desconhecido",
         "status": "Desconhecido",
-        "notas": "Membro da Família Belview, os mongrelfolks que viviam na Abadia sob o controle do Abade. Atualmente acompanha o grupo e Ezmeralda após a travessia da passagem de St. Markovia.\nDurante o ataque da matilha, Zigfried protegeu Ezmeralda com o próprio corpo. Depois, permaneceu fora da cabana de Baba Lysaga, e seu destino ficou incerto.",
-        "degree": 8,
-        "metrics::last": 8,
-        "descricao": "Mongrelfolk da Família Belview que acompanha o grupo.",
-        "description": "Mongrelfolk da Família Belview que acompanha o grupo."
+        "notas": "Membro da Família Belview, os mongrelfolks que viviam na Abadia sob o controle do Abade. Acompanhou o grupo e Ezmeralda após a travessia da passagem de St. Markovia e protegeu Ezmeralda com o próprio corpo durante o ataque da matilha.\nSegundo Baba Lysaga, Zigfried ofereceu algo em troca da vida de Ezmeralda e depois seguiu para leste com ela. O que ele ofereceu não foi revelado ao grupo.",
+        "degree": 10,
+        "metrics::last": 10,
+        "descricao": "Mongrelfolk da Família Belview e aliado do grupo, atualmente seguindo para leste com Ezmeralda segundo Baba Lysaga.",
+        "description": "Mongrelfolk da Família Belview e aliado do grupo, atualmente seguindo para leste com Ezmeralda segundo Baba Lysaga."
       }
     },
     {
@@ -1892,9 +1892,9 @@
         "element type": "Entidade",
         "status": "Vivo",
         "descricao": "Entidade antiga associada às megeras, aos costumes antigos e a barganhas cruéis.",
-        "notas": "Recebeu o grupo dentro de sua cabana ambulante, oferecendo descanso, respostas e curas mediante pagamentos dolorosos. Trata pedidos e barganhas segundo costumes antigos e interpretações cruéis.",
-        "degree": 12,
-        "metrics::last": 12
+        "notas": "Recebeu o grupo dentro de sua cabana ambulante, oferecendo descanso, respostas e curas mediante pagamentos dolorosos. Trata pedidos e barganhas segundo costumes antigos e interpretações cruéis.\nNa despedida, devolveu os dedos de Kaelara e presenteou Everlong com uma moeda de prata com runas. Kaelara e Everlong concordaram em atender a um pedido de Baba, mas ainda não decidiram qual das duas opções apresentadas irão escolher. Baba também informou que Zigfried e Ezmeralda seguiram para leste depois de Zigfried oferecer algo em troca da vida de Ezmeralda; ela não revelou o que foi entregue.",
+        "degree": 15,
+        "metrics::last": 15
       }
     },
     {
@@ -1915,9 +1915,9 @@
         "label": "Visita à Cabana de Baba Lysaga",
         "element type": "Evento",
         "descricao": "Encontro do grupo com Baba Lysaga dentro de sua cabana ambulante.",
-        "notas": "Dentro da cabana, o grupo recebeu abrigo, comida e ofertas de respostas ou curas em troca de pagamentos dolorosos. Kaelara perdeu dois dedos, Valakut perdeu um olho, Everlong entregou o Dedo da Megera e Tharok recusou pagar com sua sanidade.",
-        "degree": 14,
-        "metrics::last": 14
+        "notas": "Dentro da cabana, o grupo recebeu abrigo, comida e ofertas de respostas ou curas em troca de pagamentos dolorosos. Kaelara perdeu dois dedos, Valakut perdeu um olho, Everlong entregou o Dedo da Megera e Tharok recusou pagar com sua sanidade. Na despedida, Baba devolveu os dedos de Kaelara e deu a Everlong uma moeda de prata com runas. Kaelara e Everlong concordaram em atender a um pedido de Baba, embora ainda não tenham escolhido entre as duas opções apresentadas. Baba também informou que Zigfried e Ezmeralda seguiram para leste depois de Zigfried oferecer algo em troca da vida de Ezmeralda.",
+        "degree": 15,
+        "metrics::last": 15
       }
     },
     {
@@ -1928,9 +1928,74 @@
         "magico": "Sim",
         "raridade": "Desconheida",
         "descricao": "Olho estranho dado por Baba Lysaga a Valakut após uma barganha cruel.",
-        "notas": "Após perder um olho em uma tentativa falha de cura, Valakut recebeu de Baba Lysaga um olho retirado de dentro dela. O olho lhe permitiu perceber veios mágicos na cabana.",
+        "notas": "Após perder um olho em uma tentativa falha de cura, Valakut recebeu de Baba Lysaga um olho retirado de dentro dela. O olho lhe permitiu perceber veios mágicos na cabana. Posteriormente Valakut descobriu um efeito adverso: quando tenta se esconder, o olho brilha de forma mágica e causa desvantagem em seus testes de Furtividade.",
         "degree": 4,
         "metrics::last": 4
+      }
+    },
+    {
+      "_id": "elem-31Q2An2t",
+      "attributes": {
+        "label": "Mahadi",
+        "element type": "NPC",
+        "raça": "Desconhecido",
+        "ocupação": "Mercador mágico",
+        "status": "Vivo",
+        "descricao": "Mercador mágico encontrado pelo grupo na floresta, poderoso o bastante para dominar rapidamente os aventureiros após um confronto.",
+        "description": "Mercador mágico encontrado pelo grupo na floresta, poderoso o bastante para dominar rapidamente os aventureiros após um confronto.",
+        "notas": "O grupo encontrou Mahadi na floresta e realizou diversas trocas de itens mágicos. Gildin atacou sua carroça antes que Tharok concluísse uma compra. Mahadi reagiu com enorme superioridade e, em menos de um turno, já dominava o grupo. Para evitar o próprio extermínio, os aventureiros aceitaram cumprir uma exigência de Mahadi.",
+        "degree": 4,
+        "metrics::last": 4
+      }
+    },
+    {
+      "_id": "elem-4S6dI29T",
+      "attributes": {
+        "label": "Pacto com Mahadi",
+        "element type": "Evento",
+        "descricao": "Pacto imposto por Mahadi ao grupo após o ataque de Gildin à sua carroça.",
+        "description": "Pacto imposto por Mahadi ao grupo após o ataque de Gildin à sua carroça.",
+        "notas": "Depois que Gildin atacou a carroça de Mahadi, o mercador dominou rapidamente o grupo em combate. Para evitar o extermínio, os aventureiros se ofereceram para fazer o que Mahadi quisesse. Mahadi exigiu uma mecha de cabelo de cada esposa de Strahd antes que o grupo deixe Barovia. Se falharem, suas almas pertencerão a Mahadi. Cada membro do grupo recebeu um símbolo arcano invisível e sabe que está marcado.",
+        "degree": 6,
+        "metrics::last": 6
+      }
+    },
+    {
+      "_id": "elem-eHtcXLmp",
+      "attributes": {
+        "label": "Marca de Mahadi",
+        "element type": "Condição",
+        "magico": "Sim",
+        "descricao": "Símbolo arcano invisível imposto por Mahadi aos cinco aventureiros como garantia de seu pacto.",
+        "description": "Símbolo arcano invisível imposto por Mahadi aos cinco aventureiros como garantia de seu pacto.",
+        "notas": "Kaelara, Valakut, Gildin, Everlong e Tharok carregam a marca e sabem disso. Ela está ligada ao pacto que exige uma mecha de cabelo de cada esposa de Strahd antes de deixarem Barovia; se falharem, suas almas pertencerão a Mahadi.",
+        "degree": 7,
+        "metrics::last": 7
+      }
+    },
+    {
+      "_id": "elem-FGs7TZka",
+      "attributes": {
+        "label": "Moeda Rúnica de Prata",
+        "element type": "Item",
+        "raridade": "Desconheida",
+        "descricao": "Moeda de prata coberta por runas, dada por Baba Lysaga a Everlong como presente de despedida.",
+        "description": "Moeda de prata coberta por runas, dada por Baba Lysaga a Everlong como presente de despedida.",
+        "notas": "Baba Lysaga entregou a moeda a Everlong na despedida. A natureza e o significado das runas ainda não foram esclarecidos.",
+        "degree": 3,
+        "metrics::last": 3
+      }
+    },
+    {
+      "_id": "elem-DWawIHkQ",
+      "attributes": {
+        "label": "Chegada ao Covil dos Lobisomens",
+        "element type": "Evento",
+        "descricao": "Chegada do grupo à entrada do Covil de Lobisomens.",
+        "description": "Chegada do grupo à entrada do Covil de Lobisomens.",
+        "notas": "O grupo chegou à porta do covil e matou as duas guardas antes que elas conseguissem soar o alarme. O avanço terminou nesse ponto: o interior do covil ainda não foi explorado.",
+        "degree": 2,
+        "metrics::last": 2
       }
     }
   ],
@@ -2098,7 +2163,7 @@
       "reversed": false,
       "attributes": {
         "connection type": "Amigo",
-        "descricao": "Ezmeralda tornou-se aliada do grupo após os eventos recentes."
+        "descricao": "Ezmeralda permanece aliada do grupo, mas segundo Baba Lysaga seguiu para leste com Zigfried."
       },
       "from": "elem-Gf3ntous",
       "to": "elem-ailywYOA"
@@ -4090,7 +4155,7 @@
       "reversed": false,
       "attributes": {
         "connection type": "Amigo",
-        "descricao": "Zigfried acompanha o grupo após os eventos da passagem."
+        "descricao": "Zigfried permanece aliado do grupo, mas segundo Baba Lysaga seguiu para leste com Ezmeralda."
       },
       "from": "elem-nEnEKM1w",
       "to": "elem-ailywYOA"
@@ -5179,7 +5244,7 @@
       "reversed": false,
       "attributes": {
         "connection type": "Envolvido",
-        "descricao": "Kaelara barganhou por respostas e perdeu dois dedos da mão esquerda."
+        "descricao": "Kaelara barganhou por respostas, perdeu dois dedos da mão esquerda e os recebeu de volta de Baba na despedida."
       },
       "from": "elem-o7rcBeoq",
       "to": "elem-VWPPTU19"
@@ -5215,7 +5280,7 @@
       "reversed": false,
       "attributes": {
         "connection type": "Envolvido",
-        "descricao": "Everlong entregou o Dedo da Megera a Baba Lysaga em troca de respostas."
+        "descricao": "Everlong entregou o Dedo da Megera em troca de respostas e, na despedida, recebeu de Baba uma moeda de prata com runas."
       },
       "from": "elem-o7rcBeoq",
       "to": "elem-n1Jow6zV"
@@ -5419,7 +5484,7 @@
       "reversed": false,
       "attributes": {
         "connection type": "Afeta",
-        "descricao": "O olho estranho passou a fazer parte de Valakut após a barganha com Baba Lysaga."
+        "descricao": "O olho estranho passou a fazer parte de Valakut; quando ele tenta se esconder, o olho brilha magicamente e causa desvantagem em Furtividade."
       },
       "from": "elem-jBXDESbJ",
       "to": "elem-SKvozc6J"
@@ -5495,6 +5560,285 @@
       },
       "from": "elem-btlVNR1w",
       "to": "elem-DbatEX9t"
+    },
+    {
+      "_id": "conn-Zn9eqSkg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "descricao": "Baba informou ao grupo que Ezmeralda seguiu para leste com Zigfried depois que ele ofereceu algo em troca da vida dela."
+      },
+      "from": "elem-QvBu8UeS",
+      "to": "elem-Gf3ntous"
+    },
+    {
+      "_id": "conn-9ZErKqpO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "descricao": "Baba informou que Zigfried ofereceu algo em troca da vida de Ezmeralda e depois seguiu para leste com ela; o preço não foi revelado."
+      },
+      "from": "elem-QvBu8UeS",
+      "to": "elem-nEnEKM1w"
+    },
+    {
+      "_id": "conn-QrNFjZbF",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Amigo",
+        "descricao": "Zigfried protegeu Ezmeralda e, segundo Baba Lysaga, ofereceu algo em troca da vida dela antes de ambos seguirem para leste."
+      },
+      "from": "elem-nEnEKM1w",
+      "to": "elem-Gf3ntous"
+    },
+    {
+      "_id": "conn-aA34aMVb",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Comerciante",
+        "descricao": "Mahadi realizou diversas trocas de itens mágicos com o grupo antes do confronto."
+      },
+      "from": "elem-31Q2An2t",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-10QbrCoO",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Conexão Não Classificada",
+        "descricao": "Após Gildin atacar sua carroça, Mahadi dominou rapidamente o grupo e impôs um pacto para poupar suas vidas.",
+        "tags": [
+          "Conexão Importante"
+        ]
+      },
+      "from": "elem-31Q2An2t",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-9EnJlRPW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Mahadi definiu os termos do pacto depois de dominar o grupo."
+      },
+      "from": "elem-4S6dI29T",
+      "to": "elem-31Q2An2t"
+    },
+    {
+      "_id": "conn-2bzaOpBy",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Os cinco aventureiros aceitaram o pacto para evitar o próprio extermínio."
+      },
+      "from": "elem-4S6dI29T",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-8dbXLs50",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "O ataque de Gildin à carroça de Mahadi desencadeou o confronto que levou ao pacto."
+      },
+      "from": "elem-4S6dI29T",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-DpavrOm7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "O ataque à carroça ocorreu antes que Tharok conseguisse concluir sua compra com Mahadi."
+      },
+      "from": "elem-4S6dI29T",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-yOsqtYas",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "O pacto exige uma mecha de cabelo de cada esposa de Strahd antes que o grupo deixe Barovia."
+      },
+      "from": "elem-4S6dI29T",
+      "to": "elem-HBTFbEds"
+    },
+    {
+      "_id": "conn-yPaDQKOl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Origem",
+        "descricao": "A marca foi imposta como garantia arcana do pacto."
+      },
+      "from": "elem-eHtcXLmp",
+      "to": "elem-4S6dI29T"
+    },
+    {
+      "_id": "conn-CiW9iafw",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Origem",
+        "descricao": "Mahadi colocou o símbolo arcano invisível nos membros do grupo."
+      },
+      "from": "elem-eHtcXLmp",
+      "to": "elem-31Q2An2t"
+    },
+    {
+      "_id": "conn-SLEMkcgv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Afeta",
+        "descricao": "Kaelara carrega o símbolo arcano invisível de Mahadi e sabe que está marcado."
+      },
+      "from": "elem-eHtcXLmp",
+      "to": "elem-VWPPTU19"
+    },
+    {
+      "_id": "conn-tNJkZcb7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Afeta",
+        "descricao": "Valakut carrega o símbolo arcano invisível de Mahadi e sabe que está marcado."
+      },
+      "from": "elem-eHtcXLmp",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-hhwi8eGN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Afeta",
+        "descricao": "Gildin carrega o símbolo arcano invisível de Mahadi e sabe que está marcado."
+      },
+      "from": "elem-eHtcXLmp",
+      "to": "elem-h1YC88dR"
+    },
+    {
+      "_id": "conn-70YSLXUu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Afeta",
+        "descricao": "Everlong carrega o símbolo arcano invisível de Mahadi e sabe que está marcado."
+      },
+      "from": "elem-eHtcXLmp",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-EgRHim2p",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Afeta",
+        "descricao": "Tharok carrega o símbolo arcano invisível de Mahadi e sabe que está marcado."
+      },
+      "from": "elem-eHtcXLmp",
+      "to": "elem-bWiUVxhR"
+    },
+    {
+      "_id": "conn-rCOEHIPR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Origem",
+        "descricao": "Baba Lysaga deu a moeda de prata com runas a Everlong como presente de despedida."
+      },
+      "from": "elem-FGs7TZka",
+      "to": "elem-QvBu8UeS"
+    },
+    {
+      "_id": "conn-prlIvt4G",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Portador",
+        "descricao": "Everlong recebeu e carrega a moeda rúnica dada por Baba Lysaga."
+      },
+      "from": "elem-FGs7TZka",
+      "to": "elem-n1Jow6zV"
+    },
+    {
+      "_id": "conn-FJ8pm3l8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Origem",
+        "descricao": "A moeda foi entregue a Everlong na despedida da cabana."
+      },
+      "from": "elem-FGs7TZka",
+      "to": "elem-o7rcBeoq"
+    },
+    {
+      "_id": "conn-4gBa7S3L",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Ocorreu em",
+        "descricao": "O grupo chegou apenas à entrada do covil; o interior ainda não foi explorado."
+      },
+      "from": "elem-DWawIHkQ",
+      "to": "elem-XwOLar26"
+    },
+    {
+      "_id": "conn-2Qhwa1Bd",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "O grupo matou as duas guardas da entrada antes que elas soassem o alarme."
+      },
+      "from": "elem-DWawIHkQ",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-CFtqLVhi",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Estado atual: o grupo está na entrada do covil. As duas guardas foram mortas antes do alarme e o interior ainda não foi explorado."
+      },
+      "from": "elem-ailywYOA",
+      "to": "elem-XwOLar26"
     }
   ],
   "loops": [],
