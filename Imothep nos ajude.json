@@ -523,8 +523,8 @@
       "attributes": {
         "label": "Mãe da Noite",
         "element type": "Entidade",
-        "degree": 2,
-        "metrics::last": 2,
+        "degree": 3,
+        "metrics::last": 3,
         "notas": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia.",
         "descricao": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia.",
         "description": "Entidade sombria associada à noite, aos lobos e a cultos antigos de Barovia."
@@ -535,8 +535,8 @@
       "attributes": {
         "label": "O mirmidão (5 de Espadas)",
         "element type": "Item",
-        "degree": 3,
-        "metrics::last": 3,
+        "degree": 4,
+        "metrics::last": 4,
         "notas": "Presságio: um poder de proteção e esperança está ligado a um covil de lobos nas colinas com vista para um lago de montanha; o tesouro pertence à Mãe da Noite.",
         "descricao": "Carta da leitura de Tarokka cujo presságio aponta para um covil de lobos nas colinas acima de um lago de montanha.",
         "description": "Carta da leitura de Tarokka cujo presságio aponta para um covil de lobos nas colinas acima de um lago de montanha."
@@ -616,9 +616,9 @@
       "attributes": {
         "label": "Vampirismo",
         "element type": "Condição",
-        "degree": 7,
-        "metrics::last": 7,
-        "notas": "Condição vampírica que afeta Valakut e diversas criaturas ligadas a Strahd. Algumas ligações ainda são tratadas como suspeitas ou rumores pelo grupo.\nDurante o ataque da matilha invernal, Valakut foi tomado por fome e frenesi. Ao tentar se alimentar de Tharok, sofreu com o sangue marcado por St. Markovia.",
+        "degree": 8,
+        "metrics::last": 8,
+        "notas": "Condição vampírica que afeta Valakut e diversas criaturas ligadas a Strahd. Algumas ligações ainda são tratadas como suspeitas ou rumores pelo grupo.\nDurante o ataque da matilha invernal, Valakut foi tomado por fome e frenesi. Ao tentar se alimentar de Tharok, sofreu com o sangue marcado por St. Markovia.\n\nSessão 28/08/2026: Valakut passou a usar o Símbolo Sagrado de Ravenkind. Efeito adicional do mestre: o vampirismo de Valakut fica curado enquanto o medalhão estiver sendo usado; não há cura permanente confirmada.",
         "descricao": "Condição sobrenatural associada aos vampiros de Barovia.",
         "description": "Condição sobrenatural associada aos vampiros de Barovia."
       }
@@ -714,11 +714,11 @@
         "label": "Ismark Kol­yanovich",
         "element type": "NPC",
         "status": "Inconsciente, gravemente ferido (última observação)",
-        "degree": 5,
-        "metrics::last": 5,
+        "degree": 7,
+        "metrics::last": 7,
         "raça": "Humano",
         "image": "https://ik.imagekit.io/criticalnotes/campaigns/1328/characters/8991/avatar/41127f47c2fa45da973eb7a37530cbc1.jpg?",
-        "notas": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família.\n\nSessão 28/08/2026: encontrado inconsciente, exausto e gravemente ferido numa cela do covil, junto de outras duas pessoas. O grupo tentou resgatá-lo, mas foi descoberto; a conclusão do resgate ainda não foi confirmada.",
+        "notas": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família.\n\nSessão 28/08/2026: encontrado inconsciente, exausto e gravemente ferido numa cela do covil, junto de outras duas pessoas. O grupo tentou resgatá-lo, mas foi descoberto; a conclusão do resgate ainda não foi confirmada.\n\nAo fim da sessão de 28/08/2026, Ismark permanecia inconsciente e extremamente fraco; não poderá ajudar no confronto planejado com Kiril e precisará ser protegido se o grupo fugir. Não há confirmação de retirada definitiva da cela.",
         "descricao": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família.",
         "description": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família."
       }
@@ -903,9 +903,9 @@
         "jogador": "Rud",
         "raça": "Elfo Alto",
         "status": "Vivo",
-        "degree": 19,
-        "metrics::last": 19,
-        "notas": "Alto elfo ladino do grupo. Carrega o vampirismo. A Maldição dos Corvos foi removida em Krezk. A água sagrada do lago mostrou efeitos temporários e variáveis sobre sua condição.\nNa cabana de Baba Lysaga, Valakut perdeu um olho em uma tentativa falha de cura e recebeu outro em troca. Mais tarde descobriu um efeito adverso do olho mágico: quando tenta se esconder, o olho brilha magicamente e impõe desvantagem em seus testes de Furtividade.",
+        "degree": 21,
+        "metrics::last": 21,
+        "notas": "Alto elfo ladino do grupo. Carrega o vampirismo. A Maldição dos Corvos foi removida em Krezk. A água sagrada do lago mostrou efeitos temporários e variáveis sobre sua condição.\nNa cabana de Baba Lysaga, Valakut perdeu um olho em uma tentativa falha de cura e recebeu outro em troca. Mais tarde descobriu um efeito adverso do olho mágico: quando tenta se esconder, o olho brilha magicamente e impõe desvantagem em seus testes de Furtividade.\n\nSessão 28/08/2026: colocou o Símbolo Sagrado de Ravenkind, encontrado na estátua da Mãe da Noite. Pelo efeito adicional do mestre, seu vampirismo está curado somente enquanto usa o medalhão.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/87e1a247-f970-49a8-9cf9-df6f69693fc8.png",
         "descricao": "Alto elfo ladino do grupo, marcado pelo vampirismo.",
         "description": "Alto elfo ladino do grupo, marcado pelo vampirismo."
@@ -1104,8 +1104,8 @@
         "tags": [
           "Boss"
         ],
-        "degree": 28,
-        "metrics::last": 28,
+        "degree": 29,
+        "metrics::last": 29,
         "notas": "Senhor vampiro da Barovia. Inimigo central do grupo, responsável por ataques, manipulações e pela sombra que domina o vale.",
         "descricao": "Senhor vampiro da Barovia e maior ameaça conhecida pelo grupo.",
         "description": "Senhor vampiro da Barovia e maior ameaça conhecida pelo grupo."
@@ -1133,9 +1133,9 @@
         "label": "Covil de Lobisomens",
         "element type": "Local",
         "status": "Explorado parcialmente",
-        "degree": 6,
-        "metrics::last": 6,
-        "notas": "Covil nas montanhas associado aos lobisomens de Barovia e ao tesouro indicado pela Tarokka. Na chegada, o grupo matou duas guardas antes que soassem o alarme. Na sessão de 28/08/2026, entrou no covil, enfrentou lobisomens, lobos atrozes e lobos comuns e chegou à arena de combates infantis. Encontrou Ismark inconsciente e gravemente ferido em uma cela com mais duas pessoas. A tentativa de resgate desencadeou combate. Zuleika revelou sua facção quando restavam menos da metade dos lobisomens inimigos. O confronto com Kiril ainda não foi registrado como concluído.",
+        "degree": 10,
+        "metrics::last": 10,
+        "notas": "Covil nas montanhas associado aos lobisomens de Barovia e ao tesouro indicado pela Tarokka. Na chegada, o grupo matou duas guardas antes que soassem o alarme. Na sessão de 28/08/2026, entrou no covil, enfrentou lobisomens, lobos atrozes e lobos comuns e chegou à arena de combates infantis. Encontrou Ismark inconsciente e gravemente ferido em uma cela com mais duas pessoas. A tentativa de resgate desencadeou combate. Zuleika revelou sua facção quando restavam menos da metade dos lobisomens inimigos. O confronto com Kiril ainda não foi registrado como concluído.\n\nEncerramento da sessão de 28/08/2026: ainda era noite. Após aliar-se a Zuleika, o grupo recolheu pedras preciosas e encontrou o Símbolo Sagrado de Ravenkind na estátua da Mãe da Noite. Valakut o vestiu e seu vampirismo fica curado enquanto o usa. Confronto com Kiril ainda pendente.",
         "descricao": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
         "description": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
         "image": "https://storage.ghost.io/c/77/85/7785af74-5911-409f-8658-d5a52cd53042/content/images/2026/04/Werewolf-Den-Entrance.jpg"
@@ -1198,10 +1198,10 @@
         "label": "Grupo",
         "element type": "Grupo",
         "tipo de grupo": "Jogadores",
-        "degree": 37,
-        "metrics::last": 37,
+        "degree": 41,
+        "metrics::last": 41,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/fadb01a4-2ca7-454c-a009-5e329fc693a9.png",
-        "notas": "Composto por Kaelara, Valakut, Gildin, Everlong e Tharok. Ezmeralda e Zigfried não estão mais viajando com o grupo; segundo Baba Lysaga, os dois seguiram para leste.\nApós deixar a cabana de Baba, o grupo encontrou o mercador mágico Mahadi e acabou preso a um pacto: deve obter uma mecha de cabelo de cada esposa de Strahd antes de sair de Barovia, ou suas almas pertencerão a Mahadi. Todos foram marcados com um símbolo arcano invisível e sabem que carregam a marca.\nNa sessão de 28/08/2026, o grupo entrou no covil, encontrou a arena de combates infantis e Ismark inconsciente em uma cela. A tentativa de resgatá-lo desencadeou combate; Zuleika revelou uma facção oposta a Kiril. A situação final do resgate de Ismark e o confronto com Kiril permanecem sem confirmação neste registro.",
+        "notas": "Composto por Kaelara, Valakut, Gildin, Everlong e Tharok. Ezmeralda e Zigfried não estão mais viajando com o grupo; segundo Baba Lysaga, os dois seguiram para leste.\nApós deixar a cabana de Baba, o grupo encontrou o mercador mágico Mahadi e acabou preso a um pacto: deve obter uma mecha de cabelo de cada esposa de Strahd antes de sair de Barovia, ou suas almas pertencerão a Mahadi. Todos foram marcados com um símbolo arcano invisível e sabem que carregam a marca.\nNa sessão de 28/08/2026, o grupo entrou no covil, encontrou a arena de combates infantis e Ismark inconsciente em uma cela. A tentativa de resgatá-lo desencadeou combate; Zuleika revelou uma facção oposta a Kiril. A situação final do resgate de Ismark e o confronto com Kiril permanecem sem confirmação neste registro.\n\nEncerramento da sessão de 28/08/2026, ainda à noite, dentro do covil: aliança com Zuleika para enfrentar Kiril; fuga com os prisioneiros se necessário. Recebeu autorização para recolher tesouros, pegou pedras preciosas e encontrou o Símbolo Sagrado de Ravenkind, agora usado por Valakut.",
         "descricao": "Grupo de aventureiros que enfrenta os horrores de Barovia e se opõe às forças de Strahd.",
         "description": "Grupo de aventureiros que enfrenta os horrores de Barovia e se opõe às forças de Strahd."
       }
@@ -1324,8 +1324,8 @@
         "jogador": "Doug",
         "raça": "Anão",
         "status": "Vivo",
-        "degree": 17,
-        "metrics::last": 17,
+        "degree": 18,
+        "metrics::last": 18,
         "notas": "Paladino anão do grupo, devoto de Imothep. Carrega licantropia e é tentado pelo Quebrador de Voto, mas recentemente voltou a sentir o apoio de sua divindade.\nNa cabana de Baba Lysaga, Gildin ouviu palavras antigas e perturbadoras sobre Imothep.\nDurante o encontro com Mahadi, Gildin atacou a carroça do mercador mágico. A reação de Mahadi colocou o grupo em risco imediato de extermínio e levou ao pacto imposto ao grupo.\n\nSessão 28/08/2026: foi enfeitiçado pela música da arena, transformou-se em lobisomem e se juntou à matilha que assistia às lutas entre crianças. Depois recuperou a consciência, rompeu o encantamento e ajudou os companheiros a derrotar inimigos.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4ad8e3fb-2ecf-4fbf-a3dd-927f593866b9.png",
         "descricao": "Anão paladino do grupo, dividido entre devoção, fardo e tentação.",
@@ -1696,8 +1696,8 @@
       "attributes": {
         "label": "Castelo Ravenloft",
         "element type": "Local",
-        "degree": 9,
-        "metrics::last": 9,
+        "degree": 10,
+        "metrics::last": 10,
         "status": "Desconhecido",
         "notas": "Fortaleza de Strahd e símbolo de seu domínio sobre Barovia. Sua presença paira sobre a região como ameaça constante.",
         "descricao": "Castelo sombrio de Strahd, centro de poder do senhor da Barovia.",
@@ -2005,7 +2005,9 @@
         "element type": "NPC",
         "descricao": "Lobisomem que lidera uma facção oposta à liderança de Kiril.",
         "description": "Lobisomem que lidera uma facção oposta à liderança de Kiril.",
-        "notas": "Na sessão de 28/08/2026, observava com repulsa os combates entre crianças na arena. Quando menos da metade dos lobisomens inimigos restava, interveio, revelou sua facção, ordenou prisões e contou ao grupo sua história. Seu marido Emil está preso no Castelo Ravenloft; ela se opõe a Kiril e deseja libertá-lo."
+        "notas": "Na sessão de 28/08/2026, observava com repulsa os combates entre crianças na arena. Quando menos da metade dos lobisomens inimigos restava, interveio, revelou sua facção, ordenou prisões e contou ao grupo sua história. Seu marido Emil está preso no Castelo Ravenloft; ela se opõe a Kiril e deseja libertá-lo.\n\nApós contar sua história, propôs ao grupo enfrentar Kiril ou escapar com os cativos. O grupo aceitou enfrentar Kiril e fugir com os prisioneiros caso necessário. Zuleika também concordou em dar tesouros ao grupo, que encontrou o Símbolo Sagrado de Ravenkind.",
+        "degree": 6,
+        "metrics::last": 6
       }
     },
     {
@@ -2015,7 +2017,9 @@
         "element type": "NPC",
         "descricao": "Líder da matilha de lobisomens, adversário de Zuleika.",
         "description": "Líder da matilha de lobisomens, adversário de Zuleika.",
-        "notas": "Assumiu a liderança da matilha com apoio de Strahd; associado à prática cruel dos combates infantis. O confronto direto com ele ainda não está confirmado."
+        "notas": "Assumiu a liderança da matilha com apoio de Strahd; associado à prática cruel dos combates infantis. O confronto direto com ele ainda não está confirmado.",
+        "degree": 4,
+        "metrics::last": 4
       }
     },
     {
@@ -2026,7 +2030,9 @@
         "descricao": "Marido de Zuleika, preso no Castelo Ravenloft.",
         "description": "Marido de Zuleika, preso no Castelo Ravenloft.",
         "notas": "Afastado da matilha e mantido preso em Ravenloft por ordem de Strahd, segundo a história de Zuleika.",
-        "status": "Preso"
+        "status": "Preso",
+        "degree": 3,
+        "metrics::last": 3
       }
     },
     {
@@ -2036,7 +2042,9 @@
         "element type": "Grupo",
         "descricao": "Lobisomens aliados a Zuleika e contrários a Kiril.",
         "description": "Lobisomens aliados a Zuleika e contrários a Kiril.",
-        "notas": "Revelada aos aventureiros durante o combate na arena, quando Zuleika interveio e ordenou prisões."
+        "notas": "Revelada aos aventureiros durante o combate na arena, quando Zuleika interveio e ordenou prisões.",
+        "degree": 3,
+        "metrics::last": 3
       }
     },
     {
@@ -2046,7 +2054,9 @@
         "element type": "Grupo",
         "descricao": "Matilha sob a liderança de Kiril no covil.",
         "description": "Matilha sob a liderança de Kiril no covil.",
-        "notas": "Promove combates entre crianças na arena do covil, conforme a história apresentada de Zuleika."
+        "notas": "Promove combates entre crianças na arena do covil, conforme a história apresentada de Zuleika.",
+        "degree": 2,
+        "metrics::last": 2
       }
     },
     {
@@ -2056,7 +2066,9 @@
         "element type": "Local",
         "descricao": "Arena dentro do covil onde crianças eram obrigadas a lutar.",
         "description": "Arena dentro do covil onde crianças eram obrigadas a lutar.",
-        "notas": "Na sessão de 28/08/2026, o grupo encontrou crianças em combate. A música enfeitiçou Gildin, que se transformou e juntou-se à matilha. Durante o confronto após a descoberta do grupo, um feitiço lançado por Turek matou as crianças."
+        "notas": "Na sessão de 28/08/2026, o grupo encontrou crianças em combate. A música enfeitiçou Gildin, que se transformou e juntou-se à matilha. Durante o confronto após a descoberta do grupo, um feitiço lançado por Turek matou as crianças.",
+        "degree": 2,
+        "metrics::last": 2
       }
     },
     {
@@ -2066,7 +2078,9 @@
         "element type": "Local",
         "descricao": "Área de aprisionamento dentro do covil.",
         "description": "Área de aprisionamento dentro do covil.",
-        "notas": "Uma cela continha três pessoas, entre elas Ismark inconsciente e gravemente ferido. A tentativa de resgate revelou os aventureiros."
+        "notas": "Uma cela continha três pessoas, entre elas Ismark inconsciente e gravemente ferido. A tentativa de resgate revelou os aventureiros.",
+        "degree": 2,
+        "metrics::last": 2
       }
     },
     {
@@ -2076,7 +2090,9 @@
         "element type": "Evento",
         "descricao": "Confronto entre os aventureiros e lobisomens durante a tentativa de resgatar Ismark.",
         "description": "Confronto entre os aventureiros e lobisomens durante a tentativa de resgatar Ismark.",
-        "notas": "Sessão 28/08/2026: o grupo infiltrou-se entre lobisomens e tentou resgatar Ismark, mas foi descoberto. Turek lançou um feitiço que matou as crianças que lutavam na arena. Os aventureiros derrotaram diversos lobisomens. Quando menos da metade dos inimigos restava, Zuleika interveio e revelou sua facção. Gildin superou o encantamento musical e ajudou os companheiros."
+        "notas": "Sessão 28/08/2026: o grupo infiltrou-se entre lobisomens e tentou resgatar Ismark, mas foi descoberto. Turek lançou um feitiço que matou as crianças que lutavam na arena. Os aventureiros derrotaram diversos lobisomens. Quando menos da metade dos inimigos restava, Zuleika interveio e revelou sua facção. Gildin superou o encantamento musical e ajudou os companheiros.",
+        "degree": 6,
+        "metrics::last": 6
       }
     },
     {
@@ -2086,7 +2102,60 @@
         "element type": "NPC",
         "descricao": "Conjurador envolvido no combate da arena; identidade e vínculo não especificados neste registro.",
         "description": "Conjurador envolvido no combate da arena; identidade e vínculo não especificados neste registro.",
-        "notas": "Na sessão de 28/08/2026 lançou um feitiço que matou as crianças que lutavam na arena. Não estão confirmados o feitiço nem a intenção."
+        "notas": "Na sessão de 28/08/2026 lançou um feitiço que matou as crianças que lutavam na arena. Não estão confirmados o feitiço nem a intenção.",
+        "degree": 1,
+        "metrics::last": 1
+      }
+    },
+    {
+      "_id": "elem-3bfa575c",
+      "attributes": {
+        "label": "Símbolo Sagrado de Ravenkind",
+        "element type": "Item",
+        "descricao": "Medalhão sagrado, um dos três artefatos centrais da campanha, encontrado pelo grupo na estátua da Mãe da Noite no covil dos lobisomens.",
+        "description": "Medalhão sagrado, um dos três artefatos centrais da campanha, encontrado pelo grupo na estátua da Mãe da Noite no covil dos lobisomens.",
+        "notas": "Sessão 28/08/2026: após a conversa, Zuleika concordou em entregar tesouros ao grupo. Os aventureiros recolheram pedras preciosas e encontraram o medalhão na estátua da Mãe da Noite. Valakut o colocou. Efeito adicional criado pelo mestre: o vampirismo de Valakut fica curado somente enquanto ele usa o medalhão. Não se presume cura permanente.",
+        "degree": 5,
+        "metrics::last": 5,
+        "status": "Com Valakut",
+        "magico": "Sim",
+        "raridade": "Desconhecida"
+      }
+    },
+    {
+      "_id": "elem-8264d198",
+      "attributes": {
+        "label": "Estátua da Mãe da Noite",
+        "element type": "Local",
+        "descricao": "Estátua no covil dos lobisomens onde estava o Símbolo Sagrado de Ravenkind.",
+        "description": "Estátua no covil dos lobisomens onde estava o Símbolo Sagrado de Ravenkind.",
+        "notas": "Sessão 28/08/2026: o grupo encontrou o medalhão na estátua após Zuleika autorizar a retirada dos tesouros.",
+        "degree": 4,
+        "metrics::last": 4
+      }
+    },
+    {
+      "_id": "elem-4c8fb231",
+      "attributes": {
+        "label": "Acordo com Zuleika",
+        "element type": "Evento",
+        "descricao": "Aliança entre os aventureiros e a facção de Zuleika para confrontar Kiril.",
+        "description": "Aliança entre os aventureiros e a facção de Zuleika para confrontar Kiril.",
+        "notas": "Sessão 28/08/2026: Zuleika ofereceu duas opções: escapar com os cativos ou lutar contra Kiril. O grupo concordou em ajudá-la a enfrentar Kiril; se o combate for desfavorável, tentará fugir com os prisioneiros. O combate com Kiril ainda NÃO ocorreu no registro.",
+        "degree": 4,
+        "metrics::last": 4
+      }
+    },
+    {
+      "_id": "elem-b78fa446",
+      "attributes": {
+        "label": "Descoberta do Símbolo Sagrado de Ravenkind",
+        "element type": "Evento",
+        "descricao": "O grupo encontrou um dos três artefatos centrais da campanha no covil.",
+        "description": "O grupo encontrou um dos três artefatos centrais da campanha no covil.",
+        "notas": "Sessão 28/08/2026, ainda durante a noite: depois de Zuleika concordar em dar tesouros, o grupo recolheu pedras preciosas e encontrou o medalhão na estátua da Mãe da Noite. Valakut vestiu o artefato, ativando o efeito adicional criado pelo mestre.",
+        "degree": 4,
+        "metrics::last": 4
       }
     }
   ],
@@ -6134,6 +6203,186 @@
       },
       "from": "elem-dc282f71",
       "to": "elem-WsoNmcCh"
+    },
+    {
+      "_id": "conn-d49629f1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Portador",
+        "descricao": "Valakut colocou o medalhão e o usava no encerramento da sessão."
+      },
+      "from": "elem-3bfa575c",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-09d2ae5e",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Afeta",
+        "descricao": "Efeito caseiro: suspende/cura o vampirismo de Valakut exclusivamente enquanto ele usa o medalhão."
+      },
+      "from": "elem-3bfa575c",
+      "to": "elem-821pwCfE"
+    },
+    {
+      "_id": "conn-aadcede2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Origem",
+        "descricao": "Encontrado na estátua da Mãe da Noite, no covil."
+      },
+      "from": "elem-3bfa575c",
+      "to": "elem-8264d198"
+    },
+    {
+      "_id": "conn-2ed7418e",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence",
+        "descricao": "Estátua situada no covil dos lobisomens."
+      },
+      "from": "elem-8264d198",
+      "to": "elem-XwOLar26"
+    },
+    {
+      "_id": "conn-952290a9",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Devoto",
+        "descricao": "Estátua dedicada à Mãe da Noite."
+      },
+      "from": "elem-8264d198",
+      "to": "elem-2H83vgkF"
+    },
+    {
+      "_id": "conn-877b8824",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Rumor",
+        "descricao": "Presságio da Tarokka sobre o tesouro da Mãe da Noite, agora encontrado no covil."
+      },
+      "from": "elem-36ZuVpK3",
+      "to": "elem-3bfa575c"
+    },
+    {
+      "_id": "conn-fdcfbdcc",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Artefato descoberto pelo grupo."
+      },
+      "from": "elem-b78fa446",
+      "to": "elem-3bfa575c"
+    },
+    {
+      "_id": "conn-6058f03c",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Valakut vestiu o medalhão."
+      },
+      "from": "elem-b78fa446",
+      "to": "elem-SKvozc6J"
+    },
+    {
+      "_id": "conn-4871fc61",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Grupo recolheu as pedras preciosas e encontrou o medalhão."
+      },
+      "from": "elem-b78fa446",
+      "to": "elem-ailywYOA"
+    },
+    {
+      "_id": "conn-ddf6f88a",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Ocorreu em",
+        "descricao": "Encontrado na estátua."
+      },
+      "from": "elem-b78fa446",
+      "to": "elem-8264d198"
+    },
+    {
+      "_id": "conn-6ddb604b",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Zuleika propôs lutar contra Kiril ou fugir com os cativos."
+      },
+      "from": "elem-870cffd9",
+      "to": "elem-4c8fb231"
+    },
+    {
+      "_id": "conn-1fa005c8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "O grupo aceitou enfrentar Kiril com fuga como plano alternativo."
+      },
+      "from": "elem-ailywYOA",
+      "to": "elem-4c8fb231"
+    },
+    {
+      "_id": "conn-1638d012",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Ocorreu em",
+        "descricao": "Acordo firmado no covil durante a noite."
+      },
+      "from": "elem-4c8fb231",
+      "to": "elem-XwOLar26"
+    },
+    {
+      "_id": "conn-a6dd0e7b",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo",
+        "descricao": "Aliança visa enfrentar Kiril; confronto ainda pendente."
+      },
+      "from": "elem-4c8fb231",
+      "to": "elem-dc282f71"
+    },
+    {
+      "_id": "conn-13c0279e",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Amigo",
+        "descricao": "Aliança tática firmada para enfrentar Kiril; fuga com os cativos é alternativa."
+      },
+      "from": "elem-500593b3",
+      "to": "elem-ailywYOA"
     }
   ],
   "loops": [],
@@ -7014,6 +7263,34 @@
           "pinned": false,
           "style": {},
           "element": "elem-5b14be99"
+        },
+        {
+          "_id": "node-ac875729",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-3bfa575c"
+        },
+        {
+          "_id": "node-ea970003",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-8264d198"
+        },
+        {
+          "_id": "node-7cc3a155",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-4c8fb231"
+        },
+        {
+          "_id": "node-37f0208e",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-b78fa446"
         }
       ],
       "connections": [
@@ -8690,6 +8967,81 @@
           "_id": "edge-ab7cb8f6",
           "style": {},
           "connection": "conn-8959b03b"
+        },
+        {
+          "_id": "edge-31656d22",
+          "style": {},
+          "connection": "conn-d49629f1"
+        },
+        {
+          "_id": "edge-53240b59",
+          "style": {},
+          "connection": "conn-09d2ae5e"
+        },
+        {
+          "_id": "edge-56966cde",
+          "style": {},
+          "connection": "conn-aadcede2"
+        },
+        {
+          "_id": "edge-6cfa8617",
+          "style": {},
+          "connection": "conn-2ed7418e"
+        },
+        {
+          "_id": "edge-a6583a7a",
+          "style": {},
+          "connection": "conn-952290a9"
+        },
+        {
+          "_id": "edge-fa57a537",
+          "style": {},
+          "connection": "conn-877b8824"
+        },
+        {
+          "_id": "edge-a24f09d9",
+          "style": {},
+          "connection": "conn-fdcfbdcc"
+        },
+        {
+          "_id": "edge-3fa92829",
+          "style": {},
+          "connection": "conn-6058f03c"
+        },
+        {
+          "_id": "edge-4a483b84",
+          "style": {},
+          "connection": "conn-4871fc61"
+        },
+        {
+          "_id": "edge-51c41812",
+          "style": {},
+          "connection": "conn-ddf6f88a"
+        },
+        {
+          "_id": "edge-ea3b4f61",
+          "style": {},
+          "connection": "conn-6ddb604b"
+        },
+        {
+          "_id": "edge-d45a4004",
+          "style": {},
+          "connection": "conn-1fa005c8"
+        },
+        {
+          "_id": "edge-43b62bd5",
+          "style": {},
+          "connection": "conn-1638d012"
+        },
+        {
+          "_id": "edge-0e3cd6e0",
+          "style": {},
+          "connection": "conn-a6dd0e7b"
+        },
+        {
+          "_id": "edge-4b680261",
+          "style": {},
+          "connection": "conn-13c0279e"
         }
       ],
       "loops": []
