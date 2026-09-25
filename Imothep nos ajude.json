@@ -713,12 +713,12 @@
       "attributes": {
         "label": "Ismark Kol­yanovich",
         "element type": "NPC",
-        "status": "Desconhecido",
+        "status": "Inconsciente, gravemente ferido (última observação)",
         "degree": 5,
         "metrics::last": 5,
         "raça": "Humano",
         "image": "https://ik.imagekit.io/criticalnotes/campaigns/1328/characters/8991/avatar/41127f47c2fa45da973eb7a37530cbc1.jpg?",
-        "notas": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família.",
+        "notas": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família.\n\nSessão 28/08/2026: encontrado inconsciente, exausto e gravemente ferido numa cela do covil, junto de outras duas pessoas. O grupo tentou resgatá-lo, mas foi descoberto; a conclusão do resgate ainda não foi confirmada.",
         "descricao": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família.",
         "description": "Nobre da Vila da Barovia e irmão de Ireena Kolyana, conhecido por tentar protegê-la das sombras que cercam sua família."
       }
@@ -975,7 +975,7 @@
         "element type": "Condição",
         "degree": 5,
         "metrics::last": 5,
-        "notas": "Gildin foi marcado pela licantropia após um ataque de lobisomens na estrada.\nA maldição de Gildin se manifestou sob a lua cheia durante o ataque da matilha invernal, fazendo-o perder o controle e atacar aliados.",
+        "notas": "Gildin foi marcado pela licantropia após um ataque de lobisomens na estrada.\nA maldição de Gildin se manifestou sob a lua cheia durante o ataque da matilha invernal, fazendo-o perder o controle e atacar aliados.\n\nNo covil, em 28/08/2026, Gildin se transformou em lobisomem enquanto estava enfeitiçado pela música da arena; posteriormente voltou a si.",
         "descricao": "Maldição bestial ligada aos lobisomens de Barovia.",
         "description": "Maldição bestial ligada aos lobisomens de Barovia."
       }
@@ -1132,10 +1132,10 @@
       "attributes": {
         "label": "Covil de Lobisomens",
         "element type": "Local",
-        "status": "Desconhecido",
+        "status": "Explorado parcialmente",
         "degree": 6,
         "metrics::last": 6,
-        "notas": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.\nEstado atual: o grupo chegou apenas à entrada e matou as duas guardas antes que elas conseguissem soar o alarme. O grupo ainda não avançou para o interior do covil; acontecimentos, encontros e descobertas internas permanecem desconhecidos.",
+        "notas": "Covil nas montanhas associado aos lobisomens de Barovia e ao tesouro indicado pela Tarokka. Na chegada, o grupo matou duas guardas antes que soassem o alarme. Na sessão de 28/08/2026, entrou no covil, enfrentou lobisomens, lobos atrozes e lobos comuns e chegou à arena de combates infantis. Encontrou Ismark inconsciente e gravemente ferido em uma cela com mais duas pessoas. A tentativa de resgate desencadeou combate. Zuleika revelou sua facção quando restavam menos da metade dos lobisomens inimigos. O confronto com Kiril ainda não foi registrado como concluído.",
         "descricao": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
         "description": "Covil nas montanhas associado aos lobisomens de Barovia e a um dos tesouros indicados pela leitura das cartas.",
         "image": "https://storage.ghost.io/c/77/85/7785af74-5911-409f-8658-d5a52cd53042/content/images/2026/04/Werewolf-Den-Entrance.jpg"
@@ -1201,7 +1201,7 @@
         "degree": 37,
         "metrics::last": 37,
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/fadb01a4-2ca7-454c-a009-5e329fc693a9.png",
-        "notas": "Composto por Kaelara, Valakut, Gildin, Everlong e Tharok. Ezmeralda e Zigfried não estão mais viajando com o grupo; segundo Baba Lysaga, os dois seguiram para leste.\nApós deixar a cabana de Baba, o grupo encontrou o mercador mágico Mahadi e acabou preso a um pacto: deve obter uma mecha de cabelo de cada esposa de Strahd antes de sair de Barovia, ou suas almas pertencerão a Mahadi. Todos foram marcados com um símbolo arcano invisível e sabem que carregam a marca.\nO grupo terminou a jornada atual na entrada do Covil de Lobisomens, após matar as duas guardas antes que elas soassem o alarme. O interior do covil ainda não foi explorado.",
+        "notas": "Composto por Kaelara, Valakut, Gildin, Everlong e Tharok. Ezmeralda e Zigfried não estão mais viajando com o grupo; segundo Baba Lysaga, os dois seguiram para leste.\nApós deixar a cabana de Baba, o grupo encontrou o mercador mágico Mahadi e acabou preso a um pacto: deve obter uma mecha de cabelo de cada esposa de Strahd antes de sair de Barovia, ou suas almas pertencerão a Mahadi. Todos foram marcados com um símbolo arcano invisível e sabem que carregam a marca.\nNa sessão de 28/08/2026, o grupo entrou no covil, encontrou a arena de combates infantis e Ismark inconsciente em uma cela. A tentativa de resgatá-lo desencadeou combate; Zuleika revelou uma facção oposta a Kiril. A situação final do resgate de Ismark e o confronto com Kiril permanecem sem confirmação neste registro.",
         "descricao": "Grupo de aventureiros que enfrenta os horrores de Barovia e se opõe às forças de Strahd.",
         "description": "Grupo de aventureiros que enfrenta os horrores de Barovia e se opõe às forças de Strahd."
       }
@@ -1326,7 +1326,7 @@
         "status": "Vivo",
         "degree": 17,
         "metrics::last": 17,
-        "notas": "Paladino anão do grupo, devoto de Imothep. Carrega licantropia e é tentado pelo Quebrador de Voto, mas recentemente voltou a sentir o apoio de sua divindade.\nNa cabana de Baba Lysaga, Gildin ouviu palavras antigas e perturbadoras sobre Imothep.\nDurante o encontro com Mahadi, Gildin atacou a carroça do mercador mágico. A reação de Mahadi colocou o grupo em risco imediato de extermínio e levou ao pacto imposto ao grupo.",
+        "notas": "Paladino anão do grupo, devoto de Imothep. Carrega licantropia e é tentado pelo Quebrador de Voto, mas recentemente voltou a sentir o apoio de sua divindade.\nNa cabana de Baba Lysaga, Gildin ouviu palavras antigas e perturbadoras sobre Imothep.\nDurante o encontro com Mahadi, Gildin atacou a carroça do mercador mágico. A reação de Mahadi colocou o grupo em risco imediato de extermínio e levou ao pacto imposto ao grupo.\n\nSessão 28/08/2026: foi enfeitiçado pela música da arena, transformou-se em lobisomem e se juntou à matilha que assistia às lutas entre crianças. Depois recuperou a consciência, rompeu o encantamento e ajudou os companheiros a derrotar inimigos.",
         "image": "https://s3.amazonaws.com/cloud.kumu.io/accounts/332511/1191765/4ad8e3fb-2ecf-4fbf-a3dd-927f593866b9.png",
         "descricao": "Anão paladino do grupo, dividido entre devoção, fardo e tentação.",
         "description": "Anão paladino do grupo, dividido entre devoção, fardo e tentação."
@@ -1993,9 +1993,100 @@
         "element type": "Evento",
         "descricao": "Chegada do grupo à entrada do Covil de Lobisomens.",
         "description": "Chegada do grupo à entrada do Covil de Lobisomens.",
-        "notas": "O grupo chegou à porta do covil e matou as duas guardas antes que elas conseguissem soar o alarme. O avanço terminou nesse ponto: o interior do covil ainda não foi explorado.",
+        "notas": "O grupo chegou à porta do covil e matou as duas guardas antes que elas conseguissem soar o alarme. Essa foi a situação ao fim da sessão anterior; a exploração do interior ocorreu em 28/08/2026.",
         "degree": 2,
         "metrics::last": 2
+      }
+    },
+    {
+      "_id": "elem-870cffd9",
+      "attributes": {
+        "label": "Zuleika",
+        "element type": "NPC",
+        "descricao": "Lobisomem que lidera uma facção oposta à liderança de Kiril.",
+        "description": "Lobisomem que lidera uma facção oposta à liderança de Kiril.",
+        "notas": "Na sessão de 28/08/2026, observava com repulsa os combates entre crianças na arena. Quando menos da metade dos lobisomens inimigos restava, interveio, revelou sua facção, ordenou prisões e contou ao grupo sua história. Seu marido Emil está preso no Castelo Ravenloft; ela se opõe a Kiril e deseja libertá-lo."
+      }
+    },
+    {
+      "_id": "elem-dc282f71",
+      "attributes": {
+        "label": "Kiril Stoyanovich",
+        "element type": "NPC",
+        "descricao": "Líder da matilha de lobisomens, adversário de Zuleika.",
+        "description": "Líder da matilha de lobisomens, adversário de Zuleika.",
+        "notas": "Assumiu a liderança da matilha com apoio de Strahd; associado à prática cruel dos combates infantis. O confronto direto com ele ainda não está confirmado."
+      }
+    },
+    {
+      "_id": "elem-e209653e",
+      "attributes": {
+        "label": "Emil",
+        "element type": "NPC",
+        "descricao": "Marido de Zuleika, preso no Castelo Ravenloft.",
+        "description": "Marido de Zuleika, preso no Castelo Ravenloft.",
+        "notas": "Afastado da matilha e mantido preso em Ravenloft por ordem de Strahd, segundo a história de Zuleika.",
+        "status": "Preso"
+      }
+    },
+    {
+      "_id": "elem-500593b3",
+      "attributes": {
+        "label": "Facção de Zuleika",
+        "element type": "Grupo",
+        "descricao": "Lobisomens aliados a Zuleika e contrários a Kiril.",
+        "description": "Lobisomens aliados a Zuleika e contrários a Kiril.",
+        "notas": "Revelada aos aventureiros durante o combate na arena, quando Zuleika interveio e ordenou prisões."
+      }
+    },
+    {
+      "_id": "elem-58f748b8",
+      "attributes": {
+        "label": "Matilha de Kiril",
+        "element type": "Grupo",
+        "descricao": "Matilha sob a liderança de Kiril no covil.",
+        "description": "Matilha sob a liderança de Kiril no covil.",
+        "notas": "Promove combates entre crianças na arena do covil, conforme a história apresentada de Zuleika."
+      }
+    },
+    {
+      "_id": "elem-a9ccb0bd",
+      "attributes": {
+        "label": "Arena do Covil",
+        "element type": "Local",
+        "descricao": "Arena dentro do covil onde crianças eram obrigadas a lutar.",
+        "description": "Arena dentro do covil onde crianças eram obrigadas a lutar.",
+        "notas": "Na sessão de 28/08/2026, o grupo encontrou crianças em combate. A música enfeitiçou Gildin, que se transformou e juntou-se à matilha. Durante o confronto após a descoberta do grupo, um feitiço lançado por Turek matou as crianças."
+      }
+    },
+    {
+      "_id": "elem-d21b5482",
+      "attributes": {
+        "label": "Celas do Covil",
+        "element type": "Local",
+        "descricao": "Área de aprisionamento dentro do covil.",
+        "description": "Área de aprisionamento dentro do covil.",
+        "notas": "Uma cela continha três pessoas, entre elas Ismark inconsciente e gravemente ferido. A tentativa de resgate revelou os aventureiros."
+      }
+    },
+    {
+      "_id": "elem-b6de6ea9",
+      "attributes": {
+        "label": "Combate na Arena do Covil",
+        "element type": "Evento",
+        "descricao": "Confronto entre os aventureiros e lobisomens durante a tentativa de resgatar Ismark.",
+        "description": "Confronto entre os aventureiros e lobisomens durante a tentativa de resgatar Ismark.",
+        "notas": "Sessão 28/08/2026: o grupo infiltrou-se entre lobisomens e tentou resgatar Ismark, mas foi descoberto. Turek lançou um feitiço que matou as crianças que lutavam na arena. Os aventureiros derrotaram diversos lobisomens. Quando menos da metade dos inimigos restava, Zuleika interveio e revelou sua facção. Gildin superou o encantamento musical e ajudou os companheiros."
+      }
+    },
+    {
+      "_id": "elem-5b14be99",
+      "attributes": {
+        "label": "Turek",
+        "element type": "NPC",
+        "descricao": "Conjurador envolvido no combate da arena; identidade e vínculo não especificados neste registro.",
+        "description": "Conjurador envolvido no combate da arena; identidade e vínculo não especificados neste registro.",
+        "notas": "Na sessão de 28/08/2026 lançou um feitiço que matou as crianças que lutavam na arena. Não estão confirmados o feitiço nem a intenção."
       }
     }
   ],
@@ -5839,6 +5930,210 @@
       },
       "from": "elem-ailywYOA",
       "to": "elem-XwOLar26"
+    },
+    {
+      "_id": "conn-aabfad5a",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence",
+        "descricao": "Arena interna."
+      },
+      "from": "elem-a9ccb0bd",
+      "to": "elem-XwOLar26"
+    },
+    {
+      "_id": "conn-baed8f22",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Pertence",
+        "descricao": "Área de aprisionamento."
+      },
+      "from": "elem-d21b5482",
+      "to": "elem-XwOLar26"
+    },
+    {
+      "_id": "conn-5bdfe5fa",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Encontrado inconsciente e gravemente ferido."
+      },
+      "from": "elem-GjkFljdB",
+      "to": "elem-d21b5482"
+    },
+    {
+      "_id": "conn-3788995e",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider",
+        "descricao": "Lidera facção dissidente."
+      },
+      "from": "elem-870cffd9",
+      "to": "elem-500593b3"
+    },
+    {
+      "_id": "conn-7b5d0312",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Lider",
+        "descricao": "Liderança contestada por Zuleika."
+      },
+      "from": "elem-dc282f71",
+      "to": "elem-58f748b8"
+    },
+    {
+      "_id": "conn-dca817a8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo",
+        "descricao": "Oposição à liderança e às práticas de Kiril."
+      },
+      "from": "elem-870cffd9",
+      "to": "elem-dc282f71"
+    },
+    {
+      "_id": "conn-72fe35de",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Parente",
+        "descricao": "Cônjuges."
+      },
+      "from": "elem-870cffd9",
+      "to": "elem-e209653e"
+    },
+    {
+      "_id": "conn-7fe76172",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Parente",
+        "descricao": "Cônjuges."
+      },
+      "from": "elem-e209653e",
+      "to": "elem-870cffd9"
+    },
+    {
+      "_id": "conn-88a835d5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Preso no castelo, segundo Zuleika."
+      },
+      "from": "elem-e209653e",
+      "to": "elem-BeZZgrMH"
+    },
+    {
+      "_id": "conn-d1772055",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Inimigo",
+        "descricao": "Disputa interna na matilha."
+      },
+      "from": "elem-500593b3",
+      "to": "elem-58f748b8"
+    },
+    {
+      "_id": "conn-93152669",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Ocorreu em",
+        "descricao": "Confronto na arena."
+      },
+      "from": "elem-b6de6ea9",
+      "to": "elem-a9ccb0bd"
+    },
+    {
+      "_id": "conn-131a6c52",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Tentativa de resgate e combate."
+      },
+      "from": "elem-ailywYOA",
+      "to": "elem-b6de6ea9"
+    },
+    {
+      "_id": "conn-460e3377",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Interveio e revelou sua facção."
+      },
+      "from": "elem-870cffd9",
+      "to": "elem-b6de6ea9"
+    },
+    {
+      "_id": "conn-2f9bd217",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Enfeitiçado pela música, depois se recuperou."
+      },
+      "from": "elem-h1YC88dR",
+      "to": "elem-b6de6ea9"
+    },
+    {
+      "_id": "conn-821ef457",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Feitiço que matou as crianças."
+      },
+      "from": "elem-5b14be99",
+      "to": "elem-b6de6ea9"
+    },
+    {
+      "_id": "conn-d10c43d1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Envolvido",
+        "descricao": "Tentativa de resgate motivou o combate."
+      },
+      "from": "elem-GjkFljdB",
+      "to": "elem-b6de6ea9"
+    },
+    {
+      "_id": "conn-8959b03b",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "Patrono",
+        "descricao": "Kiril assumiu a liderança da matilha com apoio de Strahd."
+      },
+      "from": "elem-dc282f71",
+      "to": "elem-WsoNmcCh"
     }
   ],
   "loops": [],
@@ -6656,6 +6951,69 @@
           "pinned": false,
           "style": {},
           "element": "elem-DWawIHkQ"
+        },
+        {
+          "_id": "node-ab4b2fd0",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-870cffd9"
+        },
+        {
+          "_id": "node-579dc6c1",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-dc282f71"
+        },
+        {
+          "_id": "node-bb995310",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-e209653e"
+        },
+        {
+          "_id": "node-16a94238",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-500593b3"
+        },
+        {
+          "_id": "node-54fd25fa",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-58f748b8"
+        },
+        {
+          "_id": "node-fc6dffb2",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-a9ccb0bd"
+        },
+        {
+          "_id": "node-6719d4a7",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-d21b5482"
+        },
+        {
+          "_id": "node-6d05fe05",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-b6de6ea9"
+        },
+        {
+          "_id": "node-95f5a898",
+          "position": null,
+          "pinned": false,
+          "style": {},
+          "element": "elem-5b14be99"
         }
       ],
       "connections": [
@@ -8247,6 +8605,91 @@
           "_id": "edge-pe9iWVMl",
           "style": {},
           "connection": "conn-CFtqLVhi"
+        },
+        {
+          "_id": "edge-b10b826e",
+          "connection": "conn-aabfad5a",
+          "style": {}
+        },
+        {
+          "_id": "edge-914ec514",
+          "connection": "conn-baed8f22",
+          "style": {}
+        },
+        {
+          "_id": "edge-c7a7897a",
+          "connection": "conn-5bdfe5fa",
+          "style": {}
+        },
+        {
+          "_id": "edge-6b37736a",
+          "connection": "conn-3788995e",
+          "style": {}
+        },
+        {
+          "_id": "edge-bbbb6dd9",
+          "connection": "conn-7b5d0312",
+          "style": {}
+        },
+        {
+          "_id": "edge-4d3d4c0c",
+          "connection": "conn-dca817a8",
+          "style": {}
+        },
+        {
+          "_id": "edge-8054cdd4",
+          "connection": "conn-72fe35de",
+          "style": {}
+        },
+        {
+          "_id": "edge-2e4c9f86",
+          "connection": "conn-7fe76172",
+          "style": {}
+        },
+        {
+          "_id": "edge-c374b231",
+          "connection": "conn-88a835d5",
+          "style": {}
+        },
+        {
+          "_id": "edge-82b15696",
+          "connection": "conn-d1772055",
+          "style": {}
+        },
+        {
+          "_id": "edge-f8ac0383",
+          "connection": "conn-93152669",
+          "style": {}
+        },
+        {
+          "_id": "edge-0d4f6a65",
+          "connection": "conn-131a6c52",
+          "style": {}
+        },
+        {
+          "_id": "edge-a69d20f1",
+          "connection": "conn-460e3377",
+          "style": {}
+        },
+        {
+          "_id": "edge-f354a3d7",
+          "connection": "conn-2f9bd217",
+          "style": {}
+        },
+        {
+          "_id": "edge-13993d9f",
+          "connection": "conn-821ef457",
+          "style": {}
+        },
+        {
+          "_id": "edge-27352b08",
+          "connection": "conn-d10c43d1",
+          "style": {}
+        },
+        {
+          "_id": "edge-ab7cb8f6",
+          "style": {},
+          "connection": "conn-8959b03b"
         }
       ],
       "loops": []
